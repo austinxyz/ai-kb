@@ -1,0 +1,8 @@
+output/
+browser_data/
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.claude/
+.DS_Store
+Thumbs.db
