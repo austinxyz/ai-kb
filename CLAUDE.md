@@ -56,6 +56,41 @@ status: <draft | stable | outdated>
 - 正确：`[[wiki/应用开发/RAG|RAG]]`
 - 错误：`[[RAG]]`、`[[应用开发/RAG]]`
 
+## 工作流（Karpathy LLM Wiki Pattern）
+
+### Ingest（新资料入库）
+
+当用户说"处理 X 文章"或把文件放入 `raw/`：
+
+1. 读取原文，与用户讨论关键要点
+2. 在 `wiki/<分类>/` 创建或更新相关条目（可能涉及多个）
+3. 更新 `wiki/index.md`，在对应分类表格加入新条目
+4. 在 `wiki/log.md` 末尾追加一条记录：
+   ```
+   ## [YYYY-MM-DD] ingest | 资料名
+   - 存入：raw/xxx
+   - 新建/更新条目：wiki/xxx
+   ```
+
+### Query（提问）
+
+当用户提问：
+
+1. 先读 `wiki/index.md` 定位相关条目
+2. 读取相关 wiki 页面综合回答
+3. 若答案有长期价值，询问用户是否存为新 wiki 条目
+4. 若存，同步更新 `wiki/index.md` 和 `wiki/log.md`
+
+### Lint（健康检查）
+
+当用户说"检查 wiki"：
+
+检查并报告：
+- 有没有条目互相矛盾
+- 有没有孤立页面（无入站链接）
+- 有没有 raw/ 里提到但 wiki 里没有专页的概念
+- `wiki/index.md` 是否与实际条目同步
+
 ## Git 行为
 
 推送前确认 output/ 不在 staged 列表：
