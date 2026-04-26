@@ -28,6 +28,7 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/应用开发/LLM-Wiki-Pattern\|LLM Wiki Pattern]] | Karpathy 持久化知识库模式，区别于 RAG，wiki 随每次 ingest 复利积累 | 1 |
 | [[wiki/应用开发/中间循环\|中间循环]] | AI 时代内循环与外循环之间新出现的监督性工程层，尚无行业命名 | 1 |
 | [[wiki/应用开发/AI时代工程严谨性\|AI 时代工程严谨性]] | 工程纪律从代码转移到规格、测试、约束、风险映射、持续理解的 5 个方向 | 1 |
+| [[wiki/应用开发/Harness-Engineering\|Harness Engineering]] | 让不稳定 AI Agent 在真实系统中可靠产出价值的工程框架，5 原则：验证/退出/最小权限/独立验证/团队规则 | 1 |
 
 ### AI 基础设施
 

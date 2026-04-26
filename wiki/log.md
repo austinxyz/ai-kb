@@ -5,6 +5,13 @@
 
 ---
 
+## [2026-04-25] ingest | Harness Engineering - AI Agent 时代的软件工程（Onebird）
+
+- 存入：`raw/sdlc/Harness Engineering - AI Agent 时代的软件工程.md`
+- 新建条目：`wiki/应用开发/Harness-Engineering.md`（Harness Engineering 定义与 5 原则）
+- 更新条目：`wiki/应用开发/AI时代工程严谨性.md`（补充与 Harness 的交叉引用）
+- 更新：`wiki/index.md`（应用开发 +1）
+
 ## [2026-04-25] ingest | ThoughtWorks 闭门研讨——软件工程的未来
 
 - 存入：`raw/sdlc/《软件工程的未来》：一篇来自ThoughtWorks的闭门研讨.md`
