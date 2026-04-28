@@ -23,6 +23,7 @@ LLM Wiki Pattern 是 Andrej Karpathy 提出的个人知识库构建方法：LLM 
 ## 与其他概念的关系
 
 - [[wiki/应用开发/RAG|RAG]]：LLM Wiki 是 RAG 的替代/补充，适合长期深度主题
+- [[wiki/应用开发/Agent-Memory统一框架|Agent Memory 统一框架]]：另一种"知识持久化"路径——自动化提取/管理/检索；与 Wiki Pattern 的人工维护路径互补
 - [[wiki/应用开发/00-MOC-应用开发|应用开发 MOC]]：本知识库本身就是对此模式的实践
 
 ## 参考来源

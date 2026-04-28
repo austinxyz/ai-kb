@@ -56,6 +56,7 @@ Harness Engineering 研究的不是"怎样让 AI 写更多代码"，而是**怎�
 
 - [[wiki/应用开发/AI时代工程严谨性|AI时代工程严谨性]]：TW 说"严谨性转移"，Harness Engineering 给出了具体载体——5 原则就是严谨性落地的机制
 - [[wiki/应用开发/中间循环|中间循环]]：中间循环的工作内容就是执行 Harness Engineering
+- [[wiki/应用开发/SPDD-Structured-Prompt-Driven-Development|SPDD]]：共享"把判断工程化"思想的具体方法——通过 REASONS Canvas 把判断编码进 prompt 资产
 - [[wiki/行业洞察/认知债务|认知债务]]：缺少 Harness 是认知债务加速积累的直接原因
 - [[wiki/行业洞察/软件工程的未来-ThoughtWorks-2026|ThoughtWorks 闭门研讨 2026]]：两篇独立得出相同核心结论——AI 时代真正稀缺的是判断而非代码
 
