@@ -3,6 +3,8 @@ browser_data/
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
-.claude/
+.claude/*
+!.claude/commands/
+.claude/settings.local.json
 .DS_Store
 Thumbs.db
