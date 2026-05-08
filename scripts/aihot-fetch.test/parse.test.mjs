@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { deriveSourceType, parseRscPayload } from '../aihot-fetch.mjs';
+import { deriveSourceType, parseRscPayload, windowFilter, parseSince } from '../aihot-fetch.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const HOMEPAGE_FIXTURE = join(__dirname, 'fixtures', 'sample_homepage.html');
@@ -106,4 +106,55 @@ test('parseRscPayload: returns empty array if RSC has no items', () => {
   const html = '<html><script>self.__next_f.push([1,"3:I[\\"x\\"]\\n4:[]\\n"])</script></html>';
   const items = parseRscPayload(html);
   assert.deepEqual(items, []);
+});
+
+test('parseSince: numeric days', () => {
+  assert.equal(parseSince(7), 7);
+  assert.equal(parseSince(30), 30);
+});
+
+test('parseSince: "Nd" string', () => {
+  assert.equal(parseSince('7d'), 7);
+  assert.equal(parseSince('30d'), 30);
+  assert.equal(parseSince('1d'), 1);
+});
+
+test('parseSince: rejects nonsense', () => {
+  assert.throws(() => parseSince(''), /invalid since/);
+  assert.throws(() => parseSince('abc'), /invalid since/);
+  assert.throws(() => parseSince(0), /invalid since/);
+  assert.throws(() => parseSince(-3), /invalid since/);
+});
+
+test('windowFilter: keeps items within N days', () => {
+  const now = new Date('2026-05-07T12:00:00Z');
+  const items = [
+    { aihot_id: 'a', published_at: '2026-05-06T10:00:00Z' },
+    { aihot_id: 'b', published_at: '2026-04-29T10:00:00Z' },
+    { aihot_id: 'c', published_at: '2026-05-01T10:00:00Z' },
+  ];
+  const kept = windowFilter(items, 7, now);
+  assert.deepEqual(kept.map(i => i.aihot_id), ['a', 'c']);
+});
+
+test('windowFilter: parses --since "7d" string', () => {
+  const now = new Date('2026-05-07T00:00:00Z');
+  const items = [
+    { aihot_id: 'fresh', published_at: '2026-05-04T00:00:00Z' },
+    { aihot_id: 'stale', published_at: '2026-04-20T00:00:00Z' },
+  ];
+  assert.equal(windowFilter(items, '7d', now).length, 1);
+  assert.equal(windowFilter(items, '14d', now).length, 1);
+  assert.equal(windowFilter(items, '30d', now).length, 2);
+});
+
+test('windowFilter: drops items with malformed published_at', () => {
+  const now = new Date('2026-05-07T12:00:00Z');
+  const items = [
+    { aihot_id: 'good', published_at: '2026-05-06T10:00:00Z' },
+    { aihot_id: 'bad', published_at: 'not-a-date' },
+    { aihot_id: 'missing' }, // no field at all
+  ];
+  const kept = windowFilter(items, 7, now);
+  assert.deepEqual(kept.map(i => i.aihot_id), ['good']);
 });

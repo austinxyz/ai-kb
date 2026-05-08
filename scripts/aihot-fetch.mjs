@@ -108,3 +108,23 @@ export function parseRscPayload(html) {
   const decoded = chunks.join('');
   return extractItemsFromDecoded(decoded);
 }
+
+export function parseSince(since) {
+  const days = typeof since === 'number'
+    ? since
+    : Number(String(since).replace(/d$/i, ''));
+  if (!Number.isFinite(days) || days <= 0) {
+    throw new Error(`invalid since: ${JSON.stringify(since)}`);
+  }
+  return days;
+}
+
+export function windowFilter(items, since, now = new Date()) {
+  const days = parseSince(since);
+  const cutoff = new Date(now.getTime() - days * 86400 * 1000);
+  return items.filter(it => {
+    if (typeof it.published_at !== 'string') return false;
+    const pub = new Date(it.published_at);
+    return !isNaN(pub.getTime()) && pub >= cutoff;
+  });
+}
