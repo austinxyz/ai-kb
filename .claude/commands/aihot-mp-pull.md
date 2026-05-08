@@ -1,5 +1,13 @@
 ---
-description: Pull aihot.virxact.com/mp 公众号爆文 list as bookmark-style raw entries
+description: "[DEPRECATED 2026-05-08] aihot /mp 公众号爆文 — 上游需虚实传媒内部 SSO，匿名访问被关"
+---
+
+# ⚠️ DEPRECATED 2026-05-08
+
+aihot.virxact.com/mp 在 2026-05-08 被关给匿名用户，需 `login.virxact.com` 登录，但该 SSO **仅限虚实传媒公司同事与签约博主**，外部用户拿不到账号。Playwright auth backend 因此走不通。
+
+**保留这套代码**（fetcher / parser / playwright 后端 / 单测 / 这个 slash command）作为历史档案 —— 如果未来 aihot 暴露 `/api/public/mp` 公开端点或恢复匿名访问，删掉这个 banner 即可立即复活。
+
 ---
 
 You are running the aihot-mp ingest pipeline (公众号爆文 list).
@@ -12,6 +20,19 @@ Parse arguments from the user's invocation:
 - `--dry-run` (run Step 1-4, stop before writing)
 - `--from-fixture <path>` (read fixture HTML for parsing, skip network)
 - `--limit <N>` (truncate after dedup; useful for testing)
+- `--backend <name>` (`http` default; `playwright` to use authenticated session — needed since 2026-05-08 when aihot put /mp behind login wall)
+
+## Pre-flight: login required for /mp (since 2026-05-08)
+
+aihot.virxact.com/mp redirects anonymous users to /. To use this command you need a one-time signed-in session via Playwright:
+
+```bash
+node scripts/aihot-mp-fetch-playwright.mjs --login
+```
+
+This launches a headed Chromium → log in via the 登录 button → press ENTER in the terminal → session saved to `.aihot/storage-state.json` (gitignored). After that, runs use `--backend playwright` (or env `MP_BACKEND=playwright`) to reuse the saved session headlessly.
+
+If you see "no storage state at .aihot/storage-state.json" or "session expired" errors at Step 1, re-run `--login`.
 
 Run the 6 steps below. Stop and report on any error.
 
@@ -27,8 +48,13 @@ Otherwise:
   ```
 - If `items.json` exists but no `done.flag`: ask user `--resume` vs `--discard` before continuing.
 
-Run via Bash:
+Run via Bash. Default backend is `http` (anonymous, will hit 307 since aihot's auth wall) — pass `--backend playwright` to use the saved auth session:
+
 ```bash
+# preferred (authenticated)
+node scripts/aihot-mp-fetch.mjs --since <since> --backend playwright
+
+# legacy (broken since 2026-05-08, but kept for fixtures / future reopen)
 node scripts/aihot-mp-fetch.mjs --since <since>
 ```
 

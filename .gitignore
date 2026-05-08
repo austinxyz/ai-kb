@@ -7,6 +7,9 @@ node_modules/
 raw/_cards/current/
 raw/_cards/current_mp/
 
+# Playwright session state for /aihot-mp-pull (do NOT commit — auth cookies)
+.aihot/
+
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache

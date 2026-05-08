@@ -235,3 +235,30 @@
 - 测试：9 个新单测（normalizeSince/extractRowIds/parseMpHtml/fetchMp），35/35 全绿
 - 已知瑕疵：每页 20 行里 1 行的 React key 不在 RSC 序列化中，会丢 ~5%（每 20 条丢 1 条），可接受
 - CLAUDE.md 加了 `raw/<series_dir>/` 与 `raw/wechat_hotposts/` 目录约定
+
+## [2026-05-08] /aihot-mp-pull 运行失败：aihot 把 /mp 关给匿名用户了
+- 跑：`/aihot-mp-pull --since 30d`
+- 候选 0 / 入库 0
+- 根因：`/mp*` 全部 307 → `/`（实测含 since 参数、page 参数、完整浏览器 headers + Referer 都重定向）
+- 其它端点正常：`/`、`/all`、`/agent`、`/api/public/feed`、`/api/public/items` 均 200
+- 时间线：本会话早些时候首次跑通拉到 92 条，过几小时再跑就 307 了 —— aihot 在那段窗口加了 auth wall
+- 处理：本次不入库；保留 `scripts/aihot-mp-fetch.mjs` 与 `/aihot-mp-pull` slash command 不动
+- 后续：观察 aihot /agent 文档页是否提到鉴权方式；若一直关，考虑提交反馈或弃用此流水线
+
+## [2026-05-08] /aihot-mp-pull 加 playwright 后端
+- 起因：aihot 把 /mp 关给匿名用户后，原 http 后端必废；用户选 B 方案（Playwright）
+- 实现：
+  - `npm install playwright` + `npx playwright install chromium`
+  - 新增 `scripts/aihot-mp-fetch-playwright.mjs`：两个模式 `--login`（headed，等用户登录后保存 storageState）与默认 fetch（headless 复用 storageState）
+  - `scripts/aihot-mp-fetch.mjs` 加 `--backend playwright` / `MP_BACKEND=playwright` 分发；默认仍 http（保留法医价值，方便 aihot 改回匿名时立刻复活）
+  - storageState 落 `.aihot/storage-state.json`（已 gitignore）
+- 用法：首次 `node scripts/aihot-mp-fetch-playwright.mjs --login` 浏览器完成登录后回车保存 → 后续 `/aihot-mp-pull --backend playwright` headless 跑
+- session 估计 30-90 天有效；过期再 `--login` 一次
+- 测试：35/35 单测全绿；--login flow 需用户实操，无法自动 smoke test
+
+## [2026-05-08] /aihot-mp-pull 标记为 DEPRECATED
+- 验证 login.virxact.com 后发现：登录页明示"**仅限公司同事与签约博主**"，是虚实传媒内部 SSO，外部用户无法注册账号
+- Playwright auth backend 因此走不通（不是技术问题，是权限边界）
+- 决定（用户选项 4）：保留全部代码，加 deprecation banner，未来 aihot 改策略可立即复活
+- 改动：`.claude/commands/aihot-mp-pull.md` 顶部 banner + description 加 [DEPRECATED 2026-05-08] 前缀；两个 fetcher script 文件头注释加 deprecation 说明；保留 playwright dep / chromium binary / 单测 / fixture 不删
+- 后续：专注 `/aihot-pull`（公开 REST API 仍正常）；如果哪天 aihot 暴露 `/api/public/mp` 或开放外部账号，删 banner 即可

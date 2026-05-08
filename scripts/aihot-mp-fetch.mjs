@@ -1,9 +1,17 @@
 #!/usr/bin/env node
 // aihot-mp-fetch — scrape aihot.virxact.com/mp (公众号爆文 hot list).
+//
+// ⚠️ DEPRECATED 2026-05-08: aihot put /mp behind login.virxact.com SSO which is
+// internal to 虚实传媒 (employees + contracted bloggers only). Anonymous users
+// can't get an account. Both the http backend and the Playwright auth backend
+// are blocked by upstream. Code preserved for historical reference and quick
+// reactivation if upstream policy changes.
+//
 // Output JSON envelope parallel to aihot-fetch.mjs, but with mp-specific fields.
 // No body extraction (mp.weixin.qq.com triggers anti-scrape captcha — out of scope).
 
 import https from 'node:https';
+import path from 'node:path';
 import { parseArgs } from 'node:util';
 import { readFile } from 'node:fs/promises';
 import { JSDOM } from 'jsdom';
@@ -186,8 +194,25 @@ async function main(argv) {
       since: { type: 'string', default: '30d' },
       limit: { type: 'string' },
       'from-fixture': { type: 'string' },
+      backend: { type: 'string' }, // 'http' (default) | 'playwright'
     },
   });
+
+  // Backend: 'http' (default, anonymous HTTPS) | 'playwright' (auth via storageState)
+  // Override with --backend or MP_BACKEND env. Aihot put /mp behind a login wall on
+  // 2026-05-08; the http backend will fail with 307 redirect for anonymous users.
+  const backend = (values.backend || process.env.MP_BACKEND || 'http').toLowerCase();
+
+  if (backend === 'playwright') {
+    // Delegate to Playwright runner — keep this file dep-free of playwright when not used.
+    const { spawn } = await import('node:child_process');
+    const scriptPath = path.join(import.meta.dirname, 'aihot-mp-fetch-playwright.mjs');
+    const args = [scriptPath, '--since', values.since];
+    if (values.limit) args.push('--limit', values.limit);
+    const child = spawn(process.execPath, args, { stdio: ['ignore', 'inherit', 'inherit'] });
+    child.on('exit', code => process.exit(code ?? 1));
+    return;
+  }
 
   const fetched_at = new Date();
   const errors = [];
