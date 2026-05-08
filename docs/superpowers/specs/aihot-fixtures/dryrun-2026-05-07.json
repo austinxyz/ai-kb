@@ -1,0 +1,111 @@
+{
+  "run_at": "2026-05-07",
+  "method": "manual classification by Claude Opus 4.7 against slash-command-rule prompt, blind to golden labels",
+  "items": [
+    {
+      "aihot_id": "cmow6i2aq036jslcxxneym5zm",
+      "primary_series": "SKIP",
+      "also_relevant": [],
+      "confidence": null,
+      "skip_reason": "Release notes — bug fixes and config keys, no substance for blog material"
+    },
+    {
+      "aihot_id": "cmow5nuij02z5slcx5uv6twwu",
+      "primary_series": "SKIP",
+      "also_relevant": [],
+      "confidence": null,
+      "skip_reason": "Marketing/branding tool launch — not technical content"
+    },
+    {
+      "aihot_id": "cmow4ob9a02smslcx4s7v66j8",
+      "primary_series": "S4_agent",
+      "also_relevant": ["S2_methodology"],
+      "confidence": "high",
+      "skip_reason": null
+    },
+    {
+      "aihot_id": "cmow4l9yl02rhslcxc25ez3eo",
+      "primary_series": "S2_methodology",
+      "also_relevant": [],
+      "confidence": "medium",
+      "skip_reason": null
+    },
+    {
+      "aihot_id": "cmow4cvtv02o8slcx9yafds3n",
+      "primary_series": "S2_methodology",
+      "also_relevant": ["S4_agent"],
+      "confidence": "high",
+      "skip_reason": null
+    },
+    {
+      "aihot_id": "cmow0jljr01ugslcxcgwuoa2p",
+      "primary_series": "S4_agent",
+      "also_relevant": ["S2_methodology"],
+      "confidence": "high",
+      "skip_reason": null
+    },
+    {
+      "aihot_id": "cmow0dule01s5slcxmhj5rg5u",
+      "primary_series": "S0_industry",
+      "also_relevant": ["S2_methodology"],
+      "confidence": "high",
+      "skip_reason": null
+    },
+    {
+      "aihot_id": "cmow08wjt01qmslcxf9eg7zeo",
+      "primary_series": "S4_agent",
+      "also_relevant": ["S1_infra"],
+      "confidence": "high",
+      "skip_reason": null
+    },
+    {
+      "aihot_id": "cmovw0m8j00s3slcxklzwwqpj",
+      "primary_series": "S0_industry",
+      "also_relevant": ["S4_agent"],
+      "confidence": "medium",
+      "skip_reason": null
+    },
+    {
+      "aihot_id": "cmovvs6e600ouslcxuur7w2qt",
+      "primary_series": "S2_methodology",
+      "also_relevant": ["S3_roles"],
+      "confidence": "high",
+      "skip_reason": null
+    },
+    {
+      "aihot_id": "cmovuxu3n00haslcx96vqs77g",
+      "primary_series": "S1_infra",
+      "also_relevant": ["S0_industry"],
+      "confidence": "medium",
+      "skip_reason": null
+    },
+    {
+      "aihot_id": "cmovsvoaj006rsle0o8h39t35",
+      "primary_series": "S1_infra",
+      "also_relevant": [],
+      "confidence": "medium",
+      "skip_reason": null
+    },
+    {
+      "aihot_id": "cmovqrxde00f3slot8w8esvku",
+      "primary_series": "SKIP",
+      "also_relevant": [],
+      "confidence": null,
+      "skip_reason": "Industry gossip — not technical material"
+    },
+    {
+      "aihot_id": "cmovorzyz01i3slddn1kicajj",
+      "primary_series": "S0_industry",
+      "also_relevant": [],
+      "confidence": "high",
+      "skip_reason": null
+    },
+    {
+      "aihot_id": "cmova0jj4027csluvygdxoy75",
+      "primary_series": "S1_infra",
+      "also_relevant": ["S0_industry"],
+      "confidence": "high",
+      "skip_reason": null
+    }
+  ]
+}
