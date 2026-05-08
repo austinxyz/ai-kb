@@ -128,3 +128,130 @@ export function windowFilter(items, since, now = new Date()) {
     return !isNaN(pub.getTime()) && pub >= cutoff;
   });
 }
+
+const BROWSER_HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+  'Accept-Encoding': 'identity',
+};
+
+const PAGE_SIZE_GUESS = 40;
+const MAX_PAGES_HARD_CAP = 200;
+
+async function fetchPage(page) {
+  const url = `https://aihot.virxact.com/all?page=${page}`;
+  const res = await fetch(url, { headers: BROWSER_HEADERS });
+  if (!res.ok) throw new Error(`HTTP ${res.status} from ${url}`);
+  return res.text();
+}
+
+export async function fetchPaginated(since, now = new Date(), opts = {}) {
+  const days = parseSince(since);
+  const cutoff = new Date(now.getTime() - days * 86400 * 1000);
+  const fetchPageFn = opts.fetchPage ?? fetchPage;
+  const maxPages = opts.maxPages ?? MAX_PAGES_HARD_CAP;
+  const seenIds = new Set();
+  const items = [];
+  const errors = [];
+
+  for (let page = 1; page <= maxPages; page++) {
+    let html;
+    try {
+      html = await fetchPageFn(page);
+    } catch (e) {
+      errors.push({ stage: 'fetch_page', page, message: e.message });
+      break;
+    }
+    let pageItems;
+    try {
+      pageItems = parseRscPayload(html);
+    } catch (e) {
+      errors.push({ stage: 'parse_page', page, message: e.message });
+      break;
+    }
+    if (pageItems.length === 0) break;
+
+    let oldestOnPage = null;
+    for (const item of pageItems) {
+      if (seenIds.has(item.aihot_id)) continue;
+      seenIds.add(item.aihot_id);
+      items.push(item);
+      const pub = new Date(item.published_at);
+      if (!isNaN(pub.getTime()) && (oldestOnPage === null || pub < oldestOnPage)) {
+        oldestOnPage = pub;
+      }
+    }
+    if (oldestOnPage && oldestOnPage < cutoff) break;
+  }
+  return { items, errors };
+}
+
+import { parseArgs } from 'node:util';
+import { readFile } from 'node:fs/promises';
+
+async function main(argv) {
+  const { values } = parseArgs({
+    args: argv,
+    options: {
+      since: { type: 'string', default: '7d' },
+      limit: { type: 'string' },
+      'from-fixture': { type: 'string' },
+      'curated-only': { type: 'boolean', default: true },
+      'all': { type: 'boolean', default: false },
+    },
+  });
+
+  const fetched_at = new Date();
+  const errors = [];
+  let items = [];
+  let fetch_method = 'paginated_all';
+
+  try {
+    if (values['from-fixture']) {
+      const html = await readFile(values['from-fixture'], 'utf-8');
+      items = parseRscPayload(html);
+      fetch_method = 'fixture';
+    } else {
+      const result = await fetchPaginated(values.since, fetched_at);
+      items = result.items;
+      errors.push(...result.errors);
+    }
+  } catch (e) {
+    errors.push({ stage: 'fetch_or_parse', message: e.message });
+  }
+
+  if (items.length === 0 && errors.length > 0) {
+    process.stderr.write(`aihot-fetch fatal: ${errors.map(e => e.message).join('; ')}\n`);
+    process.stderr.write(`If RSC streaming format changed, re-probe and update parser.\n`);
+    process.exit(1);
+  }
+
+  const filtered = windowFilter(items, values.since, fetched_at);
+  const curated = (values['curated-only'] && !values.all)
+    ? filtered.filter(it => it.aiSelected === true)
+    : filtered;
+  const limited = values.limit ? curated.slice(0, Number(values.limit)) : curated;
+
+  const output = {
+    fetched_at: fetched_at.toISOString(),
+    window: { since: values.since, until: fetched_at.toISOString() },
+    source: 'aihot.virxact.com',
+    fetch_method,
+    curated_only: !values.all,
+    items: limited,
+    errors,
+  };
+
+  process.stdout.write(JSON.stringify(output, null, 2) + '\n');
+  process.exit(errors.length > 0 ? 2 : 0);
+}
+
+import { pathToFileURL } from 'node:url';
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main(process.argv.slice(2)).catch(err => {
+    process.stderr.write(`aihot-fetch unhandled: ${err.stack ?? err}\n`);
+    process.exit(1);
+  });
+}
