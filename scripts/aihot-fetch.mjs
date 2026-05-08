@@ -1,6 +1,8 @@
 #!/usr/bin/env node
-// aihot-fetch — fetch and parse aihot.virxact.com curated cards into JSON.
-// Strategy: paginated /all + filter aiSelected:true. See aihot-fetch.notes.md.
+// aihot-fetch — fetch aihot.virxact.com curated cards into JSON.
+// Default backend: public REST API at /api/public/feed (since 2026-05-08).
+// Legacy backend: RSC paginated /all scrape — fallback via AIHOT_BACKEND=rsc.
+// See aihot-fetch.notes.md.
 
 const SOURCE_TYPE_RULES = [
   [/(^|\.)twitter\.com$|(^|\.)x\.com$/i, 'twitter'],
@@ -82,7 +84,11 @@ function extractItemsFromDecoded(decoded) {
 function toContractItem(raw) {
   const url = typeof raw.url === 'string' ? raw.url : '';
   const tags = Array.isArray(raw.aiTags)
-    ? raw.aiTags.map(t => (t && typeof t.tag === 'string') ? t.tag : null).filter(Boolean)
+    ? raw.aiTags.map(t => {
+        if (typeof t === 'string') return t;
+        if (t && typeof t.tag === 'string') return t.tag;
+        return null;
+      }).filter(Boolean)
     : [];
   return {
     aihot_id: String(raw.id),
@@ -97,6 +103,8 @@ function toContractItem(raw) {
     source_url: url,
     source_type: deriveSourceType(url),
     aiSelected: Boolean(raw.aiSelected),
+    duplicate_count: typeof raw.duplicateCount === 'number' ? raw.duplicateCount : 0,
+    duplicate_sources: Array.isArray(raw.duplicateSources) ? raw.duplicateSources : [],
   };
 }
 
@@ -144,6 +152,65 @@ async function fetchPage(page) {
   const res = await fetch(url, { headers: BROWSER_HEADERS });
   if (!res.ok) throw new Error(`HTTP ${res.status} from ${url}`);
   return res.text();
+}
+
+// API backend (default since 2026-05-08).
+// Hits /api/public/feed?mode=selected|all&since=ISO&take=N + cursor pagination.
+const API_BASE = 'https://aihot.virxact.com/api/public/feed';
+const API_TAKE = 100;
+const API_MAX_PAGES = 50;
+
+async function fetchApiPage(url) {
+  const res = await fetch(url, {
+    headers: {
+      'User-Agent': BROWSER_HEADERS['User-Agent'],
+      'Accept': 'application/json',
+    },
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status} from ${url}`);
+  return res.json();
+}
+
+export async function fetchViaApi(since, now = new Date(), opts = {}) {
+  const days = parseSince(since);
+  const cutoff = new Date(now.getTime() - days * 86400 * 1000);
+  const fetchPageFn = opts.fetchApiPage ?? fetchApiPage;
+  const maxPages = opts.maxPages ?? API_MAX_PAGES;
+  const mode = opts.mode ?? 'selected';
+  const items = [];
+  const errors = [];
+  const seenIds = new Set();
+  let cursor = '';
+
+  for (let page = 0; page < maxPages; page++) {
+    const params = new URLSearchParams();
+    params.set('mode', mode);
+    params.set('since', cutoff.toISOString());
+    params.set('take', String(API_TAKE));
+    if (cursor) params.set('cursor', cursor);
+    const url = `${API_BASE}?${params.toString()}`;
+
+    let payload;
+    try {
+      payload = await fetchPageFn(url);
+    } catch (e) {
+      errors.push({ stage: 'api_fetch', page, message: e.message });
+      break;
+    }
+    const pageItems = Array.isArray(payload?.items) ? payload.items : [];
+    if (pageItems.length === 0) break;
+
+    for (const raw of pageItems) {
+      if (!raw || typeof raw.id !== 'string') continue;
+      if (seenIds.has(raw.id)) continue;
+      seenIds.add(raw.id);
+      items.push(toContractItem(raw));
+    }
+
+    if (!payload.hasNext || !payload.nextCursor) break;
+    cursor = payload.nextCursor;
+  }
+  return { items, errors };
 }
 
 export async function fetchPaginated(since, now = new Date(), opts = {}) {
@@ -205,15 +272,22 @@ async function main(argv) {
   const fetched_at = new Date();
   const errors = [];
   let items = [];
-  let fetch_method = 'paginated_all';
+  // Backend: 'api' (default) | 'rsc' (legacy fallback). Override with AIHOT_BACKEND env.
+  const backend = (process.env.AIHOT_BACKEND || 'api').toLowerCase();
+  let fetch_method = backend === 'rsc' ? 'paginated_all' : 'public_api';
 
   try {
     if (values['from-fixture']) {
       const html = await readFile(values['from-fixture'], 'utf-8');
       items = parseRscPayload(html);
       fetch_method = 'fixture';
-    } else {
+    } else if (backend === 'rsc') {
       const result = await fetchPaginated(values.since, fetched_at);
+      items = result.items;
+      errors.push(...result.errors);
+    } else {
+      const mode = values.all ? 'all' : 'selected';
+      const result = await fetchViaApi(values.since, fetched_at, { mode });
       items = result.items;
       errors.push(...result.errors);
     }
@@ -223,7 +297,11 @@ async function main(argv) {
 
   if (items.length === 0 && errors.length > 0) {
     process.stderr.write(`aihot-fetch fatal: ${errors.map(e => e.message).join('; ')}\n`);
-    process.stderr.write(`If RSC streaming format changed, re-probe and update parser.\n`);
+    if (backend === 'rsc') {
+      process.stderr.write(`If RSC streaming format changed, re-probe and update parser.\n`);
+    } else {
+      process.stderr.write(`API at /api/public/feed failed. Try AIHOT_BACKEND=rsc to fall back to RSC scrape.\n`);
+    }
     process.exit(1);
   }
 

@@ -65,3 +65,173 @@
   - `思维模型-结构形式.md`：对称性与守恒、递归与分形
   - `思维模型-元模型.md`：芒格多元格栅、辩证法
 - 更新：`wiki/index.md`（行业洞察 +12）
+
+## [2026-05-05] ingest | ADLC - Agent 驱动的软件开发生命周期（LinkedIn）
+
+- 存入：`raw/sdlc/ADLC.md`
+- 新建条目：`wiki/行业洞察/ADLC.md`（SDLC vs ADLC 6 大转变 + 5 条最佳实践）
+- 更新：`wiki/index.md`（行业洞察 +1）
+
+## [2026-05-05] ingest | Agent Architecture 2026 三大升级路径（LinkedIn）
+
+- 存入：`raw/sdlc/Agent Architecture.md`
+- 新建条目：
+  - `wiki/应用开发/Agentic-RAG.md`（LLM 置入检索循环：自主分解→规划→检索→自检→生成）
+  - `wiki/AI基础设施/MCP.md`（模型上下文协议：Agent 工具接入的行业标准，OpenAI/Google/Microsoft 采用）
+- 更新：`wiki/index.md`（应用开发 +1，AI基础设施 +1）
+
+## [2026-05-05] ingest | 前谷歌Meta高管：PM 物种替换（Lenny's Newsletter）
+
+- 存入：`raw/sdlc/前谷歌Meta高管：产品经理正在物种替换，你被归到哪边，可能不是你自己说了算.md`
+- 新建条目：`wiki/行业洞察/AI时代PM物种替换.md`（Information Mover vs Builder + 身份流动性三层 + Fake Builder + Smiling Exhaustion）
+- 更新：`wiki/index.md`（行业洞察 +1）
+
+## [2026-05-05] ingest | Cat Wu Lenny's Podcast：AI-PM 速度文化（Anthropic）
+
+- 存入：`raw/sdlc/Cat Wu 面试了几百个 PM 候选人，几乎没人答对一个问题：AI 产品经理到底应该干什么？.md`
+- 新建条目：`wiki/行业洞察/AI-PM速度文化.md`（research preview + evergreen launch room + AGI pilled + product taste）
+- 更新：`wiki/index.md`（行业洞察 +1）
+
+## [2026-05-05] ingest | LLM Wiki + Graphify 企业级 RAG 实测
+
+- 存入：`raw/applications/Karpathy的LLM Wiki + 3.5 万Star的Graphify：企业级 RAG 缺的真是知识图谱？.md`
+- 新建条目：`wiki/应用开发/企业级RAG架构.md`（个人知识库 vs 企业知识库 + 五层架构 + 三方案实测对比）
+- 更新：`wiki/index.md`（应用开发 +1）
+
+## [2026-05-05] ingest | AutoResearch 软件开发移植
+
+- 存入：`raw/sdlc/我把 Karpathy 的 AutoResearch 搬到了软件开发领域，效果炸了.md`
+- 新建条目：`wiki/应用开发/AutoResearch软件开发.md`（多 Agent 交叉审核 + 5 维加权评分 + 反馈驱动迭代）
+- 更新：`wiki/index.md`（应用开发 +1）
+
+## [2026-05-05] ingest | Claude Code 团队配置实战（量化基本面研究团队）
+
+- 存入：`raw/ai_usage/量化基本面研究团队的CLAUDE.md、Skills和Hooks实战配置指南.md`
+- 新建条目：`wiki/应用开发/Claude-Code团队配置.md`（CLAUDE.md 三层 + Skills Reference vs Task + Hooks 四类应用）
+- 更新：`wiki/index.md`（应用开发 +1）
+
+## [2026-05-05] ingest | AI PPT 工程化（SVG 方案 + gpt-image-2 pipeline）
+
+- 存入：
+  - `raw/ai_usage/gpt-image-2发布后，PPT最强skill.md`
+  - `raw/ai_usage/分享一个用AI写PPT的技巧.md`
+  - `raw/ai_usage/一句话生成PPT丨Obsidian + Claude Code 实践手记 · 04.md`
+- 新建条目：`wiki/应用开发/AI-PPT工程化.md`（SVG 单页方案 + gpt-image-2 十步 pipeline，合并 3 篇同主题文章）
+- 更新：`wiki/index.md`（应用开发 +1）
+
+## [2026-05-08] aihot-pull --since 30d | 候选 356 / 入库 32 / 起草 wiki 11
+- run-id: 2026-05-08T02:31:15.604Z
+- 入库:
+  - raw/industry_insight/2026-04-30-new-microsoft-paper-shows-that-current-ai-assistants-often-damage-documents-duri.md (S0_industry, aihot_summary_only(skipped))
+  - raw/engineering_roles/2026-05-02-科技圈正在发生一波反常的人才大迁移-多家十亿美元级公司的-CTO-集体辞职-放弃高管职位-转去-Anthropic-做-IC-Workday-CTO-MTS-2.md (S3_roles, aihot_summary_only(skipped))
+  - raw/engineering_roles/2026-05-06-加密货币交易所-Coinbase-今天宣布裁员约-14-约-700-名员工受影响-CEO-Brian-Armstrong-给出了两个理由-加密货币市场进入下行周.md (S3_roles, aihot_summary_only(skipped))
+  - raw/engineering_roles/2026-05-06-Anthropic的Claude为什么能52天推出50个重大功能-神秘武器Mythos要发布了-他们的基础设施负责人-Claude-code之父Boris刚说出.md (S3_roles, aihot_summary_only(skipped))
+  - raw/engineering_roles/2026-05-05-when-everyone-is-a-key-person-in-your-company.md (S3_roles, original_full)
+  - raw/engineering_roles/2026-05-05-Anthropic-CEO-Dario-Amodei的那句-Claude在设计Claude-炸了整个AI圈-但似乎很多人都看错了重点-重点不是-RSI来了-而是.md (S3_roles, aihot_summary_only(skipped))
+  - raw/engineering_roles/2026-05-05-anthropic-s-boris-cherny-argues-that-for-certain-modern-model-friendly-codebases.md (S3_roles, aihot_summary_only(skipped))
+  - raw/engineering_roles/2026-05-05-optimizing-software-factories.md (S3_roles, original_full)
+  - raw/ai_native_infra/2026-05-06-ai-supercomputers-need-a-new-kind-of-network-to-stay-in-sync-at-massive-scale-op.md (S1_infra, aihot_summary_only(skipped))
+  - raw/ai_native_infra/2026-05-05-Google-这一波操作-最让人意外的是-Google直接把LLM推理里最顽固的autoregressive瓶颈干掉了-他们和UCSD合作推出的DFlash-D.md (S1_infra, aihot_summary_only(skipped))
+  - raw/ai_native_infra/2026-05-04-60x-faster-cold-starts-treating-peer-gpus-as-weight-servers.md (S1_infra, original_full)
+  - raw/ai_native_infra/2026-05-07-vllm-v0-to-v1-correctness-before-corrections-in-rl.md (S1_infra, original_full)
+  - raw/ai_native_infra/2026-05-05-unlocking-large-scale-ai-training-networks-with-mrc-multipath-reliable-connectio.md (S1_infra, aihot_summary_only(failed))
+  - raw/dev_methodology/2026-05-08-agent-pull-requests-are-everywhere-here-s-how-to-review-them.md (S2_methodology, original_full)
+  - raw/dev_methodology/2026-05-07-2026-年的-Coding-Agent-应该是什么样-Amp-新版-CLI-Neo-发布-AmpCode-https-ampcode-com-news-neo.md (S2_methodology, aihot_summary_only(skipped))
+  - raw/dev_methodology/2026-05-06-我靠-Warp-这个Skills-太顶了-直接官方开源啊-Warp团队居然把他们日常用来大幅提效的内部-Skills-全部开源了-一条命令就能直接装上15个高质.md (S2_methodology, aihot_summary_only(skipped))
+  - raw/dev_methodology/2026-05-06-这个创造了Claude-Code的男人Boris-Cherny大神-完整公开了自己的工作流-并直播演示了一半的编码工作在手机上完成-不是回消息-是同时跑5到10.md (S2_methodology, aihot_summary_only(skipped))
+  - raw/dev_methodology/2026-05-06-vibe-coding-and-agentic-engineering-are-getting-closer-than-i-d-like.md (S2_methodology, original_full)
+  - raw/dev_methodology/2026-05-05-Cursor-团队这篇-持续改进我们的-Agent-Harness-写的真不错-很实战-如何衡量-harness-的好坏-如何为不同模型定制-harness-中.md (S2_methodology, aihot_summary_only(skipped))
+  - raw/dev_methodology/2026-05-04-Cursor-官方团队自己在用的-CI-Code-Review-发版-测试-清理代码-周报等工作流的-Skills-打包成一个-Plugin-一句指令安装-ad.md (S2_methodology, aihot_summary_only(skipped))
+  - raw/dev_methodology/2026-05-04-Claude-code有时候会替你做错误假设-不主动要求澄清-该反驳时不反驳-敷衍迎合奉承你-有人把-Karpathy-对-AI-写代码常见问题的观察-整理成一.md (S2_methodology, aihot_summary_only(skipped))
+  - raw/dev_methodology/2026-05-02-http-x-com-i-article-2050590821553258496.md (S2_methodology, aihot_summary_only(skipped))
+  - raw/dev_methodology/2026-05-03-解决真正工程问题的-Skills-Skills-For-Real-Engineers-作者-mattpocockuk-公开了自己-claude-目录中每天在用的.md (S2_methodology, aihot_summary_only(skipped))
+  - raw/dev_methodology/2026-05-01-how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-wi.md (S2_methodology, original_full)
+  - raw/dev_methodology/2026-04-30-lessons-from-building-claude-code-prompt-caching-is-everything.md (S2_methodology, original_full)
+  - raw/agent_engineering/2026-05-08-improving-token-efficiency-in-github-agentic-workflows.md (S4_agent, original_full)
+  - raw/agent_engineering/2026-05-06-new-in-claude-managed-agents-dreaming-outcomes-and-multiagent-orchestration.md (S4_agent, original_full)
+  - raw/agent_engineering/2026-05-05-openseeker-v2-pushing-the-limits-of-search-agents-with-informative-and-high-diff.md (S4_agent, original_full)
+  - raw/agent_engineering/2026-05-06-anthropic-just-shipped-10-finance-agent-templates-that-turn-claude-from-a-chat-a.md (S4_agent, aihot_summary_only(skipped))
+  - raw/agent_engineering/2026-05-04-new-paper-from-sakana-ai-iclr-2026-a-7b-conductor-model-just-hit-sota-on-gpqa-di.md (S4_agent, aihot_summary_only(skipped))
+  - raw/agent_engineering/2026-05-04-OpenAI-Codex-新模式-Auto-review-在-频繁打扰人类-和-完全放权-之间-引入第三种治理范式-用一个独立-AI-Agent-替代人类-来审.md (S4_agent, aihot_summary_only(skipped))
+  - raw/agent_engineering/2026-04-30-building-ai-agents-for-the-enterprise.md (S4_agent, original_full)
+- 起草 wiki draft:
+  - wiki/应用开发/Agentic-Workflow-Token效率.md (#13)
+  - wiki/应用开发/AI-Agent-PR审查.md (#36)
+  - wiki/AI基础设施/vLLM-V1迁移.md (#110)
+  - wiki/应用开发/Claude-Managed-Agents.md (#131)
+  - wiki/应用开发/Vibe-Coding与Agentic-Engineering合流.md (#144)
+  - wiki/模型与技术/OpenSeeker-v2.md (#161)
+  - wiki/行业洞察/AI团队弹性与利用率.md (#190)
+  - wiki/AI基础设施/GPU冷启动-Peer权重传输.md (#220)
+  - wiki/应用开发/非技术-PM-Claude-Code上架App.md (#307)
+  - wiki/应用开发/企业级AI-Agent部署.md (#326)
+  - wiki/应用开发/Prompt-Caching工程.md (#332)
+- 冲突跳过:
+  - "Optimizing Software Factories" ↔ wiki/行业洞察/AI团队弹性与利用率.md
+- 抓取降级（content_source=aihot_summary_only）:
+  - raw/industry_insight/2026-04-30-new-microsoft-paper-shows-that-current-ai-assistants-often-damage-documents-duri.md — skipped (source_type=twitter)
+  - raw/engineering_roles/2026-05-02-科技圈正在发生一波反常的人才大迁移-多家十亿美元级公司的-CTO-集体辞职-放弃高管职位-转去-Anthropic-做-IC-Workday-CTO-MTS-2.md — skipped (source_type=twitter)
+  - raw/engineering_roles/2026-05-06-加密货币交易所-Coinbase-今天宣布裁员约-14-约-700-名员工受影响-CEO-Brian-Armstrong-给出了两个理由-加密货币市场进入下行周.md — skipped (source_type=twitter)
+  - raw/engineering_roles/2026-05-06-Anthropic的Claude为什么能52天推出50个重大功能-神秘武器Mythos要发布了-他们的基础设施负责人-Claude-code之父Boris刚说出.md — skipped (source_type=twitter)
+  - raw/engineering_roles/2026-05-05-Anthropic-CEO-Dario-Amodei的那句-Claude在设计Claude-炸了整个AI圈-但似乎很多人都看错了重点-重点不是-RSI来了-而是.md — skipped (source_type=twitter)
+  - raw/engineering_roles/2026-05-05-anthropic-s-boris-cherny-argues-that-for-certain-modern-model-friendly-codebases.md — skipped (source_type=twitter)
+  - raw/ai_native_infra/2026-05-06-ai-supercomputers-need-a-new-kind-of-network-to-stay-in-sync-at-massive-scale-op.md — skipped (source_type=twitter)
+  - raw/ai_native_infra/2026-05-05-Google-这一波操作-最让人意外的是-Google直接把LLM推理里最顽固的autoregressive瓶颈干掉了-他们和UCSD合作推出的DFlash-D.md — skipped (source_type=twitter)
+  - raw/ai_native_infra/2026-05-05-unlocking-large-scale-ai-training-networks-with-mrc-multipath-reliable-connectio.md — fetch failed (HTTP 403)
+  - raw/dev_methodology/2026-05-07-2026-年的-Coding-Agent-应该是什么样-Amp-新版-CLI-Neo-发布-AmpCode-https-ampcode-com-news-neo.md — skipped (source_type=twitter)
+  - raw/dev_methodology/2026-05-06-我靠-Warp-这个Skills-太顶了-直接官方开源啊-Warp团队居然把他们日常用来大幅提效的内部-Skills-全部开源了-一条命令就能直接装上15个高质.md — skipped (source_type=twitter)
+  - raw/dev_methodology/2026-05-06-这个创造了Claude-Code的男人Boris-Cherny大神-完整公开了自己的工作流-并直播演示了一半的编码工作在手机上完成-不是回消息-是同时跑5到10.md — skipped (source_type=twitter)
+  - raw/dev_methodology/2026-05-05-Cursor-团队这篇-持续改进我们的-Agent-Harness-写的真不错-很实战-如何衡量-harness-的好坏-如何为不同模型定制-harness-中.md — skipped (source_type=twitter)
+  - raw/dev_methodology/2026-05-04-Cursor-官方团队自己在用的-CI-Code-Review-发版-测试-清理代码-周报等工作流的-Skills-打包成一个-Plugin-一句指令安装-ad.md — skipped (source_type=twitter)
+  - raw/dev_methodology/2026-05-04-Claude-code有时候会替你做错误假设-不主动要求澄清-该反驳时不反驳-敷衍迎合奉承你-有人把-Karpathy-对-AI-写代码常见问题的观察-整理成一.md — skipped (source_type=twitter)
+  - raw/dev_methodology/2026-05-02-http-x-com-i-article-2050590821553258496.md — skipped (source_type=twitter)
+  - raw/dev_methodology/2026-05-03-解决真正工程问题的-Skills-Skills-For-Real-Engineers-作者-mattpocockuk-公开了自己-claude-目录中每天在用的.md — skipped (source_type=twitter)
+  - raw/agent_engineering/2026-05-06-anthropic-just-shipped-10-finance-agent-templates-that-turn-claude-from-a-chat-a.md — skipped (source_type=twitter)
+  - raw/agent_engineering/2026-05-04-new-paper-from-sakana-ai-iclr-2026-a-7b-conductor-model-just-hit-sota-on-gpqa-di.md — skipped (source_type=twitter)
+  - raw/agent_engineering/2026-05-04-OpenAI-Codex-新模式-Auto-review-在-频繁打扰人类-和-完全放权-之间-引入第三种治理范式-用一个独立-AI-Agent-替代人类-来审.md — skipped (source_type=twitter)
+- LLM 建议跳过: 179 条（产品功能通告×25 / 重复模型通告×20 / 纯模型发布×17）
+
+## [2026-05-08] aihot-extract 重抓 | 替换 13 个 raw 文件正文为原文
+- 起因：发现首跑用 WebFetch 抓正文，工具底层用小模型重写，平均压缩 6× 损失数据点（如 GitHub blog ET 公式 m/I/C/O 定义、Haiku/Sonnet/Opus 倍数等被吞掉）
+- 修复：新增 scripts/aihot-extract.mjs（node https + jsdom + @mozilla/readability + turndown），直抓 HTML 后做 readability 提取
+- 结果：
+  - 13 个 URL 全部抓取成功（含此前 WebFetch 失败的 #147 OpenAI MRC，根因是 WebFetch 默认 UA 触发 403）
+  - 总正文体积 ~90KB → ~115KB，per-file 内容完整度显著提升
+  - 复写 32 个 raw 文件，_history.jsonl 不再重复写
+- #147 状态：`fetch_status: ok` / `content_source: original_full` / `wiki_status: eligible_pending_review`（未自动起草 wiki，等用户决定）
+
+## [2026-05-08] aihot-pull 补 wiki | #147 OpenAI MRC
+- 起因：首跑时 #147 抓取失败（WebFetch UA 触发 403），跳过 wiki 起草。aihot-extract 重抓后内容齐全，user 决定补起草。
+- 起草：`wiki/AI基础设施/MRC-超算网络协议.md`（基于完整正文：多平面拓扑 / 包喷洒 / SRv6 / 生产实测数据）
+- raw 状态：`wiki_status: drafted`、`wiki_target: wiki/AI基础设施/MRC-超算网络协议.md`
+- wiki/index.md：在 AI 基础设施 表加一行
+
+## [2026-05-08] wiki 批量 promote | draft → stable × 21
+- 起因：积累 21 个 draft（9 旧 + 11 本次首跑 + 1 #147 补抓），下一次 aihot-pull 会被 ">10 draft" 闸门拒绝
+- 操作：用 `scripts/wiki-promote-drafts.mjs` 把所有 `status: draft` 改成 `status: stable`，不动其他字段
+- 结果：drafts 0 / stable 42
+- 注意：`updated` 字段未动；只有 status 变。如需标 outdated 应单独 review。
+
+## [2026-05-08] aihot-fetch backend 切到公开 REST API
+- 起因：发现 aihot.virxact.com/agent 文档化了公开端点 `GET /api/public/feed`，匿名免费、字段全（aiSelectedReason、aiTags、qualityScore 等齐备），还多 `duplicateCount` / `duplicateSources` 可优化 dedup
+- 实现：在 `scripts/aihot-fetch.mjs` 中新增 `fetchViaApi()` 函数，cursor 分页，复用现有 `toContractItem` 映射；用 `process.env.AIHOT_BACKEND` 控制（默认 `'api'`，`'rsc'` 切回 v1 scrape）
+- 契约变化：
+  - `fetch_method` 新值 `'public_api'`（v1 是 `'paginated_all'`）
+  - 每条 item 加两个字段：`duplicate_count`、`duplicate_sources`
+  - `aihot_url` 仍空（aihot 没有内部详情页，卡片直接跳 source_url）
+- 兼容性：所有原 export 函数（deriveSourceType、parseRscPayload、windowFilter、parseSince）保留；20 旧测试 + 6 新 API 测试全绿
+- spec 文档同步：`docs/superpowers/specs/2026-05-07-aihot-ingest-pipeline-design.md` §2 改为"API 默认 + RSC fallback"
+- 实测平行对比 30d：API 返回 800 条，RSC 返回 356 条，交集仅 39（11%）。两者都属合法 aiSelected=true 子集，排序/分页策略不同；下次跑 /aihot-pull 拿到的候选会显著不同于过去
+
+## [2026-05-08] 新增 /aihot-mp-pull 公众号爆文书签流水线
+- 起因：用户想把 aihot.virxact.com/mp（公众号爆文热榜）作为 raw 导入
+- 限制：mp.weixin.qq.com 反爬挡住正文抓取（readability 跳到 wappoc_appmsgcaptcha 验证页）
+- 决定：做"书签级"导入，只存 metadata + 链接，**不做** LLM 分类、WebFetch、wiki draft
+- 实现：
+  - `scripts/aihot-mp-fetch.mjs`：直抓 /mp HTML 表（jsdom 解析），输出含 read/like/share/anomaly 的 mp-specific JSON
+  - `.claude/commands/aihot-mp-pull.md`：独立 slash command，按 read_count 排序展示，用户选编号入 raw/wechat_hotposts/
+  - 共享 `_history.jsonl`：跨流去重（同一篇文章在 /aihot-pull 和 /mp 都出现，仅入一次）
+  - `package.json` 已有 jsdom 依赖（之前 aihot-extract.mjs 装的），无新增 npm
+- 测试：9 个新单测（normalizeSince/extractRowIds/parseMpHtml/fetchMp），35/35 全绿
+- 已知瑕疵：每页 20 行里 1 行的 React key 不在 RSC 序列化中，会丢 ~5%（每 20 条丢 1 条），可接受
+- CLAUDE.md 加了 `raw/<series_dir>/` 与 `raw/wechat_hotposts/` 目录约定

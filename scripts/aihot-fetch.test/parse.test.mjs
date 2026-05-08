@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { deriveSourceType, parseRscPayload, windowFilter, parseSince } from '../aihot-fetch.mjs';
+import { deriveSourceType, parseRscPayload, windowFilter, parseSince, fetchViaApi } from '../aihot-fetch.mjs';
+import { parseMpHtml, normalizeSince, extractRowIds, fetchMp } from '../aihot-mp-fetch.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const HOMEPAGE_FIXTURE = join(__dirname, 'fixtures', 'sample_homepage.html');
@@ -146,6 +147,216 @@ test('windowFilter: parses --since "7d" string', () => {
   assert.equal(windowFilter(items, '7d', now).length, 1);
   assert.equal(windowFilter(items, '14d', now).length, 1);
   assert.equal(windowFilter(items, '30d', now).length, 2);
+});
+
+// ---------------- fetchViaApi (public REST API backend) ----------------
+
+function makeApiPage(items, opts = {}) {
+  return {
+    items,
+    hasNext: opts.hasNext ?? false,
+    nextCursor: opts.nextCursor ?? null,
+  };
+}
+
+function rawApiItem(overrides = {}) {
+  return {
+    id: 'cmtest1234567890abcdef',
+    url: 'https://example.com/a',
+    title: 'Sample',
+    titleZh: 'Sample 中文',
+    summaryZh: '一段中文摘要',
+    aiSelected: true,
+    aiSelectedReason: '推荐理由',
+    qualityScore: 80,
+    finalScore: 75,
+    aiTags: [{ tag: 'Agent' }, { tag: 'MCP/工具调用' }],
+    publishedAt: new Date(Date.now() - 86400 * 1000).toISOString(),
+    source: 'Example RSS',
+    duplicateCount: 0,
+    duplicateSources: [],
+    ...overrides,
+  };
+}
+
+test('fetchViaApi: maps API fields to contract', async () => {
+  const page = makeApiPage([rawApiItem({ id: 'cmapi0000000000000000a' })]);
+  const calls = [];
+  const result = await fetchViaApi('3d', new Date(), {
+    fetchApiPage: async (url) => { calls.push(url); return page; },
+  });
+  assert.equal(result.items.length, 1);
+  const it = result.items[0];
+  assert.equal(it.aihot_id, 'cmapi0000000000000000a');
+  assert.equal(it.title, 'Sample'); // prefers title over titleZh
+  assert.equal(it.summary, '一段中文摘要');
+  assert.equal(it.recommendation_reason, '推荐理由');
+  assert.deepEqual(it.tags, ['Agent', 'MCP/工具调用']);
+  assert.equal(it.starred_count, 80);
+  assert.equal(it.source_url, 'https://example.com/a');
+  assert.equal(it.source_type, 'blog');
+  assert.equal(it.aiSelected, true);
+  assert.equal(it.duplicate_count, 0);
+  assert.deepEqual(it.duplicate_sources, []);
+  assert.equal(it.aihot_url, '');
+  assert.equal(calls.length, 1);
+  assert.match(calls[0], /mode=selected/);
+  assert.match(calls[0], /since=/);
+});
+
+test('fetchViaApi: paginates via nextCursor until hasNext=false', async () => {
+  const pages = [
+    makeApiPage([rawApiItem({ id: 'cma000000000000000001' })], { hasNext: true, nextCursor: 'c1' }),
+    makeApiPage([rawApiItem({ id: 'cma000000000000000002' })], { hasNext: true, nextCursor: 'c2' }),
+    makeApiPage([rawApiItem({ id: 'cma000000000000000003' })], { hasNext: false, nextCursor: null }),
+  ];
+  let i = 0;
+  const calls = [];
+  const result = await fetchViaApi('3d', new Date(), {
+    fetchApiPage: async (url) => { calls.push(url); return pages[i++]; },
+  });
+  assert.equal(result.items.length, 3);
+  assert.deepEqual(result.items.map(x => x.aihot_id), [
+    'cma000000000000000001',
+    'cma000000000000000002',
+    'cma000000000000000003',
+  ]);
+  assert.equal(calls.length, 3);
+  assert.ok(!calls[0].includes('cursor='), 'first page has no cursor');
+  assert.match(calls[1], /cursor=c1/);
+  assert.match(calls[2], /cursor=c2/);
+});
+
+test('fetchViaApi: deduplicates by id across pages', async () => {
+  // Same id appears on two pages — should only count once
+  const pages = [
+    makeApiPage([rawApiItem({ id: 'cmadup00000000000000a' })], { hasNext: true, nextCursor: 'x' }),
+    makeApiPage([rawApiItem({ id: 'cmadup00000000000000a' })], { hasNext: false, nextCursor: null }),
+  ];
+  let i = 0;
+  const result = await fetchViaApi('3d', new Date(), {
+    fetchApiPage: async () => pages[i++],
+  });
+  assert.equal(result.items.length, 1);
+});
+
+test('fetchViaApi: mode=all is honored', async () => {
+  const calls = [];
+  await fetchViaApi('3d', new Date(), {
+    fetchApiPage: async (url) => { calls.push(url); return makeApiPage([], { hasNext: false }); },
+    mode: 'all',
+  });
+  assert.match(calls[0], /mode=all/);
+});
+
+test('fetchViaApi: collects errors when fetch throws and stops', async () => {
+  const result = await fetchViaApi('3d', new Date(), {
+    fetchApiPage: async () => { throw new Error('boom'); },
+  });
+  assert.equal(result.items.length, 0);
+  assert.equal(result.errors.length, 1);
+  assert.match(result.errors[0].message, /boom/);
+});
+
+test('fetchViaApi: tags accept already-flat string array (defensive)', async () => {
+  const page = makeApiPage([rawApiItem({ aiTags: ['plain1', 'plain2'] })]);
+  const result = await fetchViaApi('3d', new Date(), { fetchApiPage: async () => page });
+  assert.deepEqual(result.items[0].tags, ['plain1', 'plain2']);
+});
+
+// ---------------- aihot-mp-fetch (公众号爆文 list) ----------------
+
+const MP_FIXTURE = join(__dirname, 'fixtures', 'sample_mp_page1.html');
+
+test('normalizeSince: passes through accepted values', () => {
+  for (const v of ['24h', '7d', '30d', '365d', 'all']) {
+    assert.equal(normalizeSince(v), v);
+  }
+});
+
+test('normalizeSince: maps Nd to nearest accepted bucket', () => {
+  assert.equal(normalizeSince('1d'), '24h');
+  assert.equal(normalizeSince('3d'), '7d');
+  assert.equal(normalizeSince('14d'), '30d');
+  assert.equal(normalizeSince('60d'), '365d');
+  assert.equal(normalizeSince('500d'), 'all');
+});
+
+test('normalizeSince: defaults to 30d on garbage', () => {
+  assert.equal(normalizeSince(undefined), '30d');
+  assert.equal(normalizeSince('foo'), '30d');
+  assert.equal(normalizeSince(''), '30d');
+});
+
+test('extractRowIds: pulls IDs from RSC tr markers in document order', () => {
+  const html = readFileSync(MP_FIXTURE, 'utf-8');
+  const ids = extractRowIds(html);
+  assert.ok(ids.length >= 18, `expected >= 18 row IDs, got ${ids.length}`);
+  for (const id of ids) {
+    assert.match(id, /^cm[a-z0-9]{20,28}$/);
+  }
+  assert.equal(new Set(ids).size, ids.length, 'IDs are unique');
+});
+
+test('parseMpHtml: extracts items with required fields', () => {
+  const html = readFileSync(MP_FIXTURE, 'utf-8');
+  const { items, errors } = parseMpHtml(html);
+  assert.ok(items.length >= 18, `expected >= 18 items, got ${items.length}`);
+  // Tolerable: at most a couple rows can fail row_id alignment.
+  assert.ok(errors.length <= 2, `unexpected errors: ${JSON.stringify(errors)}`);
+  const it = items[0];
+  assert.match(it.aihot_id, /^cm[a-z0-9]{20,28}$/);
+  assert.ok(it.title.length > 0);
+  assert.ok(it.source_url.startsWith('https://mp.weixin.qq.com/'));
+  assert.equal(it.source_type, 'wechat');
+  assert.match(it.published_at, /^\d{4}-\d{2}-\d{2}T00:00:00\.000Z$/);
+  assert.ok(it.account.length > 0);
+  assert.ok(it.account_slug.length > 0);
+  assert.equal(typeof it.read_count, 'number');
+  assert.equal(typeof it.like_count, 'number');
+  assert.equal(typeof it.share_count, 'number');
+  assert.equal(typeof it.anomaly_score, 'number');
+});
+
+test('parseMpHtml: source_type is always wechat for mp items', () => {
+  const html = readFileSync(MP_FIXTURE, 'utf-8');
+  const { items } = parseMpHtml(html);
+  for (const it of items) assert.equal(it.source_type, 'wechat');
+});
+
+test('parseMpHtml: read_count and like_count are non-negative integers', () => {
+  const html = readFileSync(MP_FIXTURE, 'utf-8');
+  const { items } = parseMpHtml(html);
+  for (const it of items) {
+    assert.ok(Number.isInteger(it.read_count) && it.read_count >= 0, `read_count: ${it.read_count}`);
+    assert.ok(Number.isInteger(it.like_count) && it.like_count >= 0);
+    assert.ok(Number.isInteger(it.share_count) && it.share_count >= 0);
+    assert.ok(Number.isInteger(it.anomaly_score) && it.anomaly_score >= 0);
+  }
+});
+
+test('fetchMp: dedups across pages and stops on duplicate-only page', async () => {
+  const html = readFileSync(MP_FIXTURE, 'utf-8');
+  const calls = [];
+  const r = await fetchMp('30d', {
+    fetchHtml: async (url) => { calls.push(url); return html; },
+    maxPages: 4,
+  });
+  // Same fixture served on every page → second page is all dups → stop
+  assert.equal(calls.length, 2);
+  assert.ok(r.items.length >= 18);
+  assert.equal(r.since, '30d');
+});
+
+test('fetchMp: stops on empty page', async () => {
+  const emptyHtml = '<!doctype html><html><body><table class="mp-table"><tbody></tbody></table></body></html>';
+  const calls = [];
+  const r = await fetchMp('30d', {
+    fetchHtml: async (url) => { calls.push(url); return emptyHtml; },
+    maxPages: 5,
+  });
+  assert.equal(calls.length, 1);
+  assert.equal(r.items.length, 0);
 });
 
 test('windowFilter: drops items with malformed published_at', () => {

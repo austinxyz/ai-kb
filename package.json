@@ -1,0 +1,16 @@
+{
+  "name": "ai-knowledge-base",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI knowledge base with aihot ingest pipeline",
+  "scripts": {
+    "aihot-fetch": "node scripts/aihot-fetch.mjs",
+    "aihot-extract": "node scripts/aihot-extract.mjs"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.5.0",
+    "jsdom": "^25.0.1",
+    "turndown": "^7.2.0"
+  }
+}

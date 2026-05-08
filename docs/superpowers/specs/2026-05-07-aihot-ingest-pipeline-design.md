@@ -117,29 +117,27 @@ ai/
 **职责边界**：脚本只做一件事——把 aihot 上 [now − N 天] 内的卡片列表提取成 JSON。
 不做分类、不抓原文、不写 raw/。所有 LLM 相关的事都在 skill 里。
 
-### 抓取方式（按优先级三级 fallback）
+### 抓取方式（默认 + fallback）
 
-aihot 是客户端渲染（CSR）的 SPA，普通 HTTP 抓取拿到的 HTML 是空壳。三种获取数据的路径：
+aihot 在 2026-05-08 之后**直接提供公开 REST API**（`https://aihot.virxact.com/agent` 文档），匿名免费、字段完整、`nextCursor` 分页、文档化。第一版 spec 写的三级 fallback 仅留 RSC scrape 作历史 fallback。
 
 ```
-试探 1：解析 SSR/hydration payload
-  fetch 主页 HTML → grep <script id="__NEXT_DATA__"> 或 window.__INITIAL_STATE__
-  找到则直接拿到结构化数据，无需 JS 引擎
+默认：公开 REST API（2026-05-08 起）
+  GET /api/public/feed?mode=selected&since=<ISO>&take=100[&cursor=<nextCursor>]
+  零依赖、字段全（含 duplicateCount/duplicateSources），是 aihot 自己的 OpenAPI 端点
 
-试探 2：反解后端 API
-  打开 DevTools Network 看主页发的 XHR/fetch（写脚本前手工探一次）
-  找到 /api/* 端点后，按日期参数分页拉取
-  零 JS 依赖，最快
+Fallback：RSC payload scrape（v1 实现）
+  fetch /all?page=N → 提取 self.__next_f.push 里的 JSON
+  AIHOT_BACKEND=rsc 环境变量切回去；原始 v1 解析逻辑全部保留
 
-试探 3：Playwright headless（兜底）
-  npx playwright install chromium 一次性安装
-  page.goto + waitForSelector + 滚动加载
-  最重，但绝对能拿到
+Last resort：Playwright headless
+  仅当上面两条都失败才考虑；第一版 spec 设计但从未触发
 ```
 
-**实现策略**：先做试探 1，能跑就停。试探 3 仅在前两条都失败时才引入 Playwright 依赖
-（独立子目录 + 自己的 package.json）。脚本第一版必须至少跑通其中一条路径——这是
-spec 强制要求，不是"以后再说"。
+**实现策略**：默认 API；脚本通过 `process.env.AIHOT_BACKEND` 选 `'api' | 'rsc'`。
+两条路径输出字段统一（同一个 `toContractItem` 映射），下游 dedup/triage/Step6 不感知 backend 差别。
+
+**注意**：API selected 集合 ≈ 站点数据库层的 `aiSelected=true` 全量；RSC `/all?page=*` 是站点首页排序后的子集。两者通常**不完全对齐**（实测 30d 窗口 API 800 / RSC 356 / 交集 39）。这两个集合都属合法的 `aiSelected=true` 子集，只是排序/分页策略不同。
 
 ### 数据契约（脚本 stdout 输出）
 
@@ -148,11 +146,12 @@ spec 强制要求，不是"以后再说"。
   "fetched_at": "2026-05-07T13:30:00+08:00",
   "window": { "since": "2026-04-30", "until": "2026-05-07" },
   "source": "aihot.virxact.com",
-  "fetch_method": "next_data | api | playwright",
+  "fetch_method": "public_api | paginated_all | fixture",
+  "curated_only": true,
   "items": [
     {
       "aihot_id": "<aihot 内部稳定 ID>",
-      "aihot_url": "https://aihot.virxact.com/post/<id>",
+      "aihot_url": "",
       "title": "OpenAI Codex 进入 Chrome",
       "summary": "从终端跑进 Chrome，不接管浏览器，对前端开发是…",
       "recommendation_reason": "<aihot 编辑的推荐理由>",
@@ -160,7 +159,10 @@ spec 强制要求，不是"以后再说"。
       "starred_count": 75,
       "published_at": "2026-05-07T04:10:00+08:00",
       "source_url": "https://twitter.com/openai/status/...",
-      "source_type": "twitter"
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
     }
   ],
   "errors": []
@@ -172,7 +174,10 @@ spec 强制要求，不是"以后再说"。
 | 字段 | 说明 |
 |------|------|
 | `aihot_id` | 站点内部稳定 ID（不是 URL 哈希）。dedup 主键 |
+| `aihot_url` | 始终空字符串。aihot 是聚合站，**没有内部详情页**，卡片直接跳到 `source_url` |
 | `source_type` | 由脚本根据 source_url domain 推导。规则见下方 |
+| `duplicate_count` | API 返回的同主题文章计数；可作为 dedup 增强信号（>1 说明 aihot 自己已识别为重复主题） |
+| `duplicate_sources` | API 返回的重复来源域名列表；triage 时可用于人工判重 |
 | 时间戳 | 统一 ISO 8601 + 本地时区 (+08:00)，避免后续解析歧义 |
 | `errors[]` | 非致命问题（某条卡片字段缺失等），跳过但记录 |
 
@@ -195,10 +200,12 @@ hostname 含 "youtube.com" 或 "youtu.be"        → youtube
 ### CLI 接口
 
 ```bash
-node scripts/aihot-fetch.mjs --since 7d                    # 默认 7 天
+node scripts/aihot-fetch.mjs --since 7d                    # 默认 7 天，走公开 API
 node scripts/aihot-fetch.mjs --since 14d --limit 50        # 显式参数
 node scripts/aihot-fetch.mjs --since 7d > out.json         # 重定向便于调试
 node scripts/aihot-fetch.mjs --from-fixture path/to.json   # 测试模式（见 §6）
+AIHOT_BACKEND=rsc node scripts/aihot-fetch.mjs --since 7d  # 切回 RSC scrape fallback
+node scripts/aihot-fetch.mjs --since 7d --all              # mode=all：含非 aiSelected 项
 ```
 
 ### 退出码

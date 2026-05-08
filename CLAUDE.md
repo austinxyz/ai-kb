@@ -56,6 +56,12 @@ status: <draft | stable | outdated>
 - 正确：`[[wiki/应用开发/RAG|RAG]]`
 - 错误：`[[RAG]]`、`[[应用开发/RAG]]`
 
+## raw/ 子目录约定
+
+- `raw/<series_dir>/`：`/aihot-pull` 写入的 5 个系列目录（`agent_engineering`、`dev_methodology`、`ai_native_infra`、`engineering_roles`、`industry_insight`）
+- `raw/wechat_hotposts/`：`/aihot-mp-pull` 写入的微信公众号爆文书签（仅含 metadata + 链接，无正文 —— 微信反爬挡住）
+- `raw/_cards/`：抓取流水的临时工作区（`current/`, `current_mp/`, `_archive/`, `_history.jsonl`）；不进 wiki 引用
+
 ## 工作流（Karpathy LLM Wiki Pattern）
 
 ### Ingest（新资料入库）

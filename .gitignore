@@ -1,5 +1,12 @@
 output/
 browser_data/
+daily/
+node_modules/
+
+# aihot ingest transient working dirs (next run regenerates)
+raw/_cards/current/
+raw/_cards/current_mp/
+
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
