@@ -194,7 +194,7 @@ async function main(argv) {
   const { values } = parseArgs({
     args: argv,
     options: {
-      since: { type: 'string', default: '7d' },
+      since: { type: 'string', default: '3d' },
       limit: { type: 'string' },
       'from-fixture': { type: 'string' },
       'curated-only': { type: 'boolean', default: true },
