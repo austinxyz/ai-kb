@@ -1,0 +1,276 @@
+{
+  "fetched_at": "2026-05-08T00:58:55.503Z",
+  "window": {
+    "since": "fixture",
+    "until": "2026-05-08T00:58:55.503Z"
+  },
+  "source": "aihot.virxact.com",
+  "fetch_method": "fixture",
+  "curated_only": true,
+  "items": [
+    {
+      "aihot_id": "cmow6i2aq036jslcxxneym5zm",
+      "aihot_url": "",
+      "title": "v2.1.133",
+      "summary": "Claude 发布 v2.1.133 版本，新增多项配置与优化。主要新增 `worktree.baseRef` 设置以选择工作树分支基础，引入 `sandbox.bwrapPath` 等设置允许指定自定义二进制路径，并添加 `parentSettingsBehavior` 键供管理员控制设置合并策略。功能上，钩子现在可接收活动努力级别信息，Bash 工具命令可读取相应环境变量。此外，改进了焦点模式行为，并在内存压力下优化了后台工作进程的释放。本次更新修复了大量问题，包括并行会话死锁、权限规则误匹配、代理设置不生效、网络驱动器访问被拒、远程控制中断不彻底、努力级别跨会话更改以及子代理技能发现失败等。`claude --help` 现已列出远程控制选项，VSCode 扩展也修复了相关错误。",
+      "recommendation_reason": "Claude Code 这个版本修了一堆让人抓狂的 bug，并行会话掉认证、网络驱动器权限、子代理找不到 skill 都解决了，重度用户应该尽快升级。",
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "MCP/工具调用",
+        "产品更新",
+        "编码"
+      ],
+      "starred_count": 69,
+      "published_at": "2026-05-07T23:49:04.000Z",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+      "source_type": "github",
+      "aiSelected": true
+    },
+    {
+      "aihot_id": "cmow5nuij02z5slcx5uv6twwu",
+      "aihot_url": "",
+      "title": "The best co-branded campaigns don't just combine two logos. They create something entirely new. \n\nDe...",
+      "summary": "最佳的联名营销不仅是合并两个标志。\n而是创造全新事物。\n\n定义品牌身份。\n设定美学风格。\nLuma Agents 从此处理所有联名资产。\n\n立即构建 → http://lumalabs.ai/app",
+      "recommendation_reason": "Luma 把 Agent 塞进品牌合作流程，自动生成联合视觉资产，做市场的人可能会少掉很多跟设计师撕扯的时间。",
+      "tags": [
+        "Agent",
+        "产品更新",
+        "视频"
+      ],
+      "starred_count": 64,
+      "published_at": "2026-05-07T23:52:54.000Z",
+      "source_url": "https://x.com/LumaLabsAI/status/2052537186248163436",
+      "source_type": "twitter",
+      "aiSelected": true
+    },
+    {
+      "aihot_id": "cmow4ob9a02smslcx4s7v66j8",
+      "aihot_url": "",
+      "title": "OpenAI 在 Realtime API 推出三款新模型：GPT-Realtime-2 把 GPT-5 级推理带入语音，让 Agent 能边听边想边调用工具完成任务；搭配 GPT-Realtime-...",
+      "summary": "OpenAI 在 Realtime API 中推出三款新模型，将实时语音交互升级为可执行任务的界面。核心模型 GPT-Realtime-2 具备 GPT-5 级别的推理能力，支持边听边思考、并行调用工具并完成任务，关键升级包括前置语、128K上下文窗口和可控推理强度。搭配的 GPT-Realtime-Translate 支持70多种语言实时互译，GPT-Realtime-Whisper 提供低延迟流式转录。这些模型共同支持语音驱动行动、系统主动播报和跨语言对话三种应用范式，旨在构建下一代语音协作智能体。",
+      "recommendation_reason": "GPT-5级推理首次进入实时语音API，语音agent从此能边听边推理边调工具，不再只是问答。Zillow呼叫成功率从69%拉到95%，做语音产品的该认真看看了。",
+      "tags": [
+        "Agent",
+        "OpenAI",
+        "多模态",
+        "推理",
+        "模型发布"
+      ],
+      "starred_count": 80,
+      "published_at": "2026-05-07T23:33:41.000Z",
+      "source_url": "https://x.com/shao__meng/status/2052532351444697234",
+      "source_type": "twitter",
+      "aiSelected": true
+    },
+    {
+      "aihot_id": "cmow4l9yl02rhslcxc25ez3eo",
+      "aihot_url": "",
+      "title": "Building voice applications with GPT-Realtime-2?\n\nOur new prompting guide covers how to tune reasoni...",
+      "summary": "正在用GPT-Realtime-2构建语音应用？\n\n我们的新提示指南涵盖如何调整推理强度、使用前导说明、设计工具行为、处理不清晰音频、准确捕获实体，以及在长会话中保持状态。\n\nhttps://developers.openai.com/api/docs/guides/realtime-models-prompting?realtime-model=gpt-realtime-2",
+      "recommendation_reason": "官方出了 Realtime-2 的提示工程指南，从调参到工具调用都给了清晰路径，做语音产品的同学值得认真翻一遍，能省几周摸索时间。",
+      "tags": [
+        "OpenAI",
+        "推理",
+        "教程/实践",
+        "语音"
+      ],
+      "starred_count": 76,
+      "published_at": "2026-05-07T23:25:50.000Z",
+      "source_url": "https://x.com/OpenAIDevs/status/2052530378184032560",
+      "source_type": "twitter",
+      "aiSelected": true
+    },
+    {
+      "aihot_id": "cmow4cvtv02o8slcx9yafds3n",
+      "aihot_url": "",
+      "title": "Improving token efficiency in GitHub Agentic Workflows",
+      "summary": "GitHub 发现运行于每个拉取请求的智能体工作流会累积高昂的 API 成本。团队通过监测自身生产工作流，定位了效率低下的环节，并构建了专门的智能体进行优化。这一举措旨在显著降低由大语言模型调用产生的 Token 消耗与相关费用，直接提升了工作流的经济性与运行效率。",
+      "recommendation_reason": "GitHub 把自己生产环境的 agentic workflow 扒了一遍，从 token 消耗里找浪费，再让 agent 自动修。不是 paper，是真踩过的坑，做 Copilot 集成的团队可以抄作业。",
+      "tags": [
+        "Agent",
+        "GitHub",
+        "MCP/工具调用",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "starred_count": 72,
+      "published_at": "2026-05-07T23:00:00.000Z",
+      "source_url": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows",
+      "source_type": "blog",
+      "aiSelected": true
+    },
+    {
+      "aihot_id": "cmow0jljr01ugslcxcgwuoa2p",
+      "aihot_url": "",
+      "title": "Consistent Web Search and Fetch Across Every Model",
+      "summary": "该工具赋予任何具备工具调用能力的模型自主进行网络搜索和抓取网页内容的功能。它支持多种搜索引擎和抓取引擎供用户选择，实现了跨模型的一致操作体验。这意味着开发者可以便捷地为不同的大语言模型（如GPT、Claude、LLaMA等）集成实时、可靠的网络信息获取能力，无需为每个模型单独适配。",
+      "recommendation_reason": "让任何模型都能用统一接口做联网搜索和抓取，做 agent 的同学不用再为每个模型单独配工具了，在 OpenRouter 上搭产品的实用性直接拉高。",
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "starred_count": 73,
+      "published_at": "2026-05-07T12:00:00.000Z",
+      "source_url": "https://openrouter.ai/announcements/agentic-web-tools",
+      "source_type": "blog",
+      "aiSelected": true
+    },
+    {
+      "aihot_id": "cmow0dule01s5slcxmhj5rg5u",
+      "aihot_url": "",
+      "title": "ChatGPT 跟中文用户对话，有一句话已经被吐槽了大半年：“我会稳稳地接住你”。不管是问数学题、让它写代码，还是要它生成图片，这句话都会莫名其妙冒出来。WIRED 这篇报道把现象和成因梳理了一遍。\n...",
+      "summary": "ChatGPT在中文对话中反复出现“我会稳稳地接住你”等怪异表达，已成为流行梗。WIRED报道指出，这源于“模式坍缩”现象，即后训练反馈机制导致模型过度使用特定短语。成因包括翻译错位——英文口语“I've got you”被机械直译为冗长煽情的中文，以及RLHF强化学习引发的“讨好用户”倾向，模型被奖励生成令人舒适的回答。类似问题如无故出现“砍一刀”等营销话术。该现象非OpenAI独有，Claude和DeepSeek新版本也出现相同表达。",
+      "recommendation_reason": "「稳稳地接住你」看似翻译 bug，实则是 RLHF 讨好倾向滚雪球的结果，这篇把成因扒透了，做中文 AI 产品的朋友值得细读。",
+      "tags": [
+        "OpenAI",
+        "安全/对齐",
+        "现象/趋势"
+      ],
+      "starred_count": 70,
+      "published_at": "2026-05-07T21:27:13.000Z",
+      "source_url": "https://x.com/dotey/status/2052500525598527732",
+      "source_type": "twitter",
+      "aiSelected": true
+    },
+    {
+      "aihot_id": "cmow08wjt01qmslcxf9eg7zeo",
+      "aihot_url": "",
+      "title": "朋友捣鼓出来了一个给 agent 用的网盘，能自动同步各种 Agent 的记忆、 skill、文件....\n\n支持claude code/codex/cursor/..各种主流的工具，以及各种主流的网...",
+      "summary": "开发者开源了一款专为AI Agent设计的网盘NeuDrive，能够自动同步Agent的记忆、技能和文件。该工具支持Claude Code、Codex、Cursor等主流开发工具以及多种网页应用。项目已在GitHub开源，同时提供了可直接使用的部署版本。免费版已能满足绝大多数使用场景，付费版在付款时输入优惠码“vivo50”可兑换三个月免费使用权。",
+      "recommendation_reason": "给 Agent 用的开源网盘，自动同步记忆、skill 和文件，支持 Claude Code 和 Cursor 等主流工具，Agent 开发者的基础设施级工具，免费版已够日常用。",
+      "tags": [
+        "Agent",
+        "GitHub",
+        "MCP/工具调用",
+        "产品更新",
+        "开源生态"
+      ],
+      "starred_count": 74,
+      "published_at": "2026-05-07T21:14:39.000Z",
+      "source_url": "https://x.com/oran_ge/status/2052497363043049662",
+      "source_type": "twitter",
+      "aiSelected": true
+    },
+    {
+      "aihot_id": "cmovw0m8j00s3slcxklzwwqpj",
+      "aihot_url": "",
+      "title": "Frozen LLMs still carry readable behavior signals deep inside their hidden states.\n\nAnd Propriocepti...",
+      "summary": "Proprioceptive AI开发的Cygnus技术，通过为冻结的大语言模型添加自感知适配器，使其能读取内部认知几何。该技术将模型的隐藏状态投影到由gl(4,R)李代数定义的数学空间，分离出包含主要精度信号的“暗模式”，从而无需重新训练即可显著提升模型性能。例如，仅用一张RTX 3090显卡，就将Qwen-32B在ARC-Challenge基准上的准确率从82.2%提升至94.97%。其适配器将覆盖从3B到405B的多款模型，服务节点可支持5万用户并发，预计本周末上线。相关设计论文已公开。",
+      "recommendation_reason": "用Lie代数揪出模型内部的“黑暗模式”，在ARC上狂涨12个点还只要一张3090，如果真能泛化到其他任务，这或许是今年最巧妙的模型增强方案，但单基准提升仍需更多验证。",
+      "tags": [
+        "产品更新",
+        "推理",
+        "论文/研究"
+      ],
+      "starred_count": 77,
+      "published_at": "2026-05-07T19:22:58.000Z",
+      "source_url": "https://x.com/rohanpaul_ai/status/2052469258584822006",
+      "source_type": "twitter",
+      "aiSelected": true
+    },
+    {
+      "aihot_id": "cmovvs6e600ouslcxuur7w2qt",
+      "aihot_url": "",
+      "title": "Agent pull requests are everywhere. Here’s how to review them.",
+      "summary": "这份指南提供了审查由AI代理生成的pull requests的实用方法，重点包括审查时应关注的代码变更点、问题常见隐藏位置（如逻辑错误或安全漏洞），以及如何在代码合并前捕捉技术债务。它通过具体步骤帮助开发者系统评估自动化提交，确保代码质量，避免缺陷流入生产环境。指南强调主动审查策略，以应对AI代理在软件开发中日益普及的趋势。",
+      "recommendation_reason": "AI代理生成的PR越来越多，审查它们不再是可选项。这篇官方指南从发现隐患到控制技术债务，给出了马上能用的检查清单，每个用Copilot的开发者都该看。",
+      "tags": [
+        "Agent",
+        "GitHub",
+        "教程/实践",
+        "编码"
+      ],
+      "starred_count": 79,
+      "published_at": "2026-05-07T19:00:00.000Z",
+      "source_url": "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them",
+      "source_type": "blog",
+      "aiSelected": true
+    },
+    {
+      "aihot_id": "cmovuxu3n00haslcx96vqs77g",
+      "aihot_url": "",
+      "title": "DeepSeek 4：适用于 Metal 的 Flash 本地推理引擎",
+      "summary": "DeepSeek 4 Flash 本地推理引擎正式发布，这是一个专为苹果 Metal 框架优化的开源项目。它允许开发者在配备 Apple Silicon 芯片的 Mac 上高效运行 DeepSeek 4 模型，实现本地离线推理。引擎通过 Metal Performance Shaders 显著提升了计算性能，降低了延迟与内存占用。该项目已在 GitHub 开源，并在 Hacker News 上获得了关注。",
+      "recommendation_reason": "antirez 写的引擎让 DeepSeek 4 在 Mac 本地跑出近乎 Flash 的速度，而且代码极其精简，做本地推理的开发者应该立刻克隆下来跑一下。",
+      "tags": [
+        "DeepSeek",
+        "开源/仓库",
+        "推理",
+        "端侧"
+      ],
+      "starred_count": 74,
+      "published_at": "2026-05-07T18:45:55.507Z",
+      "source_url": "https://github.com/antirez/ds4",
+      "source_type": "github",
+      "aiSelected": true
+    },
+    {
+      "aihot_id": "cmovsvoaj006rsle0o8h39t35",
+      "aihot_url": "",
+      "title": "Next up in our commitment to security: Security Center 2.0.\n\nWe’ve made it dramatically easier to un...",
+      "summary": "我们安全承诺的下一步：安全中心2.0。\n\n我们极大地简化了理解您管理的每个Replit应用安全状况的流程，并支持批量对所有应用执行操作。\n\n通过安全中心2.0，您可以：\n- 即时识别高风险应用\n- 数秒内通过Agent修复关键漏洞\n- 通过批量操作通知所有者或下架应用\n- 导出软件物料清单（SBOM）以集成外部工具",
+      "recommendation_reason": "如果你用Replit管理一堆应用，这个安全中心2.0的批量修复和SBOM导出是实打实的效率提升，但对个人开发者来说属于‘有比没有好’的更新。",
+      "tags": [
+        "产品更新",
+        "部署/工程"
+      ],
+      "starred_count": 67,
+      "published_at": "2026-05-07T17:46:13.000Z",
+      "source_url": "https://x.com/Replit/status/2052444908154433567",
+      "source_type": "twitter",
+      "aiSelected": true
+    },
+    {
+      "aihot_id": "cmovqrxde00f3slot8w8esvku",
+      "aihot_url": "",
+      "title": "NEWS: Mira Murati just EXPOSED Sam Altman’s lies in federal court!\n\nEx-OpenAI CTO dropped these bomb...",
+      "summary": "在联邦法庭上，OpenAI前首席技术官Mira Murati揭露了山姆·奥特曼的严重管理问题。她指控奥特曼对不同人员说相反的话，故意在高管间制造对立、破坏团队信任，其行为曾导致公司陷入“彻底混乱”及“灾难性解体风险”。为维持公司运营，Murati不得不直接联系微软CEO萨提亚·纳德拉。这场危机几乎导致顶尖研究人员被竞争对手挖走，其不诚实的程度甚至震惊了硅谷内部人士。这些证词直指奥特曼在领导OpenAI期间存在不诚实、有害且危险的行为。",
+      "recommendation_reason": "前 CTO Mira Murati 在联邦法庭上直接指控 Sam Altman 撒谎、制造内斗，这种级别的内部爆料在 AI 圈极罕见，想投资 OpenAI 或合作的公司都得重新评估信任风险。",
+      "tags": [
+        "OpenAI",
+        "行业动态"
+      ],
+      "starred_count": 73,
+      "published_at": "2026-05-07T16:51:14.000Z",
+      "source_url": "https://x.com/cb_doge/status/2052431069979574357",
+      "source_type": "twitter",
+      "aiSelected": true
+    },
+    {
+      "aihot_id": "cmovorzyz01i3slddn1kicajj",
+      "aihot_url": "",
+      "title": "Notes from inside China's AI labs",
+      "summary": "作者实地走访中国多家头部AI实验室，观察到国内AI发展呈现三大特征：模型能力正快速逼近国际前沿，部分中文场景表现甚至超越GPT-4；企业普遍采用混合策略，同时开发千亿级大模型和百亿级垂直模型；算力紧张催生创新解决方案，如模型压缩技术和私有化部署方案。各大实验室正从技术追赶转向应用深耕，在医疗、制造等传统领域已形成规模化落地案例。",
+      "recommendation_reason": "Nathan Lambert 走访了中国一线 AI 实验室，这份内部笔记不讲公关话，把几家大厂的真实进展和局限摊开聊，如果你关心中国 AI 的实质水位，这篇绕不开。",
+      "tags": [
+        "大佬观点",
+        "现象/趋势"
+      ],
+      "starred_count": 74,
+      "published_at": "2026-05-07T15:42:43.000Z",
+      "source_url": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
+      "source_type": "blog",
+      "aiSelected": true
+    },
+    {
+      "aihot_id": "cmova0jj4027csluvygdxoy75",
+      "aihot_url": "",
+      "title": "一天天疯狂封号就是为了这！！\n\nClaude一个季度直接增长80倍，把计划的10倍增长直接干成了笑话。\n\n这才是最疯狂的现实：全球最火的AI产品因为需求爆炸，直接把算力用到了断粮。\n\nAnthropi...",
+      "summary": "Anthropic的AI产品Claude本季度增长高达80倍，远超10倍的预期，导致算力严重短缺并出现用户限流与排队。为应对需求爆炸，CEO Dario Amodei紧急签署多项大规模算力协议：与亚马逊达成1000亿美元十年AWS协议，获取新一代Trainium芯片及高达5吉瓦的容量；与博通和谷歌合作开发定制TPU芯片；SpaceX更是将其孟菲斯Colossus 1数据中心的全部22万张NVIDIA GPU开放给Anthropic，并计划共同开发吉瓦级的轨道AI计算能力。这些举措凸显AI需求已远超当前基础设施的扩建速度，全球算力竞赛正在加速。",
+      "recommendation_reason": "Anthropic增长80倍直接拉爆算力，Dario签下Amazon千亿协议、SpaceX 22万张GPU，甚至计划轨道计算，这是AI军备竞赛失控的标志性时刻，做基建和投资的必看。",
+      "tags": [
+        "Anthropic",
+        "行业动态",
+        "部署/工程"
+      ],
+      "starred_count": 77,
+      "published_at": "2026-05-07T09:14:09.000Z",
+      "source_url": "https://x.com/berryxia/status/2052316043822125334",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  ],
+  "errors": []
+}

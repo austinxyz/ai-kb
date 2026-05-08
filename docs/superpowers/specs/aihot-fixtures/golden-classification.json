@@ -1,0 +1,255 @@
+{
+  "labeled_at": "2026-05-07",
+  "labeler_note": "14天 aihot curated 样本里挑出 15 条用于分类回归。注意 S3_roles 在此样本中无法找到合格代表——这本身是个 signal: 分类器应该极少返回 S3，返回时应高 confidence。",
+  "items": [
+    {
+      "aihot_id": "cmow0jljr01ugslcxcgwuoa2p",
+      "title": "Consistent Web Search and Fetch Across Every Model",
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source_type": "blog",
+      "starred_count": 73,
+      "expected_primary_series": "S4_agent",
+      "expected_also_relevant": [
+        "S2_methodology"
+      ],
+      "expected_confidence": "high",
+      "rationale": "Agent web tooling unification — clear agent infrastructure topic with practical use case"
+    },
+    {
+      "aihot_id": "cmow4ob9a02smslcx4s7v66j8",
+      "title": "OpenAI 在 Realtime API 推出三款新模型：GPT-Realtime-2 把 GPT-5 级推理带入语音，让 Agent 能边听边想边调用工具完成任务；搭配 GPT-Realtime-",
+      "tags": [
+        "Agent",
+        "OpenAI",
+        "多模态",
+        "推理",
+        "模型发布"
+      ],
+      "source_type": "twitter",
+      "starred_count": 80,
+      "expected_primary_series": "S4_agent",
+      "expected_also_relevant": [
+        "S2_methodology"
+      ],
+      "expected_confidence": "high",
+      "rationale": "GPT-Realtime-2 agent runtime tech — agent thinks while listens and calls tools"
+    },
+    {
+      "aihot_id": "cmow08wjt01qmslcxf9eg7zeo",
+      "title": "朋友捣鼓出来了一个给 agent 用的网盘，能自动同步各种 Agent 的记忆、 skill、文件....\n\n支持claude code/codex/cursor/..各种主流的工具，以及各种主流的网",
+      "tags": [
+        "Agent",
+        "GitHub",
+        "MCP/工具调用",
+        "产品更新",
+        "开源生态"
+      ],
+      "source_type": "twitter",
+      "starred_count": 74,
+      "expected_primary_series": "S4_agent",
+      "expected_also_relevant": [
+        "S1_infra"
+      ],
+      "expected_confidence": "high",
+      "rationale": "Agent memory/skill sync drive — directly relevant to agent harness design"
+    },
+    {
+      "aihot_id": "cmow4cvtv02o8slcx9yafds3n",
+      "title": "Improving token efficiency in GitHub Agentic Workflows",
+      "tags": [
+        "Agent",
+        "GitHub",
+        "MCP/工具调用",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source_type": "blog",
+      "starred_count": 72,
+      "expected_primary_series": "S2_methodology",
+      "expected_also_relevant": [
+        "S4_agent"
+      ],
+      "expected_confidence": "high",
+      "rationale": "Token efficiency in GitHub Agentic Workflows — concrete methodology lesson"
+    },
+    {
+      "aihot_id": "cmovvs6e600ouslcxuur7w2qt",
+      "title": "Agent pull requests are everywhere. Here’s how to review them.",
+      "tags": [
+        "Agent",
+        "GitHub",
+        "教程/实践",
+        "编码"
+      ],
+      "source_type": "blog",
+      "starred_count": 79,
+      "expected_primary_series": "S2_methodology",
+      "expected_also_relevant": [
+        "S3_roles"
+      ],
+      "expected_confidence": "high",
+      "rationale": "How to review agent PRs — practical AI-era dev methodology"
+    },
+    {
+      "aihot_id": "cmow4l9yl02rhslcxc25ez3eo",
+      "title": "Building voice applications with GPT-Realtime-2?\n\nOur new prompting guide covers how to tune reasoni",
+      "tags": [
+        "OpenAI",
+        "推理",
+        "教程/实践",
+        "语音"
+      ],
+      "source_type": "twitter",
+      "starred_count": 76,
+      "expected_primary_series": "S2_methodology",
+      "expected_also_relevant": [],
+      "expected_confidence": "medium",
+      "rationale": "Voice apps prompting guide — methodology but narrow domain"
+    },
+    {
+      "aihot_id": "cmovsvoaj006rsle0o8h39t35",
+      "title": "Next up in our commitment to security: Security Center 2.0.\n\nWe’ve made it dramatically easier to un",
+      "tags": [
+        "产品更新",
+        "部署/工程"
+      ],
+      "source_type": "twitter",
+      "starred_count": 67,
+      "expected_primary_series": "S1_infra",
+      "expected_also_relevant": [],
+      "expected_confidence": "medium",
+      "rationale": "Security Center 2.0 — platform-level security infra, fits S1"
+    },
+    {
+      "aihot_id": "cmova0jj4027csluvygdxoy75",
+      "title": "一天天疯狂封号就是为了这！！\n\nClaude一个季度直接增长80倍，把计划的10倍增长直接干成了笑话。\n\n这才是最疯狂的现实：全球最火的AI产品因为需求爆炸，直接把算力用到了断粮。\n\nAnthropi",
+      "tags": [
+        "Anthropic",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source_type": "twitter",
+      "starred_count": 77,
+      "expected_primary_series": "S1_infra",
+      "expected_also_relevant": [
+        "S0_industry"
+      ],
+      "expected_confidence": "high",
+      "rationale": "Claude scale/capacity story — directly about AI infrastructure scaling"
+    },
+    {
+      "aihot_id": "cmovuxu3n00haslcx96vqs77g",
+      "title": "DeepSeek 4：适用于 Metal 的 Flash 本地推理引擎",
+      "tags": [
+        "DeepSeek",
+        "开源/仓库",
+        "推理",
+        "端侧"
+      ],
+      "source_type": "github",
+      "starred_count": 74,
+      "expected_primary_series": "S1_infra",
+      "expected_also_relevant": [],
+      "expected_confidence": "medium",
+      "rationale": "DeepSeek local inference engine on Metal — edge inference infra"
+    },
+    {
+      "aihot_id": "cmow0dule01s5slcxmhj5rg5u",
+      "title": "ChatGPT 跟中文用户对话，有一句话已经被吐槽了大半年：“我会稳稳地接住你”。不管是问数学题、让它写代码，还是要它生成图片，这句话都会莫名其妙冒出来。WIRED 这篇报道把现象和成因梳理了一遍。\n",
+      "tags": [
+        "OpenAI",
+        "安全/对齐",
+        "现象/趋势"
+      ],
+      "source_type": "twitter",
+      "starred_count": 70,
+      "expected_primary_series": "S0_industry",
+      "expected_also_relevant": [
+        "S2_methodology"
+      ],
+      "expected_confidence": "high",
+      "rationale": "RLHF mode collapse phenomenon in Chinese ChatGPT — industry-level insight, not directly methodology"
+    },
+    {
+      "aihot_id": "cmovorzyz01i3slddn1kicajj",
+      "title": "Notes from inside China's AI labs",
+      "tags": [
+        "大佬观点",
+        "现象/趋势"
+      ],
+      "source_type": "blog",
+      "starred_count": 74,
+      "expected_primary_series": "S0_industry",
+      "expected_also_relevant": [],
+      "expected_confidence": "high",
+      "rationale": "Notes from inside China AI labs — industry insight, useful context"
+    },
+    {
+      "aihot_id": "cmovw0m8j00s3slcxklzwwqpj",
+      "title": "Frozen LLMs still carry readable behavior signals deep inside their hidden states.\n\nAnd Propriocepti",
+      "tags": [
+        "产品更新",
+        "推理",
+        "论文/研究"
+      ],
+      "source_type": "twitter",
+      "starred_count": 77,
+      "expected_primary_series": "S4_agent",
+      "expected_also_relevant": [
+        "S0_industry"
+      ],
+      "expected_confidence": "medium",
+      "rationale": "Frozen LLMs hidden states research — applicable to agent introspection"
+    },
+    {
+      "aihot_id": "cmow6i2aq036jslcxxneym5zm",
+      "title": "v2.1.133",
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "MCP/工具调用",
+        "产品更新",
+        "编码"
+      ],
+      "source_type": "github",
+      "starred_count": 69,
+      "expected_primary_series": "SKIP",
+      "expected_also_relevant": [],
+      "expected_confidence": null,
+      "rationale": "Just v2.1.133 release notes — no substance for blog material"
+    },
+    {
+      "aihot_id": "cmow5nuij02z5slcx5uv6twwu",
+      "title": "The best co-branded campaigns don't just combine two logos. They create something entirely new. \n\nDe",
+      "tags": [
+        "Agent",
+        "产品更新",
+        "视频"
+      ],
+      "source_type": "twitter",
+      "starred_count": 64,
+      "expected_primary_series": "SKIP",
+      "expected_also_relevant": [],
+      "expected_confidence": null,
+      "rationale": "Co-branded marketing campaigns — not technical, not relevant to series"
+    },
+    {
+      "aihot_id": "cmovqrxde00f3slot8w8esvku",
+      "title": "NEWS: Mira Murati just EXPOSED Sam Altman’s lies in federal court!\n\nEx-OpenAI CTO dropped these bomb",
+      "tags": [
+        "OpenAI",
+        "行业动态"
+      ],
+      "source_type": "twitter",
+      "starred_count": 73,
+      "expected_primary_series": "SKIP",
+      "expected_also_relevant": [],
+      "expected_confidence": null,
+      "rationale": "Sam Altman vs Mira Murati drama — celebrity news, not material"
+    }
+  ]
+}
