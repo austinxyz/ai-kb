@@ -9,10 +9,14 @@
 //   node scripts/aihot-daily.mjs --json           # raw JSON instead of markdown
 
 import https from 'node:https';
+import fs from 'node:fs';
+import path from 'node:path';
 import { parseArgs } from 'node:util';
 
 const BASE = 'https://aihot.virxact.com/api/public';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36';
+const ARCHIVE_DIR = path.join(process.cwd(), 'daily', 'aihot');
+const GENERATED_AT_RE = /<!--\s*generatedAt:\s*([^\s>]+)\s*-->/;
 
 function getJson(url) {
   return new Promise((resolve, reject) => {
@@ -116,12 +120,36 @@ function renderList(j) {
   return lines.join('\n');
 }
 
+// Save rendered markdown to daily/aihot/<date>.md, gitignored.
+// Idempotent: skip if existing file's generatedAt comment matches; overwrite if it changed.
+function saveRenderedToCache(d, rendered) {
+  if (!d || !d.date) return null;
+  const file = path.join(ARCHIVE_DIR, `${d.date}.md`);
+  const generatedAt = d.generatedAt || '';
+
+  if (fs.existsSync(file)) {
+    try {
+      const existing = fs.readFileSync(file, 'utf8');
+      const m = existing.match(GENERATED_AT_RE);
+      if (m && m[1] === generatedAt) {
+        return { path: file, action: 'skip', reason: 'same generatedAt' };
+      }
+    } catch { /* fall through to overwrite */ }
+  }
+
+  fs.mkdirSync(ARCHIVE_DIR, { recursive: true });
+  const header = `<!-- generatedAt: ${generatedAt} -->\n<!-- savedAt: ${new Date().toISOString()} -->\n`;
+  fs.writeFileSync(file, header + rendered + '\n', 'utf8');
+  return { path: file, action: fs.existsSync(file) ? 'updated' : 'wrote' };
+}
+
 async function main(argv) {
   const { values, positionals } = parseArgs({
     args: argv,
     options: {
       list: { type: 'string' },   // --list <N>
       json: { type: 'boolean', default: false },
+      'no-save': { type: 'boolean', default: false },
     },
     allowPositionals: true,
   });
@@ -146,7 +174,15 @@ async function main(argv) {
     }
     const j = await getJson(url);
     if (values.json) { process.stdout.write(JSON.stringify(j, null, 2) + '\n'); return; }
-    process.stdout.write(renderDaily(j) + '\n');
+    const rendered = renderDaily(j);
+    process.stdout.write(rendered + '\n');
+    if (!values['no-save']) {
+      const r = saveRenderedToCache(j, rendered);
+      if (r) {
+        const rel = path.relative(process.cwd(), r.path).replace(/\\/g, '/');
+        process.stderr.write(`[cache] ${r.action}: ${rel}${r.reason ? ' (' + r.reason + ')' : ''}\n`);
+      }
+    }
   } catch (e) {
     if (/HTTP 404/.test(e.message)) {
       process.stderr.write(`error: 该日期日报不存在（生成时间约北京时间 08:00；早期日期可能未归档）\n`);

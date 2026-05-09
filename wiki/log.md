@@ -284,3 +284,10 @@
 - 共用 _history.jsonl：stream='daily-save' 标记两条来源
 - wiki/index.md 加两行：AI 基础设施 + 应用开发 各一条
 - 用法证实：daily 阅读 → 用户给"技巧与观点-N"格式索引 → 子流水线（fetch + classify + write raw）→ 可选 wiki draft；流程顺，不需要新 slash command
+
+## [2026-05-09] /aihot-daily 加本地归档
+- 新增功能：每次运行自动把渲染后的 markdown 存到 `daily/aihot/<YYYY-MM-DD>.md`（gitignored，纯本地）
+- 幂等：文件首行注释带 upstream `generatedAt`，再跑同日相同 generatedAt 则跳过；upstream 重生成（generatedAt 变）则覆盖
+- `--no-save` flag 可单次跳过
+- 不影响 `--json` / `--list` 模式（不在归档范围）
+- slash command markdown 同步更新；43/43 单测仍绿

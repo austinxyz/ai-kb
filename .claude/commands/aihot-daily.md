@@ -13,8 +13,13 @@ The user invokes with one of:
 - `/aihot-daily 2026-05-08` → specific date (YYYY-MM-DD)
 - `/aihot-daily --list 14` → list last 14 daily dates so the user can pick one
 - `/aihot-daily --json` → raw JSON dump (for piping to other tools)
+- `/aihot-daily --no-save` → skip the auto-archive step (default behavior auto-saves to `daily/aihot/<date>.md`, gitignored)
 
 If the user passes both a date and `--list`, prefer `--list` (date is then ignored).
+
+## Local archive (auto-save)
+
+Every render mode (with or without a date) auto-saves the rendered markdown to `daily/aihot/<YYYY-MM-DD>.md`. The `daily/` dir is already gitignored — pure local. Idempotent: re-running for the same date with same upstream `generatedAt` skips the write. If aihot regenerates the daily later in the day (different generatedAt), the local file is overwritten. Pass `--no-save` to opt out for one run.
 
 ## Execution
 
