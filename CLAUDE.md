@@ -59,8 +59,14 @@ status: <draft | stable | outdated>
 ## raw/ 子目录约定
 
 - `raw/<series_dir>/`：`/aihot-pull` 写入的 5 个系列目录（`agent_engineering`、`dev_methodology`、`ai_native_infra`、`engineering_roles`、`industry_insight`）
-- `raw/wechat_hotposts/`：`/aihot-mp-pull` 写入的微信公众号爆文书签（仅含 metadata + 链接，无正文 —— 微信反爬挡住）
+- `raw/wechat_hotposts/`：`/aihot-mp-pull` 写入的微信公众号爆文书签（仅含 metadata + 链接，无正文 —— 微信反爬挡住；该 slash command 已 DEPRECATED 2026-05-08）
 - `raw/_cards/`：抓取流水的临时工作区（`current/`, `current_mp/`, `_archive/`, `_history.jsonl`）；不进 wiki 引用
+
+## aihot 三个 slash command（用途分工）
+
+- `/aihot-daily [<date>]` — 终端阅读 AI 日报，不入库（早上 30 秒扫五版块场景）
+- `/aihot-pull --since 7d` — triage + 入库 raw + 起 wiki draft（沉淀工作流，不应每天跑）
+- `/aihot-mp-pull` — DEPRECATED（aihot 把 /mp 关给匿名用户）
 
 ## 工作流（Karpathy LLM Wiki Pattern）
 

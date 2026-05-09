@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { deriveSourceType, parseRscPayload, windowFilter, parseSince, fetchViaApi } from '../aihot-fetch.mjs';
 import { parseMpHtml, normalizeSince, extractRowIds, fetchMp } from '../aihot-mp-fetch.mjs';
+import { renderDaily, renderList, shortSource, trunc } from '../aihot-daily.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const HOMEPAGE_FIXTURE = join(__dirname, 'fixtures', 'sample_homepage.html');
@@ -357,6 +358,96 @@ test('fetchMp: stops on empty page', async () => {
   });
   assert.equal(calls.length, 1);
   assert.equal(r.items.length, 0);
+});
+
+// ---------------- aihot-daily renderer ----------------
+
+test('shortSource: collapses RSS suffix and X prefix', () => {
+  assert.equal(shortSource('Claude Code：GitHub Releases（RSS）'), 'Claude Code：GitHub Releases');
+  assert.equal(shortSource('X：OpenAI (@OpenAI)'), 'X：OpenAI (@OpenAI)');
+  assert.equal(shortSource(''), '');
+  assert.equal(shortSource(null), '');
+});
+
+test('trunc: respects max length and ellipsis', () => {
+  assert.equal(trunc('hello world', 100), 'hello world');
+  assert.equal(trunc('hello world', 5), 'hell…');
+  assert.equal(trunc('  multi   space ', 100), 'multi space');
+  assert.equal(trunc(null, 10), '');
+  assert.equal(trunc(undefined, 10), '');
+});
+
+test('renderDaily: header includes date and window', () => {
+  const out = renderDaily({
+    date: '2026-05-09',
+    generatedAt: '2026-05-09T00:00:40Z',
+    windowStart: '2026-05-08T00:00:00Z',
+    windowEnd: '2026-05-09T00:00:00Z',
+    sections: [],
+  });
+  assert.match(out, /AI 日报 · 2026-05-09/);
+  assert.match(out, /2026-05-08 → 2026-05-09/);
+  assert.match(out, /生成于 00:00 UTC/);
+});
+
+test('renderDaily: sections render with item index, title, summary, source', () => {
+  const out = renderDaily({
+    date: '2026-05-09',
+    sections: [
+      {
+        label: '模型发布/更新',
+        items: [
+          { title: 'Foo Model', summary: '一个新模型。', sourceUrl: 'https://example.com/foo', sourceName: 'X：Foo (@foo)' },
+        ],
+      },
+    ],
+  });
+  assert.match(out, /## 模型发布\/更新  \(1\)/);
+  assert.match(out, /1\. Foo Model/);
+  assert.match(out, /一个新模型/);
+  assert.match(out, /https:\/\/example\.com\/foo/);
+});
+
+test('renderDaily: empty sections are skipped', () => {
+  const out = renderDaily({
+    date: '2026-05-09',
+    sections: [
+      { label: '模型发布/更新', items: [] },
+      { label: '产品发布/更新', items: [{ title: 'Bar', summary: '', sourceUrl: '', sourceName: '' }] },
+    ],
+  });
+  assert.doesNotMatch(out, /## 模型发布\/更新/);
+  assert.match(out, /## 产品发布\/更新  \(1\)/);
+});
+
+test('renderDaily: footer reports total item count', () => {
+  const out = renderDaily({
+    date: '2026-05-09',
+    sections: [
+      { label: 'A', items: [{ title: '1' }, { title: '2' }] },
+      { label: 'B', items: [{ title: '3' }] },
+    ],
+  });
+  assert.match(out, /3 条精选/);
+});
+
+test('renderDaily: handles missing/null fields gracefully', () => {
+  const out = renderDaily({});
+  assert.match(out, /AI 日报 · unknown/);
+  assert.match(out, /0 条精选/);
+});
+
+test('renderList: shows date and lead title for each entry', () => {
+  const out = renderList({
+    count: 2,
+    items: [
+      { date: '2026-05-09', leadTitle: 'Big news today' },
+      { date: '2026-05-08', leadTitle: '' },
+    ],
+  });
+  assert.match(out, /可用日报 \(last 2\)/);
+  assert.match(out, /2026-05-09 — Big news today/);
+  assert.match(out, /2026-05-08/);
 });
 
 test('windowFilter: drops items with malformed published_at', () => {

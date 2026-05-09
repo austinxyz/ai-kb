@@ -262,3 +262,25 @@
 - 决定（用户选项 4）：保留全部代码，加 deprecation banner，未来 aihot 改策略可立即复活
 - 改动：`.claude/commands/aihot-mp-pull.md` 顶部 banner + description 加 [DEPRECATED 2026-05-08] 前缀；两个 fetcher script 文件头注释加 deprecation 说明；保留 playwright dep / chromium binary / 单测 / fixture 不删
 - 后续：专注 `/aihot-pull`（公开 REST API 仍正常）；如果哪天 aihot 暴露 `/api/public/mp` 或开放外部账号，删 banner 即可
+
+## [2026-05-08] 新增 /aihot-daily 终端日报阅读
+- 起因：读了 raw/others/ 那篇"装了这个 AI 热点 Skill 之后"，意识到我们 pipeline 全是"沉淀向"工作流（triage + 入库 + wiki），缺作者强调的"30 秒扫一眼今天 AI 圈"高频读取场景
+- 实现：
+  - `scripts/aihot-daily.mjs`：调 `/api/public/daily` / `/api/public/daily/{date}` / `/api/public/dailies?take=N`，渲染成终端友好的 5 版块清单（模型/产品/行业/论文/技巧）
+  - `.claude/commands/aihot-daily.md`：slash command；明确"不入库、不分类、不起 wiki"是设计意图
+  - `CLAUDE.md`：加三个 aihot slash command 用途分工说明
+- 测试：8 个新单测覆盖 trunc / shortSource / renderDaily / renderList，43/43 全绿
+- 用法：`/aihot-daily`（最新）、`/aihot-daily 2026-05-08`（指定日期）、`/aihot-daily --list 14`（看可用日期列表）
+
+## [2026-05-09] aihot-daily-save | 2 篇文章入库 + 起 wiki draft
+- 起因：用户首次走 /aihot-daily 阅读 → 挑选编号 → 入库流程
+- 入库:
+  - raw/agent_engineering/2026-05-08-running-codex-safely-at-openai.md (S4_agent, 6.3KB body)
+  - raw/ai_native_infra/2026-05-08-adaptive-parallel-reasoning-inference-scaling.md (S1_infra, 29.5KB body)
+- 起草 wiki:
+  - wiki/应用开发/Codex-安全治理四层架构.md (4.9KB)
+  - wiki/AI基础设施/自适应并行推理-APR.md (6.5KB，含 ThreadWeaver/Multiverse/Parallel-R1/NPR 演进谱系)
+- 工程修复：scripts/aihot-extract.mjs 加 Sec-Fetch-* headers，绕过 OpenAI 等 Cloudflare 严格站的 403
+- 共用 _history.jsonl：stream='daily-save' 标记两条来源
+- wiki/index.md 加两行：AI 基础设施 + 应用开发 各一条
+- 用法证实：daily 阅读 → 用户给"技巧与观点-N"格式索引 → 子流水线（fetch + classify + write raw）→ 可选 wiki draft；流程顺，不需要新 slash command

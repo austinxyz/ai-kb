@@ -45,6 +45,7 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/应用开发/非技术-PM-Claude-Code上架App\|非技术 PM 用 Claude Code 上架 App]] | 十年 PM 6 周用 Claude Code 出 iOS 压力管理应用 Respiro：多 agent 并行 + 截图调试 + Apple 流程全程 Claude 引导 | 1 |
 | [[wiki/应用开发/企业级AI-Agent部署\|企业级 AI Agent 部署]] | Anthropic 三支柱：跨越"agentic thinking divide"、员工技能转型、流程压缩；Claude Cowork 6 个月落地框架 | 1 |
 | [[wiki/应用开发/Prompt-Caching工程\|Prompt Caching 工程]] | Claude Code 团队复盘：前缀匹配 → 静态在前动态在后；用 message 不用 system 改 prompt；切模型废缓存；compaction 也要继承前缀 | 1 |
+| [[wiki/应用开发/Codex-安全治理四层架构\|Codex 安全治理四层架构]] | OpenAI 内部部署四层防护：sandbox+approval / Auto-review 子代理 / managed network policy / agent-native OpenTelemetry；同一份遥测同时驱动安全与运营 | 1 |
 
 
 ### AI 基础设施
@@ -54,6 +55,7 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/AI基础设施/MCP\|MCP（模型上下文协议）]] | AI Agent 接入外部工具的通用标准协议，2025 年 OpenAI/Google/Microsoft 全部采用，捐赠 Linux 基金会 | 1 |
 | [[wiki/AI基础设施/vLLM-V1迁移\|vLLM V0→V1 迁移]] | 在线 RL 迁移先修后端正确性：processed_logprobs + 显式关 prefix-cache/async-scheduling + clear_cache=False + fp32 lm_head | 1 |
 | [[wiki/AI基础设施/MRC-超算网络协议\|MRC（Multipath Reliable Connection）]] | OpenAI×AMD×Broadcom×Intel×MS×NVIDIA 联合：多平面拓扑（10 万 GPU 仅 2 层交换机）+ 包喷洒 + SRv6 静态源路由，故障恢复微秒级 | 1 |
+| [[wiki/AI基础设施/自适应并行推理-APR\|自适应并行推理 (APR)]] | LLM 自主决定何时分支并行 / 多少线程 / 如何归并；演进谱系 BoN→ToT/MCTS→ParaThinker/GroupThink→APR (ThreadWeaver/Multiverse)；critical-path-by-correctness 奖励是关键 | 1 |
 | [[wiki/AI基础设施/GPU冷启动-Peer权重传输\|GPU 冷启动与 Peer 权重传输]] | Runway NCCLBack：用 200-400 Gbps GPU 互联代替 2-10 Gbps 云存储下载，60× 加速；日省 347TB 流量、6500 推理分钟 | 1 |
 
 
