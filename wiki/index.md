@@ -46,6 +46,7 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/应用开发/企业级AI-Agent部署\|企业级 AI Agent 部署]] | Anthropic 三支柱：跨越"agentic thinking divide"、员工技能转型、流程压缩；Claude Cowork 6 个月落地框架 | 1 |
 | [[wiki/应用开发/Prompt-Caching工程\|Prompt Caching 工程]] | Claude Code 团队复盘：前缀匹配 → 静态在前动态在后；用 message 不用 system 改 prompt；切模型废缓存；compaction 也要继承前缀 | 1 |
 | [[wiki/应用开发/Codex-安全治理四层架构\|Codex 安全治理四层架构]] | OpenAI 内部部署四层防护：sandbox+approval / Auto-review 子代理 / managed network policy / agent-native OpenTelemetry；同一份遥测同时驱动安全与运营 | 1 |
+| [[wiki/应用开发/AI一人公司路线图\|AI 一人公司路线图]] | 阿易 5 步法 + 3 反模式：选具体可重复任务 → prompt 写成 JD → 接 MCP 工具链 → 迭代 10 次 → 定时撒手；分发 > 构建，80 分能用就上 | 1 |
 
 
 ### AI 基础设施
@@ -81,6 +82,8 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/行业洞察/思维模型-结构形式\|思维模型·结构与形式]] | 对称性与守恒定律、递归与分形——自然界深层结构的数学模式 | 1 |
 | [[wiki/行业洞察/思维模型-元模型\|思维模型·元模型]] | 芒格多元格栅、辩证法——关于如何组合使用所有其他模型的模型之上的模型 | 1 |
 | [[wiki/行业洞察/AI团队弹性与利用率\|AI 团队弹性与利用率]] | Tomer Tunguz：AI/人力比决策本质是韧性而非吞吐；3 人管 20 agent 走 1 人 = 33% 机构记忆损失，应保 70-90% 利用率 | 1 |
+| [[wiki/行业洞察/Claude人格化\|Claude 人格化]] | Anthropic 多维度（命名/宪法/训练/同人）构建 Claude 人格；反馈循环不可逆，parasocial 期待是企业风险框架新空白；DALL·E 都把 Claude 画成人 | 1 |
+| [[wiki/行业洞察/工程师简历建议-Lee-Robinson\|工程师简历建议（Lee Robinson）]] | Cursor 团队 11 条：一页 / 无照片 / GitHub 别装修 / 个人网站 / LinkedIn / 简历提 AI / 项目重质 / 求职信别用 AI / 展示爱好；AI 能生成的部分在贬值 | 1 |
 
 
 ---

@@ -291,3 +291,16 @@
 - `--no-save` flag 可单次跳过
 - 不影响 `--json` / `--list` 模式（不在归档范围）
 - slash command markdown 同步更新；43/43 单测仍绿
+
+## [2026-05-10] aihot-daily-save | 3 条技巧与观点入库 + 起 wiki draft
+- 起因：/aihot-daily 2026-05-11 日报阅读 → 用户挑 #6/#7/#8 → "都入库"
+- 入库（opencli twitter thread 抓全文 + 高赞评论）：
+  - raw/industry_insight/2026-05-10-Claude人格化趋势的中期影响.md（S0_industry，含 Mollick 原推 + TravelerOfCode/MarcusSpillane/VoidNulled 三条评论）
+  - raw/agent_engineering/2026-05-10-AI一人公司月入7万路线图.md（S4_agent，含阿易 5 步法 + 3 反模式 + peter131415/BTCxiaoyu1 评论）
+  - raw/engineering_roles/2026-05-10-Lee-Robinson的11条工程师求职建议.md（S3_roles，含邵猛转述全文 + BlockView0214 反向判据）
+- 起草 wiki：
+  - wiki/行业洞察/Claude人格化.md（多维度人格化设计 + 反馈循环不可逆 + parasocial 企业风险）
+  - wiki/应用开发/AI一人公司路线图.md（5 步 + 3 反模式 + 系统调度三能力栈）
+  - wiki/行业洞察/工程师简历建议-Lee-Robinson.md（11 条 + 反向判据 + AI 时代招聘判据变形）
+- wiki/index.md 加三行：应用开发 +1 / 行业洞察 +2
+- 关键技术细节：tweet 内容通过 `opencli twitter thread <tweet_id> -f yaml` 抓取，避开 WebFetch 402 限制；frontmatter 与 aihot 原生入库对齐（aihot_id 留空，标 content_source: twitter_tweet_full）
