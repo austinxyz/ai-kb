@@ -304,3 +304,25 @@
   - wiki/行业洞察/工程师简历建议-Lee-Robinson.md（11 条 + 反向判据 + AI 时代招聘判据变形）
 - wiki/index.md 加三行：应用开发 +1 / 行业洞察 +2
 - 关键技术细节：tweet 内容通过 `opencli twitter thread <tweet_id> -f yaml` 抓取，避开 WebFetch 402 限制；frontmatter 与 aihot 原生入库对齐（aihot_id 留空，标 content_source: twitter_tweet_full）
+
+## [2026-05-13] aihot-daily-save | 7 条精选回溯入库 + 起 wiki draft
+- 起因：跨两期日报会话挖掘——2026-05-11 日报技巧与观点 #1/#3 + 2026-05-13 日报模型 #1 + 技巧与观点 #1/#3/#4/#8；用户"我想入库之前分析的"
+- 入库 7 份（opencli twitter thread 抓 X 推 + aihot-extract.mjs 抓 blog）：
+  - raw/industry_insight/2026-05-10-教育科技门槛一夜归零.md（S0_industry，阿易 + Keji715 评论延展）
+  - raw/industry_insight/2026-05-10-旧版AI模型急诊诊断超越医生.md（S0_industry，Kim 原推 + thoughtson_tech 拆 copilot 假设）
+  - raw/models/2026-05-12-Claude-Opus-4.7-Fast-Mode-research-preview.md（S0_industry，Claude Devs 一句话 + jatingargiitk calibration-under-load）
+  - raw/dev_methodology/2026-05-12-Karpathy-90percent-token-waste.md（S2_methodology，Karpathy 6 类浪费 + 5 步组合拳 + vaesmall 预检策略）
+  - raw/industry_insight/2026-05-12-AI输出形态从文本到神经视频.md（S0_industry，硅基流动 + aihot 长文延展）
+  - raw/agent_engineering/2026-05-13-Google-ADK-long-running-agents.md（S4_agent，Eric Dong 完整原文 + 状态机代码）
+  - raw/industry_insight/2026-05-13-OpenAI-Parameter-Golf-takeaways.md（S0_industry，OpenAI 官方复盘）
+- 起草 wiki 7 条：
+  - wiki/行业洞察/教育科技门槛归零.md（瓶颈迁移到课程设计）
+  - wiki/行业洞察/AI急诊诊断超越医生.md（copilot 假设被 Boston ED 数据拆穿）
+  - wiki/模型与技术/Claude-Opus-4.7-Fast-Mode.md（speed 是 setting，calibration 是 product decision）
+  - wiki/应用开发/Token浪费与多模型路由.md（Karpathy 6 浪费 + 5 步省钱）
+  - wiki/应用开发/AI输出形态演进.md（文本→Markdown→HTML→神经视频）
+  - wiki/应用开发/Google-ADK长时运行Agent.md（显式状态机替代对话历史）
+  - wiki/行业洞察/AI辅助研究复盘-Parameter-Golf.md（agent-default 时代竞赛规则需要重做）
+- wiki/index.md 加七行：模型与技术 +1 / 应用开发 +3 / 行业洞察 +3
+- 工作流验证：daily 阅读 → 用户索引选条（含跨期）→ 子流水线（opencli/extract → classify → write raw + wiki）→ 单次 commit；7 条规模仍可控
+- 备注：raw/dev_methodology 是首次写入此目录（之前 raw 子目录都用 agent_engineering / industry_insight / engineering_roles）

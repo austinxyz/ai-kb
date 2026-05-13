@@ -20,6 +20,7 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | 条目 | 摘要 | 来源数 |
 |------|------|--------|
 | [[wiki/模型与技术/OpenSeeker-v2\|OpenSeeker-v2]] | 纯学术 SFT + 10.6k 数据 30B 模型在 BrowseComp 等四基准超越工业级管线，质胜量 | 1 |
+| [[wiki/模型与技术/Claude-Opus-4.7-Fast-Mode\|Claude Opus 4.7 Fast Mode]] | Anthropic API + Claude Code 同步开放 research preview；价格倍率未公布；calibration-under-load 是真正判据（不是 token/s）；4.6 时代已是 agent QoL 最大升级 | 1 |
 
 
 ### 应用开发
@@ -47,6 +48,9 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/应用开发/Prompt-Caching工程\|Prompt Caching 工程]] | Claude Code 团队复盘：前缀匹配 → 静态在前动态在后；用 message 不用 system 改 prompt；切模型废缓存；compaction 也要继承前缀 | 1 |
 | [[wiki/应用开发/Codex-安全治理四层架构\|Codex 安全治理四层架构]] | OpenAI 内部部署四层防护：sandbox+approval / Auto-review 子代理 / managed network policy / agent-native OpenTelemetry；同一份遥测同时驱动安全与运营 | 1 |
 | [[wiki/应用开发/AI一人公司路线图\|AI 一人公司路线图]] | 阿易 5 步法 + 3 反模式：选具体可重复任务 → prompt 写成 JD → 接 MCP 工具链 → 迭代 10 次 → 定时撒手；分发 > 构建，80 分能用就上 | 1 |
+| [[wiki/应用开发/Token浪费与多模型路由\|Token 浪费与多模型路由（Karpathy）]] | AI coding 账单 90% 浪费在不必要 context；6 类典型浪费 + 5 步省钱组合拳；12 个月后拉开 $200 vs $4000 的不是技术是 routing | 1 |
+| [[wiki/应用开发/AI输出形态演进\|AI 输出形态演进]] | 原始文本 → Markdown → HTML → 交互式神经视频；HTML 输出立即可施工；大脑 1/3 皮层主视觉；竞争从"答案对"迁移到"答案怎么给" | 1 |
+| [[wiki/应用开发/Google-ADK长时运行Agent\|Google ADK 长时运行 Agent]] | Stateless chatbot 在长流程必崩（污染/爆炸/idle 后幻觉）；显式状态机 + 持久 session + 多 agent 委托替代对话历史；Cloud Run + SQLite 教程 | 1 |
 
 
 ### AI 基础设施
@@ -84,6 +88,9 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/行业洞察/AI团队弹性与利用率\|AI 团队弹性与利用率]] | Tomer Tunguz：AI/人力比决策本质是韧性而非吞吐；3 人管 20 agent 走 1 人 = 33% 机构记忆损失，应保 70-90% 利用率 | 1 |
 | [[wiki/行业洞察/Claude人格化\|Claude 人格化]] | Anthropic 多维度（命名/宪法/训练/同人）构建 Claude 人格；反馈循环不可逆，parasocial 期待是企业风险框架新空白；DALL·E 都把 Claude 画成人 | 1 |
 | [[wiki/行业洞察/工程师简历建议-Lee-Robinson\|工程师简历建议（Lee Robinson）]] | Cursor 团队 11 条：一页 / 无照片 / GitHub 别装修 / 个人网站 / LinkedIn / 简历提 AI / 项目重质 / 求职信别用 AI / 展示爱好；AI 能生成的部分在贬值 | 1 |
+| [[wiki/行业洞察/教育科技门槛归零\|教育科技门槛归零]] | 同等 3D 教育 App：2020 年 7 人 / 6 月 / $800k vs 2026 年 1 人 / 48h / $10；瓶颈从技术栈迁移到"懂学生在哪里会卡住"的课程设计 | 1 |
+| [[wiki/行业洞察/AI急诊诊断超越医生\|AI 急诊诊断超越医生]] | 《Science》：一年多前的 o1 急诊诊断 67% > 医生 50-55%；优势在早期分诊；Boston ED 数据显示"医生 + AI"未优于"AI 单独"——copilot 假设被拆穿 | 1 |
+| [[wiki/行业洞察/AI辅助研究复盘-Parameter-Golf\|AI 辅助研究复盘 · Parameter Golf]] | OpenAI 紧约束 ML 竞赛 8 周 2000+ 提交；agent 压低门槛但放大噪声；自建 Codex triage bot 过滤；未来竞赛规则必须为 agent 默认重做 | 1 |
 
 
 ---
