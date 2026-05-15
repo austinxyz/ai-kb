@@ -5,6 +5,44 @@
 
 ---
 
+## [2026-05-14] ingest | Interrogatory LLM · Martin Fowler + Harper Reed
+
+- 存入：
+  - `raw/agent_engineering/2026-05-14-InterrogatoryLLM-martinfowler.md`
+  - `raw/agent_engineering/2025-02-16-harper-reed-llm-codegen-workflow.md`
+- 新建条目：
+  - `wiki/应用开发/Interrogatory-LLM.md`（审问式 LLM：单问约束 + 正向/反向两种用法 + 跨 session context 链路）
+  - `wiki/应用开发/Harper-Reed-LLM-Codegen-Workflow.md`（三步离散循环 + 单问约束原始出处 + Repomix/Mise 存量代码工作流）
+- 更新：
+  - `wiki/应用开发/Interrogatory-LLM.md`（补充 Harper Reed 关联引用）
+  - `wiki/index.md`（应用开发 +2）
+
+---
+
+## [2026-05-14] ingest | aihot 日报 3 条（技巧与观点 #4/#7/#8）
+
+- 存入：
+  - `raw/agent_engineering/2026-05-14-Claude-computer-browser-use-best-practices.md`（Anthropic 官方 Blog）
+  - `raw/ai_native_infra/2026-05-14-psql_bm25s-23x-faster-postgres-retrieval.md`（EMostaque · psql_bm25s 开源）
+  - `raw/dev_methodology/2026-05-14-search-reference-image-for-AI-image-gen.md`（op7418 · 搜索垫图法）
+- 新建条目：
+  - `wiki/应用开发/Claude-Computer-Use最佳实践.md`（分辨率上限/坐标回缩公式/thinking effort 默认值/prompt injection 分类器）
+- 候选（wiki_status: candidate，未起 draft，待沉淀）：
+  - psql_bm25s → 可补 `wiki/应用开发/企业级RAG架构.md` 或新建 `wiki/AI基础设施/Postgres-Agent检索栈.md`
+  - 搜索垫图法 → 可补 `wiki/应用开发/AI-PPT工程化.md` 或新建 `wiki/应用开发/AI生图Workflow.md`
+- 更新：`wiki/index.md`（应用开发 +1）
+
+## [2026-05-14] ingest | aihot 日报 2 条（模型发布 #2/#3）
+
+- 存入：
+  - `raw/models/2026-05-14-Krea-2-foundation-model-launch.md`（Krea AI 首个自研基础模型 + 限量访问码）
+  - `raw/models/2026-05-14-SenseNova-U1-technical-report.md`（商汤原生多模态 NMM 完整技术报告 + 38B-A3B MoE 开源）
+- 新建条目：
+  - `wiki/模型与技术/SenseNova-U1原生多模态.md`（技术五件套 + 与主流适配范式对比 + MoT vs MoE-on-LLM）
+- 候选：
+  - Krea 2 → 公开技术信息不足以撑 4 段结构，待官方技术报告释出后再起 wiki；可考虑未来与 Midjourney/Flux/SD3 合并到 `wiki/模型与技术/图像基础模型对比.md`
+- 更新：`wiki/index.md`（模型与技术 +1）
+
 ## [2026-04-28] ingest | LLM Agent 统一记忆框架综述（PaperToday）
 
 - 存入：`raw/agents/近期，不错的LLM Agent统一记忆框架综述.md`

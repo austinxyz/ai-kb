@@ -21,6 +21,7 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 |------|------|--------|
 | [[wiki/模型与技术/OpenSeeker-v2\|OpenSeeker-v2]] | 纯学术 SFT + 10.6k 数据 30B 模型在 BrowseComp 等四基准超越工业级管线，质胜量 | 1 |
 | [[wiki/模型与技术/Claude-Opus-4.7-Fast-Mode\|Claude Opus 4.7 Fast Mode]] | Anthropic API + Claude Code 同步开放 research preview；价格倍率未公布；calibration-under-load 是真正判据（不是 token/s）；4.6 时代已是 agent QoL 最大升级 | 1 |
+| [[wiki/模型与技术/SenseNova-U1原生多模态\|SenseNova-U1 原生多模态]] | 商汤 NMM 完整 playbook：无 VE/VAE 视觉接口 + 原生 unified modeling + AR×flow matching 联合训练 + MoT 骨干 + 6 阶段配方；开源 38B-A3B MoE 仅激活 3B | 1 |
 
 
 ### 应用开发
@@ -51,6 +52,9 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/应用开发/Token浪费与多模型路由\|Token 浪费与多模型路由（Karpathy）]] | AI coding 账单 90% 浪费在不必要 context；6 类典型浪费 + 5 步省钱组合拳；12 个月后拉开 $200 vs $4000 的不是技术是 routing | 1 |
 | [[wiki/应用开发/AI输出形态演进\|AI 输出形态演进]] | 原始文本 → Markdown → HTML → 交互式神经视频；HTML 输出立即可施工；大脑 1/3 皮层主视觉；竞争从"答案对"迁移到"答案怎么给" | 1 |
 | [[wiki/应用开发/Google-ADK长时运行Agent\|Google ADK 长时运行 Agent]] | Stateless chatbot 在长流程必崩（污染/爆炸/idle 后幻觉）；显式状态机 + 持久 session + 多 agent 委托替代对话历史；Cloud Run + SQLite 教程 | 1 |
+| [[wiki/应用开发/Claude-Computer-Use最佳实践\|Claude Computer Use 最佳实践]] | 点击准确性是分辨率工程问题不是模型问题；4.6 起步 1280×720 上限 1568px/1.15MP，Opus 4.7 上限 2576px/3.75MP；坐标回缩公式 + thinking effort 默认值 + computer_20251124 自带 prompt injection 分类器零成本零延迟 | 1 |
+| [[wiki/应用开发/Interrogatory-LLM\|Interrogatory LLM（审问式 LLM）]] | 让 LLM 采访人类生成 context 文档，或反向用 LLM 采访专家核查文档准确性；单问约束（每次只问一个）是关键规则；Martin Fowler 归纳 | 2 |
+| [[wiki/应用开发/Harper-Reed-LLM-Codegen-Workflow\|Harper Reed LLM Codegen 工作流]] | Idea Honing→Planning→Execution 三步离散循环；单问约束原始出处；Repomix+Mise 处理存量代码；被 Fowler《Interrogatory LLM》引用 | 1 |
 
 
 ### AI 基础设施
