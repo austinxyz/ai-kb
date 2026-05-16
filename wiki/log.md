@@ -5,6 +5,53 @@
 
 ---
 
+## [2026-05-16] 批量起草 wiki | 23 条 raw 全部入库，起草 wiki 23 条
+
+- 来源：用户指令"这些都要"，针对所有 wiki_status: not_eligible_summary_only 的 raw 文件
+- 起草 wiki draft（23 条）:
+  - `wiki/应用开发/Sakana-AI-指挥者模型多Agent拓扑.md` ← raw/agent_engineering/2026-05-04
+  - `wiki/应用开发/Codex-Auto-review-AI审批AI动作.md` ← raw/agent_engineering/2026-05-04
+  - `wiki/应用开发/Anthropic-金融Agent模板集.md` ← raw/agent_engineering/2026-05-06
+  - `wiki/应用开发/MagenticLite与验证优先Agent.md` ← raw/agent_engineering/2026-05-15
+  - `wiki/应用开发/OpenSquilla-多模型智能路由降本.md` ← raw/agent_engineering/2026-05-15
+  - `wiki/应用开发/OpenClaw-百个Codex实例运营开源项目.md` ← raw/agent_engineering/2026-05-16
+  - `wiki/AI基础设施/DFlash-扩散式推测解码.md` ← raw/ai_native_infra/2026-05-05
+  - `wiki/应用开发/AI助手身份层.md` ← raw/dev_methodology/2026-05-02
+  - `wiki/应用开发/Claude-Skills工程实践-Matt-Pocock.md` ← raw/dev_methodology/2026-05-03
+  - `wiki/应用开发/Claude-code工程纪律规范.md` ← raw/dev_methodology/2026-05-04
+  - `wiki/应用开发/Cursor团队Skills插件.md` ← raw/dev_methodology/2026-05-04
+  - `wiki/应用开发/Cursor-Agent-Harness实战.md` ← raw/dev_methodology/2026-05-05
+  - `wiki/应用开发/Warp官方Skills开源.md` ← raw/dev_methodology/2026-05-06
+  - `wiki/应用开发/Boris-Cherny-AI编码工作流.md` ← raw/dev_methodology/2026-05-06
+  - `wiki/应用开发/Amp-Neo-长链路Coding-Agent.md` ← raw/dev_methodology/2026-05-07
+  - `wiki/行业洞察/AI时代CTO人才迁移.md` ← raw/engineering_roles/2026-05-02
+  - `wiki/行业洞察/Claude自我设计-RSI起点.md` ← raw/engineering_roles/2026-05-05
+  - `wiki/行业洞察/AI编码已解决-Boris-Cherny观点.md` ← raw/engineering_roles/2026-05-05
+  - `wiki/行业洞察/Anthropic-AI军队组织架构.md` ← raw/engineering_roles/2026-05-06
+  - `wiki/行业洞察/AI替代与企业裁员-Coinbase案例.md` ← raw/engineering_roles/2026-05-06
+  - `wiki/行业洞察/AI时代技工vs-CS毕业生.md` ← raw/engineering_roles/2026-05-16
+  - `wiki/行业洞察/AI助手长链路文档损毁问题.md` ← raw/industry_insight/2026-04-30
+  - `wiki/行业洞察/杨立昆LLM局限论与世界模型.md` ← raw/industry_insight/2026-05-16
+- 冲突跳过（1 条）:
+  - "AI supercomputers MRC" ↔ wiki/AI基础设施/MRC-超算网络协议.md（已有同主题条目）
+- 注：所有 raw 来源均为 aihot_summary_only，wiki 根据摘要起草
+
+---
+
+## [2026-05-15] aihot-pull --since 1d | 候选 28 / 入库 5 / 起草 wiki 0
+
+- run-id: 2026-05-16T05:48:27Z
+- 入库（用户手选，均为 Twitter/摘要模式）:
+  - `raw/agent_engineering/2026-05-15-new-tools-models-repos-and-papers-out-of-microsoft-research-are-here-use-ai-and-.md` (S4_agent, aihot_summary_only)
+  - `raw/agent_engineering/2026-05-16-people-freaking-out-over-my-ai-spend-what-nobody-sees-part-of-what-excites-me-so.md` (S4_agent, aihot_summary_only)
+  - `raw/agent_engineering/2026-05-15-你敢把-Opus-和-GPT-接入到小龙虾里跑吗...md` (S4_agent, aihot_summary_only)
+  - `raw/engineering_roles/2026-05-16-the-ceo-of-the-world-s-most-valuable-semiconductor-company-just-told-a-room-full.md` (S3_roles, aihot_summary_only)
+  - `raw/industry_insight/2026-05-16-fun-interview-with-jacob-effron-on-the-unsupervised-learning-podcast.md` (S0_industry, aihot_summary_only)
+- 起草 wiki draft: 0（全部 content_source=aihot_summary_only，不符合起草条件）
+- LLM 建议跳过: 11 条（产品通告 / 发布广告 / 无实质内容）
+
+---
+
 ## [2026-05-14] ingest | Interrogatory LLM · Martin Fowler + Harper Reed
 
 - 存入：

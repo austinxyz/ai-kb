@@ -22,5 +22,5 @@ classification:
   primary_series: "S1_infra"
   also_relevant: []
   confidence: "high"
-wiki_status: not_eligible_summary_only
+wiki_status: conflict_skipped
 ---

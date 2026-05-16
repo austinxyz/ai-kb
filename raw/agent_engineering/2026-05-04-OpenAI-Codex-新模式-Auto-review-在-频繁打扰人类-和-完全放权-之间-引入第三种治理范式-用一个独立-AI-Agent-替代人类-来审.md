@@ -21,5 +21,5 @@ classification:
   primary_series: "S4_agent"
   also_relevant: ["S2_methodology"]
   confidence: "high"
-wiki_status: not_eligible_summary_only
+wiki_status: drafted
 ---

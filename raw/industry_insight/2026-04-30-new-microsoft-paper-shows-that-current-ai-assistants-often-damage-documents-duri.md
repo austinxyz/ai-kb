@@ -20,5 +20,5 @@ classification:
   primary_series: "S0_industry"
   also_relevant: ["S4_agent"]
   confidence: "high"
-wiki_status: not_eligible_summary_only
+wiki_status: drafted
 ---

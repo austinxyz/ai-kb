@@ -55,6 +55,20 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/应用开发/Claude-Computer-Use最佳实践\|Claude Computer Use 最佳实践]] | 点击准确性是分辨率工程问题不是模型问题；4.6 起步 1280×720 上限 1568px/1.15MP，Opus 4.7 上限 2576px/3.75MP；坐标回缩公式 + thinking effort 默认值 + computer_20251124 自带 prompt injection 分类器零成本零延迟 | 1 |
 | [[wiki/应用开发/Interrogatory-LLM\|Interrogatory LLM（审问式 LLM）]] | 让 LLM 采访人类生成 context 文档，或反向用 LLM 采访专家核查文档准确性；单问约束（每次只问一个）是关键规则；Martin Fowler 归纳 | 2 |
 | [[wiki/应用开发/Harper-Reed-LLM-Codegen-Workflow\|Harper Reed LLM Codegen 工作流]] | Idea Honing→Planning→Execution 三步离散循环；单问约束原始出处；Repomix+Mise 处理存量代码；被 Fowler《Interrogatory LLM》引用 | 1 |
+| [[wiki/应用开发/Sakana-AI-指挥者模型多Agent拓扑\|Sakana AI 指挥者模型多 Agent 拓扑]] | 7B Conductor 动态选取子 Agent 组合（专家 + 通才混合）GPQA Diamond 超越 GPT-4o；拓扑超越单一强模型的范式跨越 | 1 |
+| [[wiki/应用开发/Codex-Auto-review-AI审批AI动作\|Codex Auto-review：AI 审批 AI 动作]] | OpenAI 第三种治理范式：独立 AI Sub-Agent 代替人类审批高风险 Codex 操作；与 full agentic / human-in-the-loop 形成三极治理谱系 | 1 |
+| [[wiki/应用开发/Anthropic-金融Agent模板集\|Anthropic 金融 Agent 模板集]] | 10 款金融服务 Agent 模板：Skills/连接器/子 Agent 三层架构，M365 跨应用上下文，Opus 4.7 Vals AI 金融基准 64.37% 领先 | 1 |
+| [[wiki/应用开发/MagenticLite与验证优先Agent\|MagenticLite 与验证优先 Agent]] | MSR 三件套：轻量多 Agent 框架 MagenticLite + 验证优先 Agent（先定可验证标准再执行）+ 智能体化 GitHub 工作流 | 1 |
+| [[wiki/应用开发/OpenSquilla-多模型智能路由降本\|OpenSquilla 多模型智能路由降本]] | 路由简单任务走廉价模型、复杂走 Opus；成本 $6→$0.68（10×）；四层记忆 + 16 工具按需加载 + 三档沙箱；20+ 模型统一接入 | 1 |
+| [[wiki/应用开发/OpenClaw-百个Codex实例运营开源项目\|OpenClaw 百个 Codex 实例运营开源项目]] | ~100 Codex 实例全自动开源运营：代码审查/Issue 去重/测试复现/任务创建/垃圾过滤/性能回归；token 趋零时代的极简团队模式 | 1 |
+| [[wiki/应用开发/AI助手身份层\|AI 助手身份层（SOUL.md）]] | USER.md/MEMORY.md/SOUL.md 五层身份结构，性格独立于模型供应商，换"发动机"保留熟悉感 | 1 |
+| [[wiki/应用开发/Claude-Skills工程实践-Matt-Pocock\|Claude Skills 工程实践（Matt Pocock）]] | grill-me 反向拷问 + 共享语言 CONTEXT.md/ADR + /tdd /diagnose 测试回路 + /zoom-out 抗熵增；三分类工程/效率/工具 | 1 |
+| [[wiki/应用开发/Claude-code工程纪律规范\|Claude Code 工程纪律规范（Karpathy）]] | CLAUDE.md 四条核心：先思考澄清歧义 → 最简实现 → 精准修改 → 可验证目标；约束 AI "默默假设/过度自信/无效重构" | 1 |
+| [[wiki/应用开发/Cursor团队Skills插件\|Cursor 团队 Skills 插件（cursor-team-kit）]] | 17 Skills + 1 Agent + 2 Rules；verify-this 把 debug 变成科学实验；ci-watcher 后台盯 CI；一句命令安装，自用背书 | 1 |
+| [[wiki/应用开发/Cursor-Agent-Harness实战\|Cursor Agent Harness 实战]] | 模型决定上限 harness 决定表现；"守卫式→动态获取式"范式演进；离线 + 在线 A/B + 留存率三维衡量；未来是多 Agent 协作 | 1 |
+| [[wiki/应用开发/Warp官方Skills开源\|Warp 官方 Skills 开源（oz-skills）]] | 15 个生产级技能（SEO 审计/Terraform/GitHub Issue 等）全开源；一条命令安装；Warp 内部每日提效实践的真实封装 | 1 |
+| [[wiki/应用开发/Boris-Cherny-AI编码工作流\|Boris Cherny AI 编码工作流]] | 三反直觉原则：用最贵模型反而省钱 + 单一纯文本知识库记录错误 + 始终看运行结果；手机并行 5-10 个 Claude 实例 | 1 |
+| [[wiki/应用开发/Amp-Neo-长链路Coding-Agent\|Amp Neo 长链路 Coding Agent]] | 陪伴式→长链路范式转变；远程编排 + 自动上下文压缩 + Plugin API；权限模型反转（默认允许），安全控制权移交插件 | 1 |
 
 
 ### AI 基础设施
@@ -66,6 +80,7 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/AI基础设施/MRC-超算网络协议\|MRC（Multipath Reliable Connection）]] | OpenAI×AMD×Broadcom×Intel×MS×NVIDIA 联合：多平面拓扑（10 万 GPU 仅 2 层交换机）+ 包喷洒 + SRv6 静态源路由，故障恢复微秒级 | 1 |
 | [[wiki/AI基础设施/自适应并行推理-APR\|自适应并行推理 (APR)]] | LLM 自主决定何时分支并行 / 多少线程 / 如何归并；演进谱系 BoN→ToT/MCTS→ParaThinker/GroupThink→APR (ThreadWeaver/Multiverse)；critical-path-by-correctness 奖励是关键 | 1 |
 | [[wiki/AI基础设施/GPU冷启动-Peer权重传输\|GPU 冷启动与 Peer 权重传输]] | Runway NCCLBack：用 200-400 Gbps GPU 互联代替 2-10 Gbps 云存储下载，60× 加速；日省 347TB 流量、6500 推理分钟 | 1 |
+| [[wiki/AI基础设施/DFlash-扩散式推测解码\|DFlash 扩散式推测解码]] | Google×UCSD：一次推测生成多 token 打破自回归串行瓶颈；TPU 联合优化；3.13× 无损推理加速；云端推理成本下降 | 1 |
 
 
 ### 行业洞察
@@ -95,6 +110,14 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/行业洞察/教育科技门槛归零\|教育科技门槛归零]] | 同等 3D 教育 App：2020 年 7 人 / 6 月 / $800k vs 2026 年 1 人 / 48h / $10；瓶颈从技术栈迁移到"懂学生在哪里会卡住"的课程设计 | 1 |
 | [[wiki/行业洞察/AI急诊诊断超越医生\|AI 急诊诊断超越医生]] | 《Science》：一年多前的 o1 急诊诊断 67% > 医生 50-55%；优势在早期分诊；Boston ED 数据显示"医生 + AI"未优于"AI 单独"——copilot 假设被拆穿 | 1 |
 | [[wiki/行业洞察/AI辅助研究复盘-Parameter-Golf\|AI 辅助研究复盘 · Parameter Golf]] | OpenAI 紧约束 ML 竞赛 8 周 2000+ 提交；agent 压低门槛但放大噪声；自建 Codex triage bot 过滤；未来竞赛规则必须为 agent 默认重做 | 1 |
+| [[wiki/行业洞察/AI时代CTO人才迁移\|AI 时代 CTO 人才迁移]] | 多家独角兽 CTO 放弃高管岗转做 IC；权力从"管人数"→"接近模型"；个体工程师杠杆效应超越百人团队 | 1 |
+| [[wiki/行业洞察/Claude自我设计-RSI起点\|Claude 自我设计：RSI 起点]] | Anthropic 工程师不再手写代码；Claude 参与设计 Claude；52 天 50+ 功能；人类角色从生产者→监督者；5% 开发者留核心 | 1 |
+| [[wiki/行业洞察/AI编码已解决-Boris-Cherny观点\|AI 编码已解决（Boris Cherny）]] | TS/React 项目 AI 可写 100% 代码；人类转向指导/审查/集成；下一个瓶颈不是写代码而是审查和集成 | 1 |
+| [[wiki/行业洞察/Anthropic-AI军队组织架构\|Anthropic AI 军队组织架构]] | 数百 AI Agent 在 Slack 协同；无秘密模型 Mythos；工程师增 4×但人均产出 +200%；竞争在谁先把公司改造成 AI 有机体 | 1 |
+| [[wiki/行业洞察/AI替代与企业裁员-Coinbase案例\|AI 替代与企业裁员（Coinbase 案例）]] | 裁员 14% 700 人；AI 代码占比 40% 目标 50%+；管理层级压缩至 5 层；AI 原生小组实验；市场寒冬为主因 | 1 |
+| [[wiki/行业洞察/AI时代技工vs-CS毕业生\|AI 时代技工 vs CS 毕业生（Jensen Huang）]] | 技工需求增长是白领 3×；机器人技术员 +107%；AI 职位就业 -16%；7 万亿数据中心需人力；建数据中心的技工才是赢家 | 1 |
+| [[wiki/行业洞察/AI助手长链路文档损毁问题\|AI 助手长链路文档损毁问题]] | 微软论文：19 模型平均损坏 25% 文档；静默重大错误随时间累积；短期 demo 佳≠长链路可靠；产品需重新设计信任机制 | 1 |
+| [[wiki/行业洞察/杨立昆LLM局限论与世界模型\|杨立昆 LLM 局限论与世界模型]] | LeCun 坚持 LLM 无法通向 AGI；AMI 押注世界模型；OpenAI/Anthropic 类比 Sun Microsystems；博士生应停研 LLM | 1 |
 
 
 ---

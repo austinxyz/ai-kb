@@ -22,5 +22,5 @@ classification:
   primary_series: "S3_roles"
   also_relevant: ["S0_industry"]
   confidence: "high"
-wiki_status: not_eligible_summary_only
+wiki_status: drafted
 ---
