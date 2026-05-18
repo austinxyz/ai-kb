@@ -5,6 +5,22 @@
 
 ---
 
+## [2026-05-17] aihot-pull --since 3d | 候选 38 / 入库 4 / 起草 wiki 0
+
+- run-id: 2026-05-18T05:08:10Z
+- 入库（用户手选 技巧与观点 1,3,5,7）:
+  - `raw/dev_methodology/2026-05-17-yao-weread-skill-wechat-reading-visualization.md` (S2_methodology, aihot_summary_only)
+  - `raw/agent_engineering/2026-05-17-GBrain-Garry-Tan开源Agent终身记忆系统.md` (S4_agent, aihot_summary_only)
+  - `raw/engineering_roles/2026-05-17-mustafa-suleyman-18-months-ai-automates-white-collar-work.md` (S3_roles, aihot_summary_only)
+  - `raw/industry_insight/2026-05-17-gary-marcus-illusion-of-generative-ai-world-model-neuralsymbolic.md` (S0_industry, original_full — 手动 WebFetch，不在 aihot 窗口内)
+- 起草 wiki draft: 0
+  - 前 3 条：content_source=aihot_summary_only，不符合起草条件 → wiki_status: not_eligible_summary_only
+  - Gary Marcus 条：content_source=original_full + confidence=high，但 wiki/ 现有 >23 个 draft (超过 10 条阈值) → wiki_status: deferred_draft_quota
+- 抓取降级（aihot_summary_only）: 3 条（source_type=twitter，跳过 WebFetch）
+- LLM 建议跳过: 未统计（本次仅处理用户手选 4 条）
+
+---
+
 ## [2026-05-16] 批量起草 wiki | 23 条 raw 全部入库，起草 wiki 23 条
 
 - 来源：用户指令"这些都要"，针对所有 wiki_status: not_eligible_summary_only 的 raw 文件

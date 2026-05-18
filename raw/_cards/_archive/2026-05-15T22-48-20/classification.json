@@ -1,0 +1,2640 @@
+[
+  {
+    "aihot_id": "cmowaiu1t046sslcxrmwznwv2",
+    "primary_series": "S4_agent",
+    "also_relevant": [],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmowa17at040qslcxybd40ma0",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯产品发布通告"
+  },
+  {
+    "aihot_id": "cmow95vr803w1slcxl9ag8ul9",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复产品发布通告"
+  },
+  {
+    "aihot_id": "cmow9475s03usslcx13ybf0ag",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布通告"
+  },
+  {
+    "aihot_id": "cmow859ab03m2slcxbthhzlul",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布通告"
+  },
+  {
+    "aihot_id": "cmow6i2aq036jslcxxneym5zm",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "版本更新日志"
+  },
+  {
+    "aihot_id": "cmow5qv9r030fslcx0km53xep",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S1_infra"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmow5nur702z9slcxewvl62nn",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmow5nuij02z5slcx5uv6twwu",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "营销广告"
+  },
+  {
+    "aihot_id": "cmow4twmy02uhslcx3t0zrkwx",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯产品发布通告"
+  },
+  {
+    "aihot_id": "cmow4ob9a02smslcx4s7v66j8",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型发布通告"
+  },
+  {
+    "aihot_id": "cmow4l9yl02rhslcxc25ez3eo",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmow4cvtv02o8slcx9yafds3n",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S2_methodology"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmow3ux2u02lnslcxa8wfzlzc",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmow3r94102jjslcxxcqo8cw6",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复产品发布通告"
+  },
+  {
+    "aihot_id": "cmow3gmvl02fwslcx1233cng0",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S2_methodology"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmow2j0gj02a0slcxfjp941u7",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复产品通告"
+  },
+  {
+    "aihot_id": "cmow1vuoc024uslcx5ar8f7t6",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复产品通告"
+  },
+  {
+    "aihot_id": "cmow1vuoc024tslcxszbet09v",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmow0r6l301w4slcxxatn6f7p",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  },
+  {
+    "aihot_id": "cmow0jljr01ugslcxcgwuoa2p",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S1_infra"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmow0dule01s5slcxmhj5rg5u",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmow0asen01quslcxr7i339el",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmow08wjt01qmslcxf9eg7zeo",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S1_infra"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmow01hfu01nwslcxdc8cl10x",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovzb8zh01idslcx1q9b30pa",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复产品通告"
+  },
+  {
+    "aihot_id": "cmovyd1h901czslcxh2z1i6pr",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复产品通告"
+  },
+  {
+    "aihot_id": "cmovy8p7z01apslcxaqdsdn2k",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品集成通告"
+  },
+  {
+    "aihot_id": "cmovy5qkq019rslcxwtrnosc1",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复产品通告"
+  },
+  {
+    "aihot_id": "cmovy5pcb019jslcxicmd0o65",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "营销广告"
+  },
+  {
+    "aihot_id": "cmovy3n63018lslcxa8p4jycs",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯产品通告"
+  },
+  {
+    "aihot_id": "cmovy3m1q018fslcx90o5nn8a",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "评测信息片段"
+  },
+  {
+    "aihot_id": "cmovxxdle016cslcxvx02r88q",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "小工具发布"
+  },
+  {
+    "aihot_id": "cmovx7jax0110slcxiecw3cox",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复产品通告"
+  },
+  {
+    "aihot_id": "cmovw0m8j00s3slcxklzwwqpj",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovvs6e600ouslcxuur7w2qt",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovv69tf00luslcxvmvtkjye",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovv2e2g00jqslcx6nd2v10a",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "宣传推文"
+  },
+  {
+    "aihot_id": "cmovv2c3z00jgslcxbyhn34nk",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmovuxu3n00haslcx96vqs77g",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovuuvnf00gaslcxpeu6c0xz",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovu1k5j00cbslcxfdtkl5tg",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品集成通告"
+  },
+  {
+    "aihot_id": "cmovtoxi5007rslcxg6lke96u",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovtn194006zslcxkg4a1yti",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "学术论文非系列主题"
+  },
+  {
+    "aihot_id": "cmovtn0nb006rslcx9tdeqjih",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovsz1eo008vsle07nfvdqe1",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品发布通告"
+  },
+  {
+    "aihot_id": "cmovsyz1j008lsle0q9vgtvjk",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复产品通告"
+  },
+  {
+    "aihot_id": "cmovsvoaj006rsle0o8h39t35",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品更新通告"
+  },
+  {
+    "aihot_id": "cmovsqs6q0082sl3tv5bu1luq",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品上线通告"
+  },
+  {
+    "aihot_id": "cmovsqpl6007qsl3tld0g5fvy",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmovsp2nw0075sl3t95qvruww",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品安全通告"
+  },
+  {
+    "aihot_id": "cmovsmd32007lsla4n84skkpf",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmovrx804009cslnzi46n8frc",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmovruo940081slnzq6j4s56s",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmovrt2pt0075slnzxurkpr86",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmovrq4xv00o7slot2oadjv4o",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmovrhvbg00l5slotlwprjsqv",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "学术论文非系列主题"
+  },
+  {
+    "aihot_id": "cmovrhv3q00l1slotthpumg8d",
+    "primary_series": "S1_infra",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovrgspu00koslota6u3u6c0",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovr364j00j9slotqnozmpjp",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmovqtrr100ggslotet9kkn1j",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复研究通告"
+  },
+  {
+    "aihot_id": "cmovqrxde00f3slot8w8esvku",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovpsqwe009qslot6hg31atg",
+    "primary_series": "S4_agent",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovprqex009jslotvm89egug",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "新闻推文"
+  },
+  {
+    "aihot_id": "cmovorzyz01i3slddn1kicajj",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovorfq101hwslddlcevjqkd",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "工具推荐"
+  },
+  {
+    "aihot_id": "cmovomv1v01f5sldd75xtifyt",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovoie7l01dqslddgrqw9zay",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "提示词合集广告"
+  },
+  {
+    "aihot_id": "cmovmvks8011dsldd9h5t3euv",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovmdixp00waslddox17vtdv",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S1_infra"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovmd98i00visldd0dd0ozux",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  },
+  {
+    "aihot_id": "cmovmae4j00ulslddeqy1lq1g",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "API 上线通告"
+  },
+  {
+    "aihot_id": "cmovm3y0r00s2sldde7ygdtah",
+    "primary_series": "S4_agent",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovkdegp00ftslddwqnstcb9",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovk58pe00cxslddy0dhpp8a",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "工具发布"
+  },
+  {
+    "aihot_id": "cmovh8f0301mesl5szr1az8n4",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "提示词合集广告"
+  },
+  {
+    "aihot_id": "cmovgw9tn01gesl5skmmh9awd",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmovcghow00gosl5sbtbq0qiy",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmovbu1m700dbsl5shzzm6lz4",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "提示词合集广告"
+  },
+  {
+    "aihot_id": "cmova0jj4027dsluvyiq3hb3l",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmova0jj4027csluvygdxoy75",
+    "primary_series": "S0_industry",
+    "also_relevant": [
+      "S1_infra"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmov7pbbj01njsluviaiw41i6",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmov5k4un015ssluv8iy7nhrv",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmov1zxqm00d1sluvagczbdrz",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmov1hs6p007ysluvxq7bpnfs",
+    "primary_series": "S4_agent",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmouzaot100n3sluri145pe6g",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "推荐网站"
+  },
+  {
+    "aihot_id": "cmouvkjiq00ansl44ppklky75",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmouuph33033bslv9i9pr2su4",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmouuo311032pslv9boxtxnne",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoutmcc102vqslv9p2bj11um",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S2_methodology"
+    ],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoutf79b02s9slv9twf6srso",
+    "primary_series": "S0_industry",
+    "also_relevant": [
+      "S1_infra"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoutf79b02s8slv93m4y4zyi",
+    "primary_series": "S2_methodology",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmousjr7q02l0slv9akk61mmu",
+    "primary_series": "S4_agent",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoush5j702j7slv98s0vqsz7",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmour9xxf029nslv9sq0v5z69",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "活动通告"
+  },
+  {
+    "aihot_id": "cmour1rzq026islv9rklcx62b",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "学术论文非系列主题"
+  },
+  {
+    "aihot_id": "cmour1rzq026hslv9if1gisoh",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmouqpzc9024hslv911i1f3cg",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品发布通告"
+  },
+  {
+    "aihot_id": "cmouqk0ar023uslv96vf734pn",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复行业通告"
+  },
+  {
+    "aihot_id": "cmouq7hgs01znslv9uc4srpy7",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmouq7cny01z5slv9y2lhwkbp",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmouo96ji01l5slv99x96lzei",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "API 上线通告"
+  },
+  {
+    "aihot_id": "cmoun5n1s01dhslv9v2pv4lzj",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoun5adu01cvslv9mhr6fo47",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoumrg40016rslv9r33qvhhb",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "学术论文非系列主题"
+  },
+  {
+    "aihot_id": "cmoum32l6013zslv9vu80sl02",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmoulunnj00z1slv9ga4fq3nj",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S1_infra"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoukm8hk00p9slv9dkj38bmz",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmouin1zh00atslv98p0fubju",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复行业通告"
+  },
+  {
+    "aihot_id": "cmoug22sy00eeslbajec354qh",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoufu6fi00dzslbadp413e10",
+    "primary_series": "S1_infra",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoufhbmx009gslbas6mfm4ng",
+    "primary_series": "S1_infra",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoufb3og006rslba6u450hal",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复行业通告"
+  },
+  {
+    "aihot_id": "cmouecnls00i8slq4ge2bklmg",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复行业通告"
+  },
+  {
+    "aihot_id": "cmoudhj1g00d1slq4yriey061",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复行业通告"
+  },
+  {
+    "aihot_id": "cmoudff9m00bgslq4k28cc5gi",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmoudce2e00a7slq4icbx2in7",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "公关推文"
+  },
+  {
+    "aihot_id": "cmoud5wih006lslq4okdo36xn",
+    "primary_series": "S1_infra",
+    "also_relevant": [
+      "S2_methodology"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmouc9ko000k4sl5rpp0mlm2y",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复行业通告"
+  },
+  {
+    "aihot_id": "cmouc7g5g00j3sl5rhmkfr83b",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复行业通告"
+  },
+  {
+    "aihot_id": "cmouc68dn00insl5rkuypkcjw",
+    "primary_series": "S4_agent",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoubrth700ffsl5r9t7g8wea",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复行业通告"
+  },
+  {
+    "aihot_id": "cmoubcf2v00dbsl5rj0dxnv8k",
+    "primary_series": "S1_infra",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoubacc100c8sl5r84uiiwsk",
+    "primary_series": "S4_agent",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmouba5ey00bksl5rvs3rn6xl",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品配额通告"
+  },
+  {
+    "aihot_id": "cmoub76rw00aksl5rpq2kpbrp",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoub76as00agsl5rhdtc9gfu",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoub3n3h0089sl5rknlktmaq",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品配额通告"
+  },
+  {
+    "aihot_id": "cmoua8rhr00psslm0q6m1h9ok",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复行业通告"
+  },
+  {
+    "aihot_id": "cmoua4sxo00nnslm0xaq5lw00",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复行业通告"
+  },
+  {
+    "aihot_id": "cmoua1os000lgslm0y9qvbma4",
+    "primary_series": "S4_agent",
+    "also_relevant": [],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmou9y4oy00ilslm0qhmyqnrb",
+    "primary_series": "S1_infra",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmou9v68t00hlslm01htp0hnc",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmou9kn6c00geslm06zjo7qk9",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmou9kn6c00gdslm0xm1cftns",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "提示词合集广告"
+  },
+  {
+    "aihot_id": "cmou7fhqx00waslnd3km7vnng",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmou7fhqx00w9slndi2vnfcn1",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmou7ff7w00w3slndix0afw0f",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmou7009i00ucslndewwh9m1e",
+    "primary_series": "S0_industry",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmou6uddc00rzslnd96k7ygbn",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmou5voqk00lxslndwsfcf0ac",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "提示词合集广告"
+  },
+  {
+    "aihot_id": "cmou5vmfk00lrslnd9898tz2g",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "API 上线通告"
+  },
+  {
+    "aihot_id": "cmou5uboa00l4slndg69l7v7x",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复发布通告"
+  },
+  {
+    "aihot_id": "cmou5llmo00glslnd1jw5lh8r",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S3_roles"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmou549h500e5slndo4miiq1w",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  },
+  {
+    "aihot_id": "cmou2hmss00r9slq99fqanp4u",
+    "primary_series": "S0_industry",
+    "also_relevant": [
+      "S1_infra"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmotzg7v400lmslypclg3a9vo",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmotzc58100jjslypk5i6k8me",
+    "primary_series": "S2_methodology",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmotyusb600e1slypq36dm4v5",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmotychsa00apslypiljhay4p",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "营销推文"
+  },
+  {
+    "aihot_id": "cmoty2qto00hfslu98v1o6cu8",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "营销广告"
+  },
+  {
+    "aihot_id": "cmotwjqgz007wslu90ocpeqe5",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S3_roles"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmotwjp2j0072slu9ny1qw6f9",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmotszm7a00dislabqwb4co5h",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "工具开发分享"
+  },
+  {
+    "aihot_id": "cmotq421m07asslv7ibuh5k0h",
+    "primary_series": "S0_industry",
+    "also_relevant": [
+      "S3_roles"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmotme72t06gvslv70l9uh04t",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S1_infra"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoti6mqp05ivslv7txgp89pq",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoti0lh305gqslv7ywv7c5fj",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品发布通告"
+  },
+  {
+    "aihot_id": "cmotftjxd04wdslv7zwym23oh",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "版本更新日志"
+  },
+  {
+    "aihot_id": "cmotfjuzu04uzslv70kxms7yg",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  },
+  {
+    "aihot_id": "cmotfjtor04upslv7b2f4sa2q",
+    "primary_series": "S4_agent",
+    "also_relevant": [],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoteyun804p4slv7ho6fbstz",
+    "primary_series": "S2_methodology",
+    "also_relevant": [],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmotdwbkf04hqslv7b2fpwc56",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmotdw9aa04hislv7w51urxld",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  },
+  {
+    "aihot_id": "cmotdtc4t04h1slv74j4w2yf1",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "提示词玩法"
+  },
+  {
+    "aihot_id": "cmotd951b04bgslv7231arlvo",
+    "primary_series": "S3_roles",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmotb5adq03thslv7nrqkaywd",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  },
+  {
+    "aihot_id": "cmotb5adq03tgslv78rfybtjo",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmotb5adq03tdslv7lmatuweu",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S2_methodology"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmotb3uw303smslv75d73b2hq",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmotalfeo03nlslv74hy64a5e",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品发布通告"
+  },
+  {
+    "aihot_id": "cmot9e87b03dzslv7evjmwnd0",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmot8yo8z03axslv7yam4wklq",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmot8gc64036jslv7kkl8tz9l",
+    "primary_series": "S3_roles",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmot8cob0034cslv7qsf54wqx",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复行业通告"
+  },
+  {
+    "aihot_id": "cmot7h5vb030oslv7yy8ti4jh",
+    "primary_series": "S3_roles",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmot7a3cd02wpslv74halehx7",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmot5c16f02jsslv7821yhttf",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品发布通告"
+  },
+  {
+    "aihot_id": "cmot58h1602gdslv71e2mwdal",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品发布通告"
+  },
+  {
+    "aihot_id": "cmot35o75021mslv7j159oi32",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmot35n4w021gslv7964dwnvy",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "推文"
+  },
+  {
+    "aihot_id": "cmot2z7jt01ycslv7unkidym0",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmot2yych01xkslv7uq0xauvk",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmot2xtld01vvslv77sxlkqqk",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmot2x63a01vislv7f6z89rkq",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmot1vngq01mcslv7mnd9ved9",
+    "primary_series": "S0_industry",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmot1vme601m6slv78tok606d",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  },
+  {
+    "aihot_id": "cmot0zda501jlslv7alwywtgj",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复发布通告"
+  },
+  {
+    "aihot_id": "cmot0u5zc01gaslv79q25qha8",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmot09eed01arslv7otdp0vv3",
+    "primary_series": "S3_roles",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmot09eed01aqslv7yjpzy1mk",
+    "primary_series": "S3_roles",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoszpesi013qslv7xoitn4om",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "API 功能通告"
+  },
+  {
+    "aihot_id": "cmosythco011gslv77urz8z6b",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmosyrr9p00z0slv78319spwn",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmosyo6bp00xeslv7tl12q0p5",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S2_methodology"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmosyn6z800w7slv78v3ykz25",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复发布通告"
+  },
+  {
+    "aihot_id": "cmosxq3r100plslv7q6a6zwi9",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmosxp5a500naslv718sdst01",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmosxp5a500n9slv7ownyei15",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmosxlp0t00mmslv7z2qr0bsc",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmosx1phu00i1slv7rg7vsnxi",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  },
+  {
+    "aihot_id": "cmoswnaa800fuslv78jmqk6ne",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品集成通告"
+  },
+  {
+    "aihot_id": "cmoswn6y700fgslv7q4b3qz4t",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmoswn36800f4slv7umdpvwil",
+    "primary_series": "S4_agent",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoswmtrb00e8slv777c0vfzn",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmoswicde00byslv7f09a7e8w",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmoswhwj200a4slv71y8reukq",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoswhszc009pslv7300d5ics",
+    "primary_series": "S3_roles",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoswhszc009oslv7532g6pzu",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmosw3qbg007islv71w4axmk5",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmosvyurf006uslv7elkqwpx4",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复模型通告"
+  },
+  {
+    "aihot_id": "cmosvhq5p00mosldmnll3syb3",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  },
+  {
+    "aihot_id": "cmosvg4mf00l1sldm1p606f93",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmost9qze009cslbixnoyqir3",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "API 上线通告"
+  },
+  {
+    "aihot_id": "cmost9qze009bslbixecrmd8m",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  },
+  {
+    "aihot_id": "cmossac73014gslpl98yusvv2",
+    "primary_series": "S4_agent",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmosrxflg00yoslpl1a1yr8y9",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmosrrmzo00woslpl5dej2l2n",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmosrrmzo00wkslpl66dgg35j",
+    "primary_series": "S2_methodology",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmosrd1ac00v8slplayzv4fhm",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmosr4az200r8slpl95dof393",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmospsb0h00h7slpl749ljet3",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmospmfe100ffslplpb1jzqmg",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmosnx5e90091slkve4ojtxbv",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "公关推文"
+  },
+  {
+    "aihot_id": "cmosnn0np00f2sltg5drfmzpr",
+    "primary_series": "S3_roles",
+    "also_relevant": [
+      "S2_methodology"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmosmul3i007zsltgisdo0gts",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoslc3r3007nsl67ywsahjsj",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmosgfeuy008islh1qfv3wn5m",
+    "primary_series": "S2_methodology",
+    "also_relevant": [],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmosfkc17006tslzd4cgxgzc9",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品发布通告"
+  },
+  {
+    "aihot_id": "cmosea2vf009vslo5vvzj80h5",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "工具发布"
+  },
+  {
+    "aihot_id": "cmosam6uu00l4sln1rj7pc0a7",
+    "primary_series": "S2_methodology",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmos6ry0q05gfslrj0dlxmd70",
+    "primary_series": "S2_methodology",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmos4a17c04uhslrj2pf1ywi8",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "学术论文非系列主题"
+  },
+  {
+    "aihot_id": "cmos49izq04u8slrj0fixm8tb",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmos2fb8h04ehslrjkv8bcc02",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmos21kp804alslrj8c6ettc6",
+    "primary_series": "S3_roles",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmos0c9f803x9slrjv53m4oas",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmorzwekd03sfslrjmy4uadn3",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "工具发布"
+  },
+  {
+    "aihot_id": "cmory8pl803gfslrj9le3599a",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmorx7ad00372slrjgn9gqq4a",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品集成通告"
+  },
+  {
+    "aihot_id": "cmouzcm3p00nislur4mwcbtdp",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "学术论文非系列主题"
+  },
+  {
+    "aihot_id": "cmoru206602i0slrjal8zp4ss",
+    "primary_series": "S4_agent",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmortxcsg02flslrjhkkbl4pi",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmortj5wg02afslrjvuf4f1qx",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "版本更新日志"
+  },
+  {
+    "aihot_id": "cmorsurob024zslrj3fcdi10e",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmorssxt8022vslrjyie6y233",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "营销广告"
+  },
+  {
+    "aihot_id": "cmorsfvzn020eslrjlx6yixr0",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S1_infra"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmorqe5i001j9slrjsn0q77zv",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S1_infra"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmorpk97c01cfslrjvqgld8z1",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmornfyqb00uxslrjihshrrvi",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "营销广告"
+  },
+  {
+    "aihot_id": "cmorn2zt900rrslrj9xngm2yn",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmormma1d00prslrjlz268jku",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmorlat6x00d3slrj81e2hsaz",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmorkcv4j00nxsl1y6c4wj5sw",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmorkbgv100m3sl1yr0ui7j1r",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmorjzk7800idsl1yuhen9gjb",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmorj8zpn00e3sl1yjt57stje",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品集成通告"
+  },
+  {
+    "aihot_id": "cmorivz6g009bsl1ymedh6owh",
+    "primary_series": "S4_agent",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmori6tmj00avslee1rp6o8th",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品发布通告"
+  },
+  {
+    "aihot_id": "cmorh0gcg00mrslahmedn2v01",
+    "primary_series": "S0_industry",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmorgquz500koslah9ztbrylu",
+    "primary_series": "S4_agent",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmorgo5s100jtslahmhynshi0",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "工具发布"
+  },
+  {
+    "aihot_id": "cmorfwui900bbslahbt29u50b",
+    "primary_series": "S1_infra",
+    "also_relevant": [],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoregoc80083sle6ytoo4zdv",
+    "primary_series": "S2_methodology",
+    "also_relevant": [],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoreglz1007lsle6qgchpwip",
+    "primary_series": "S0_industry",
+    "also_relevant": [
+      "S3_roles"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmorecqxv006jsle6xdwcla76",
+    "primary_series": "S0_industry",
+    "also_relevant": [
+      "S1_infra"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmordtnzp008uslmq1fd6r3m1",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "工具发布"
+  },
+  {
+    "aihot_id": "cmorbmje400czslhfgs1xl62y",
+    "primary_series": "S4_agent",
+    "also_relevant": [],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmorbdypp00aoslhfh38jf7h6",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmorb7ml00086slhfyhq0xbrb",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoragvh00225slru1ru54n21",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmora6c4j01xyslrue927hy0k",
+    "primary_series": "S3_roles",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmor9h7w301ubslruffpfctl1",
+    "primary_series": "S2_methodology",
+    "also_relevant": [],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmor82f3x01ggslru9az272di",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoqyp6xx0075slfwpjrzzeve",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "版本更新日志"
+  },
+  {
+    "aihot_id": "cmoqxaxjk006pslg70koejd16",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "工具发布"
+  },
+  {
+    "aihot_id": "cmoqgdoi314c1sll9cav3273r",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "工具发布"
+  },
+  {
+    "aihot_id": "cmoqgc4ng14bgsll92ah8ostv",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S2_methodology"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoqc1r2y13cksll9xu33f702",
+    "primary_series": "S0_industry",
+    "also_relevant": [
+      "S3_roles"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoq7sxkz12epsll9qj681f38",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoq6qeyz125isll9wpqb08uq",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoq2hgyw117isll9u1cesyg4",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S2_methodology"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmopz5e4g10g4sll9wgasb37n",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "工具发布"
+  },
+  {
+    "aihot_id": "cmopogquh0y1esll9cth65i6l",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoonzda10pt7sll9h9vntbsk",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "社区分享"
+  },
+  {
+    "aihot_id": "cmooksw7d0p35sll9sz9z0kux",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmoojqbed0ovfsll9ybr48qsu",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmooji7a00os1sll9lolguzs1",
+    "primary_series": "S2_methodology",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoohl3wl0odvsll93vi0ewky",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoohd0et0oa7sll9haeq6vww",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoo6mnp50luesll9ramulnvh",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoo5u2i10lp4sll96rly8umi",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  },
+  {
+    "aihot_id": "cmony20uu0jvqsll9gq8h4dpv",
+    "primary_series": "S3_roles",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmonnc60r0hfpsll9szbexhfc",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmonke8650gtwsll9tccsqfhm",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "API 上线通告"
+  },
+  {
+    "aihot_id": "cmonkdnry0gsssll99vc5slb6",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品发布通告"
+  },
+  {
+    "aihot_id": "cmonkcson0grqsll9ogyk382a",
+    "primary_series": "S2_methodology",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmonex9ua0fjksll9w2gc46qj",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "营销作品"
+  },
+  {
+    "aihot_id": "cmonbqmsf0esusll93al0d5xs",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmonbpkfd0es2sll9xcpvgfii",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmonapgsf0elisll9wb51blhk",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmonamyoh0ejysll9hd75pz79",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "推文"
+  },
+  {
+    "aihot_id": "cmonaf1m80eg6sll9kus3phwv",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmon8mk470e7asll9eelwtl9m",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmoum2ipf012rslv93t08clw8",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "API 功能通告"
+  },
+  {
+    "aihot_id": "cmon7jxi50dx7sll99mgur9x8",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品发布通告"
+  },
+  {
+    "aihot_id": "cmon6g4w70do8sll9bfon702b",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S3_roles"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmon5eol00deksll98ldqe9zd",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "活动通告"
+  },
+  {
+    "aihot_id": "cmon5c2pq0dbqsll9f6zud8br",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmon4d6o80d7asll9ilwnxmnk",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "活动通告"
+  },
+  {
+    "aihot_id": "cmon2yql00cresll9xhc9jxs2",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "合作通告"
+  },
+  {
+    "aihot_id": "cmon1w58i0ch4sll9kymmug5j",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "重复合作通告"
+  },
+  {
+    "aihot_id": "cmomxk3ll0bgnsll94z5ugboi",
+    "primary_series": "S1_infra",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmomtj3d90an7sll9nvf82mmx",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  },
+  {
+    "aihot_id": "cmomgise107klsll915zfmo4j",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "提示词玩法"
+  },
+  {
+    "aihot_id": "cmomciixj06s5sll91fmd5x0x",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmoma4ex5062wsll9un6iyh4c",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "版本更新日志"
+  },
+  {
+    "aihot_id": "cmor004mg009pslixj4w10r3i",
+    "primary_series": "S4_agent",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmom4tfdb04t3sll9byfrl4s0",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  },
+  {
+    "aihot_id": "cmom1n5vy0475sll9f3roex1d",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品更新通告"
+  },
+  {
+    "aihot_id": "cmom1lojv0437sll9zabv7a8g",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmolzgjmf03mksll9g7n7pfgl",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品营销"
+  },
+  {
+    "aihot_id": "cmolyyffd03gcsll9t25nw26z",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "版本更新日志"
+  },
+  {
+    "aihot_id": "cmolyd58303brsll93s0qica2",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "营销广告"
+  },
+  {
+    "aihot_id": "cmolxck5t0374sll9kka94x3k",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "提示词玩法"
+  },
+  {
+    "aihot_id": "cmolxcj25036ksll9exj4q1vt",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmolx460h030asll9pvcz7jtb",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmolv6yzb02q5sll9b8va3u8t",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmolv5ftv02mxsll96lld3r6n",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmolv5f2e02musll9rtc8otve",
+    "primary_series": "S2_methodology",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoluy9l802h1sll9dp13ut4b",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmolt11dh026esll9jvakjms4",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmolszi0q022tsll9cc145dji",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmolsyrhw022dsll9p26rza2w",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  },
+  {
+    "aihot_id": "cmolsyik9021nsll9vk3cstrj",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  },
+  {
+    "aihot_id": "cmor004i8006nslix34g3z3e2",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "API 功能通告"
+  },
+  {
+    "aihot_id": "cmoqytjht006islboef49y936",
+    "primary_series": "S4_agent",
+    "also_relevant": [
+      "S2_methodology"
+    ],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmolryh3501wosll966mttaas",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmolrqrv801r4sll9j2jfczra",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmolqvb5w01nysll9yybbfcw1",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品发布通告"
+  },
+  {
+    "aihot_id": "cmolqd4vh01fmsll94c4f35mt",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmoloox680137sll99olaqlf2",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品发布通告"
+  },
+  {
+    "aihot_id": "cmoloo4ja010esll9sl6t8jm7",
+    "primary_series": "S2_methodology",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoloiws100ydsll9xhf5o7uo",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "产品功能通告"
+  },
+  {
+    "aihot_id": "cmolmfc6k00gssll961k7jpsx",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "学术论文非系列主题"
+  },
+  {
+    "aihot_id": "cmollgyq100d3sll99qp9kyyu",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmolj8sd4008jslqo7o6ud8a0",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmoligwtl006islqoj5j5m26f",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "学术论文非系列主题"
+  },
+  {
+    "aihot_id": "cmolg1knw02yjslc5cpn8uv6k",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmosbbgu3006xsloj17elb6za",
+    "primary_series": "S2_methodology",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmolbp61p01u8slc5xbzh8e9i",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "medium",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmolal3ei01ksslc5qqz0bpkz",
+    "primary_series": "S0_industry",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmol59d2r00gwslc5k5c5rjxy",
+    "primary_series": "S0_industry",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmol590al00fyslc501yr7auf",
+    "primary_series": "S0_industry",
+    "also_relevant": [
+      "S1_infra"
+    ],
+    "confidence": "high",
+    "skip_reason": null
+  },
+  {
+    "aihot_id": "cmol4m4nk061gsljeewjkt344",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  },
+  {
+    "aihot_id": "cmol4m4nk061fsljeymycpwcd",
+    "primary_series": "SKIP",
+    "also_relevant": [],
+    "confidence": "low",
+    "skip_reason": "纯模型发布"
+  }
+]

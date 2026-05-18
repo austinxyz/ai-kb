@@ -1,0 +1,93 @@
+[
+  {
+    "num": 190,
+    "url": "https://www.tomtunguz.com/labor-ai-spend-ratio-eng-team",
+    "finalUrl": "https://tomtunguz.com/labor-ai-spend-ratio-eng-team",
+    "bytes": 1837,
+    "status": "ok"
+  },
+  {
+    "num": 191,
+    "url": "https://www.tomtunguz.com/optimizing-software-factories",
+    "finalUrl": "https://tomtunguz.com/optimizing-software-factories",
+    "bytes": 1821,
+    "status": "ok"
+  },
+  {
+    "num": 220,
+    "url": "https://runwayml.com/news/60x-faster-cold-starts-treating-peer-gpus-as-weight-servers",
+    "finalUrl": "https://runwayml.com/news/60x-faster-cold-starts-treating-peer-gpus-as-weight-servers",
+    "bytes": 17634,
+    "status": "ok"
+  },
+  {
+    "num": 110,
+    "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+    "finalUrl": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+    "bytes": 11497,
+    "status": "ok"
+  },
+  {
+    "num": 147,
+    "url": "https://openai.com/index/mrc-supercomputer-networking",
+    "finalUrl": "https://openai.com/index/mrc-supercomputer-networking/",
+    "bytes": 15425,
+    "status": "ok"
+  },
+  {
+    "num": 36,
+    "url": "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them",
+    "finalUrl": "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/",
+    "bytes": 11447,
+    "status": "ok"
+  },
+  {
+    "num": 144,
+    "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering",
+    "finalUrl": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/",
+    "bytes": 9070,
+    "status": "ok"
+  },
+  {
+    "num": 307,
+    "url": "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks",
+    "finalUrl": "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks",
+    "bytes": 9419,
+    "status": "ok"
+  },
+  {
+    "num": 332,
+    "url": "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything",
+    "finalUrl": "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything",
+    "bytes": 9385,
+    "status": "ok"
+  },
+  {
+    "num": 13,
+    "url": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows",
+    "finalUrl": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/",
+    "bytes": 17526,
+    "status": "ok"
+  },
+  {
+    "num": 131,
+    "url": "https://claude.com/blog/new-in-claude-managed-agents",
+    "finalUrl": "https://claude.com/blog/new-in-claude-managed-agents",
+    "bytes": 6628,
+    "status": "ok"
+  },
+  {
+    "num": 161,
+    "url": "https://arxiv.org/abs/2605.04036",
+    "finalUrl": "https://arxiv.org/abs/2605.04036",
+    "bytes": 1859,
+    "status": "ok"
+  },
+  {
+    "num": 326,
+    "url": "https://claude.com/blog/building-ai-agents-for-the-enterprise",
+    "finalUrl": "https://claude.com/blog/building-ai-agents-for-the-enterprise",
+    "bytes": 3045,
+    "status": "ok"
+  }
+]

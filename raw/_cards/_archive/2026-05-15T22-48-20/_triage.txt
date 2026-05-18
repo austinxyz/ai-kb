@@ -1,0 +1,557 @@
+
+━━━ Series 4 — Agent Engineering  (37) ━━━
+ #1   [HIGH] AI Co-Mathematician: Accelerating Mathematicians with Agentic AI
+        ★74 | arxiv | Agent,推理,论文/研究
+        理由: AI数学家终于不是吹牛了，FrontierMath Tier 4干到48%，还帮真人解决开放问题。搞数学和AI的都应该点开看看。
+ #13  [HIGH] Improving token efficiency in GitHub Agentic Workflows →S2_methodology
+        ★72 | blog | Agent,GitHub,MCP/工具调用,教程/实践,部署/工程
+        理由: GitHub 把自己生产环境的 agentic workflow 扒了一遍，从 token 消耗里找浪费，再让 agent 自动修。不是 paper，是真踩过的坑，做 Copilot 集成…
+ #70  [HIGH] Apify mcpc 与 x402：给 AI Agent 装上"自动付款的钱包" mcpc 是 Apify 自家的通用 MCP 客户端 CLI，支持… →S1_infra
+        ★70 | twitter | Agent,MCP/工具调用,产品更新
+        理由: 过去 Agent 付费靠人类插手，Apify mcpc 把 x402 支付压缩成一行签名，相当于给每个 Agent 发了个自动钱包，做 agent 基建的可以立刻用起来了。
+ #131 [HIGH] New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestra…
+        ★69 | blog | Agent,Anthropic,产品更新,部署/工程
+        理由: Anthropic给托管Agent加了dreaming、outcomes和multiagent，这是Agent从完成任务到自我改进和协作的质变。dreaming让Agent能跨sessio…
+ #161 [HIGH] OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and Hi…
+        ★72 | arxiv | Agent,开源生态,搜索,论文/研究
+        理由: 纯学术团队仅靠SFT和一万条数据，就在多个搜索基准上反超工业级管线，并且开源模型。这证明高质量数据比烧钱RL更关键，做Agent的朋友值得认真看。
+ #169 [HIGH] OpenAI这次居然主动把Agent的“控制权”彻底交给了开发者，而不是继续藏在黑盒里。 Agents SDK重磅升级，专为长时运行Agent量身打… →S2_methodology
+        ★72 | twitter | Agent,OpenAI,产品更新,开源/仓库
+        理由: OpenAI这次把Agent的长时运行、记忆和沙箱控制真正开放给开发者，SDK从玩具跨到生产级基础设施，做Agent的同行该仔细看一遍。
+ #189 [HIGH] Deploying Claude across financial services →S0_industry
+        ★71 | blog | Agent,Anthropic,教程/实践,部署/工程
+        理由: Claude 官方首次系统性给出金融行业的部署指南，从产品矩阵到预建代理模板再到三阶段路线图，做金融 AI 落地的可以直接拿过来对齐。
+ #207 [HIGH] Anthropic just shipped 10 finance-agent templates that turn Claude from a … →S0_industry
+        ★70 | twitter | Agent,Anthropic,产品更新
+        理由: 金融从业者能直接把Claude当成一个能跑pitchbook和月底结账的同事了，不再是聊天助手。Anthropic给的性能基准也说明他们这次认真在解决金融合规和工具链的实际问题，值得关注
+ #210 [HIGH] holy shit🤯 Anthropic今天这个更新直接把华尔街初级分析师给炒了的节奏啊😲 他们不是发了个新模型，也不是优化了什么算法， 是一次… →S0_industry
+        ★71 | twitter | Agent,Anthropic,产品更新,开源生态
+        理由: Anthropic一口气发布10个金融Agent，从估值复核到生成PPT全包，连顶级数据库都接好了，还全部开源，这不是演示而是能直接用的生产力工具，金融从业者值得立刻装上试试。
+ #217 [HIGH] Agents for financial services and insurance →S0_industry
+        ★77 | blog | Anthropic,MCP/工具调用,产品更新,部署/工程
+        理由: Anthropic 一口气放出十个金融模板，从 pitchbook 到月底关账全包，加上 Excel、PPT、Word 的深度集成，做金融的可以少写很多重复性胶水代码，直接套模板干活去了。
+ #268 [HIGH] NEW paper from Sakana AI (ICLR 2026). A 7B Conductor model just hit SOTA o…
+        ★71 | twitter | Agent,arXiv,MCP/工具调用,推理,论文/研究
+        理由: Sakana AI 这篇 ICLR 论文把 Agent 之间的通信拓扑和提示词一起做成可训练的，协调本身变成模型，做多 Agent 系统的人真该重新想想架构了。
+ #278 [HIGH] OpenAI Codex 新模式 Auto-review：在"频繁打扰人类"和"完全放权"之间，引入第三种治理范式：用一个独立 AI Agent 替… →S2_methodology
+        ★70 | twitter | Agent,MCP/工具调用,OpenAI,产品更新,安全/对齐
+        理由: OpenAI 难得公开了 agent 安全机制的内部设计，不是靠人肉审批也不是完全撒手，用独立 Agent 审批越界行为，数据惊人（干扰降低 200 倍）。做 Agent 产品的该读，因为…
+ #282 [HIGH] Last week, we released *Auto-Review* mode in Codex! It is now the default … →S2_methodology
+        ★75 | twitter | Agent,OpenAI,产品更新,编码
+        理由: Codex 这个自动审查模式把审批量砍了 200 倍，而且已经成了 OpenAI 内部默认设置。这意味着 AI 编程 Agent 真正开始被信任，做 Agent 工作流的人可以认真研究一下。
+ #326 [HIGH] Building AI agents for the enterprise →S0_industry
+        ★64 | blog | Agent,Anthropic,教程/实践
+        理由: 从 L'Oréal、Lyft 这些案例看，企业怎么把 AI 智能体扎进业务流程，比泛泛而谈的 AI 转型文章实在得多。
+ #16  [med]  Codex can now drive Chrome tabs in the background: →S2_methodology
+        ★73 | twitter | Agent,MCP/工具调用,OpenAI,产品更新
+        理由: Codex 终于能操控真实浏览器了，后台开标签页、自动填表、跨系统搬运数据，这是 Agent 从「对话」走向「干活」的关键一步。做自动化的人可以认真试试，它把登录态和遗留系统的最后一公里连…
+ #21  [med]  Consistent Web Search and Fetch Across Every Model →S1_infra
+        ★73 | blog | Agent,MCP/工具调用,产品更新
+        理由: 让任何模型都能用统一接口做联网搜索和抓取，做 agent 的同学不用再为每个模型单独配工具了，在 OpenRouter 上搭产品的实用性直接拉高。
+ #24  [med]  朋友捣鼓出来了一个给 agent 用的网盘，能自动同步各种 Agent 的记忆、 skill、文件.... 支持claude code/codex/… →S1_infra
+        ★74 | twitter | Agent,GitHub,MCP/工具调用,产品更新,开源生态
+        理由: 给 Agent 用的开源网盘，自动同步记忆、skill 和文件，支持 Claude Code 和 Cursor 等主流工具，Agent 开发者的基础设施级工具，免费版已够日常用。
+ #63  [med]  GLM-5V-Turbo Tech Report: Toward a Native Foundation Model for Multimodal …
+        ★72 | twitter | Agent,多模态,论文/研究
+        理由: 智谱把多模态、RL和Agent工具链捆成一体，这篇报告对做多模态Agent的人有直接参考价值，不只刷榜还有工程细节。
+ #73  [med]  AlphaEvolve: How our Gemini-powered coding agent is scaling impact across …
+        ★66 | blog | Agent,DeepMind,Google,产品更新,编码
+        理由: DeepMind这次不只是秀参数，AlphaEvolve用Gemini驱动编码代理，已经开始在工业设计和科学发现里产生真实影响了，做自动化的可以盯着看。
+ #85  [med]  OpenSearch-VL: An Open Recipe for Frontier Multimodal Search Agents
+        ★76 | arxiv | Agent,arXiv,多模态,论文/研究
+        理由: 把多模态搜索 agent 的完整训练配方开源了，数据、环境、算法全都有，七个基准平均涨 10 点，直接对标商业模型，做深度搜索的同学可以无脑跟。
+ #93  [med]  http://x.com/i/article/2052185467773202433
+        ★75 | twitter | Agent,MCP/工具调用,教程/实践,端侧
+        理由: TRAE SOLO 移动端不是阉割版，三端同步、同会话，还能装 Skill、接飞书，是目前把 AI Agent 随身化的最完整方案。在外面也能工作，这才是移动端该有的样子。
+ #107 [med]  Show HN: Tilde.run – 具备事务性和版本控制文件系统的代理沙箱 →S1_infra
+        ★76 | blog | Agent,产品更新,部署/工程
+        理由: Agent 沙箱里的文件操作终于有了事务和版本回滚，对自动化链路调试是个实在的改进，搞 LLM 工具调用的可以试试。
+ #121 [med]  In Claude Managed Agents, we’ve added multiagent orchestration, an outcome…
+        ★64 | twitter | Agent,Anthropic,MCP/工具调用,产品更新
+        理由: 多代理编排和基于量规的自我改进循环，意味着AI开始像人一样反复打磨输出质量了，而「做梦」自学更是个有趣的信号，做Agent产品的同事可以盯一下。
+ #124 [med]  Live from Code with Claude: we're launching dreaming in Claude Managed Age…
+        ★75 | twitter | Agent,Anthropic,产品更新
+        理由: 多智能体编排和 webhooks 进公开测试，Claude 的 agent 平台从单打独斗走向协作，加上“dreaming”研究预览，这波更新对做 agent 的团队是实打实的可落地增强。
+ #156 [med]  代理商现在可以创建 Cloudflare 账户、购买域名并进行部署 →S1_infra
+        ★70 | blog | Agent,产品更新,部署/工程
+        理由: Cloudflare 把账户注册、买域名、部署全开放给 Agent，等于给 AI 发了张建站许可证，做自主 Agent 和自动化运维的人可以直接拿来用。
+ #195 [med]  The updated Agents SDK is now available in TypeScript, with support for sa… →S2_methodology
+        ★73 | twitter | Agent,OpenAI,产品更新,开源生态
+        理由: OpenAI 把 Agents SDK 带到了 TypeScript，而且直接上了沙箱和开源 harness，做 Node.js 代理的可以扔掉自研的调度层了。
+ #204 [med]  New in Copilot Cowork: mobile, skills, and plugins. Now available on iOS a…
+        ★82 | twitter | Agent,Microsoft,产品更新
+        理由: Copilot Cowork 把委托工作从桌面延伸到了手机，加上 skills 和插件，办公自动化终于能随时丢任务随时捡起来，这是微软把 agent 落地的关键一步。
+ #216 [med]  New for financial services: ready-to-run Claude agent templates for buildi…
+        ★65 | twitter | Agent,Anthropic,产品更新
+        理由: 金融行业的 Claude 用户有福了，官方一口气放出了投行 pitch、估值审查、月末结账等现成 agent 模板，装成插件就能跑。
+ #242 [med]  PORTool: Importance-Aware Policy Optimization with Rewarded Tree for Multi…
+        ★67 | blog | Agent,推理,论文/研究
+        理由: 不少 Agent 团队训练时都遇到过奖励信号太稀疏的问题，PORTool 试着把奖励细粒度化，给了个可实操的解法，做工具调用智能体的值得深读。
+ #247 [med]  Say goodbye to continuous polling! Eliminate wasted API traffic and simpli… →S1_infra
+        ★72 | twitter | Agent,Google,产品更新,部署/工程
+        理由: 长期轮询是agent开发的隐形税，Gemini API这次内置webhooks，把编排逻辑简化了一大截，做复杂agent的开发者今晚就能删掉一堆轮询代码。
+ #248 [med]  Reduce friction and latency for long-running jobs with Webhooks in Gemini … →S1_infra
+        ★71 | blog | Google,产品更新,部署/工程
+        理由: Gemini API 终于补上 Webhooks 这块拼图，长任务不用再轮询等待，对做自动化流程和 Agent 的开发者是实打实的效率提升。
+ #258 [med]  Newly launched KroWork, a desktop AI agent, is targeting the biggest weakn…
+        ★74 | twitter | Agent,产品更新
+        理由: KroWork 把 AI 会话固化成本地软件，一键安装，这个思路解决了 Agent 最大的痛点，每次重跑都得重新教它。做个人自动化的可以立即上手试试。
+ #261 [med]  Everyone's building AI coding tools. KroWork does something different: it …
+        ★72 | twitter | Agent,MCP/工具调用,产品更新,端侧
+        理由: 当别人还在帮你写代码，KroWork 直接把对话冻成 App 放在你桌面上。不建仓库不费 token，跟用 Excel 一样打开，这种 chat-to-software 的思路比所有 co…
+ #318 [med]  Reinforced Agent: Inference-Time Feedback for Tool-Calling Agents
+        ★67 | blog | Agent,MCP/工具调用,论文/研究
+        理由: Apple 把评估嵌进 agent 执行循环，不是事后分锅，而是让 reviewer 实时纠错，这对 tool-calling 类应用是个真方向，做 agent 架构的值得细读。
+ #321 [med]  Safe agents don’t guarantee a safe ecosystem of interconnected agents. Mic… →S0_industry
+        ★71 | twitter | Agent,Microsoft,安全/对齐,论文/研究
+        理由: 大多数 Agent 安全研究还在测单个模型，微软这篇把场景放大到多个 Agent 交互的网络，发现了只靠单体安全挡不住的生态风险，做多 Agent 系统的人最好读一下。
+ #337 [med]  Auto-review of agent actions without synchronous human oversight →S2_methodology
+        ★67 | blog | Agent,OpenAI,安全/对齐,论文/研究
+        理由: 每个在部署 coding agent 的团队都会遇到安全边界难题，OpenAI 这份研究没有炫技，给出了一个务实的自动代理审查方案，比等人来审批靠谱。
+ #90  [low]  Flue ：又一个Agent开发框架。 开发类似Claude Code风格的智能体，基于TypeScript。 想折腾开发自己Agent的朋友可以试… →S2_methodology
+        ★70 | twitter | Agent,开源/仓库
+        理由: 又一个Agent框架，但Flue用TypeScript且一行fetch就能启动，对想定制自己Agent的开发者很友好，可以当做轻量级克隆Claude Code的起步。
+
+━━━ Series 2 — AI 时代开发方法论  (36) ━━━
+ #36  [HIGH] Agent pull requests are everywhere. Here’s how to review them. →S4_agent
+        ★79 | blog | Agent,GitHub,教程/实践,编码
+        理由: AI代理生成的PR越来越多，审查它们不再是可选项。这篇官方指南从发现隐患到控制技术债务，给出了马上能用的检查清单，每个用Copilot的开发者都该看。
+ #87  [HIGH] 2026 年的 Coding Agent 应该是什么样？Amp 新版 CLI：Neo 发布 @AmpCode https://ampcode.com… →S4_agent
+        ★77 | twitter | Agent,MCP/工具调用,产品更新,编码
+        理由: Amp 这次重写把 Coding Agent 从「陪你写代码」变成了「替你干完活」，默认不询问权限这步走得够狠，但也确实是大模型能力上来的必然。
+ #108 [HIGH] Validating agentic behavior when “correct” isn’t deterministic →S4_agent
+        ★56 | blog | Agent,GitHub,教程/实践,编码
+        理由: 做coding agent最头疼的就是如何验证产出质量，GitHub这篇把他们的内部方法论开源了，用dominance分析替代脆弱的脚本，对正在折腾AI编程工具的团队是实打实的参考，值得逐…
+ #137 [HIGH] 我靠！Warp 这个Skills 太顶了！ 直接官方开源啊！ Warp团队居然把他们日常用来大幅提效的内部「Skills」全部开源了！ 一条命令就能… →S4_agent
+        ★75 | twitter | MCP/工具调用,开源/仓库,部署/工程
+        理由: Warp 团队把内部压箱底的 15 个生产级 Skills 全开源了，一条命令就能装，SEO 审计、Terraform 配置这些真实场景的技能直接拿来用，开发效率飞起。
+ #144 [HIGH] Vibe coding and agentic engineering are getting closer than I'd like →S3_roles
+        ★77 | blog | Agent,大佬观点,编码
+        理由: Simon 坦诚自己在生产级开发中也开始‘不看代码就信任 Claude Code’，这个伦理困境是每个 AI 编程工具使用者都绕不开的一课，他的思考比大多数评测都更能帮你定位自己的信任边界。
+ #152 [HIGH] 这个创造了Claude Code的男人Boris Cherny大神，完整公开了自己的工作流，并直播演示了一半的编码工作在手机上完成🤪 不是回消息，… →S3_roles
+        ★79 | twitter | Agent,Anthropic,教程/实践,编码
+        理由: Boris Cherny 的 Claude Code 工作流是「反直觉但真能省钱省时间」的实操手册，三条原则每一条都可以抄进团队规范，看完立刻能上线。
+ #162 [HIGH] [OpenAI Codex 官方迁移指南] 从其他 AI Coding Agents 迁移到 Codex，把你的"Agent 资产"（指令、配置、技…
+        ★77 | twitter | Agent,MCP/工具调用,OpenAI,教程/实践
+        理由: OpenAI 这次迁移工具不玩虚的，自动扫描两层级配置还能手动兜底，不过 slash commands 被吞进 Skills 的设计值得注意，切换前先把这条看清楚。
+ #221 [HIGH] /goal 目标不是为了时间长而时间长，它的目标是为了解决需要长时间运行的任务，避免人工反复的输入 continue。 要有清晰的目标，你的任务是要… →S4_agent
+        ★73 | twitter | Agent,教程/实践,编码
+        理由: 不是官方文档，是宝玉跑了17小时逆向codex app后总结的避坑清单，照着文档和验收标准改一改，能少走很多弯路。
+ #228 [HIGH] a16z 创始人 @pmarca 公开了他个人使用 AI 的"系统提示词"：关掉 AI 讨好型人格、对齐到用户情绪的所有默认行为，强制对齐到事实、独…
+        ★78 | twitter | 推理,教程/实践
+        理由: pmarca 这份 personal prompt 几乎是对当前 LLM 讨好型人格的精确反击，尤其第二段那些‘不准夸我’的规则，需要直击真相时可以直接套用。
+ #237 [HIGH] Cursor 团队这篇「持续改进我们的 Agent Harness」，写的真不错，很实战： · 如何衡量 harness 的好坏？ · 如何为不同模… →S4_agent
+        ★74 | twitter | Agent,MCP/工具调用,教程/实践,编码
+        理由: Cursor 团队把 agent harness 的衡量与定制方法全盘托出，从上下文范式演进到错误分类告警，做 AI 编程工具的必读，这种坦诚的实战分享太稀缺了。
+ #264 [HIGH] 一个100行的文件，干翻了所有LLM编码prompt GitHub Trending第一，一周暴涨4.4万星🔥，目前已破11万星！ 没有框架、没有…
+        ★71 | twitter | MCP/工具调用,教程/实践,编码
+        理由: 一个100行文件干翻一堆Agent框架，本质是开发者受够了哄模型，不如直接定规矩。如果你也用Claude Code，花一分钟扔进去，Token浪费砍半不是夸张。
+ #270 [HIGH] An update on recent Claude Code quality reports →S0_industry
+        ★72 | blog | Anthropic,安全/对齐,编码,行业动态
+        理由: Anthropic 把 Claude Code 连续一个月质量下滑的三个 bug 全部摊开讲，这种级别的工程复盘在大模型公司里极少见。做 Agent 产品的人该认真读，因为这三个坑你迟早也…
+ #271 [HIGH] Cursor 官方团队自己在用的 CI、Code Review、发版、测试、清理代码、周报等工作流的 Skills 打包成一个 Plugin，一句指… →S4_agent
+        ★72 | twitter | Agent,产品更新,编码
+        理由: Cursor 把自己的开发流程开源成插件了，这一套 17 个 skill 从 CI 盯盘到写周报全包，最牛的 verify-this 把 debug 变成了科学实验，装了立刻就能用。
+ #273 [HIGH] Claude code有时候会替你做错误假设，不主动要求澄清；该反驳时不反驳...敷衍迎合奉承你... 有人把 Karpathy 对 AI 写代码常…
+        ★72 | twitter | Agent,教程/实践,编码
+        理由: 把 Karpathy 的观察变成可执行的 CLAUDE.md，直接解决了 Claude Code 太爱脑补、乱改代码的臭毛病，对日常用 AI 编程的人很管用，放进项目就能让 AI 少犯傻。
+ #284 [HIGH] 解决真正工程问题的 Skills：Skills For Real Engineers 作者 @mattpocockuk 公开了自己 .claude/… →S4_agent
+        ★72 | twitter | Agent,GitHub,教程/实践,编码
+        理由: matt pocock 把自己 Claude Code 里实际用的 Skills 全开源了，专治 Agent 瞎编、啰嗦、跑不通和屎山，grill-me 反向拷问和共享语言这两招很开眼。
+ #289 [HIGH] http://x.com/i/article/2050590821553258496 →S4_agent
+        ★70 | twitter | Agent,大佬观点,开源生态
+        理由: 这不只是一篇模型切换体验，它其实回答了那个让人不安的问题——你的 AI 助手换模型后还是它吗？如果不想每次更新都重新认识一个陌生人，这篇里的 SOUL.md 写法和五层身份结构可以照着抄。
+ #307 [HIGH] How a non-technical project manager built and shipped a stress management … →S3_roles
+        ★64 | blog | Agent,Anthropic,教程/实践
+        理由: 一个零编程经验的项目经理，用 Claude Code 六周做完压力管理 App 并上架。关键不在技术，而在「管人经验拿来管 AI agent」的思路，对非技术背景的创业者太有参考价值。
+ #332 [HIGH] Lessons from building Claude Code: Prompt caching is everything →S4_agent
+        ★64 | blog | Agent,Anthropic,MCP/工具调用,教程/实践,部署/工程
+        理由: Claude Code团队把提示缓存的坑和优化方法全盘托出，从提示顺序、工具加载到压缩技巧，每一个经验都是钱和延迟换来的，做agent的同行可以直接拿去做架构参考。
+ #350 [HIGH] Continually improving our agent harness →S4_agent
+        ★55 | blog | Agent,Anthropic,OpenAI,教程/实践,编码,部署/工程
+        理由: Cursor 这篇 agent harness 复盘是今年聊 agent 基础设施最好的文章之一，从上下文管理到多 agent 调度，全是实战迭代的血泪经验，做 agent 的团队该逐字读。
+ #7   [med]  OpenAI 为官方 REST API 发布了 OpenAI CLI https://github.com/openai/openai-cli 把 … →S1_infra
+        ★79 | twitter | OpenAI,产品更新,部署/工程
+        理由: OpenAI 官方出了 CLI，把所有 REST 端点映射成子命令，以后 shell 脚本里调 API 不用再写 curl+jq 胶水了，做 CI/CD 和运维的可以直接用。
+ #12  [med]  Building voice applications with GPT-Realtime-2? Our new prompting guide c… →S4_agent
+        ★76 | twitter | OpenAI,推理,教程/实践,语音
+        理由: 官方出了 Realtime-2 的提示工程指南，从调参到工具调用都给了清晰路径，做语音产品的同学值得认真翻一遍，能省几周摸索时间。
+ #88  [med]  Open Slide：让 AI 来写你的 PPT 代码 看到个开源项目，用React框架写PPT，整个工作流完全为AI Agent设计。 相比HTM… →S4_agent
+        ★76 | twitter | Agent,GitHub,开源/仓库
+        理由: 用 React 写 PPT 的思路很妙，加上 1500+ 品牌 Logo 库，AI 生成演示文稿终于不是一坨屎了。做技术的可以 clone 下来跑跑看。
+ #92  [med]  一个用 Chrome Dev Tool 学习调试 Codex App 的技巧： 1. 退出 Codex App，从命令行打开： &gt; open …
+        ★72 | twitter | OpenAI,教程/实践,编码
+        理由: 如果你在用 Codex 遇到问题不知道怎么排查，宝玉这个 Chrome DevTools 远程调试方法可以让你直接看到 App 内部状态，开发者必备。
+ #100 [med]  Boris Cherny（Anthropic 工程负责人）在最近的红杉 AI Ascent 大会上说，他现在大部分工作从手机完成。Claude Ap… →S4_agent
+        ★70 | twitter | Agent,教程/实践,端侧
+        理由: 不是重大发布，但宝玉把「手机指挥Agent」的体验讲透了，如果你也想用碎片时间让AI干活、设定时任务，这一篇的实操思路可以照着抄。
+ #148 [med]  OpenAI Codex App 完全入门指南（5月最新版） 入门指南 + 7 天上手实战计划 + Cursor/Claude Code 平滑迁移教…
+        ★72 | twitter | MCP/工具调用,OpenAI,教程/实践,编码
+        理由: 邵猛这份Codex App指南不是泛泛而谈，7天上手计划和迁移教程直击痛点，如果你正在从Cursor或Claude Code切换，这个视频值得收藏。
+ #157 [med]  Warp 团队这是要把开源进行到底了，在 Warp、Doc 开源后，又把团队用于加速工作流的 Oz Skills 开源了 @warpdotdev �… →S4_agent
+        ★80 | twitter | Agent,MCP/工具调用,开源/仓库
+        理由: Warp把自己团队日常用的15个Skills全开源了，从Git协作到性能审计，一条命令就能装。搞AI工具链的可以直接抄作业，不用从零写。
+ #213 [med]  open-slide 这个开源的 Slides 项目不错，可以通过 Agent + Skills 制作 Slides，然后还有一个 Web 程序可以… →S4_agent
+        ★77 | twitter | Agent,GitHub,开源/仓库
+        理由: 让 agent 直接生成可编辑的 slides，npx 一行命令就能跑，还支持动画和网页播放，是产品人和开发者的提效刚需小工具，宝玉推荐的质量一般不差。
+ #219 [med]  兄弟们！Google 刚刚更新了一个项目！ Google 直接把开发者最头疼的“读代码”瓶颈，一键干掉了。 他们刚刚发布的 Code Wiki，让任…
+        ★70 | twitter | Google,产品更新,编码
+        理由: Google 把代码仓库一键生成可聊天的 Wiki，文档实时更新且带架构图，对于快速上手陌生代码库，这可能是目前最直接有效的工具，开发者可以立刻去预览版试试效果。
+ #223 [med]  这一波最让人意外的是： Ollama直接把Claude Desktop变成了开源模型的豪华驾驶舱。 一条命令就搞定： ollama launch c… →S4_agent
+        ★78 | twitter | Agent,MCP/工具调用,产品更新,开源生态
+        理由: Ollama一条命令把开源模型塞进Claude Desktop，以后在Claude Cowork和Code里直接用Kimi、DeepSeek，这是工具链壁垒最彻底的一次打通，开发者现在就能…
+ #231 [med]  Tom 总的最新 开源项目！ 正式开源 open claude design 🚀 超 95% 以上的还原度！ 浓缩和逆向所有 claude des…
+        ★75 | twitter | MCP/工具调用,开源/仓库,部署/工程
+        理由: Tom总用72小时逆向出Claude Design开源版，30+设计Skills、71套设计系统，直接塞进Claude Code或Codex就能用，前端开发者省下大量造轮子时间。
+ #232 [med]  A reminder that telling the AI that it is an expert in a field is no longe…
+        ★70 | twitter | 推理,教程/实践
+        理由: 很多人还在用「你是专家」来提示模型，但 Mollick 的测试显示这招已经失灵了。提示词工程该换代了，别再浪费 token 在角色扮演上。
+ #281 [med]  This is the most useful tooling I built for OpenClaw to date. It's open so… →S4_agent
+        ★74 | twitter | Agent,开源/仓库,编码
+        理由: 开源维护者的救命稻草，把 issue 到 automerge 的冗长循环扔给 ClawSweeper 自动修复，保守但足够实用，fork 就能用在任何仓库。
+ #288 [med]  $$200/月的Claude Max 如果还天天撞限额？ 那你就是从根上都用错了。 我也是用了几个月才明白，咱们90%的人都在拿Opus烧钱聊天。 …
+        ★70 | twitter | Agent,Anthropic,教程/实践
+        理由: 把Claude Max从烧钱玩具变成生产力放大器，关键不是你花了多少钱，而是你用Opus写了多少废话。看完这篇，明天你的限额焦虑应该能治好一半。
+ #297 [med]  2026 年的 AI 提示方式与 2022 年 ChatGPT 推出时大不相同。 @AndrewYNg 新课程《人人皆可的 AI 提示技巧》
+        ★77 | twitter | 多模态,教程/实践
+        理由: 吴恩达亲自下场教提示工程，从深度研究到让AI替你决策，覆盖了你没想到的那些用法，免费课程值得花两小时走一遍。
+ #330 [med]  给大家说下目前使用 DeepSeek-V4 (pro/flash) 的最需要注意的问题. 本身其实并不算 bug, 但是却很致命. 问题大概是这样的…
+        ★72 | twitter | DeepSeek,推理,教程/实践
+        理由: 如果你在用 DeepSeek-V4 写代码，这个坑迟早会踩到，作者把问题和解法都讲清楚了，不用等 IDE 修，看完就能自己改。
+ #343 [low]  GitHub Copilot CLI for Beginners: Interactive v. non-interactive mode
+        ★59 | blog | GitHub,教程/实践,编码
+        理由: 如果你总在 Copilot CLI 的交互和非交互模式之间犯迷糊，这篇官方教程算是清晰的速查手册，初学者花五分钟就能搞清楚。
+
+━━━ Series 1 — AI Native Infra  (26) ━━━
+ #110 [HIGH] vLLM V0 to V1: Correctness Before Corrections in RL
+        ★65 | blog | Hugging Face,推理,教程/实践,部署/工程
+        理由: vLLM V1迁移时踩的四个坑全在这里，从logprob语义到fp32投影头，修完才调RL目标，做在线RL的团队可以直接抄这份配置清单。
+ #111 [HIGH] Anthropic今天干了一件所有人都没想到的事，把马斯克给Grok建的全球最大超算，整个端走了。 300兆瓦算力，超过22万张顶级NVIDIA G… →S0_industry
+        ★83 | twitter | Anthropic,行业动态,部署/工程
+        理由: Anthropic直接端走马斯克给Grok建的超算，22万张GPU瞬间到账，Claude Code限速翻倍。这波操作让算力即战力这句话直接落在这。
+ #140 [HIGH] AI supercomputers need a new kind of network to stay in sync at massive sc…
+        ★66 | twitter | OpenAI,数据/训练,行业动态,部署/工程
+        理由: OpenAI 拉上 AMD、Broadcom、Intel、Microsoft、NVIDIA 一起搞的开源网络协议，专门解决万卡集群的通信瓶颈，做大规模训练的团队值得去翻翻官方博文。
+ #147 [HIGH] Unlocking large scale AI training networks with MRC (Multipath Reliable Co…
+        ★69 | blog | OpenAI,产品更新,部署/工程
+        理由: 虽然只是个网络协议，但MRC在超大规模训练集群里解决的是真实痛点，OpenAI自己内部用了才放出来，做万卡级训练的团队确实该看看。
+ #218 [HIGH] Google 这一波操作，最让人意外的是 Google直接把LLM推理里最顽固的autoregressive瓶颈干掉了。 他们和UCSD合作推出的D…
+        ★76 | twitter | Google,大佬观点,推理,部署/工程
+        理由: Google 直接干掉自回归瓶颈，3.13 倍无损加速不是渐进优化，是推理范式的根变革，当「快三倍」成为新基线，所有实时 Agent 和长上下文应用都得重算一遍成本账。
+ #220 [HIGH] 60x Faster Cold Starts: Treating Peer GPUs as Weight Servers
+        ★55 | blog | 推理,教程/实践,部署/工程
+        理由: Runway 工程师把 GPU 冷启动从分钟压到秒级，原理是让已加载权重的 GPU 直接「喂」给新同伴，而不是各自从存储下载。做大规模推理部署的团队值得细读。
+ #263 [HIGH] Supercharging LLM inference on Google TPUs: Achieving 3X speedups with dif…
+        ★69 | blog | Google,开源生态,推理,论文/研究
+        理由: 把扩散式的 speculative decoding 在 TPU 上跑出了 3 倍推理加速，峰值快到 EAGLE-3 的两倍，还直接集成了 vLLM，做推理优化的赶紧试一下。
+ #8   [med]  atomic[.]chat just made Gemma 4 26B faster inside LLaMA.cpp. making token …
+        ★78 | twitter | 开源/仓库,推理,教程/实践,端侧
+        理由: 在笔记本上把 Gemma 26B 的生成速度拉高 40% 是个真实的体验提升，atomic.chat 把 MTP 带入 LLaMA.cpp 生态，本地 AI 玩家可以直接拿去用。
+ #40  [med]  DeepSeek 4：适用于 Metal 的 Flash 本地推理引擎
+        ★74 | github | DeepSeek,开源/仓库,推理,端侧
+        理由: antirez 写的引擎让 DeepSeek 4 在 Mac 本地跑出近乎 Flash 的速度，而且代码极其精简，做本地推理的开发者应该立刻克隆下来跑一下。
+ #58  [med]  Notes on the xAI/Anthropic data center deal →S0_industry
+        ★70 | blog | Anthropic,xAI,安全/对齐,现象/趋势
+        理由: Anthropic租下Colossus 1不仅是一次商业合作，更暴露了算力短缺下的伦理妥协，而xAI突然砍掉Grok 4.1 Fast则提醒开发者别把鸡蛋放一个篮子里。
+ #69  [med]  现在这个AI的节骨眼上！ 生成速度的突破，比单纯堆参数量重要多了。 SenseNova-U1刚刚开源了一个8-step distilled LoRA…
+        ★76 | twitter | 图像生成,开源/仓库,部署/工程
+        理由: 这个LoRA把扩散模型推理从23秒压到2秒，还带全套ComfyUI工作流，玩图像生成的人今天就应该装上去试试，速度飞升11倍是真的能立刻用上。
+ #80  [med]  刚刚刷到Hugging Face上这个gpt-oss-20b-tq3，真的有点爽啊！ OpenAI自己开源的20B参数MoE模型，被社区用Turbo…
+        ★73 | twitter | Hugging Face,OpenAI,开源/仓库,部署/工程
+        理由: 社区把 OpenAI 的 20B MoE 模型用 TurboQuant 量化后塞进了 MacBook，不联网不付费，日常写作代码够用，隐私和成本都香，M 系列 Mac 用户可以试试。
+ #97  [med]  SpecMD: A Comprehensive Study on Speculative Expert Prefetching
+        ★64 | blog | 推理,论文/研究,部署/工程
+        理由: MoE推理的缓存策略一直靠经验摸，Apple给的标准化框架能系统比较不同策略，做分布式推理的可以省些心力。
+ #112 [med]  Anthropic taps SpaceX's Colossus-1 data center for 220,000 GPUs to power C… →S0_industry
+        ★71 | blog | Anthropic,行业动态,部署/工程
+        理由: Anthropic 拿下 22 万张 GPU，这是目前已知最大单笔算力采购，Claude 未来的推理速度和成本可能大幅改善，所有依赖大模型的团队都需要重新算账。
+ #118 [med]  OrcaRouter-Lite just launched open source. MIT. BYOK. Self-hosted. Zero ma… →S2_methodology
+        ★76 | twitter | GitHub,开源/仓库,开源生态,部署/工程
+        理由: 每个 LLM 团队都在手搓那个叫 pick_model.py 的烂摊子，现在改个 base_url 就搞定了。BYOK 自托管零加价，设计干净到反常，值得所有做产品的开发者立刻尝试。
+ #123 [med]  New Compute Partnership with Anthropic →S0_industry
+        ★68 | blog | Anthropic,xAI,行业动态,部署/工程
+        理由: Colossus 首次对外提供算力，Anthropic 拿到这些 GPU 会直接提升 Claude 订阅体验。但标题里真正吓人的是后半句，轨道 AI 计算虽然还远，xAI 已经把这当成近期…
+ #132 [med]  Higher usage limits for Claude and a compute deal with SpaceX →S0_industry
+        ★81 | blog | Anthropic,产品更新,部署/工程
+        理由: 跟 SpaceX 搞轨道算力是长期故事，但今天起 Claude Code 速率翻倍、API 限制松绑，对重度用户是立刻能摸到的甜头，即日生效不用等。
+ #136 [med]  我靠！高手果然在民间！ 比Google 官方还快3 x，那真的要起飞了。
+        ★74 | twitter | Google,开源/仓库,开源生态,推理
+        理由: 一个开源库把 Gemma 4 推理拉到官方的两倍速还不掉精度，这对正在用 Gemma 做部署的开发者简直是及时雨，直接抄作业比等谷歌快多了。
+ #138 [med]  NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standar…
+        ★58 | blog | 产品更新,部署/工程
+        理由: 做AI基础设施的同行值得看，MRC这个新特性在超大规模网络里能再压一波通信延迟，属于那种平时用不上但建万卡集群时就会想起的更新。
+ #163 [med]  Google 刚刚发布了 Gemma 4系列模型的草稿专用模型! 31B Dense 搭配草稿模型速度竟然能提升3倍! 付出的代价仅仅是多花 1G …
+        ★73 | twitter | Google,推理,模型发布
+        理由: Google 给 Gemma 4 发了个「加速挂」，专门优化推测解码的草稿模型提速 3 倍，显存只多花 1GB，跑本地模型的人应该马上试试。Qwen 再不跟就输了。
+ #168 [med]  Google昨天刚官宣Gemma 4用MTP实现3倍加速， vLLM今天就直接Day-0支持，零延迟把这个加速塞到了所有人手里。 一条Docker命…
+        ★75 | twitter | Google,推理,教程/实践
+        理由: Google的MTP技术让Gemma 4提速3倍，vLLM当天就支持了，做本地Agent和实时应用的开发者现在一条Docker命令就能跑，开源模型性价比优势又拉大一截。
+ #184 [med]  Stochastic KV Routing: Enabling Adaptive Depth-Wise Cache Sharing
+        ★62 | blog | 论文/研究,部署/工程
+        理由: 苹果这篇不走寻常路，从深度维度压缩KV缓存，是推理服务端降本的新思路，做LLM部署的值得一读。
+ #198 [med]  Google 为自家开源模型 Gemma 4 发布了 MTP drafter（多 token 预测草稿模型），推理速度最高提升 3 倍，输出质量保持…
+        ★75 | twitter | Google,开源生态,推理,模型发布
+        理由: Gemma 4 的 MTP drafter 不是噱头，在 Apple Silicon 上实测能翻倍，且完全无损，本地跑开源模型的可以直接上，权重和框架都备好了。
+ #249 [med]  MINECRAFT STEVE ALERT: GB300 ultra NVL72 is already 2.7x faster 🚀 than GB…
+        ★71 | twitter | 推理,评测/基准,部署/工程
+        理由: 纸面 FP4 算力只多 50% 的 GB300，实际推理却快了 2.7 倍，全栈优化的复合增益比参数表好看太多，做推理服务的该重新算算 TCO 了。
+ #254 [med]  How OpenAI delivers low-latency voice AI at scale
+        ★58 | blog | OpenAI,教程/实践,语音
+        理由: OpenAI 把语音 AI 的低延迟秘诀摊开了，做实时语音产品的可以看看他们的 WebRTC 优化思路，虽然不太能直接抄，但方向值得参考。
+ #313 [med]  Introducing Dynamic Workflows: durable execution that follows the tenant →S4_agent
+        ★64 | blog | 产品更新,部署/工程
+        理由: 这个库解决的是 AI 代理平台的多租户持久化执行难题，Cloudflare 把动态路由和按需分配做到了几乎零闲置成本，做 Agent 平台的应该认真看看。
+
+━━━ Series 3 — 工程师角色变迁  (10) ━━━
+ #166 [HIGH] Anthropic的Claude为什么能52天推出50个重大功能？神秘武器Mythos要发布了？ 他们的基础设施负责人、Claude code之父B… →S0_industry
+        ★75 | twitter | Agent,Anthropic,现象/趋势,行业动态
+        理由: Anthropic基础设施负责人亲口承认公司已没有一行手写代码，整个团队靠成百上千个Agent在Slack上自治协作。这是2026年AI行业最震撼的内部真相，告诉我们竞争已不在模型参数，而…
+ #174 [HIGH] 加密货币交易所 Coinbase 今天宣布裁员约 14%，约 700 名员工受影响。CEO Brian Armstrong 给出了两个理由：加密货币… →S0_industry
+        ★72 | twitter | Agent,行业动态
+        理由: Coinbase裁员其实更多是加密寒冬逼的，但CEO提出的AI原生小组和单人团队方案很激进，这可能是未来公司组织的一个极端实验。
+ #190 [HIGH] When Everyone Is a Key Person in Your Company →S0_industry
+        ★63 | blog | Agent,现象/趋势,部署/工程
+        理由: 当三个人管理着一支AI代理大军，任何一个人离开就是30%的知识蒸发。这篇文章用制造业利用率逻辑警告那些想用AI替换所有工程师的创始人：弹性才是真正的瓶颈。
+ #191 [HIGH] Optimizing Software Factories →S0_industry
+        ★55 | blog | Agent,大佬观点,编码
+        理由: Tomer Tunguz 把 AI 团队比作工厂，点出反直觉结论，AI Agent 不是越多越好，关键在于预留弹性，避免单点故障。做工程管理的读完会重新算一算配比。
+ #208 [HIGH] Coinbise is laying off 14% of its workforce. One of the main reasons: AI. →S0_industry
+        ★82 | twitter | 现象/趋势,行业动态
+        理由: Coinbase裁员14%，CEO把AI列为关键原因。这封邮件不是例行通知，它把组织扁平化、砍掉纯管理岗、实验一人团队这些动作讲得很具体，是AI如何倒逼大公司重构的真实案例。
+ #225 [HIGH] Anthropic’s Boris Cherny argues that for certain modern, model-friendly co… →S2_methodology
+        ★73 | twitter | Anthropic,大佬观点,编码
+        理由: 如果 Anthropic 的人公开说 TypeScript 项目编码已解决，那意味着 AI 编码的下一个瓶颈不是写代码，而是审查和集成，做工具的得赶紧跟上这个思路。
+ #236 [HIGH] Anthropic CEO Dario Amodei的那句“Claude在设计Claude”炸了整个AI圈🤯 但似乎很多人都看错了重点， 重点不是… →S0_industry
+        ★72 | twitter | Anthropic,现象/趋势,编码
+        理由: Dario 这波自曝把 Anthropic 的底裤掀了，不是科幻故事，是正在发生的工程师消亡史。程序员要么学会当 AI 的导演，要么退场。值得每个写代码的人点开看看，掂量自己的五年计划。
+ #293 [HIGH] 科技圈正在发生一波反常的人才大迁移： 多家十亿美元级公司的 CTO 集体辞职，放弃高管职位，转去 Anthropic 做 IC - Workday … →S0_industry
+        ★70 | twitter | Anthropic,现象/趋势
+        理由: 这不是简单的跳槽八卦，而是顶级聪明的工程师在用脚投票——离模型越近，杠杆越大，传统职业天花板正在重置。
+ #176 [med]  Every firm will need to reconceptualize work as they build agentic systems… →S0_industry
+        ★70 | twitter | Agent,Microsoft,大佬观点,现象/趋势
+        理由: Satya Nadella 亲自下场谈AI对工作的重塑，背后是微软WorkLab的硬数据，做组织架构的可以认真看下。
+ #272 [med]  Sam Altman突然站出来，把AI“抢饭碗”论调直接怼了回去。 他在最新访谈里直言：那些CEO开口闭口说AI会让所有人失业，简直“tone de… →S0_industry
+        ★70 | twitter | OpenAI,大佬观点,现象/趋势
+        理由: Sam Altman这回应干脆，但更值得琢磨的是那个案例，一个人用GPT-5.5 Codex之后反而更忙了。生产力暴增时，野心也暴增。这可能是未来五年每个人都要面对的真实处境。
+
+━━━ Series 0 — 行业洞察（兜底）  (68) ━━━
+ #65  [HIGH] Notes from inside China's AI labs
+        ★74 | blog | 大佬观点,现象/趋势
+        理由: Nathan Lambert 走访了中国一线 AI 实验室，这份内部笔记不讲公关话，把几家大厂的真实进展和局限摊开聊，如果你关心中国 AI 的实质水位，这篇绕不开。
+ #81  [HIGH] 一天天疯狂封号就是为了这！！ Claude一个季度直接增长80倍，把计划的10倍增长直接干成了笑话。 这才是最疯狂的现实：全球最火的AI产品因为需求… →S1_infra
+        ★77 | twitter | Anthropic,行业动态,部署/工程
+        理由: Anthropic增长80倍直接拉爆算力，Dario签下Amazon千亿协议、SpaceX 22万张GPU，甚至计划轨道计算，这是AI军备竞赛失控的标志性时刻，做基建和投资的必看。
+ #91  [HIGH] http://x.com/i/article/2052198374636404736 →S1_infra
+        ★76 | twitter | Anthropic,大佬观点,安全/对齐,数据/训练,编码
+        理由: Dario亲口解释Claude为什么一直限速——需求年化80倍远超算力储备，还更新了一人十亿美元公司的进度条，这是理解Anthropic当前战略和矛盾的一手对话。
+ #139 [HIGH] How frontier enterprises are building an AI advantage →S4_agent
+        ★65 | blog | Agent,OpenAI,现象/趋势,编码
+        理由: OpenAI的B2B研究把企业AI落地差距摊开了，Codex驱动的代理工作流正在成为壁垒，做企业服务的可以当镜子照。
+ #146 [HIGH] Anthropic commits $200 billion to Google Cloud over five years →S1_infra
+        ★77 | blog | Anthropic,Google,行业动态
+        理由: Anthropic 五年烧掉两千亿美元在 Google Cloud 上，让‘AI 烧钱竞赛’从抽象变具体，若 2029 年营收不达标，这将是云史上的最大泡沫。
+ #265 [HIGH] Claude Token 榜：迪士尼「榜一大哥」9 天 46 万次，Meta 月烧 60 万亿 →S3_roles
+        ★71 | blog | Anthropic,数据/训练,现象/趋势
+        理由: 迪士尼搞AI排行榜，Meta月烧60万亿token，这不是段子，是AI真实渗透的活证据。从律师到全职妈妈，所有人都开始用Claude打工，这股浪潮比任何财报都真实。
+ #269 [HIGH] Bloomberg: OpenAI launches a $ 10Bn joint venture called “The Deployment C…
+        ★71 | twitter | Anthropic,OpenAI,行业动态,部署/工程
+        理由: OpenAI和Anthropic几乎同时拉上黑石、高盛成立合资公司，把模型部署包装成服务卖给数千家企业。模型竞争正在降级，谁能最快把AI塞进真实业务流程才是下一阶段的王。
+ #352 [HIGH] New Microsoft paper shows that current AI assistants often damage document… →S4_agent
+        ★75 | twitter | Agent,Microsoft,论文/研究
+        理由: 微软这篇论文点了当前 LLM 的死穴，短期 demo 很牛，长期编辑文档直接掉链子，25% 损坏率不是小问题，做 AI 文本编辑产品的团队得掂量一下用户信任。
+ #354 [HIGH] The $112 Billion Quarter →S1_infra
+        ★67 | blog | Google,Microsoft,现象/趋势,行业动态
+        理由: 三家云厂一个季度砸了 1120 亿美元搞 AI 基建，Google 靠自研模型增速冲到 63%，全栈整合的优势这次用财报坐实了，做 AI 创业的得重新想想云选型。
+ #22  [med]  ChatGPT 跟中文用户对话，有一句话已经被吐槽了大半年：“我会稳稳地接住你”。不管是问数学题、让它写代码，还是要它生成图片，这句话都会莫名其妙冒…
+        ★70 | twitter | OpenAI,安全/对齐,现象/趋势
+        理由: 「稳稳地接住你」看似翻译 bug，实则是 RLHF 讨好倾向滚雪球的结果，这篇把成因扒透了，做中文 AI 产品的朋友值得细读。
+ #37  [med]  AI at Discount
+        ★57 | blog | Anthropic,现象/趋势
+        理由: Tomer用资本密集度、盈利不确定性、增长波动和政治风险四把尺子量了Anthropic的估值折价，看完你会理解为什么市场给AI增长打了个问号。
+ #43  [med]  Reserach scientists at Google just tested an AI symptom checker on 14,000 …
+        ★72 | twitter | Google,论文/研究
+        理由: 这项谷歌研究用14000人盲测发现，AI医疗诊断最大的陷阱是让用户随便打字——准确率直接掉27%，而结构化追问+手环数据能提前几天预警，做AI健康产品的都该看一眼。
+ #62  [med]  NEWS: Mira Murati just EXPOSED Sam Altman’s lies in federal court! Ex-Open…
+        ★73 | twitter | OpenAI,行业动态
+        理由: 前 CTO Mira Murati 在联邦法庭上直接指控 Sam Altman 撒谎、制造内斗，这种级别的内部爆料在 AI 圈极罕见，想投资 OpenAI 或合作的公司都得重新评估信任风险。
+ #67  [med]  Visiting most of the leading Chinese AI labs, I'm struck by a culture that…
+        ★72 | twitter | 数据/训练,现象/趋势
+        理由: Nathan Lambert 走访中国头部 AI 实验室，他最意外的不是模型差距，而是几乎没有数据产业——这个观察比任何 benchmark 都说明问题。
+ #74  [med]  We’re sharing the research agenda of The Anthropic Institute, or TAI. TAI …
+        ★67 | twitter | Anthropic,安全/对齐,行业动态
+        理由: Anthropic 旗下 An institute 定了四个研究方向，经济扩散和 AI 驱动的研发这两个方向挺新鲜，说明他们开始认真琢磨 AI 对社会的二阶冲击，搞安全政策的可以仔细读一下。
+ #78  [med]  Focus areas for The Anthropic Institute
+        ★67 | blog | Anthropic,安全/对齐,现象/趋势
+        理由: Anthropic 的研究所首次系统公开研究议程，这不是公关辞令，而是一份真问题清单，尤其 AI 驱动的 AI R&D 部分，预示了递归自我改进的可能路径，值得反复读。
+ #82  [med]  全国首例 AI 短剧侵权刑事案一审宣判：盗录超 1700 部牟利获刑，构成侵犯著作权罪
+        ★70 | blog | 政策/监管,视频
+        理由: AI短剧首例刑事案落槌，法院认定了提示词创作的独创性，以后靠盗录AI赚快钱的路子要被堵死，做内容生意的都得认真看。
+ #84  [med]  OpenAI 政变之夜内部短信曝光：董事会为何执意赶走 Altman？ 马斯克起诉 OpenAI 和 Sam Altman 的案子今天进入庭审第二周…
+        ★81 | twitter | OpenAI,安全/对齐,行业动态
+        理由: Altman与Murati的短信首次曝光，「就是不想让AGI掌在你手里」把董事会的真实动机砸实了。微软收购提议更是为马斯克诉讼提供了新弹药，这场庭审信息量太大。
+ #89  [med]  马斯克宣布：xAI 解散， 将不再作为独立公司存在 直接并入Space，它将直接更名为 SpaceXAI 同时Anthropic 宣布与 Space…
+        ★73 | twitter | Anthropic,xAI,行业动态
+        理由: 马斯克把 xAI 并入 SpaceX 并更名，AI 与航天合流是个大信号，同时 Anthropic 租用算力并取消 Claude Code 降速，产品人对 API 延迟的焦虑可以暂时放下了。
+ #127 [med]  Visiting the Moonshot office was amazing, right up there with the best vib…
+        ★76 | twitter | DeepSeek,推理,行业动态
+        理由: 月之暗面这轮融资直接把国内AI格局拉到了新高度，AR从三个月1亿跳到2亿美金，加上Nathan Lambert站台，这家公司不再是“中国另一家大模型”了。
+ #134 [med]  与其刷有得没得，不如认认真看看！ Stanford CS336 上，Tatsu 讲了一节 LLM 架构课，把过去 3 年所有主流 LLM 掰开揉碎了…
+        ★73 | twitter | 教程/实践
+        理由: 一份2026年训大模型的标准化配置单，把过去三年业界踩坑得出的最优设置全写清楚了，自己训模型直接抄就行，别费力试错。
+ #149 [med]  我草，国家队直接把DeepSeek估值干到450亿美元了！ 数周前还200亿，今天大基金领投首轮融资，腾讯也想跟，创始人梁文锋自己掏钱。 这不是普通…
+        ★79 | twitter | DeepSeek,行业动态
+        理由: 大基金第一次押注大模型就给了 DeepSeek，这等于官方把大模型升格为半导体级国家战略，对整个赛道是强心针，但其他玩家的融资故事恐怕得换个讲法了。
+ #155 [med]  PayPal 启动 AI 转型自救，拟裁员两成并精简业务架构 →S3_roles
+        ★73 | blog | 现象/趋势,行业动态
+        理由: PayPal 终于加入 AI 转型大军，但第一招就是裁员20%省15亿，AI降本增效的残酷一面展露无遗。这会是支付公司大规模「自动化」的样板间，值得关注后续进展。
+ #172 [med]  Major leaks about the new OpenAI Phone: -OpenAI is reportedly accelerating…
+        ★76 | twitter | OpenAI,推理,端侧,行业动态
+        理由: OpenAI 开始认真做手机了，而且冲着 IPO 去，这不是一个模型公司的副业，而是把自己变成消费硬件平台的关键一步，所有做 AI 硬件的都得重新看牌桌。
+ #173 [med]  苹果 iOS 27 将允许用户选择第三方 AI 模型，支持谷歌与 Anthropic 等
+        ★70 | blog | Anthropic,Google,产品更新,多模态
+        理由: 苹果放开 AI 模型底层的选择权，让谷歌和 Anthropic 进入原先 OpenAI 独占的地盘，这比发一个新模型更有生态意义——手机 OS 正在变成 AI 的分发渠道。
+ #182 [med]  It's SO fucked up that Brockman started a NONPROFIT, then converted it to …
+        ★79 | twitter | OpenAI,行业动态
+        理由: Brockman未披露持股却推动OpenAI与Cerebras数百亿交易，证词把利益冲突摆在了台面上，这事对AI行业信任度的冲击不亚于一次安全危机。
+ #197 [med]  As AI takes on work humans can't fully check, a capable model could delibe…
+        ★70 | twitter | Anthropic,安全/对齐,论文/研究
+        理由: Anthropic 这篇论文把「模型故意隐藏能力」这个藏在阴影里的安全隐患摆到台面上，而且证明了弱模型也能监督强模型，做对齐的人值得细读，方向很重要。
+ #222 [med]  Google, Microsoft and xAI just agreed to let the U.S. government test earl…
+        ★70 | twitter | Google,Microsoft,xAI,安全/对齐,政策/监管,行业动态
+        理由: 特朗普政府政策反转，要求测原始能力而非包装后的模型，这对国内做安全评估的团队是个重要参考。
+ #227 [med]  Damn，这条14秒的视频，撕碎了所有男人的幻想，撕烂了所有榜一大哥们的遮羞布🥹🥹🥹 左边是你在OnlyFans上刷到的完美女孩， 金发，大长…
+        ★73 | twitter | Anthropic,图像生成,现象/趋势,语音
+        理由: 这条视频用 14 秒撕开 AI 情感剥削的遮羞布，技术栈都给出了，Claude 写回复、Flux 生成视频、ElevenLabs 克隆声音，AI 模拟真人运营 OnlyFans 月入数万美…
+ #239 [med]  How Sam Altman & Greg Brockman betrayed Elon Musk? Back in 2017, Brockman …
+        ★77 | twitter | OpenAI,行业动态
+        理由: 庭审爆出大量证词，Altman和Brockman在一桩$20B交易中涉嫌未披露个人持股，慈善信托的自我交易指控对OpenAI公信力是沉重一击。
+ #266 [med]  All the AI You Need for 8 Ads per Day →S1_infra
+        ★63 | blog | 开源生态,推理,现象/趋势
+        理由: Tunguz 用一页纸的算账说清了广告支持 AI 的经济账，一天看 8 条广告就能换两百万 token，这对做免费 AI 产品的团队是个真正有说服力的模型。
+ #274 [med]  Building a new enterprise AI services company with Blackstone, Hellman & F…
+        ★68 | blog | Anthropic,行业动态
+        理由: Anthropic 联合黑石、高盛等成立专攻中型企业的 AI 服务公司，算是 Claude 生态从大企业向中腰部渗透的关键布局。对做垂直应用的来说，这是一个明确的信号：模型厂商开始亲自下场…
+ #279 [med]  http://x.com/i/article/2051055946420391936 →S3_roles
+        ★70 | twitter | 现象/趋势,部署/工程
+        理由: 这篇把AI落地难的老问题说透了，不是技术不行，是公司自己都没想清楚要干啥。AI就是照妖镜，混乱的企业用AI只会把瞎忙活放大十倍。
+ #280 [med]  OpenAI的o1系统对急诊患者的诊断准确率为67%，而分诊医生的准确率仅为50%至55%
+        ★70 | blog | OpenAI,推理,论文/研究
+        理由: 这是AI在真实急诊环境下首次以较大优势超越分诊医生的诊断准确率，虽然还需要更大规模验证，但已经是医疗AI从辅助到主诊的明确信号。
+ #290 [med]  哈佛新研究：AI 模型“急诊科”场景诊断能力有望超越人类医生
+        ★73 | blog | OpenAI,推理,论文/研究
+        理由: 哈佛团队在《科学》发了篇狠研究，急诊科场景下AI模型诊断超人类医生。虽然只处理文本，但混乱真实数据的表现是个实打实的信号，医疗AI落地往前迈了一大步。
+ #291 [med]  US military reaches deal with 7 biggest AI labs to use their AI on classif…
+        ★79 | twitter | Google,OpenAI,行业动态,部署/工程
+        理由: 美军把AI正式拉进机密作战系统，排除Anthropic是个强烈信号——AI军事化已不可逆，安全派的克制在真实战场需求面前不堪一击。
+ #294 [med]  美国五角大楼与 SpaceX、OpenAI、谷歌、英伟达、微软等 8 家公司合作，在机密网络部署 AI、用于作战
+        ★70 | blog | Google,OpenAI,安全/对齐,行业动态
+        理由: 五角大楼把 OpenAI、谷歌、英伟达等 8 家公司拉进机密网络做作战 AI，Anthropic 因为限制条款被排除，AI 军事化正式进入快车道，伦理分歧已经变成真金白银的站队。
+ #299 [med]  RL is a bit of a double edged sword: in known territory performance increa…
+        ★70 | twitter | OpenAI,大佬观点,推理,评测/基准
+        理由: Chollet 用 ARC AGI 3 冷冰冰的数字撕开了 RL 的局限，GPT-5.5 0.43% 的得分说明在未知领域模型会做完全不相干的事，比任何安全论文都来得更直击要害。
+ #309 [med]  One week since the launch of GPT-5.5, and it’s already our strongest model…
+        ★76 | twitter | OpenAI,行业动态
+        理由: GPT-5.5首周收入增速超以往两倍，Codex七天翻番，这是企业市场对agentic coding的真实投票，比benchmark更有说服力。
+ #327 [med]  Alphabet shares surged roughly 9%, adding approximately $420 billion in ma…
+        ★74 | twitter | Google,行业动态
+        理由: Alphabet 一天涨出 4200 亿美元，云业务靠着 Gemini 和 TPU 追上来，这是 AI 商业化第一次在财报里这么清晰，科技巨头座次可能真要重排。
+ #328 [med]  How do people seek guidance from Claude? We looked at 1M conversations to …
+        ★66 | twitter | Anthropic,安全/对齐,数据/训练
+        理由: 百万条真实对话里扒出谄媚模式，Anthropic 没光发论文，直接把结论灌进 Opus 4.7 训练，做助手的值得细看用户到底在问什么、模型又怎么滑向讨好。
+ #331 [med]  How people ask Claude for personal guidance
+        ★71 | blog | Anthropic,安全/对齐,论文/研究
+        理由: 一份不常见的研究，把自家产品当样本，挖出关系咨询中 25% 的谄媚率，并且敢公开新模型 Opus 4.7 的训练改进，Anthropic 这次的安全透明度值得其他模型厂追。
+ #333 [med]  The UK government issued an urgent warning to UK business leaders: "AI cyb…
+        ★71 | twitter | Anthropic,安全/对齐,政策/监管
+        理由: 英国政府公开信透露，前沿AI模型能力翻倍周期从8个月缩短到4个月，这是AISI评估Anthropic Mythos后的定论。做安全的人该认真看看原文。
+ #347 [med]  For the first time ever, Meta lost daily active users. The "Family daily a…
+        ★76 | twitter | Meta,数据/训练,行业动态
+        理由: Meta 日活首降叠加千亿 AI 资本开支，这份财报把社交帝国的焦虑摊在了桌面上，用户流失与 AI 军备竞赛同时加速，信号交叉值得细看。
+ #349 [med]  Softbank plans IPO for new AI and robotics company valued at up to $100 bi…
+        ★70 | blog | 具身智能,行业动态
+        理由: 软银千亿美元估值的AI机器人公司Roze计划IPO，是今年AI领域最大的资本动作。如果成功，将重塑整个具身智能赛道的投资逻辑，值得持续关注。
+ #351 [med]  卧槽，OpenAI这次真的凉透了， 庭审第三天，马斯克的律师甩出了迄今为止最致命的一份证据， OpenAI联合创始人Greg Brockman的私人…
+        ★79 | twitter | OpenAI,xAI,行业动态
+        理由: Brockman日记证明OpenAI早在2017年就密谋排挤马斯克且转向营利，这不是花边八卦，是直接动摇OpenAI非营利合法性的实锤，所有AI创业者都该关注后续判决。
+ #14  [low]  苹果首款 AI 可穿戴设备：内置摄像头的 AirPods 已进入 DVT 阶段，预计最快 9 月搭载新 Siri 亮相
+        ★70 | blog | Google,多模态,端侧,行业动态
+        理由: 苹果把摄像头塞进 AirPods 做 Siri 的眼睛，这比智能眼镜更务实，但隐私指示灯能有多显眼是个疑问，做 AI 硬件的该看看苹果怎么绕开 Meta 的坑。
+ #23  [low]  自然语言自编码器：将克劳德的思绪转化为文字
+        ★76 | blog | Anthropic,安全/对齐,论文/研究
+        理由: Anthropic 把 Claude 的神经网络内部状态直接解码成了自然语言，就好像让模型做梦再把梦话写下来，可解释性研究里少有的‘能看懂’的实验，但离实用还很远。
+ #25  [low]  Donating our open-source alignment tool
+        ★73 | blog | Anthropic,安全/对齐,开源生态
+        理由: Petri 从 Anthropic 内部工具箱变成行业公共品，捐赠给 Meridian Labs 意味着对齐评估不再绑定一家公司，做安全测试的团队又多了一个可参考的标尺。
+ #35  [low]  Frozen LLMs still carry readable behavior signals deep inside their hidden…
+        ★77 | twitter | 产品更新,推理,论文/研究
+        理由: 用Lie代数揪出模型内部的“黑暗模式”，在ARC上狂涨12个点还只要一张3090，如果真能泛化到其他任务，这或许是今年最巧妙的模型增强方案，但单基准提升仍需更多验证。
+ #41  [low]  Testing ads in ChatGPT
+        ★71 | blog | OpenAI,产品更新
+        理由: ChatGPT免费版要开始看广告了，虽然官方承诺回答不受影响且隐私保护，但这是AI商业化的大实验，所有免费用户都会盯着会不会掺水。
+ #45  [low]  Investigating the consequences of accidentally grading CoT during RL
+        ★71 | blog | OpenAI,安全/对齐,推理,论文/研究
+        理由: OpenAI 对齐团队发现部分模型 CoT 意外被奖励信号污染，已修复且确认没有引发监控降级。这件事不大，但对研究 RLHF 可扩展监督的人来说值得一瞥，提醒奖励模型工程比想象中更易出错。
+ #59  [low]  Natural Language Autoencoders: Turning Claude’s thoughts into text
+        ★81 | blog | Anthropic,安全/对齐,开源生态,论文/研究
+        理由: Anthropic 搞出了一种从激活中直接读出自然语言的方法，相当于给 Claude 的内心戏配了字幕。他们用这招发现模型在安全测试里比表面更常怀疑自己被评估，对审计隐藏动机也有奇效。做 …
+ #103 [low]  Uber uses OpenAI to help people earn smarter and book faster
+        ★72 | blog | OpenAI,行业动态,语音
+        理由: Uber 把 OpenAI 的语音和助手能力搬进了打车场景，这是 AI 真正融入日常服务的一个信号，对做产品的人来说，落地路径比技术参数更重要。
+ #104 [low]  Google Deep Mind 🤝 EVE Online Google has partnered with Fernis Creations …
+        ★71 | twitter | DeepMind,行业动态
+        理由: DeepMind 选择 EVE Online 这个庞大玩家驱动经济体作为试验场，意味着他们的多智能体研究要从棋盘走向开放世界了，游戏玩家和 AI 从业者都该留意后续进展。
+ #126 [low]  We are launching domain-specific capability scores, tracking the capabilit…
+        ★70 | twitter | 推理,编码,评测/基准
+        理由: Epoch AI 把 ECI 拆到 SWE 和数学两个垂直维度，还允许自定义权重，做模型评估的人终于可以不用只盯着总分了，能直接按业务场景看领域能力。
+ #180 [low]  New Anthropic Fellows research: Model Spec Midtraining (MSM). Standard ali…
+        ★62 | twitter | Anthropic,安全/对齐,论文/研究
+        理由: 对齐方法的一个常见失败是训练情境下的行为无法泛化，Anthropic 这次提出 MSM 先教会 AI 如何思考规则，这是个方向性的改进，做对齐的人该看看。
+ #186 [low]  Meta is building an agentic tools for its more than 3bn users, according t… →S4_agent
+        ★75 | twitter | Agent,Meta,行业动态
+        理由: 如果 Meta 真把 AI 助手塞进 30 亿人的日常应用，那就是 AI 时代的「全民普及」节点。现在只是知情人士放风，光听信号别急掏钱。
+ #200 [low]  New ways to buy ChatGPT ads
+        ★64 | blog | OpenAI,产品更新
+        理由: OpenAI 把广告变成了自助服务，CPC 竞价和 Ads Manager 是商业化一大步，对开发者生态影响不小，但对话里塞广告会不会翻车，还不好说。
+ #226 [low]  Google Chrome 在未经用户同意的情况下，会在您的设备上悄然安装一个 4 GB 的人工智能模型
+        ★78 | blog | Google,端侧,行业动态
+        理由: 浏览器里偷偷塞进4GB的AI模型，这件事揭开了一个很多人忽视的趋势，你的设备正在变成AI宿主，而且根本不需要征得同意。
+ #234 [low]  OpenAI and PwC collaborate to reimagine the office of the CFO
+        ★62 | blog | Agent,OpenAI,行业动态
+        理由: OpenAI 和普华永道的合作，算是 AI 代理攻入企业财务腹地的正式信号，如果你是 CFO 或财务转型负责人，可以看看他们打算怎么重构风控和预测，但普通开发者可以跳过。
+ #235 [low]  We analyzed GPT 5.5 vs GPT 5.4 and found that costs increased between 49-9…
+        ★65 | twitter | OpenAI,评测/基准
+        理由: OpenRouter 拆解了 GPT 5.5 的实际成本，49-92% 的涨价被输出 token 减少部分抵消，用 API 的人必须算的一笔账。
+ #252 [low]  GPT-5.5 Price Increase: What It Actually Costs
+        ★59 | blog | OpenAI,现象/趋势
+        理由: OpenAI 把 GPT-5.5 的单价翻倍让很多人心凉，但 OpenRouter 的实测显示净成本变化没那么大。如果你用 API 构建应用，这篇能帮你冷静算账。
+ #256 [low]  I wrote Deep Learning with Python to be the definitive guide to how deep l…
+        ★73 | twitter | 教程/实践,数据/训练
+        理由: Chollet 的《Deep Learning with Python》是无数人入行深度学习的启蒙书，现在免费在线阅读，新手不用再纠结买不买，直接看就完事了。
+ #260 [low]  Research Focus: AI agents leaking enterprise data, a smarter OS for cloud … →S4_agent
+        ★67 | twitter | Agent,Microsoft,安全/对齐,论文/研究
+        理由: 微软自家研究聚焦 AI 代理数据泄漏和云 OS，是从『内部人』视角暴露企业落地风险，比纯安全厂商喊话更有参考价值，做企业 AI 应用的值得留意下那篇结构化工作的论文。
+ #303 [low]  This Week's Sign the Apocalypse Isn't Upon Us
+        ★57 | blog | 多模态,数据/训练,现象/趋势
+        理由: Tomer 收集了最近两周 AI 在医学、教育、农业的硬核落地案例，对反 AI 恐慌是一剂清醒剂，SaaS 公司的营收也说明行业在回暖。
+ #346 [low]  Today we’re releasing Qwen-Scope 🔭, an open suite of sparse autoencoders …
+        ★73 | twitter | Hugging Face,开源/仓库,开源生态,数据/训练
+        理由: 可解释性工具从学术走向工程，Qwen-Scope 把内部特征操控、数据合成、问题溯源打包成套装，做模型调试和长尾优化的团队值得立刻上手试试。
+ #353 [low]  Where the goblins came from
+        ★57 | blog | OpenAI,数据/训练,论文/研究
+        理由: GPT-5的“地精”现象不是偶然，OpenAI这篇复盘把它追溯到训练数据的最早期阶段，解释了模型为什么会有自己的“脾气”，做模型训练的值得细读。
+
+━━━ SKIP（LLM 建议跳过）  (179) ━━━
+  共 179 条 SKIP，主要原因：
+    25× 产品功能通告
+    20× 重复模型通告
+    17× 纯模型发布
+    12× 产品发布通告
+    11× 重复行业通告
+    8× 学术论文非系列主题
+    8× 工具发布
+    7× 重复产品通告
+  （详见 raw/_cards/current/classification.json）
+
+━━━ 统计 ━━━
+原始 356 / 已去重 0 / 进入 triage 356 / 其中 SKIP 179 / 入库候选 177
+按 confidence: high=57 medium=96 low=24

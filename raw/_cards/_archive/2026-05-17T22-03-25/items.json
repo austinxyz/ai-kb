@@ -1,0 +1,543 @@
+{
+  "fetched_at": "2026-05-16T05:48:49.811Z",
+  "window": {
+    "since": "1d",
+    "until": "2026-05-16T05:48:49.811Z"
+  },
+  "source": "aihot.virxact.com",
+  "fetch_method": "public_api",
+  "curated_only": true,
+  "items": [
+    {
+      "aihot_id": "cmp7r64470cn3slnzbumhcutg",
+      "aihot_url": "",
+      "title": "尝试一下将 PPT Skills 作为产品去迭代和发布。\n\n藏师傅 PPT Skills 截图美化逻辑更新\n\n不需要消耗 GPT-Image 2.0 即可生成了！\n\n现在内置了跟当前颜色和主题相吻合的...",
+      "summary": "藏师傅PPT Skills产品更新，新增截图美化功能。该功能无需消耗GPT-Image 2.0资源，即可根据用户截图的大小、长宽比以及当前PPT的模板类型和颜色主题，自动匹配合适的背景图，实现类似CleanShot X等专业软件的截图美化效果。AI还能处理过长等有问题的图片，例如将其自动裁剪并排成两列展示。",
+      "recommendation_reason": "藏师傅把截图美化做成了PPT Skills的标配功能，不再消耗GPT-Image，这种省成本的更新对高频做PPT的人是真香。",
+      "tags": [
+        "产品更新",
+        "教程/实践"
+      ],
+      "starred_count": 79,
+      "published_at": "2026-05-16T02:35:19.000Z",
+      "source_url": "https://x.com/op7418/status/2055477163579891897",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp7mvr030bmvslnzaxryw471",
+      "aihot_url": "",
+      "title": "兄弟们，3D资产生成彻底要起飞了。 \n\nCambridge大学助理教授Elliott Wu（前Stanford、Oxford背景）团队刚放出了Articraft——一个真正的agentic codin...",
+      "summary": "剑桥大学团队推出Articraft，这是一个由智能体驱动的编码系统，能全自动生成带关节、可运动的交互式3D资产。系统通过AI智能体自主编写代码、执行并接收物理反馈迭代优化，将以往需数日甚至数周的创作过程极大简化。团队同时开源了Articraft-10K数据集，包含超1万个物体，覆盖250个类别，所有资产均仿真就绪。此举显著降低了机器人训练和物理AI领域对高质量3D资产的数据门槛，为解决“数据饥渴”问题提供了高效的自动化方案。",
+      "recommendation_reason": "这个开源直接把物理AI训练的资产瓶颈打掉了一大半，agent全自动生成带关节的可交互3D，做仿真和机器人的可以立刻拉代码试试，诚意很足。",
+      "tags": [
+        "Agent",
+        "具身智能",
+        "开源生态",
+        "论文/研究"
+      ],
+      "starred_count": 77,
+      "published_at": "2026-05-16T00:23:53.000Z",
+      "source_url": "https://x.com/berryxia/status/2055444087684407505",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp7ip3e70anyslnzwh7n9yp0",
+      "aihot_url": "",
+      "title": "v2.1.143",
+      "summary": "Claude Code 发布 v2.1.143 版本，重点增强了插件管理功能，包括强制执行插件依赖关系，并新增了插件市场的预估上下文成本显示。为方便直接编辑工作副本，增加了 `worktree.bgIsolation: \"none\"` 设置。多项体验得到改进：后台会话唤醒后保留模型与努力级别设置；Windows PowerShell 工具默认绕过执行策略；`claude agents` 命令新增多个参数以配置默认会话。此外，本次更新修复了大量错误，包括修复损坏的 `.credentials.json` 文件导致 CLI 启动卡住、Windows Terminal 中的右键粘贴问题、后台会话错误捕获 IDE 文件引用，以及 macOS 上后台作业读取特定目录文件的权限错误等。",
+      "recommendation_reason": "Claude Code 的 v2.1.143 是个纯修补版本，修了一大堆边缘 bug 外加几个小优化，对重度用户可能是救命稻草，其他人可以等下次大版本。",
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "产品更新",
+        "编码"
+      ],
+      "starred_count": 61,
+      "published_at": "2026-05-15T22:28:22.000Z",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+      "source_type": "github",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp7gzh5x0abkslnz3k1vgqjz",
+      "aihot_url": "",
+      "title": "People freaking out over my AI spend. What nobody sees: Part of what excites me so much about workin...",
+      "summary": "作者在OpenClaw项目中大规模运用AI，探索在“令牌成本无关紧要”的未来如何构建软件。团队持续运行约100个Codex实例，自动化处理多项核心工作：审查代码与安全问题、去重归类议题、自动重现复杂测试环境并录制验证视频、从会议讨论中主动创建任务、过滤垃圾评论以及监控性能回归。通过clawpatch.ai等工具将项目拆分为功能单元进行审查，并整合Vercel DeepSec等进行安全分析。整套自动化体系使得项目能够以极精简的团队高效运作。",
+      "recommendation_reason": "Peter 这种「token 不要钱」的用法看似疯狂，但背后的自动化思路值得每个团队认真看看，尤其是 issue 自动闭环那一套，抄作业的门槛比想象中低。",
+      "tags": [
+        "Agent",
+        "教程/实践",
+        "编码"
+      ],
+      "starred_count": 72,
+      "published_at": "2026-05-15T21:48:44.000Z",
+      "source_url": "https://x.com/steipete/status/2055405041843052792",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp7gqr520a8sslnzyvbw2zpq",
+      "aihot_url": "",
+      "title": "The CEO of the world's most valuable semiconductor company just told a room full of computer science...",
+      "summary": "英伟达CEO Jensen Huang在卡内基梅隆大学告诉2026届计算机科学毕业生，电工、水管工等技工比他们更有前景。数据支持这一观点：Randstad分析显示技工需求增长是白领职位的三倍，机器人技术员职位增长107%，而斯坦福研究发现AI相关职位早期就业下降16%。顶级电工年薪超10.6万美元，无需学位负债。科技公司今年投资7000亿美元建设数据中心，全球到2030年预计达7万亿美元，这些基础设施依赖人力完成，但制造业面临劳动力短缺，每100名新工人进入就有102人离开。AI时代最大赢家是能建设数据中心的技工，而非提示工程师。",
+      "recommendation_reason": "Jensen Huang 的毕业演讲配上 Randstad 的数据，把 AI 时代的就业真相说透了——不是写 prompt 的，是拉电线的，这反转值得所有开发者关注。",
+      "tags": [
+        "大佬观点",
+        "现象/趋势",
+        "行业动态"
+      ],
+      "starred_count": 71,
+      "published_at": "2026-05-15T21:41:11.000Z",
+      "source_url": "https://x.com/kimmonismus/status/2055403142913884288",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp7ck9n009a6slnzs9t4octw",
+      "aihot_url": "",
+      "title": "starting today Krea 2 goes live for Pro users.",
+      "summary": "从今天起，Krea 2 正式为 Pro 用户上线。",
+      "recommendation_reason": "Krea 2 终于向 Pro 用户开放，虽然更新细节暂未披露，但版本号的跃迁加上 Krea 一贯的实时生成野心，做图像视频的值得第一时间上手试试。",
+      "tags": [
+        "产品更新",
+        "图像生成"
+      ],
+      "starred_count": 77,
+      "published_at": "2026-05-15T19:37:10.000Z",
+      "source_url": "https://x.com/krea_ai/status/2055371934452642107",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp7b8bdg08y8slnzf39s0jz4",
+      "aihot_url": "",
+      "title": "Runway Agent lets you go from a product shot and an idea to a fully finished ad in a single session....",
+      "summary": "Runway Agent 让你仅需一次会话，就能从产品照片和想法转变为完全制作完成的广告。\n立即通过下方链接开始体验。",
+      "recommendation_reason": "Runway Agent把广告制作压到一张产品图加一句话的极简流程，做电商和创意的值得上手测一下是不是真省时间。",
+      "tags": [
+        "产品更新",
+        "图像生成",
+        "视频"
+      ],
+      "starred_count": 78,
+      "published_at": "2026-05-15T19:08:03.000Z",
+      "source_url": "https://x.com/runwayml/status/2055364605979869229",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp7ajz1p08ucslnzqivkv5dv",
+      "aihot_url": "",
+      "title": "🩹 clawpatch 0.1.0 is live:\n\nClawpatch maps codebases into semantic feature slices, reviews them for...",
+      "summary": "🩹 clawpatch 0.1.0 已上线：\n\nClawpatch 将代码库映射成语义功能切片，审查其中的错误和质量问题，并记录经过验证的明确修复尝试。\n\n您会发现它能发现的问题之多令人惊讶。\nnpm install -g clawpatch\nhttps://clawpatch.ai",
+      "recommendation_reason": "Peter Steinberger 开源的 clawpatch 能把代码库切片成语义特征，自动揪出 bug 并验证修复，对日常写代码的人来说是个很实用的 CLI 小工具，值得装上试试。",
+      "tags": [
+        "产品更新",
+        "编码"
+      ],
+      "starred_count": 75,
+      "published_at": "2026-05-15T19:08:09.000Z",
+      "source_url": "https://x.com/steipete/status/2055364630709448970",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp798nad08i6slnzr5cbmstw",
+      "aihot_url": "",
+      "title": "Most AI tools give you a chat window.\n\nSai gives you a coworker with its own desktop.\n\nI told it: \"D...",
+      "summary": "AI工具Sai被设计为拥有独立桌面的“虚拟同事”，而非仅提供聊天窗口。用户可向其下达“深度研究某主题”等指令后离线，Sai会在安全的工作空间内自主操作：打开标签页、点击应用、阅读并交叉引用资料、做笔记，其工作方式类似人类研究员。任务完成后，它会整理好引用来源，并在执行任何潜在风险操作前请求用户批准。这展示了“始终在线”的计算机使用代理的实际形态。",
+      "recommendation_reason": "终于见到一个能在自己桌面默默干活的研究型 Agent，不是对话框，是同事。对于要做深度调研的人来说，这种“异步自主”才是 agent 该有的样子。",
+      "tags": [
+        "Agent",
+        "搜索",
+        "教程/实践"
+      ],
+      "starred_count": 70,
+      "published_at": "2026-05-15T18:14:46.000Z",
+      "source_url": "https://x.com/kimmonismus/status/2055351198467911769",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp780kw8087mslnzyamm5l6a",
+      "aihot_url": "",
+      "title": "Fun interview with Jacob Effron on the Unsupervised Learning podcast.",
+      "summary": "在Unsupervised Learning播客中，AI先驱杨立昆阐述了其对大型语言模型局限性的反主流观点，并探讨了机器人技术的发展路径。他解释了离开Meta的原因，以及与Geoff Hinton、Yoshua Bengio在图灵奖观点上的重大分歧。访谈还涵盖了他对2027年的预测、新公司AMI对世界模型的押注，并将OpenAI和Anthropic比作Sun Microsystems。此外，他建议博士生停止研究LLM，并分享了对AI安全、突破性研究发生机制以及Meta FAIR得失的尖锐见解。",
+      "recommendation_reason": "LeCun 这次播客几乎把近年的核心争议点全摊开了，从 LLM 局限性到 AMI 的世界模型赌注，还当面回应了与 Hinton、Bengio 的分歧，信息密度远超常规大佬推文。",
+      "tags": [
+        "Meta",
+        "大佬观点",
+        "现象/趋势"
+      ],
+      "starred_count": 71,
+      "published_at": "2026-05-15T17:56:57.000Z",
+      "source_url": "https://x.com/ylecun/status/2055346714039464373",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp7670my07u2slnzpgzvw1yy",
+      "aihot_url": "",
+      "title": "M2.7 is live on @OrcaRouter - accessible via a single OpenAI-compatible API. \n\nTry it today!🐋",
+      "summary": "M2.7已在@OrcaRouter上线——可通过单一OpenAI兼容API访问。\n\n今天就来试试吧！🐋",
+      "recommendation_reason": "M2.7 是国产开源模型里的第一梯队，现在能在 OrcaRouter 用统一 API 调用，价格很透明，想试试又不想自己部署的开发者可以直接上手。",
+      "tags": [
+        "开源生态",
+        "模型发布"
+      ],
+      "starred_count": 66,
+      "published_at": "2026-05-15T16:56:41.000Z",
+      "source_url": "https://x.com/MiniMax_AI/status/2055331545402245246",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp75zm1007rjslnzdjq1p1za",
+      "aihot_url": "",
+      "title": "Deploying Claude across the legal industry",
+      "summary": "2026年报告显示，法律团队生成式AI使用率已从44%跃升至87%。为应对日益复杂的工作，法律行业正将Claude应用于合同审阅、并购尽调及诉讼准备等核心流程，并通过多款产品组合提升效率：Chat用于即时研究，Claude Cowork处理跨文件协作，Microsoft 365插件集成办公套件，Platform支持定制应用开发。Anthropic同步发布法律行业部署指南，涵盖产品矩阵、12个预设业务领域插件及三阶段实施路线图，并解答数据托管与权限保护等关键问题。",
+      "recommendation_reason": "Anthropic法律团队亲自下场写路线图，从合同红笔到隐私评估，把Claude全家桶怎么用、什么时候用讲透了，律所和法务部可以直接照着推。",
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "starred_count": 67,
+      "published_at": "2026-05-15T17:01:02.568Z",
+      "source_url": "https://claude.com/blog/deploying-claude-across-the-legal-industry",
+      "source_type": "blog",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp75qfv107p0slnza9wzcnmd",
+      "aihot_url": "",
+      "title": "Eric Jang – Building AlphaGo from scratch",
+      "summary": "文章以AlphaGo为例，阐述了智能的基本构成要素。AlphaGo至今仍是最清晰、最完整的范例，它融合了三大核心基础：搜索技术、从经验中学习以及自我对弈。这三大要素共同构成了其实现超越人类棋艺的关键路径。",
+      "recommendation_reason": "从亲历者视角还原 AlphaGo 的架构决策，对做 RL 和搜索的人来说是教科书级的复盘点，比论文更生动。",
+      "tags": [
+        "DeepMind",
+        "大佬观点",
+        "推理"
+      ],
+      "starred_count": 61,
+      "published_at": "2026-05-15T16:04:58.000Z",
+      "source_url": "https://www.dwarkesh.com/p/eric-jang",
+      "source_type": "blog",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp74kzdx07fhslnzgxi917g9",
+      "aihot_url": "",
+      "title": "📢📢 𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝗶𝗻𝗴 𝗮𝗻 𝗲𝗻𝗵𝗮𝗻𝗰𝗲𝗱 𝗺𝗼𝗱𝗲𝗹 𝗳𝗼𝗿 𝗶𝗻𝗳𝗼𝗴𝗿𝗮𝗽𝗵𝗶𝗰 𝗴𝗲𝗻𝗲�...",
+      "summary": "SenseNova近日推出专为信息图表生成设计的增强模型SenseNova-U1-8B-MoT-Infographic。该模型能够根据指令生成多种视觉格式内容，包括海报、图表、食谱卡、明信片以及学术风格的arXiv页面等。在性能方面，模型在BizGenEval（困难版）和IGenBench（Q-ACC）两项基准测试上表现突出，相比其基础U1模型分别提升了6.8分和18.2分。目前，该模型已在Hugging Face平台开源，并提供了超过100个多样化的生成示例，供开发者和研究者参考与试用。",
+      "recommendation_reason": "商汤这个 8B 模型把信息图生成能力打包得很完整，海报、食谱卡、学术风格页面都能搞，做设计的可以试试看效果。",
+      "tags": [
+        "Hugging Face",
+        "图像生成",
+        "模型发布"
+      ],
+      "starred_count": 62,
+      "published_at": "2026-05-15T15:54:11.000Z",
+      "source_url": "https://x.com/SenseTime_AI/status/2055315819165597702",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp738tgu0738slnzxfplh82v",
+      "aihot_url": "",
+      "title": "http://x.com/i/article/2055299017211248640",
+      "summary": "Forward Deployed Engineer（FDE）是AI落地应用的关键角色，负责在客户现场部署和集成AI系统。近期，OpenAI成立独立部署公司，Anthropic与华尔街巨头合作，Google也简化流程大力招聘，显示行业重心正从模型竞赛转向商业落地。FDE工作介于工程师与顾问之间，需写代码、调试并深度理解业务。此岗位为毕业生提供了接触企业级项目的机会，也帮助资深工程师贴近业务需求，成为推动AI创造实际价值的重要力量。",
+      "recommendation_reason": "FDE这个岗位突然被OpenAI、Anthropic和Google砸几十亿赌上，说明AI公司的赚钱方式变了。这篇文章用大白话把它讲得明明白白，想知道AI落地趋势的人值得看。",
+      "tags": [
+        "现象/趋势",
+        "部署/工程"
+      ],
+      "starred_count": 71,
+      "published_at": "2026-05-15T15:22:14.000Z",
+      "source_url": "https://x.com/dotey/status/2055307775417139447",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp735uqj072oslnzjq1bedvf",
+      "aihot_url": "",
+      "title": "英国多部门联合警告：当前最先进 AI 模型网络攻击能力已远超专业人员，企业应做好防范措施",
+      "summary": "英国财政部、英格兰银行及金融行为监管局联合警告，当前最先进的AI模型已具备远超普通专业人员的网络攻击能力，其攻击速度更快、范围更广、成本更低。若被恶意利用，将严重威胁企业运营安全、客户数据、金融市场稳定性乃至整个金融体系。英格兰银行行长安德鲁·贝利此前已点名Anthropic的Mythos产品，网络安全专家亦警告此类AI可能强化复杂攻击，对银行业及金融技术体系构成新挑战。",
+      "recommendation_reason": "英国财政部、央行和监管局联合发声，直接点名Mythos，警告AI网络攻击已超专业人员水平。这不是一般的安全报告，是金融系统对AI风险的正式‘吹哨’，做金融科技和安全的企业得认真看看。",
+      "tags": [
+        "Anthropic",
+        "安全/对齐",
+        "政策/监管"
+      ],
+      "starred_count": 70,
+      "published_at": "2026-05-15T15:06:10.000Z",
+      "source_url": "https://www.ithome.com/0/951/144.htm",
+      "source_type": "blog",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp72z8pw0715slnz6cpkuxls",
+      "aihot_url": "",
+      "title": "Three big upgrades to BYOK on OpenRouter 🔑\n\n1/ Add multiple keys for the same provider in one works...",
+      "summary": "OpenRouter BYOK 三项重大升级 🔑\n\n1/ 可在同一工作空间为同一服务商添加多个密钥，并设置调用顺序。\n\n便于在速率限制间轮换、区分开发与生产凭证，或在团队账户间分配使用量！",
+      "recommendation_reason": "OpenRouter这次BYOK升级很实在，多了多密钥管理和顺序设置，做API分发的团队终于能告别手工切换凭证的痛了。",
+      "tags": [
+        "产品更新",
+        "部署/工程"
+      ],
+      "starred_count": 74,
+      "published_at": "2026-05-15T15:12:14.000Z",
+      "source_url": "https://x.com/OpenRouter/status/2055305259287801865",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp72xh52070qslnz2cdl9apt",
+      "aihot_url": "",
+      "title": "New tools, models, repos, and papers out of Microsoft Research are here. \n\nUse AI and agents? It's w...",
+      "summary": "微软研究院的新工具、模型、代码库和论文现已发布。\n\n使用AI和智能体？值得关注：\n• MSR AI Frontiers的MagenticLite\n• 智能体化GitHub工作流\n• 验证优先智能体\n• 意义匹配微调\n• AI转型与经济发展",
+      "recommendation_reason": "微软研究院这波把 agent 工具链摊开了，MagenticLite 轻量框架和 verification-first 思路值得跟，做智能体的可以去 GitHub 翻翻。",
+      "tags": [
+        "Agent",
+        "Microsoft",
+        "开源/仓库",
+        "行业动态"
+      ],
+      "starred_count": 67,
+      "published_at": "2026-05-15T15:06:54.000Z",
+      "source_url": "https://x.com/MSFTResearch/status/2055303919497089337",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp71za2106tqslnzc09muj8y",
+      "aihot_url": "",
+      "title": "Cannes Countdown | Featured speakers Lineup Unveiled for Kling AI Conference!\n\nThree world-class fil...",
+      "summary": "2026年戛纳电影节Kling AI大会将汇聚三位世界级电影制作人，展示他们运用Kling AI技术创作的标杆作品。中国动画导演魏立将分享AI生成动画《Born of the Tide》；Jon Erwin将解析为Amazon Prime制作的剧集《House of David》；Eekjun Yang则将介绍院线电影《RAPHAEL》的创作过程。三位讲者将深入探讨Kling AI在电影制作中的幕后应用，共同探索AI为影视创作带来的新可能性。活动定于2026年5月18日15:30至17:30，在戛纳影节宫主舞台举行。",
+      "recommendation_reason": "三位好莱坞级导演站台，拿成品说话，对做AI影视的人是难得的实战拆解，但这就是个活动预告，想看真东西还得等现场。",
+      "tags": [
+        "多模态",
+        "行业动态",
+        "视频"
+      ],
+      "starred_count": 61,
+      "published_at": "2026-05-15T15:00:02.000Z",
+      "source_url": "https://x.com/Kling_ai/status/2055302191129473502",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp71k78q06p8slnzvgf8b9x8",
+      "aihot_url": "",
+      "title": "你敢把 Opus 和 GPT 接入到小龙虾里跑吗？\n\n反正我是不敢，跑不起...\n\n但是不接入这些顶级模型，有些复杂任务，国产模型真的搞不定。\n\n发现一个以前不知道的团队做的开源项目 @OpenSqu...",
+      "summary": "开源项目OpenSquilla通过智能路由架构，在保持与OpenClaw相近性能（0.9251分）的同时，将复杂AI任务处理成本从6美元大幅降至0.68美元。其核心是将简单任务分配给廉价模型，仅复杂任务调用Opus等顶级模型。系统具备四层记忆结构模拟人脑认知，支持按需加载16种工具，并设有三档代码沙箱安全防护。项目提供统一后端，支持网页、命令行及Slack、飞书等平台接入，兼容OpenAI、Claude、Gemini、DeepSeek等20余家主流模型。",
+      "recommendation_reason": "虽然是个新开源项目，但用路由器把便宜模型和顶级模型混用的降本思路很接地气，成本从 6 美元砍到 6 毛 8，做 Agent 的值得点开源代码看看。",
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "开源/仓库"
+      ],
+      "starred_count": 74,
+      "published_at": "2026-05-15T14:50:37.000Z",
+      "source_url": "https://x.com/xiaohu/status/2055299820215300380",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp710n5t06keslnzp1ln3f39",
+      "aihot_url": "",
+      "title": "US AI policy is a clumsy mess. Here’s what to do about it.",
+      "summary": "美国各州和联邦层面已提出约1200项人工智能相关法案，但至今未能形成统一的国家政策框架。这种分散且矛盾的立法状态，可能导致监管冲突、创新受阻，并削弱美国在全球人工智能治理中的竞争力。当前亟需建立跨层级的协调机制，将零散的提案整合为连贯的战略，以平衡技术发展与风险管控。",
+      "recommendation_reason": "Gary Marcus 痛批美国 AI 政策有 1200 个法案却没有框架，给出的修复建议很实在，关心 AI 监管走向的可以一读。",
+      "tags": [
+        "大佬观点",
+        "政策/监管"
+      ],
+      "starred_count": 62,
+      "published_at": "2026-05-15T14:01:31.000Z",
+      "source_url": "https://garymarcus.substack.com/p/us-ai-policy-is-a-clumsy-mess-heres",
+      "source_type": "blog",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp6yru3g061kslnzz7uthrl7",
+      "aihot_url": "",
+      "title": "NEWS: 𝕏 has published the latest recommendation algorithm on GitHub.\n\nGrok Summary of the new algor...",
+      "summary": "X平台在GitHub开源了其“For You”信息流的最新推荐算法。该算法融合来自已关注账号的内容和通过相似性搜索发现的网络外内容，并利用基于Grok架构的Phoenix Transformer模型进行统一评分。模型通过分析用户近期互动，同时预测点赞、回复、转发等多种互动概率，并综合成最终相关性分数。排序过程包括候选内容收集、上下文信息补充、AI模型评分、多样性调整及垃圾信息过滤等步骤。此次开源提供了完整的可运行管道、预训练模型、内容理解服务及内置广告混合模块，核心计算完全由Transformer模型驱动。",
+      "recommendation_reason": "X 把推荐算法完整开源，带可跑的预训练 Phoenix 模型，这比任何论文都实在，做信息流产品的可以直接拉到本地研究。",
+      "tags": [
+        "GitHub",
+        "产品更新",
+        "开源生态"
+      ],
+      "starred_count": 76,
+      "published_at": "2026-05-15T13:34:30.000Z",
+      "source_url": "https://x.com/cb_doge/status/2055280665583898691",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 2,
+      "duplicate_sources": [
+        "X：阿易 AI Notes (@AYi_AInotes)",
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ]
+    },
+    {
+      "aihot_id": "cmp6y3j0c05voslnzmxq8stxq",
+      "aihot_url": "",
+      "title": "The latest OpenClaw release is ~3.5x faster 🦞\n\nWe run end-to-end RTT tests against every published ...",
+      "summary": "最新版OpenClaw速度提升约3.5倍 🦞\n\n我们每6小时通过真实消息渠道（此处使用Telegram，采用全新的机器人间通信）对所有已发布的npm版本进行端到端RTT测试。不再有静默回归。\n\n所有运行器均在@useblacksmith CI上运行。\n在您察觉之前捕捉减速问题。",
+      "recommendation_reason": "OpenClaw 这次更新把端到端延迟压低了 3.5 倍，还引入了机器人对机器人通信的自动回归测试，对重度用户相当于免费性能升级，值得立即更新。",
+      "tags": [
+        "产品更新",
+        "部署/工程"
+      ],
+      "starred_count": 60,
+      "published_at": "2026-05-15T13:07:48.000Z",
+      "source_url": "https://x.com/openclaw/status/2055273947537490422",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp6wqhi205ksslnz4abddcy6",
+      "aihot_url": "",
+      "title": "刚刚花三分钟装了飞书官方那个 CLI 工具，\n跑了一句话，建群、建文档、发通知，一次性全做完了，\n\n我盯着终端看了几秒钟，\n才反应过来这玩意儿真的能让 AI 直接操作飞书。\n\n装的过程没啥可说的，\n一...",
+      "summary": "飞书开源命令行工具lark-cli在45天内获得超过1万GitHub star，成为国内首个破万星的办公套件开源项目。该工具允许AI通过命令行直接操作飞书，执行建群、建文档等任务，且每一步操作都可预览、可审查，与云端不可见的MCP模式形成对比。其主干代码已合并10位外部开发者的贡献，而同类产品钉钉和企业微信则为零。这种可见、可控的特性被视为开发者放心将任务交给AI Agent的前提，预示着一句话指令驱动完整项目流程成为可能。",
+      "recommendation_reason": "飞书CLI把AI操作办公套件的每一步都摊在终端里，这种透明感是MCP黑箱给不了的，加上1万星和10个外部PR，这组数字比任何PR稿都诚实。",
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "开源生态",
+        "教程/实践"
+      ],
+      "starred_count": 76,
+      "published_at": "2026-05-15T12:24:57.000Z",
+      "source_url": "https://x.com/AYi_AInotes/status/2055263164145504501",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp6wbid805g6slnzngow8zgr",
+      "aihot_url": "",
+      "title": "Show HN: 根据基准测试排名，为您的硬件寻找最适合的本地 LLM",
+      "summary": "一个名为“WhichLLM”的开源工具已在GitHub发布，可根据用户硬件配置推荐最适合的本地大语言模型。该工具通过基准测试对各类模型进行排名，帮助用户依据自身设备的性能指标选择最优模型。项目在Hacker News上获得116点热度，显示出社区对本地化AI部署效率工具的积极关注。",
+      "recommendation_reason": "选本地 LLM 不再靠猜，这个工具把基准测试和硬件匹配做得像查配置表，刚接触端侧的人也能立刻上手。",
+      "tags": [
+        "开源/仓库",
+        "端侧",
+        "部署/工程"
+      ],
+      "starred_count": 78,
+      "published_at": "2026-05-15T12:00:01.844Z",
+      "source_url": "https://github.com/Andyyyy64/whichllm",
+      "source_type": "github",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp6u6cc404y7slnzz93y5rj9",
+      "aihot_url": "",
+      "title": "克劳德（法律事务）",
+      "summary": "Anthropic公司在GitHub上开源了专为法律领域优化的AI模型“Claude for Legal”。该模型能更准确地处理法律文本、合同及案例摘要，旨在提升法律从业者效率。此消息在Hacker News上获得105个投票点数，显示出技术社区对其在法律科技领域应用潜力的关注。",
+      "recommendation_reason": "Anthropic 把 Claude 在法律场景的提示和工具打包成仓库，对法律人来说比 API 文档更直接可用，垂直落地信号明显。",
+      "tags": [
+        "Anthropic",
+        "开源/仓库",
+        "推理"
+      ],
+      "starred_count": 71,
+      "published_at": "2026-05-15T11:12:14.182Z",
+      "source_url": "https://github.com/anthropics/claude-for-legal",
+      "source_type": "github",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp6u4ijo04xmslnze0r0uhb1",
+      "aihot_url": "",
+      "title": "Pixverse makes you the star of the show～ Make it with Concert Spotlight Template on Pixverse web！",
+      "summary": "Pixverse让你成为焦点～\n用Pixverse网页版的音乐会聚光灯模板制作吧！",
+      "recommendation_reason": "Pixverse 的这个演唱会聚光灯模板把「当主角」的门槛压到一键生成，拍着玩挺有意思，但本质上只是模板上新，不构成重大更新。",
+      "tags": [
+        "产品更新",
+        "视频"
+      ],
+      "starred_count": 62,
+      "published_at": "2026-05-15T11:13:37.000Z",
+      "source_url": "https://x.com/PixVerse_/status/2055245210184200497",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    },
+    {
+      "aihot_id": "cmp6r0wgm0497slnz10qneu54",
+      "aihot_url": "",
+      "title": "Anthropic in a nutshell:\n\nValuation:\nFebruary 2026: $350B\nMay 2026: $900B\n\nAlmost 3x in just 3 month...",
+      "summary": "Anthropic简况：\n\n估值：\n2026年2月：3500亿美元\n2026年5月：9000亿美元\n\n三个月内增长近3倍。\n\n年度经常性收入：\n2025年底：90亿美元\n2026年5月底：450亿美元\n\n五个月内增长近5倍。\n\n天啊。 via FT",
+      "recommendation_reason": "Anthropic三个月估值从350B冲到900B，ARR五个月翻五倍，这曲线比任何产品发布都更具信号意义，AI头部公司的资本定价正在脱离传统逻辑。",
+      "tags": [
+        "Anthropic",
+        "行业动态"
+      ],
+      "starred_count": 73,
+      "published_at": "2026-05-15T09:43:28.000Z",
+      "source_url": "https://x.com/kimmonismus/status/2055222524774846576",
+      "source_type": "twitter",
+      "aiSelected": true,
+      "duplicate_count": 0,
+      "duplicate_sources": []
+    }
+  ],
+  "errors": []
+}

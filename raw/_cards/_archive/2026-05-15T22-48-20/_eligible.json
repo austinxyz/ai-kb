@@ -1,0 +1,278 @@
+{
+  "eligible": [
+    {
+      "num": 190,
+      "rel_path": "raw/engineering_roles/2026-05-05-when-everyone-is-a-key-person-in-your-company.md",
+      "series": "S3_roles",
+      "title": "When Everyone Is a Key Person in Your Company",
+      "dir": "engineering_roles",
+      "slug": "when-everyone-is-a-key-person-in-your-company",
+      "date": "2026-05-05",
+      "aihot_id": "cmot09eed01arslv7otdp0vv3",
+      "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\engineering_roles\\2026-05-05-when-everyone-is-a-key-person-in-your-company.md"
+    },
+    {
+      "num": 191,
+      "rel_path": "raw/engineering_roles/2026-05-05-optimizing-software-factories.md",
+      "series": "S3_roles",
+      "title": "Optimizing Software Factories",
+      "dir": "engineering_roles",
+      "slug": "optimizing-software-factories",
+      "date": "2026-05-05",
+      "aihot_id": "cmot09eed01aqslv7yjpzy1mk",
+      "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\engineering_roles\\2026-05-05-optimizing-software-factories.md"
+    },
+    {
+      "num": 220,
+      "rel_path": "raw/ai_native_infra/2026-05-04-60x-faster-cold-starts-treating-peer-gpus-as-weight-servers.md",
+      "series": "S1_infra",
+      "title": "60x Faster Cold Starts: Treating Peer GPUs as Weight Servers",
+      "dir": "ai_native_infra",
+      "slug": "60x-faster-cold-starts-treating-peer-gpus-as-weight-servers",
+      "date": "2026-05-04",
+      "aihot_id": "cmosrd1ac00v8slplayzv4fhm",
+      "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\ai_native_infra\\2026-05-04-60x-faster-cold-starts-treating-peer-gpus-as-weight-servers.md"
+    },
+    {
+      "num": 110,
+      "rel_path": "raw/ai_native_infra/2026-05-07-vllm-v0-to-v1-correctness-before-corrections-in-rl.md",
+      "series": "S1_infra",
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "dir": "ai_native_infra",
+      "slug": "vllm-v0-to-v1-correctness-before-corrections-in-rl",
+      "date": "2026-05-07",
+      "aihot_id": "cmoug22sy00eeslbajec354qh",
+      "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\ai_native_infra\\2026-05-07-vllm-v0-to-v1-correctness-before-corrections-in-rl.md"
+    },
+    {
+      "num": 36,
+      "rel_path": "raw/dev_methodology/2026-05-08-agent-pull-requests-are-everywhere-here-s-how-to-review-them.md",
+      "series": "S2_methodology",
+      "title": "Agent pull requests are everywhere. Here’s how to review them.",
+      "dir": "dev_methodology",
+      "slug": "agent-pull-requests-are-everywhere-here-s-how-to-review-them",
+      "date": "2026-05-08",
+      "aihot_id": "cmovvs6e600ouslcxuur7w2qt",
+      "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\dev_methodology\\2026-05-08-agent-pull-requests-are-everywhere-here-s-how-to-review-them.md"
+    },
+    {
+      "num": 144,
+      "rel_path": "raw/dev_methodology/2026-05-06-vibe-coding-and-agentic-engineering-are-getting-closer-than-i-d-like.md",
+      "series": "S2_methodology",
+      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "dir": "dev_methodology",
+      "slug": "vibe-coding-and-agentic-engineering-are-getting-closer-than-i-d-like",
+      "date": "2026-05-06",
+      "aihot_id": "cmou5llmo00glslnd1jw5lh8r",
+      "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\dev_methodology\\2026-05-06-vibe-coding-and-agentic-engineering-are-getting-closer-than-i-d-like.md"
+    },
+    {
+      "num": 307,
+      "rel_path": "raw/dev_methodology/2026-05-01-how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-wi.md",
+      "series": "S2_methodology",
+      "title": "How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks",
+      "dir": "dev_methodology",
+      "slug": "how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-wi",
+      "date": "2026-05-01",
+      "aihot_id": "cmon6g4w70do8sll9bfon702b",
+      "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\dev_methodology\\2026-05-01-how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-wi.md"
+    },
+    {
+      "num": 332,
+      "rel_path": "raw/dev_methodology/2026-04-30-lessons-from-building-claude-code-prompt-caching-is-everything.md",
+      "series": "S2_methodology",
+      "title": "Lessons from building Claude Code: Prompt caching is everything",
+      "dir": "dev_methodology",
+      "slug": "lessons-from-building-claude-code-prompt-caching-is-everything",
+      "date": "2026-04-30",
+      "aihot_id": "cmolt11dh026esll9jvakjms4",
+      "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\dev_methodology\\2026-04-30-lessons-from-building-claude-code-prompt-caching-is-everything.md"
+    },
+    {
+      "num": 13,
+      "rel_path": "raw/agent_engineering/2026-05-08-improving-token-efficiency-in-github-agentic-workflows.md",
+      "series": "S4_agent",
+      "title": "Improving token efficiency in GitHub Agentic Workflows",
+      "dir": "agent_engineering",
+      "slug": "improving-token-efficiency-in-github-agentic-workflows",
+      "date": "2026-05-08",
+      "aihot_id": "cmow4cvtv02o8slcx9yafds3n",
+      "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\agent_engineering\\2026-05-08-improving-token-efficiency-in-github-agentic-workflows.md"
+    },
+    {
+      "num": 131,
+      "rel_path": "raw/agent_engineering/2026-05-06-new-in-claude-managed-agents-dreaming-outcomes-and-multiagent-orchestration.md",
+      "series": "S4_agent",
+      "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+      "dir": "agent_engineering",
+      "slug": "new-in-claude-managed-agents-dreaming-outcomes-and-multiagent-orchestration",
+      "date": "2026-05-06",
+      "aihot_id": "cmoua1os000lgslm0y9qvbma4",
+      "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\agent_engineering\\2026-05-06-new-in-claude-managed-agents-dreaming-outcomes-and-multiagent-orchestration.md"
+    },
+    {
+      "num": 161,
+      "rel_path": "raw/agent_engineering/2026-05-05-openseeker-v2-pushing-the-limits-of-search-agents-with-informative-and-high-diff.md",
+      "series": "S4_agent",
+      "title": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
+      "dir": "agent_engineering",
+      "slug": "openseeker-v2-pushing-the-limits-of-search-agents-with-informative-and-high-diff",
+      "date": "2026-05-05",
+      "aihot_id": "cmotfjtor04upslv7b2f4sa2q",
+      "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\agent_engineering\\2026-05-05-openseeker-v2-pushing-the-limits-of-search-agents-with-informative-and-high-diff.md"
+    },
+    {
+      "num": 326,
+      "rel_path": "raw/agent_engineering/2026-04-30-building-ai-agents-for-the-enterprise.md",
+      "series": "S4_agent",
+      "title": "Building AI agents for the enterprise",
+      "dir": "agent_engineering",
+      "slug": "building-ai-agents-for-the-enterprise",
+      "date": "2026-04-30",
+      "aihot_id": "cmolxcj25036ksll9exj4q1vt",
+      "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\agent_engineering\\2026-04-30-building-ai-agents-for-the-enterprise.md"
+    }
+  ],
+  "not_eligible": [
+    {
+      "num": 352,
+      "reason": "twitter_skip",
+      "rel_path": "raw/industry_insight/2026-04-30-new-microsoft-paper-shows-that-current-ai-assistants-often-damage-documents-duri.md",
+      "series": "S0_industry",
+      "title": "New Microsoft paper shows that current AI assistants often damage documents during long editing jobs..."
+    },
+    {
+      "num": 293,
+      "reason": "twitter_skip",
+      "rel_path": "raw/engineering_roles/2026-05-02-科技圈正在发生一波反常的人才大迁移-多家十亿美元级公司的-CTO-集体辞职-放弃高管职位-转去-Anthropic-做-IC-Workday-CTO-MTS-2.md",
+      "series": "S3_roles",
+      "title": "科技圈正在发生一波反常的人才大迁移：\n多家十亿美元级公司的 CTO 集体辞职，放弃高管职位，转去 Anthropic 做 IC\n - Workday CTO → MTS（2026 年 3 月）\n - ..."
+    },
+    {
+      "num": 174,
+      "reason": "twitter_skip",
+      "rel_path": "raw/engineering_roles/2026-05-06-加密货币交易所-Coinbase-今天宣布裁员约-14-约-700-名员工受影响-CEO-Brian-Armstrong-给出了两个理由-加密货币市场进入下行周.md",
+      "series": "S3_roles",
+      "title": "加密货币交易所 Coinbase 今天宣布裁员约 14%，约 700 名员工受影响。CEO Brian Armstrong 给出了两个理由：加密货币市场进入下行周期，以及 AI 正在改变公司的运作方式..."
+    },
+    {
+      "num": 166,
+      "reason": "twitter_skip",
+      "rel_path": "raw/engineering_roles/2026-05-06-Anthropic的Claude为什么能52天推出50个重大功能-神秘武器Mythos要发布了-他们的基础设施负责人-Claude-code之父Boris刚说出.md",
+      "series": "S3_roles",
+      "title": "Anthropic的Claude为什么能52天推出50个重大功能？神秘武器Mythos要发布了？\n\n他们的基础设施负责人、Claude code之父Boris刚说出了2026年AI行业最令人震惊的真相..."
+    },
+    {
+      "num": 236,
+      "reason": "twitter_skip",
+      "rel_path": "raw/engineering_roles/2026-05-05-Anthropic-CEO-Dario-Amodei的那句-Claude在设计Claude-炸了整个AI圈-但似乎很多人都看错了重点-重点不是-RSI来了-而是.md",
+      "series": "S3_roles",
+      "title": "Anthropic CEO Dario Amodei的那句“Claude在设计Claude”炸了整个AI圈🤯\n\n但似乎很多人都看错了重点，\n重点不是“RSI来了”，而是第一个被AI彻底重构的公司已经..."
+    },
+    {
+      "num": 225,
+      "reason": "twitter_skip",
+      "rel_path": "raw/engineering_roles/2026-05-05-anthropic-s-boris-cherny-argues-that-for-certain-modern-model-friendly-codebases.md",
+      "series": "S3_roles",
+      "title": "Anthropic’s Boris Cherny argues that for certain modern, model-friendly codebases, especially TypeSc..."
+    },
+    {
+      "num": 140,
+      "reason": "twitter_skip",
+      "rel_path": "raw/ai_native_infra/2026-05-06-ai-supercomputers-need-a-new-kind-of-network-to-stay-in-sync-at-massive-scale-op.md",
+      "series": "S1_infra",
+      "title": "AI supercomputers need a new kind of network to stay in sync at massive scale.\n\nOpenAI’s @markjhandl..."
+    },
+    {
+      "num": 218,
+      "reason": "twitter_skip",
+      "rel_path": "raw/ai_native_infra/2026-05-05-Google-这一波操作-最让人意外的是-Google直接把LLM推理里最顽固的autoregressive瓶颈干掉了-他们和UCSD合作推出的DFlash-D.md",
+      "series": "S1_infra",
+      "title": "Google 这一波操作，最让人意外的是\n\nGoogle直接把LLM推理里最顽固的autoregressive瓶颈干掉了。\n\n他们和UCSD合作推出的DFlash（Diffusion-Style Sp..."
+    },
+    {
+      "num": 147,
+      "reason": "fetch_failed",
+      "rel_path": "raw/ai_native_infra/2026-05-05-unlocking-large-scale-ai-training-networks-with-mrc-multipath-reliable-connectio.md",
+      "series": "S1_infra",
+      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)"
+    },
+    {
+      "num": 87,
+      "reason": "twitter_skip",
+      "rel_path": "raw/dev_methodology/2026-05-07-2026-年的-Coding-Agent-应该是什么样-Amp-新版-CLI-Neo-发布-AmpCode-https-ampcode-com-news-neo.md",
+      "series": "S2_methodology",
+      "title": "2026 年的 Coding Agent 应该是什么样？Amp 新版 CLI：Neo 发布 @AmpCode \nhttps://ampcode.com/news/neo\n\n从\"陪伴式 Agent\"转向..."
+    },
+    {
+      "num": 137,
+      "reason": "twitter_skip",
+      "rel_path": "raw/dev_methodology/2026-05-06-我靠-Warp-这个Skills-太顶了-直接官方开源啊-Warp团队居然把他们日常用来大幅提效的内部-Skills-全部开源了-一条命令就能直接装上15个高质.md",
+      "series": "S2_methodology",
+      "title": "我靠！Warp 这个Skills 太顶了！\n直接官方开源啊！\n\nWarp团队居然把他们日常用来大幅提效的内部「Skills」全部开源了！\n\n一条命令就能直接装上15个高质量生产级技能：\n\nnpx sk..."
+    },
+    {
+      "num": 152,
+      "reason": "twitter_skip",
+      "rel_path": "raw/dev_methodology/2026-05-06-这个创造了Claude-Code的男人Boris-Cherny大神-完整公开了自己的工作流-并直播演示了一半的编码工作在手机上完成-不是回消息-是同时跑5到10.md",
+      "series": "S2_methodology",
+      "title": "这个创造了Claude Code的男人Boris Cherny大神，完整公开了自己的工作流，并直播演示了一半的编码工作在手机上完成🤪\n\n不是回消息，是同时跑5到10个Claude实例，\n用手机启动任..."
+    },
+    {
+      "num": 237,
+      "reason": "twitter_skip",
+      "rel_path": "raw/dev_methodology/2026-05-05-Cursor-团队这篇-持续改进我们的-Agent-Harness-写的真不错-很实战-如何衡量-harness-的好坏-如何为不同模型定制-harness-中.md",
+      "series": "S2_methodology",
+      "title": "Cursor 团队这篇「持续改进我们的 Agent Harness」，写的真不错，很实战：\n· 如何衡量 harness 的好坏？\n· 如何为不同模型定制 harness？\n· 中途换模型到底会有什么..."
+    },
+    {
+      "num": 271,
+      "reason": "twitter_skip",
+      "rel_path": "raw/dev_methodology/2026-05-04-Cursor-官方团队自己在用的-CI-Code-Review-发版-测试-清理代码-周报等工作流的-Skills-打包成一个-Plugin-一句指令安装-ad.md",
+      "series": "S2_methodology",
+      "title": "Cursor 官方团队自己在用的 CI、Code Review、发版、测试、清理代码、周报等工作流的 Skills 打包成一个 Plugin，一句指令安装：/add-plugin cursor-tea..."
+    },
+    {
+      "num": 273,
+      "reason": "twitter_skip",
+      "rel_path": "raw/dev_methodology/2026-05-04-Claude-code有时候会替你做错误假设-不主动要求澄清-该反驳时不反驳-敷衍迎合奉承你-有人把-Karpathy-对-AI-写代码常见问题的观察-整理成一.md",
+      "series": "S2_methodology",
+      "title": "Claude code有时候会替你做错误假设，不主动要求澄清；该反驳时不反驳...敷衍迎合奉承你...\n\n有人把 Karpathy 对 AI 写代码常见问题的观察，整理成一份可以直接放进项目里的 CL..."
+    },
+    {
+      "num": 289,
+      "reason": "twitter_skip",
+      "rel_path": "raw/dev_methodology/2026-05-02-http-x-com-i-article-2050590821553258496.md",
+      "series": "S2_methodology",
+      "title": "http://x.com/i/article/2050590821553258496"
+    },
+    {
+      "num": 284,
+      "reason": "twitter_skip",
+      "rel_path": "raw/dev_methodology/2026-05-03-解决真正工程问题的-Skills-Skills-For-Real-Engineers-作者-mattpocockuk-公开了自己-claude-目录中每天在用的.md",
+      "series": "S2_methodology",
+      "title": "解决真正工程问题的 Skills：Skills For Real Engineers\n\n作者 @mattpocockuk 公开了自己 .claude/ 目录中每天在用的 Agent Skills 集合..."
+    },
+    {
+      "num": 207,
+      "reason": "twitter_skip",
+      "rel_path": "raw/agent_engineering/2026-05-06-anthropic-just-shipped-10-finance-agent-templates-that-turn-claude-from-a-chat-a.md",
+      "series": "S4_agent",
+      "title": "Anthropic just shipped 10 finance-agent templates that turn Claude from a chat assistant into a cont..."
+    },
+    {
+      "num": 268,
+      "reason": "twitter_skip",
+      "rel_path": "raw/agent_engineering/2026-05-04-new-paper-from-sakana-ai-iclr-2026-a-7b-conductor-model-just-hit-sota-on-gpqa-di.md",
+      "series": "S4_agent",
+      "title": "NEW paper from Sakana AI (ICLR 2026).\n\nA 7B Conductor model just hit SOTA on GPQA-Diamond and LiveCo..."
+    },
+    {
+      "num": 278,
+      "reason": "twitter_skip",
+      "rel_path": "raw/agent_engineering/2026-05-04-OpenAI-Codex-新模式-Auto-review-在-频繁打扰人类-和-完全放权-之间-引入第三种治理范式-用一个独立-AI-Agent-替代人类-来审.md",
+      "series": "S4_agent",
+      "title": "OpenAI Codex 新模式 Auto-review：在\"频繁打扰人类\"和\"完全放权\"之间，引入第三种治理范式：用一个独立 AI Agent 替代人类，来审批越界行为。\nhttps://align..."
+    }
+  ]
+}

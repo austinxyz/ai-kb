@@ -1,0 +1,67 @@
+[
+  {
+    "num": 190,
+    "url": "https://www.tomtunguz.com/labor-ai-spend-ratio-eng-team",
+    "out_path": "raw/_cards/current/_bodies/190.md"
+  },
+  {
+    "num": 191,
+    "url": "https://www.tomtunguz.com/optimizing-software-factories",
+    "out_path": "raw/_cards/current/_bodies/191.md"
+  },
+  {
+    "num": 220,
+    "url": "https://runwayml.com/news/60x-faster-cold-starts-treating-peer-gpus-as-weight-servers",
+    "out_path": "raw/_cards/current/_bodies/220.md"
+  },
+  {
+    "num": 110,
+    "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+    "out_path": "raw/_cards/current/_bodies/110.md"
+  },
+  {
+    "num": 147,
+    "url": "https://openai.com/index/mrc-supercomputer-networking",
+    "out_path": "raw/_cards/current/_bodies/147.md"
+  },
+  {
+    "num": 36,
+    "url": "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them",
+    "out_path": "raw/_cards/current/_bodies/36.md"
+  },
+  {
+    "num": 144,
+    "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering",
+    "out_path": "raw/_cards/current/_bodies/144.md"
+  },
+  {
+    "num": 307,
+    "url": "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks",
+    "out_path": "raw/_cards/current/_bodies/307.md"
+  },
+  {
+    "num": 332,
+    "url": "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything",
+    "out_path": "raw/_cards/current/_bodies/332.md"
+  },
+  {
+    "num": 13,
+    "url": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows",
+    "out_path": "raw/_cards/current/_bodies/13.md"
+  },
+  {
+    "num": 131,
+    "url": "https://claude.com/blog/new-in-claude-managed-agents",
+    "out_path": "raw/_cards/current/_bodies/131.md"
+  },
+  {
+    "num": 161,
+    "url": "https://arxiv.org/abs/2605.04036",
+    "out_path": "raw/_cards/current/_bodies/161.md"
+  },
+  {
+    "num": 326,
+    "url": "https://claude.com/blog/building-ai-agents-for-the-enterprise",
+    "out_path": "raw/_cards/current/_bodies/326.md"
+  }
+]

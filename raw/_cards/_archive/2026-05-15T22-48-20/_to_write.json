@@ -1,0 +1,1185 @@
+[
+  {
+    "num": 352,
+    "aihot_id": "cmolal3ei01ksslc5qqz0bpkz",
+    "title": "New Microsoft paper shows that current AI assistants often damage documents during long editing jobs...",
+    "source_url": "https://x.com/rohanpaul_ai/status/2049779289592139929",
+    "source_type": "twitter",
+    "series": "S0_industry",
+    "dir": "industry_insight",
+    "confidence": "high",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "slug": "new-microsoft-paper-shows-that-current-ai-assistants-often-damage-documents-duri",
+    "date": "2026-04-30",
+    "filename": "2026-04-30-new-microsoft-paper-shows-that-current-ai-assistants-often-damage-documents-duri.md",
+    "rel_path": "raw/industry_insight/2026-04-30-new-microsoft-paper-shows-that-current-ai-assistants-often-damage-documents-duri.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\industry_insight\\2026-04-30-new-microsoft-paper-shows-that-current-ai-assistants-often-damage-documents-duri.md",
+    "norm_key": "newmicrosoftpapershowsthatcurrentaiassistantsoftendamagedocumentsduringlongeditingjobs||https://x.com/rohanpaul_ai/status/2049779289592139929",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmolal3ei01ksslc5qqz0bpkz",
+      "aihot_url": "",
+      "title": "New Microsoft paper shows that current AI assistants often damage documents during long editing jobs...",
+      "summary": "微软最新论文指出，当前AI助手在执行长链条编辑任务时，普遍会损坏文档内容。研究通过可逆任务对测试了19个模型，发现即使是前沿模型平均也会破坏约25%的文档内容，且问题随文件增大、流程变长而加剧。失败模式通常不是微小失误，而是偶尔出现的重大错误，这些错误会静默破坏部分文档并随时间累积。研究表明，当前的LLM在简短演示或狭窄编码任务中可能表现良好，但作为现实世界长文档工作的委托代理仍不可靠。",
+      "recommendation_reason": "微软这篇论文点了当前 LLM 的死穴，短期 demo 很牛，长期编辑文档直接掉链子，25% 损坏率不是小问题，做 AI 文本编辑产品的团队得掂量一下用户信任。",
+      "tags": [
+        "Agent",
+        "Microsoft",
+        "论文/研究"
+      ],
+      "starred_count": 75,
+      "published_at": "2026-04-30T09:14:00.000Z",
+      "source_url": "https://x.com/rohanpaul_ai/status/2049779289592139929",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 293,
+    "aihot_id": "cmony20uu0jvqsll9gq8h4dpv",
+    "title": "科技圈正在发生一波反常的人才大迁移：\n多家十亿美元级公司的 CTO 集体辞职，放弃高管职位，转去 Anthropic 做 IC\n - Workday CTO → MTS（2026 年 3 月）\n - ...",
+    "source_url": "https://x.com/AYi_AInotes/status/2050447380311413091",
+    "source_type": "twitter",
+    "series": "S3_roles",
+    "dir": "engineering_roles",
+    "confidence": "high",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "slug": "科技圈正在发生一波反常的人才大迁移-多家十亿美元级公司的-CTO-集体辞职-放弃高管职位-转去-Anthropic-做-IC-Workday-CTO-MTS-2",
+    "date": "2026-05-02",
+    "filename": "2026-05-02-科技圈正在发生一波反常的人才大迁移-多家十亿美元级公司的-CTO-集体辞职-放弃高管职位-转去-Anthropic-做-IC-Workday-CTO-MTS-2.md",
+    "rel_path": "raw/engineering_roles/2026-05-02-科技圈正在发生一波反常的人才大迁移-多家十亿美元级公司的-CTO-集体辞职-放弃高管职位-转去-Anthropic-做-IC-Workday-CTO-MTS-2.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\engineering_roles\\2026-05-02-科技圈正在发生一波反常的人才大迁移-多家十亿美元级公司的-CTO-集体辞职-放弃高管职位-转去-Anthropic-做-IC-Workday-CTO-MTS-2.md",
+    "norm_key": "科技圈正在发生一波反常的人才大迁移多家十亿美元级公司的cto集体辞职放弃高管职位转去anthropic做icworkdayctomts2026年3月||https://x.com/AYi_AInotes/status/2050447380311413091",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmony20uu0jvqsll9gq8h4dpv",
+      "aihot_url": "",
+      "title": "科技圈正在发生一波反常的人才大迁移：\n多家十亿美元级公司的 CTO 集体辞职，放弃高管职位，转去 Anthropic 做 IC\n - Workday CTO → MTS（2026 年 3 月）\n - ...",
+      "summary": "科技行业出现反常趋势，多家十亿美元级公司CTO放弃高管职位，转投Anthropic担任个体贡献者。这反映AI时代职业逻辑的根本转变：权力和影响力从管理人数转向接近前沿模型。个体工程师通过直接操作先进AI工具，其产出和影响力可能超越传统数百人团队。同时，Anthropic的高估值和增长潜力提供了极具吸引力的经济回报。此举标志传统职业天花板重置，顶尖技术人才正用行动投票，选择杠杆效应最大的核心研发岗位。",
+      "recommendation_reason": "这不是简单的跳槽八卦，而是顶级聪明的工程师在用脚投票——离模型越近，杠杆越大，传统职业天花板正在重置。",
+      "tags": [
+        "Anthropic",
+        "现象/趋势"
+      ],
+      "starred_count": 70,
+      "published_at": "2026-05-02T05:28:45.000Z",
+      "source_url": "https://x.com/AYi_AInotes/status/2050447380311413091",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 174,
+    "aihot_id": "cmot8gc64036jslv7kkl8tz9l",
+    "title": "加密货币交易所 Coinbase 今天宣布裁员约 14%，约 700 名员工受影响。CEO Brian Armstrong 给出了两个理由：加密货币市场进入下行周期，以及 AI 正在改变公司的运作方式...",
+    "source_url": "https://x.com/dotey/status/2051798517371600956",
+    "source_type": "twitter",
+    "series": "S3_roles",
+    "dir": "engineering_roles",
+    "confidence": "high",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "slug": "加密货币交易所-Coinbase-今天宣布裁员约-14-约-700-名员工受影响-CEO-Brian-Armstrong-给出了两个理由-加密货币市场进入下行周",
+    "date": "2026-05-06",
+    "filename": "2026-05-06-加密货币交易所-Coinbase-今天宣布裁员约-14-约-700-名员工受影响-CEO-Brian-Armstrong-给出了两个理由-加密货币市场进入下行周.md",
+    "rel_path": "raw/engineering_roles/2026-05-06-加密货币交易所-Coinbase-今天宣布裁员约-14-约-700-名员工受影响-CEO-Brian-Armstrong-给出了两个理由-加密货币市场进入下行周.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\engineering_roles\\2026-05-06-加密货币交易所-Coinbase-今天宣布裁员约-14-约-700-名员工受影响-CEO-Brian-Armstrong-给出了两个理由-加密货币市场进入下行周.md",
+    "norm_key": "加密货币交易所coinbase今天宣布裁员约14约700名员工受影响ceobrianarmstrong给出了两个理由加密货币市场进入下行周期以及ai正在改变公司的运作方式||https://x.com/dotey/status/2051798517371600956",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmot8gc64036jslv7kkl8tz9l",
+      "aihot_url": "",
+      "title": "加密货币交易所 Coinbase 今天宣布裁员约 14%，约 700 名员工受影响。CEO Brian Armstrong 给出了两个理由：加密货币市场进入下行周期，以及 AI 正在改变公司的运作方式...",
+      "summary": "加密货币交易所 Coinbase 宣布裁员约 14%，涉及 700 名员工。CEO Brian Armstrong 解释原因包括加密货币市场下行及 AI 技术深刻改变公司运营。AI 已提升工程师效率，并使非技术团队能编写生产代码，公司目标是将 AI 生成代码比例从 40% 提至 50% 以上。同时，公司进行组织重构，管理层级压缩至最多 5 层，并试验“AI 原生小组”等新模式。尽管同行也出现类似裁员，但有分析师认为加密市场寒冬才是主因。消息公布后，公司股价盘前上涨 4%。",
+      "recommendation_reason": "Coinbase裁员其实更多是加密寒冬逼的，但CEO提出的AI原生小组和单人团队方案很激进，这可能是未来公司组织的一个极端实验。",
+      "tags": [
+        "Agent",
+        "行业动态"
+      ],
+      "starred_count": 72,
+      "published_at": "2026-05-05T22:57:41.000Z",
+      "source_url": "https://x.com/dotey/status/2051798517371600956",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 166,
+    "aihot_id": "cmotd951b04bgslv7231arlvo",
+    "title": "Anthropic的Claude为什么能52天推出50个重大功能？神秘武器Mythos要发布了？\n\n他们的基础设施负责人、Claude code之父Boris刚说出了2026年AI行业最令人震惊的真相...",
+    "source_url": "https://x.com/AYi_AInotes/status/2051825089478373572",
+    "source_type": "twitter",
+    "series": "S3_roles",
+    "dir": "engineering_roles",
+    "confidence": "high",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "slug": "Anthropic的Claude为什么能52天推出50个重大功能-神秘武器Mythos要发布了-他们的基础设施负责人-Claude-code之父Boris刚说出",
+    "date": "2026-05-06",
+    "filename": "2026-05-06-Anthropic的Claude为什么能52天推出50个重大功能-神秘武器Mythos要发布了-他们的基础设施负责人-Claude-code之父Boris刚说出.md",
+    "rel_path": "raw/engineering_roles/2026-05-06-Anthropic的Claude为什么能52天推出50个重大功能-神秘武器Mythos要发布了-他们的基础设施负责人-Claude-code之父Boris刚说出.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\engineering_roles\\2026-05-06-Anthropic的Claude为什么能52天推出50个重大功能-神秘武器Mythos要发布了-他们的基础设施负责人-Claude-code之父Boris刚说出.md",
+    "norm_key": "anthropic的claude为什么能52天推出50个重大功能神秘武器mythos要发布了他们的基础设施负责人claudecode之父boris刚说出了2026年ai行业最令人震惊的真相||https://x.com/AYi_AInotes/status/2051825089478373572",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmotd951b04bgslv7231arlvo",
+      "aihot_url": "",
+      "title": "Anthropic的Claude为什么能52天推出50个重大功能？神秘武器Mythos要发布了？\n\n他们的基础设施负责人、Claude code之父Boris刚说出了2026年AI行业最令人震惊的真相...",
+      "summary": "Anthropic基础设施负责人Boris Cherny透露，公司并无秘密模型Mythos，主要使用与公众相同的Claude Opus 4.7。其高速迭代的核心并非技术优势，而是组织结构变革：公司由数百个AI Agent在Slack上协同工作，自动拆分任务、编写代码并解决问题，形成24小时运作的AI军队。工程师团队规模仅增4倍，但人均产出提升200%，Boris本人自2025年11月起未手动写代码。这揭示了AI时代真正的代差在于流程与组织形态。",
+      "recommendation_reason": "Anthropic基础设施负责人亲口承认公司已没有一行手写代码，整个团队靠成百上千个Agent在Slack上自治协作。这是2026年AI行业最震撼的内部真相，告诉我们竞争已不在模型参数，而在谁能把公司先改造成AI有机体。",
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "现象/趋势",
+        "行业动态"
+      ],
+      "starred_count": 75,
+      "published_at": "2026-05-06T00:43:17.000Z",
+      "source_url": "https://x.com/AYi_AInotes/status/2051825089478373572",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 190,
+    "aihot_id": "cmot09eed01arslv7otdp0vv3",
+    "title": "When Everyone Is a Key Person in Your Company",
+    "source_url": "https://www.tomtunguz.com/labor-ai-spend-ratio-eng-team",
+    "source_type": "blog",
+    "series": "S3_roles",
+    "dir": "engineering_roles",
+    "confidence": "high",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "slug": "when-everyone-is-a-key-person-in-your-company",
+    "date": "2026-05-05",
+    "filename": "2026-05-05-when-everyone-is-a-key-person-in-your-company.md",
+    "rel_path": "raw/engineering_roles/2026-05-05-when-everyone-is-a-key-person-in-your-company.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\engineering_roles\\2026-05-05-when-everyone-is-a-key-person-in-your-company.md",
+    "norm_key": "wheneveryoneisakeypersoninyourcompany||https://www.tomtunguz.com/labor-ai-spend-ratio-eng-team",
+    "skip_fetch": false,
+    "item": {
+      "aihot_id": "cmot09eed01arslv7otdp0vv3",
+      "aihot_url": "",
+      "title": "When Everyone Is a Key Person in Your Company",
+      "summary": "本文探讨了初创公司工程团队中AI与人力比例变化带来的结构性风险。当AI占比从10%提升至90%时，团队从20名工程师的传统层级结构，演变为仅由3名工程师核心操控大量自主代理的无管理层模式。核心权衡在于系统韧性而非吞吐量：将编排知识高度集中于极少数人，等同于以100%的利用率运行，一旦关键人员离职将造成33%的“制度记忆”损失。文章借鉴制造业保持70-90%利用率以维持系统稳健的经验，建议大多数初创公司应避免过早采用极高AI占比的模式，因为其中缺乏冗余和缓冲空间。",
+      "recommendation_reason": "当三个人管理着一支AI代理大军，任何一个人离开就是30%的知识蒸发。这篇文章用制造业利用率逻辑警告那些想用AI替换所有工程师的创始人：弹性才是真正的瓶颈。",
+      "tags": [
+        "Agent",
+        "现象/趋势",
+        "部署/工程"
+      ],
+      "starred_count": 63,
+      "published_at": "2026-05-05T00:00:00.000Z",
+      "source_url": "https://www.tomtunguz.com/labor-ai-spend-ratio-eng-team",
+      "source_type": "blog",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 236,
+    "aihot_id": "cmos21kp804alslrj8c6ettc6",
+    "title": "Anthropic CEO Dario Amodei的那句“Claude在设计Claude”炸了整个AI圈🤯\n\n但似乎很多人都看错了重点，\n重点不是“RSI来了”，而是第一个被AI彻底重构的公司已经...",
+    "source_url": "https://x.com/AYi_AInotes/status/2051494065594663156",
+    "source_type": "twitter",
+    "series": "S3_roles",
+    "dir": "engineering_roles",
+    "confidence": "high",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "slug": "Anthropic-CEO-Dario-Amodei的那句-Claude在设计Claude-炸了整个AI圈-但似乎很多人都看错了重点-重点不是-RSI来了-而是",
+    "date": "2026-05-05",
+    "filename": "2026-05-05-Anthropic-CEO-Dario-Amodei的那句-Claude在设计Claude-炸了整个AI圈-但似乎很多人都看错了重点-重点不是-RSI来了-而是.md",
+    "rel_path": "raw/engineering_roles/2026-05-05-Anthropic-CEO-Dario-Amodei的那句-Claude在设计Claude-炸了整个AI圈-但似乎很多人都看错了重点-重点不是-RSI来了-而是.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\engineering_roles\\2026-05-05-Anthropic-CEO-Dario-Amodei的那句-Claude在设计Claude-炸了整个AI圈-但似乎很多人都看错了重点-重点不是-RSI来了-而是.md",
+    "norm_key": "anthropicceodarioamodei的那句claude在设计claude炸了整个ai圈但似乎很多人都看错了重点重点不是rsi来了而是第一个被ai彻底重构的公司已经||https://x.com/AYi_AInotes/status/2051494065594663156",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmos21kp804alslrj8c6ettc6",
+      "aihot_url": "",
+      "title": "Anthropic CEO Dario Amodei的那句“Claude在设计Claude”炸了整个AI圈🤯\n\n但似乎很多人都看错了重点，\n重点不是“RSI来了”，而是第一个被AI彻底重构的公司已经...",
+      "summary": "Anthropic内部研发已由Claude主导，工程师基本不再手写代码，转而专注于编写提示词、审查代码和确定架构。这使得其工程师效率达到行业十倍以上，仅52天就推出50多个重大功能。这标志着递归自我改进（RSI）迈出关键一步：AI接管了生产自身的整个工厂。人类角色从生产者转变为监督者。结合OpenAI的Auto-review，一个能自我运行和改进的AI闭环正在形成。Anthropic CEO指出，未来仅约5%的开发者能留在核心领域，核心价值将转向驾驭和设计整个智能系统的系统思维能力。这是一个不可逆的进程。",
+      "recommendation_reason": "Dario 这波自曝把 Anthropic 的底裤掀了，不是科幻故事，是正在发生的工程师消亡史。程序员要么学会当 AI 的导演，要么退场。值得每个写代码的人点开看看，掂量自己的五年计划。",
+      "tags": [
+        "Anthropic",
+        "现象/趋势",
+        "编码"
+      ],
+      "starred_count": 72,
+      "published_at": "2026-05-05T02:47:54.000Z",
+      "source_url": "https://x.com/AYi_AInotes/status/2051494065594663156",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 225,
+    "aihot_id": "cmosnn0np00f2sltg5drfmzpr",
+    "title": "Anthropic’s Boris Cherny argues that for certain modern, model-friendly codebases, especially TypeSc...",
+    "source_url": "https://x.com/kimmonismus/status/2051648991130222692",
+    "source_type": "twitter",
+    "series": "S3_roles",
+    "dir": "engineering_roles",
+    "confidence": "high",
+    "also_relevant": [
+      "S2_methodology"
+    ],
+    "slug": "anthropic-s-boris-cherny-argues-that-for-certain-modern-model-friendly-codebases",
+    "date": "2026-05-05",
+    "filename": "2026-05-05-anthropic-s-boris-cherny-argues-that-for-certain-modern-model-friendly-codebases.md",
+    "rel_path": "raw/engineering_roles/2026-05-05-anthropic-s-boris-cherny-argues-that-for-certain-modern-model-friendly-codebases.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\engineering_roles\\2026-05-05-anthropic-s-boris-cherny-argues-that-for-certain-modern-model-friendly-codebases.md",
+    "norm_key": "anthropicsborischernyarguesthatforcertainmodernmodelfriendlycodebasesespeciallytypesc||https://x.com/kimmonismus/status/2051648991130222692",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmosnn0np00f2sltg5drfmzpr",
+      "aihot_url": "",
+      "title": "Anthropic’s Boris Cherny argues that for certain modern, model-friendly codebases, especially TypeSc...",
+      "summary": "Anthropic 的 Boris Cherny 认为，对于某些现代的、对模型友好的代码库，特别是 TypeScript/React 项目，编码问题实际上已经被“解决”了。\n\nAI 智能体可以编写近 100% 的代码，而人类则从手动编码转向指导、审查、集成和同时扩展许多小型 PR。",
+      "recommendation_reason": "如果 Anthropic 的人公开说 TypeScript 项目编码已解决，那意味着 AI 编码的下一个瓶颈不是写代码，而是审查和集成，做工具的得赶紧跟上这个思路。",
+      "tags": [
+        "Anthropic",
+        "大佬观点",
+        "编码"
+      ],
+      "starred_count": 73,
+      "published_at": "2026-05-05T13:03:31.000Z",
+      "source_url": "https://x.com/kimmonismus/status/2051648991130222692",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 191,
+    "aihot_id": "cmot09eed01aqslv7yjpzy1mk",
+    "title": "Optimizing Software Factories",
+    "source_url": "https://www.tomtunguz.com/optimizing-software-factories",
+    "source_type": "blog",
+    "series": "S3_roles",
+    "dir": "engineering_roles",
+    "confidence": "high",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "slug": "optimizing-software-factories",
+    "date": "2026-05-05",
+    "filename": "2026-05-05-optimizing-software-factories.md",
+    "rel_path": "raw/engineering_roles/2026-05-05-optimizing-software-factories.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\engineering_roles\\2026-05-05-optimizing-software-factories.md",
+    "norm_key": "optimizingsoftwarefactories||https://www.tomtunguz.com/optimizing-software-factories",
+    "skip_fetch": false,
+    "item": {
+      "aihot_id": "cmot09eed01aqslv7yjpzy1mk",
+      "aihot_url": "",
+      "title": "Optimizing Software Factories",
+      "summary": "软件工程团队中AI与人力比例的选择核心在于韧性而非吞吐量。在10/90比例下，约20名工程师使用Copilot等AI工具，保持传统层级结构；50/50比例时，12名工程师管理代理群，角色转向解决方案架构；90/10比例则仅需3名工程师核心操控自主代理，负责生成、测试和部署，无管理层级。高AI比例虽提升效率，但知识集中于少数人，团队利用率达100%，一旦人员离职将引发严重风险。借鉴制造业70-90%利用率原则，保持冗余可增强系统稳健性。因此，目前大多数初创公司不宜过度依赖AI。",
+      "recommendation_reason": "Tomer Tunguz 把 AI 团队比作工厂，点出反直觉结论，AI Agent 不是越多越好，关键在于预留弹性，避免单点故障。做工程管理的读完会重新算一算配比。",
+      "tags": [
+        "Agent",
+        "大佬观点",
+        "编码"
+      ],
+      "starred_count": 55,
+      "published_at": "2026-05-05T00:00:00.000Z",
+      "source_url": "https://www.tomtunguz.com/optimizing-software-factories",
+      "source_type": "blog",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 140,
+    "aihot_id": "cmou6uddc00rzslnd96k7ygbn",
+    "title": "AI supercomputers need a new kind of network to stay in sync at massive scale.\n\nOpenAI’s @markjhandl...",
+    "source_url": "https://x.com/OpenAI/status/2052039800384057348",
+    "source_type": "twitter",
+    "series": "S1_infra",
+    "dir": "ai_native_infra",
+    "confidence": "high",
+    "also_relevant": [],
+    "slug": "ai-supercomputers-need-a-new-kind-of-network-to-stay-in-sync-at-massive-scale-op",
+    "date": "2026-05-06",
+    "filename": "2026-05-06-ai-supercomputers-need-a-new-kind-of-network-to-stay-in-sync-at-massive-scale-op.md",
+    "rel_path": "raw/ai_native_infra/2026-05-06-ai-supercomputers-need-a-new-kind-of-network-to-stay-in-sync-at-massive-scale-op.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\ai_native_infra\\2026-05-06-ai-supercomputers-need-a-new-kind-of-network-to-stay-in-sync-at-massive-scale-op.md",
+    "norm_key": "aisupercomputersneedanewkindofnetworktostayinsyncatmassivescaleopenaismarkjhandl||https://x.com/OpenAI/status/2052039800384057348",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmou6uddc00rzslnd96k7ygbn",
+      "aihot_url": "",
+      "title": "AI supercomputers need a new kind of network to stay in sync at massive scale.\n\nOpenAI’s @markjhandl...",
+      "summary": "大规模AI超算需要新型网络来保持芯片同步。OpenAI专家讨论了在庞大芯片集群间可靠高效传输数据的挑战，并介绍了新发布的多路径可靠连接（MRC）网络协议。该协议由OpenAI与AMD、Broadcom、Intel、Microsoft、NVIDIA等行业伙伴共同推出，旨在帮助大型AI训练集群运行得更快、更可靠，减少GPU闲置时间。MRC是一个开放的行业协议，可供整个业界使用。",
+      "recommendation_reason": "OpenAI 拉上 AMD、Broadcom、Intel、Microsoft、NVIDIA 一起搞的开源网络协议，专门解决万卡集群的通信瓶颈，做大规模训练的团队值得去翻翻官方博文。",
+      "tags": [
+        "OpenAI",
+        "数据/训练",
+        "行业动态",
+        "部署/工程"
+      ],
+      "starred_count": 66,
+      "published_at": "2026-05-06T14:56:28.000Z",
+      "source_url": "https://x.com/OpenAI/status/2052039800384057348",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 218,
+    "aihot_id": "cmosrrmzo00woslpl5dej2l2n",
+    "title": "Google 这一波操作，最让人意外的是\n\nGoogle直接把LLM推理里最顽固的autoregressive瓶颈干掉了。\n\n他们和UCSD合作推出的DFlash（Diffusion-Style Sp...",
+    "source_url": "https://x.com/berryxia/status/2051676720076554587",
+    "source_type": "twitter",
+    "series": "S1_infra",
+    "dir": "ai_native_infra",
+    "confidence": "high",
+    "also_relevant": [],
+    "slug": "Google-这一波操作-最让人意外的是-Google直接把LLM推理里最顽固的autoregressive瓶颈干掉了-他们和UCSD合作推出的DFlash-D",
+    "date": "2026-05-05",
+    "filename": "2026-05-05-Google-这一波操作-最让人意外的是-Google直接把LLM推理里最顽固的autoregressive瓶颈干掉了-他们和UCSD合作推出的DFlash-D.md",
+    "rel_path": "raw/ai_native_infra/2026-05-05-Google-这一波操作-最让人意外的是-Google直接把LLM推理里最顽固的autoregressive瓶颈干掉了-他们和UCSD合作推出的DFlash-D.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\ai_native_infra\\2026-05-05-Google-这一波操作-最让人意外的是-Google直接把LLM推理里最顽固的autoregressive瓶颈干掉了-他们和UCSD合作推出的DFlash-D.md",
+    "norm_key": "google这一波操作最让人意外的是google直接把llm推理里最顽固的autoregressive瓶颈干掉了他们和ucsd合作推出的dflashdiffusionstylesp||https://x.com/berryxia/status/2051676720076554587",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmosrrmzo00woslpl5dej2l2n",
+      "aihot_url": "",
+      "title": "Google 这一波操作，最让人意外的是\n\nGoogle直接把LLM推理里最顽固的autoregressive瓶颈干掉了。\n\n他们和UCSD合作推出的DFlash（Diffusion-Style Sp...",
+      "summary": "Google与UCSD合作推出扩散式推测解码技术DFlash，在Google Cloud TPU上实现了3.13倍的无损推理加速。该技术突破了传统自回归解码逐个生成token的串行瓶颈，通过一次推测生成多个token来改变生成范式。这一硬件与算法的联合优化，将重塑云端成本曲线，并使实时Agent、长上下文等应用更趋现实，同时大幅降低本地部署门槛。此举将大模型推理的竞争引向了系统级优化的新赛道。",
+      "recommendation_reason": "Google 直接干掉自回归瓶颈，3.13 倍无损加速不是渐进优化，是推理范式的根变革，当「快三倍」成为新基线，所有实时 Agent 和长上下文应用都得重算一遍成本账。",
+      "tags": [
+        "Google",
+        "大佬观点",
+        "推理",
+        "部署/工程"
+      ],
+      "starred_count": 76,
+      "published_at": "2026-05-05T14:53:43.000Z",
+      "source_url": "https://x.com/berryxia/status/2051676720076554587",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 220,
+    "aihot_id": "cmosrd1ac00v8slplayzv4fhm",
+    "title": "60x Faster Cold Starts: Treating Peer GPUs as Weight Servers",
+    "source_url": "https://runwayml.com/news/60x-faster-cold-starts-treating-peer-gpus-as-weight-servers",
+    "source_type": "blog",
+    "series": "S1_infra",
+    "dir": "ai_native_infra",
+    "confidence": "high",
+    "also_relevant": [],
+    "slug": "60x-faster-cold-starts-treating-peer-gpus-as-weight-servers",
+    "date": "2026-05-04",
+    "filename": "2026-05-04-60x-faster-cold-starts-treating-peer-gpus-as-weight-servers.md",
+    "rel_path": "raw/ai_native_infra/2026-05-04-60x-faster-cold-starts-treating-peer-gpus-as-weight-servers.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\ai_native_infra\\2026-05-04-60x-faster-cold-starts-treating-peer-gpus-as-weight-servers.md",
+    "norm_key": "60xfastercoldstartstreatingpeergpusasweightservers||https://runwayml.com/news/60x-faster-cold-starts-treating-peer-gpus-as-weight-servers",
+    "skip_fetch": false,
+    "item": {
+      "aihot_id": "cmosrd1ac00v8slplayzv4fhm",
+      "aihot_url": "",
+      "title": "60x Faster Cold Starts: Treating Peer GPUs as Weight Servers",
+      "summary": "Runway平台团队开发的NCCLBack系统，通过P2P权重传输将模型冷启动时间从数分钟缩短至数秒。其核心创新在于让新启动的GPU推理节点直接从集群内已加载权重的同级GPU获取模型参数，而非从云存储重复下载。该系统利用GPU互连（如InfiniBand、NVLink）高达200-400 Gbps的带宽，相比传统存储下载的2-10 Gbps实现了数量级提升。通过Redis协调与NCCL广播原语，NCCLBack确保了数据传输的效率和正确性，使得大规模集群部署新模型时，冷启动时间不随节点数量线性增长，基本保持恒定。",
+      "recommendation_reason": "Runway 工程师把 GPU 冷启动从分钟压到秒级，原理是让已加载权重的 GPU 直接「喂」给新同伴，而不是各自从存储下载。做大规模推理部署的团队值得细读。",
+      "tags": [
+        "推理",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "starred_count": 55,
+      "published_at": "2026-05-03T16:00:00.000Z",
+      "source_url": "https://runwayml.com/news/60x-faster-cold-starts-treating-peer-gpus-as-weight-servers",
+      "source_type": "blog",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 110,
+    "aihot_id": "cmoug22sy00eeslbajec354qh",
+    "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+    "source_url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+    "source_type": "blog",
+    "series": "S1_infra",
+    "dir": "ai_native_infra",
+    "confidence": "high",
+    "also_relevant": [],
+    "slug": "vllm-v0-to-v1-correctness-before-corrections-in-rl",
+    "date": "2026-05-07",
+    "filename": "2026-05-07-vllm-v0-to-v1-correctness-before-corrections-in-rl.md",
+    "rel_path": "raw/ai_native_infra/2026-05-07-vllm-v0-to-v1-correctness-before-corrections-in-rl.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\ai_native_infra\\2026-05-07-vllm-v0-to-v1-correctness-before-corrections-in-rl.md",
+    "norm_key": "vllmv0tov1correctnessbeforecorrectionsinrl||https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+    "skip_fetch": false,
+    "item": {
+      "aihot_id": "cmoug22sy00eeslbajec354qh",
+      "aihot_url": "",
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "summary": "为确保 vLLM 从 0.8.5 到 0.18.1 的重大重写后，在线强化学习训练结果与 V0 参考运行一致，团队优先修复后端行为而非调整 RL 目标。关键修复包括：将日志概率模式设为 `processed_logprobs` 以匹配采样器分布；禁用 V1 特有的前缀缓存和异步调度等运行时默认值；调整权重更新路径以匹配 V0 的缓存保留行为；并确保 rollout 后端使用 fp32 精度的 `lm_head` 进行最终投影。这些措施消除了策略比率均值偏差，使 V1 在 KL 散度、熵等指标上与 V0 达成一致。",
+      "recommendation_reason": "vLLM V1迁移时踩的四个坑全在这里，从logprob语义到fp32投影头，修完才调RL目标，做在线RL的团队可以直接抄这份配置清单。",
+      "tags": [
+        "Hugging Face",
+        "推理",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "starred_count": 65,
+      "published_at": "2026-05-06T19:06:55.000Z",
+      "source_url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "source_type": "blog",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 147,
+    "aihot_id": "cmotzg7v400lmslypclg3a9vo",
+    "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
+    "source_url": "https://openai.com/index/mrc-supercomputer-networking",
+    "source_type": "blog",
+    "series": "S1_infra",
+    "dir": "ai_native_infra",
+    "confidence": "high",
+    "also_relevant": [],
+    "slug": "unlocking-large-scale-ai-training-networks-with-mrc-multipath-reliable-connectio",
+    "date": "2026-05-05",
+    "filename": "2026-05-05-unlocking-large-scale-ai-training-networks-with-mrc-multipath-reliable-connectio.md",
+    "rel_path": "raw/ai_native_infra/2026-05-05-unlocking-large-scale-ai-training-networks-with-mrc-multipath-reliable-connectio.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\ai_native_infra\\2026-05-05-unlocking-large-scale-ai-training-networks-with-mrc-multipath-reliable-connectio.md",
+    "norm_key": "unlockinglargescaleaitrainingnetworkswithmrcmultipathreliableconnection||https://openai.com/index/mrc-supercomputer-networking",
+    "skip_fetch": false,
+    "item": {
+      "aihot_id": "cmotzg7v400lmslypclg3a9vo",
+      "aihot_url": "",
+      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
+      "summary": "OpenAI 发布了名为 MRC 的新型超级计算机网络协议，旨在提升大规模 AI 训练集群的韧性与性能。该协议通过开放计算项目公开，支持在数千个 GPU 间建立高效、可靠的多路径连接，能自动绕过故障链路，将网络有效带宽提升最高达 30%，同时显著降低训练作业因网络问题中断的概率。MRC 的设计目标是应对万卡级集群的复杂网络挑战，为下一代大模型训练提供基础设施支持。",
+      "recommendation_reason": "虽然只是个网络协议，但MRC在超大规模训练集群里解决的是真实痛点，OpenAI自己内部用了才放出来，做万卡级训练的团队确实该看看。",
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "部署/工程"
+      ],
+      "starred_count": 69,
+      "published_at": "2026-05-05T10:00:00.000Z",
+      "source_url": "https://openai.com/index/mrc-supercomputer-networking",
+      "source_type": "blog",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 36,
+    "aihot_id": "cmovvs6e600ouslcxuur7w2qt",
+    "title": "Agent pull requests are everywhere. Here’s how to review them.",
+    "source_url": "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them",
+    "source_type": "blog",
+    "series": "S2_methodology",
+    "dir": "dev_methodology",
+    "confidence": "high",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "slug": "agent-pull-requests-are-everywhere-here-s-how-to-review-them",
+    "date": "2026-05-08",
+    "filename": "2026-05-08-agent-pull-requests-are-everywhere-here-s-how-to-review-them.md",
+    "rel_path": "raw/dev_methodology/2026-05-08-agent-pull-requests-are-everywhere-here-s-how-to-review-them.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\dev_methodology\\2026-05-08-agent-pull-requests-are-everywhere-here-s-how-to-review-them.md",
+    "norm_key": "agentpullrequestsareeverywherehereshowtoreviewthem||https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them",
+    "skip_fetch": false,
+    "item": {
+      "aihot_id": "cmovvs6e600ouslcxuur7w2qt",
+      "aihot_url": "",
+      "title": "Agent pull requests are everywhere. Here’s how to review them.",
+      "summary": "这份指南提供了审查由AI代理生成的pull requests的实用方法，重点包括审查时应关注的代码变更点、问题常见隐藏位置（如逻辑错误或安全漏洞），以及如何在代码合并前捕捉技术债务。它通过具体步骤帮助开发者系统评估自动化提交，确保代码质量，避免缺陷流入生产环境。指南强调主动审查策略，以应对AI代理在软件开发中日益普及的趋势。",
+      "recommendation_reason": "AI代理生成的PR越来越多，审查它们不再是可选项。这篇官方指南从发现隐患到控制技术债务，给出了马上能用的检查清单，每个用Copilot的开发者都该看。",
+      "tags": [
+        "Agent",
+        "GitHub",
+        "教程/实践",
+        "编码"
+      ],
+      "starred_count": 79,
+      "published_at": "2026-05-07T19:00:00.000Z",
+      "source_url": "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them",
+      "source_type": "blog",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 87,
+    "aihot_id": "cmouvkjiq00ansl44ppklky75",
+    "title": "2026 年的 Coding Agent 应该是什么样？Amp 新版 CLI：Neo 发布 @AmpCode \nhttps://ampcode.com/news/neo\n\n从\"陪伴式 Agent\"转向...",
+    "source_url": "https://x.com/shao__meng/status/2052212574306095337",
+    "source_type": "twitter",
+    "series": "S2_methodology",
+    "dir": "dev_methodology",
+    "confidence": "high",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "slug": "2026-年的-Coding-Agent-应该是什么样-Amp-新版-CLI-Neo-发布-AmpCode-https-ampcode-com-news-neo",
+    "date": "2026-05-07",
+    "filename": "2026-05-07-2026-年的-Coding-Agent-应该是什么样-Amp-新版-CLI-Neo-发布-AmpCode-https-ampcode-com-news-neo.md",
+    "rel_path": "raw/dev_methodology/2026-05-07-2026-年的-Coding-Agent-应该是什么样-Amp-新版-CLI-Neo-发布-AmpCode-https-ampcode-com-news-neo.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\dev_methodology\\2026-05-07-2026-年的-Coding-Agent-应该是什么样-Amp-新版-CLI-Neo-发布-AmpCode-https-ampcode-com-news-neo.md",
+    "norm_key": "2026年的codingagent应该是什么样amp新版clineo发布ampcodehttpsampcodecomnewsneo从陪伴式agent转向||https://x.com/shao__meng/status/2052212574306095337",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmouvkjiq00ansl44ppklky75",
+      "aihot_url": "",
+      "title": "2026 年的 Coding Agent 应该是什么样？Amp 新版 CLI：Neo 发布 @AmpCode \nhttps://ampcode.com/news/neo\n\n从\"陪伴式 Agent\"转向...",
+      "summary": "Amp发布CLI工具Neo，标志着Coding Agent从“陪伴式”转向“长链路”新方向，核心是减少人工介入、支持随处运行与触发。关键更新包括：实现本地线程的远程控制与编排；引入自动上下文压缩，淘汰手动管理；正式发布Plugin API，支持扩展工具与交互；采用队列与引导机制优化工作流；权限模型彻底反转，默认允许所有操作，将安全控制权移交插件系统；性能大幅提升，CPU与内存占用显著下降。此次更新旨在构建更自主、高效且可扩展的智能编程代理架构。",
+      "recommendation_reason": "Amp 这次重写把 Coding Agent 从「陪你写代码」变成了「替你干完活」，默认不询问权限这步走得够狠，但也确实是大模型能力上来的必然。",
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "产品更新",
+        "编码"
+      ],
+      "starred_count": 77,
+      "published_at": "2026-05-07T02:23:00.000Z",
+      "source_url": "https://x.com/shao__meng/status/2052212574306095337",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 137,
+    "aihot_id": "cmou7fhqx00w9slndi2vnfcn1",
+    "title": "我靠！Warp 这个Skills 太顶了！\n直接官方开源啊！\n\nWarp团队居然把他们日常用来大幅提效的内部「Skills」全部开源了！\n\n一条命令就能直接装上15个高质量生产级技能：\n\nnpx sk...",
+    "source_url": "https://x.com/berryxia/status/2052045185614582052",
+    "source_type": "twitter",
+    "series": "S2_methodology",
+    "dir": "dev_methodology",
+    "confidence": "high",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "slug": "我靠-Warp-这个Skills-太顶了-直接官方开源啊-Warp团队居然把他们日常用来大幅提效的内部-Skills-全部开源了-一条命令就能直接装上15个高质",
+    "date": "2026-05-06",
+    "filename": "2026-05-06-我靠-Warp-这个Skills-太顶了-直接官方开源啊-Warp团队居然把他们日常用来大幅提效的内部-Skills-全部开源了-一条命令就能直接装上15个高质.md",
+    "rel_path": "raw/dev_methodology/2026-05-06-我靠-Warp-这个Skills-太顶了-直接官方开源啊-Warp团队居然把他们日常用来大幅提效的内部-Skills-全部开源了-一条命令就能直接装上15个高质.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\dev_methodology\\2026-05-06-我靠-Warp-这个Skills-太顶了-直接官方开源啊-Warp团队居然把他们日常用来大幅提效的内部-Skills-全部开源了-一条命令就能直接装上15个高质.md",
+    "norm_key": "我靠warp这个skills太顶了直接官方开源啊warp团队居然把他们日常用来大幅提效的内部skills全部开源了一条命令就能直接装上15个高质量生产级技能npxsk||https://x.com/berryxia/status/2052045185614582052",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmou7fhqx00w9slndi2vnfcn1",
+      "aihot_url": "",
+      "title": "我靠！Warp 这个Skills 太顶了！\n直接官方开源啊！\n\nWarp团队居然把他们日常用来大幅提效的内部「Skills」全部开源了！\n\n一条命令就能直接装上15个高质量生产级技能：\n\nnpx sk...",
+      "summary": "Warp 团队将其内部用于大幅提升工作流效率的“Skills”工具集完全开源。用户通过一条命令 `npx skills add warpdotdev/oz-skills` 即可安装包含 SEO 与无障碍审计、文档自动写作、Terraform/DevOps 配置、GitHub Issue 处理等在内的15个高质量生产级技能。团队此举旨在将其实用工具开放给整个社区，而非私有化，体现了开放精神。项目 GitHub 仓库已开放，并鼓励社区贡献。",
+      "recommendation_reason": "Warp 团队把内部压箱底的 15 个生产级 Skills 全开源了，一条命令就能装，SEO 审计、Terraform 配置这些真实场景的技能直接拿来用，开发效率飞起。",
+      "tags": [
+        "MCP/工具调用",
+        "开源/仓库",
+        "部署/工程"
+      ],
+      "starred_count": 75,
+      "published_at": "2026-05-06T15:17:52.000Z",
+      "source_url": "https://x.com/berryxia/status/2052045185614582052",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 152,
+    "aihot_id": "cmotwjqgz007wslu90ocpeqe5",
+    "title": "这个创造了Claude Code的男人Boris Cherny大神，完整公开了自己的工作流，并直播演示了一半的编码工作在手机上完成🤪\n\n不是回消息，是同时跑5到10个Claude实例，\n用手机启动任...",
+    "source_url": "https://x.com/AYi_AInotes/status/2051958831320588797",
+    "source_type": "twitter",
+    "series": "S2_methodology",
+    "dir": "dev_methodology",
+    "confidence": "high",
+    "also_relevant": [
+      "S3_roles"
+    ],
+    "slug": "这个创造了Claude-Code的男人Boris-Cherny大神-完整公开了自己的工作流-并直播演示了一半的编码工作在手机上完成-不是回消息-是同时跑5到10",
+    "date": "2026-05-06",
+    "filename": "2026-05-06-这个创造了Claude-Code的男人Boris-Cherny大神-完整公开了自己的工作流-并直播演示了一半的编码工作在手机上完成-不是回消息-是同时跑5到10.md",
+    "rel_path": "raw/dev_methodology/2026-05-06-这个创造了Claude-Code的男人Boris-Cherny大神-完整公开了自己的工作流-并直播演示了一半的编码工作在手机上完成-不是回消息-是同时跑5到10.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\dev_methodology\\2026-05-06-这个创造了Claude-Code的男人Boris-Cherny大神-完整公开了自己的工作流-并直播演示了一半的编码工作在手机上完成-不是回消息-是同时跑5到10.md",
+    "norm_key": "这个创造了claudecode的男人borischerny大神完整公开了自己的工作流并直播演示了一半的编码工作在手机上完成不是回消息是同时跑5到10个claude实例用手机启动任||https://x.com/AYi_AInotes/status/2051958831320588797",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmotwjqgz007wslu90ocpeqe5",
+      "aihot_url": "",
+      "title": "这个创造了Claude Code的男人Boris Cherny大神，完整公开了自己的工作流，并直播演示了一半的编码工作在手机上完成🤪\n\n不是回消息，是同时跑5到10个Claude实例，\n用手机启动任...",
+      "summary": "Boris Cherny公开其高效AI编码工作流，核心基于三点反直觉原则：1. 坚持使用最昂贵、最聪明的模型（如Claude），因其能一次性清晰规划，避免笨模型反复试错消耗更多token；2. 团队仅维护一个纯文本知识库文件，记录Claude的每次错误并每周更新，形成长期记忆；3. 始终让Claude查看自身代码的运行结果（包括执行和渲染）。其工作模式是在手机上并行启动多个Claude实例，基于规划模式制定方案后自动执行修改，从而高效完成任务。",
+      "recommendation_reason": "Boris Cherny 的 Claude Code 工作流是「反直觉但真能省钱省时间」的实操手册，三条原则每一条都可以抄进团队规范，看完立刻能上线。",
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "教程/实践",
+        "编码"
+      ],
+      "starred_count": 79,
+      "published_at": "2026-05-06T09:34:43.000Z",
+      "source_url": "https://x.com/AYi_AInotes/status/2051958831320588797",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 144,
+    "aihot_id": "cmou5llmo00glslnd1jw5lh8r",
+    "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+    "source_url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering",
+    "source_type": "blog",
+    "series": "S2_methodology",
+    "dir": "dev_methodology",
+    "confidence": "high",
+    "also_relevant": [
+      "S3_roles"
+    ],
+    "slug": "vibe-coding-and-agentic-engineering-are-getting-closer-than-i-d-like",
+    "date": "2026-05-06",
+    "filename": "2026-05-06-vibe-coding-and-agentic-engineering-are-getting-closer-than-i-d-like.md",
+    "rel_path": "raw/dev_methodology/2026-05-06-vibe-coding-and-agentic-engineering-are-getting-closer-than-i-d-like.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\dev_methodology\\2026-05-06-vibe-coding-and-agentic-engineering-are-getting-closer-than-i-d-like.md",
+    "norm_key": "vibecodingandagenticengineeringaregettingcloserthanidlike||https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering",
+    "skip_fetch": false,
+    "item": {
+      "aihot_id": "cmou5llmo00glslnd1jw5lh8r",
+      "aihot_url": "",
+      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "summary": "作者在访谈中反思，曾严格区分的两种AI编程模式——“感觉编码”（不审查代码）与“代理工程”（专业工程师构建高质量系统）——其界限在实践中正迅速模糊。随着Claude等编码代理可靠性提升，作者发现自己即使在生产级项目中也不再逐行审查AI生成的代码，转而将其视为可信的“半黑箱”。这带来了新的责任困境：AI缺乏职业声誉却持续产出正确代码，可能导致“偏差正常化”风险，即每一次成功都可能在不当时刻埋下隐患。同时，AI生成代码的便捷性也使得评估软件质量的传统指标（如提交次数、测试覆盖）不再可靠。",
+      "recommendation_reason": "Simon 坦诚自己在生产级开发中也开始‘不看代码就信任 Claude Code’，这个伦理困境是每个 AI 编程工具使用者都绕不开的一课，他的思考比大多数评测都更能帮你定位自己的信任边界。",
+      "tags": [
+        "Agent",
+        "大佬观点",
+        "编码"
+      ],
+      "starred_count": 77,
+      "published_at": "2026-05-06T14:24:08.000Z",
+      "source_url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering",
+      "source_type": "blog",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 237,
+    "aihot_id": "cmos0c9f803x9slrjv53m4oas",
+    "title": "Cursor 团队这篇「持续改进我们的 Agent Harness」，写的真不错，很实战：\n· 如何衡量 harness 的好坏？\n· 如何为不同模型定制 harness？\n· 中途换模型到底会有什么...",
+    "source_url": "https://x.com/shao__meng/status/2051487288769790223",
+    "source_type": "twitter",
+    "series": "S2_methodology",
+    "dir": "dev_methodology",
+    "confidence": "high",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "slug": "Cursor-团队这篇-持续改进我们的-Agent-Harness-写的真不错-很实战-如何衡量-harness-的好坏-如何为不同模型定制-harness-中",
+    "date": "2026-05-05",
+    "filename": "2026-05-05-Cursor-团队这篇-持续改进我们的-Agent-Harness-写的真不错-很实战-如何衡量-harness-的好坏-如何为不同模型定制-harness-中.md",
+    "rel_path": "raw/dev_methodology/2026-05-05-Cursor-团队这篇-持续改进我们的-Agent-Harness-写的真不错-很实战-如何衡量-harness-的好坏-如何为不同模型定制-harness-中.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\dev_methodology\\2026-05-05-Cursor-团队这篇-持续改进我们的-Agent-Harness-写的真不错-很实战-如何衡量-harness-的好坏-如何为不同模型定制-harness-中.md",
+    "norm_key": "cursor团队这篇持续改进我们的agentharness写的真不错很实战如何衡量harness的好坏如何为不同模型定制harness中途换模型到底会有什么||https://x.com/shao__meng/status/2051487288769790223",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmos0c9f803x9slrjv53m4oas",
+      "aihot_url": "",
+      "title": "Cursor 团队这篇「持续改进我们的 Agent Harness」，写的真不错，很实战：\n· 如何衡量 harness 的好坏？\n· 如何为不同模型定制 harness？\n· 中途换模型到底会有什么...",
+      "summary": "Cursor团队认为，模型能力决定上限，而Harness（模型控制框架）决定其实际表现。他们采用愿景驱动与实验闭环的方法，通过线上A/B测试和离线评估持续优化。随着模型能力提升，Harness设计正从“守卫式”转向“动态获取式”，即减少静态信息注入，赋予模型更多动态获取上下文的权力。衡量体系结合离线基准、在线A/B测试及留存率、LLM判读等质量指标。Harness需为不同模型重度定制，贴合其工具格式与Prompt风格。团队判断AI编程的未来是多Agent协作，其成功关键取决于能协调任务分配与工作流缝合的Harness工程。",
+      "recommendation_reason": "Cursor 团队把 agent harness 的衡量与定制方法全盘托出，从上下文范式演进到错误分类告警，做 AI 编程工具的必读，这种坦诚的实战分享太稀缺了。",
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "教程/实践",
+        "编码"
+      ],
+      "starred_count": 74,
+      "published_at": "2026-05-05T02:20:59.000Z",
+      "source_url": "https://x.com/shao__meng/status/2051487288769790223",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 271,
+    "aihot_id": "cmoragvh00225slru1ru54n21",
+    "title": "Cursor 官方团队自己在用的 CI、Code Review、发版、测试、清理代码、周报等工作流的 Skills 打包成一个 Plugin，一句指令安装：/add-plugin cursor-tea...",
+    "source_url": "https://x.com/shao__meng/status/2051303113626460533",
+    "source_type": "twitter",
+    "series": "S2_methodology",
+    "dir": "dev_methodology",
+    "confidence": "high",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "slug": "Cursor-官方团队自己在用的-CI-Code-Review-发版-测试-清理代码-周报等工作流的-Skills-打包成一个-Plugin-一句指令安装-ad",
+    "date": "2026-05-04",
+    "filename": "2026-05-04-Cursor-官方团队自己在用的-CI-Code-Review-发版-测试-清理代码-周报等工作流的-Skills-打包成一个-Plugin-一句指令安装-ad.md",
+    "rel_path": "raw/dev_methodology/2026-05-04-Cursor-官方团队自己在用的-CI-Code-Review-发版-测试-清理代码-周报等工作流的-Skills-打包成一个-Plugin-一句指令安装-ad.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\dev_methodology\\2026-05-04-Cursor-官方团队自己在用的-CI-Code-Review-发版-测试-清理代码-周报等工作流的-Skills-打包成一个-Plugin-一句指令安装-ad.md",
+    "norm_key": "cursor官方团队自己在用的cicodereview发版测试清理代码周报等工作流的skills打包成一个plugin一句指令安装addplugincursortea||https://x.com/shao__meng/status/2051303113626460533",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmoragvh00225slru1ru54n21",
+      "aihot_url": "",
+      "title": "Cursor 官方团队自己在用的 CI、Code Review、发版、测试、清理代码、周报等工作流的 Skills 打包成一个 Plugin，一句指令安装：/add-plugin cursor-tea...",
+      "summary": "Cursor官方团队将其内部使用的开发工作流打包成名为“cursor-team-kit”的插件。该插件集成了17个核心Skills、1个Agent和2条Rules，旨在提升团队协作与代码质量。核心Skills涵盖五大领域：CI/合并循环自动化、PR全流程管理、验证与测试、总结复盘以及代码治理。其中，ci-watcher Agent可后台监听CI状态，而两条Rules则强制规定了TypeScript的代码风格。该插件是团队用于构建Cursor产品自身经验的封装，专注于验证变更、驱动本地工具和交付可评审的PR。",
+      "recommendation_reason": "Cursor 把自己的开发流程开源成插件了，这一套 17 个 skill 从 CI 盯盘到写周报全包，最牛的 verify-this 把 debug 变成了科学实验，装了立刻就能用。",
+      "tags": [
+        "Agent",
+        "产品更新",
+        "编码"
+      ],
+      "starred_count": 72,
+      "published_at": "2026-05-04T14:09:08.000Z",
+      "source_url": "https://x.com/shao__meng/status/2051303113626460533",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 273,
+    "aihot_id": "cmor9h7w301ubslruffpfctl1",
+    "title": "Claude code有时候会替你做错误假设，不主动要求澄清；该反驳时不反驳...敷衍迎合奉承你...\n\n有人把 Karpathy 对 AI 写代码常见问题的观察，整理成一份可以直接放进项目里的 CL...",
+    "source_url": "https://x.com/xiaohu/status/2051292100067729623",
+    "source_type": "twitter",
+    "series": "S2_methodology",
+    "dir": "dev_methodology",
+    "confidence": "high",
+    "also_relevant": [],
+    "slug": "Claude-code有时候会替你做错误假设-不主动要求澄清-该反驳时不反驳-敷衍迎合奉承你-有人把-Karpathy-对-AI-写代码常见问题的观察-整理成一",
+    "date": "2026-05-04",
+    "filename": "2026-05-04-Claude-code有时候会替你做错误假设-不主动要求澄清-该反驳时不反驳-敷衍迎合奉承你-有人把-Karpathy-对-AI-写代码常见问题的观察-整理成一.md",
+    "rel_path": "raw/dev_methodology/2026-05-04-Claude-code有时候会替你做错误假设-不主动要求澄清-该反驳时不反驳-敷衍迎合奉承你-有人把-Karpathy-对-AI-写代码常见问题的观察-整理成一.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\dev_methodology\\2026-05-04-Claude-code有时候会替你做错误假设-不主动要求澄清-该反驳时不反驳-敷衍迎合奉承你-有人把-Karpathy-对-AI-写代码常见问题的观察-整理成一.md",
+    "norm_key": "claudecode有时候会替你做错误假设不主动要求澄清该反驳时不反驳敷衍迎合奉承你有人把karpathy对ai写代码常见问题的观察整理成一份可以直接放进项目里的cl||https://x.com/xiaohu/status/2051292100067729623",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmor9h7w301ubslruffpfctl1",
+      "aihot_url": "",
+      "title": "Claude code有时候会替你做错误假设，不主动要求澄清；该反驳时不反驳...敷衍迎合奉承你...\n\n有人把 Karpathy 对 AI 写代码常见问题的观察，整理成一份可以直接放进项目里的 CL...",
+      "summary": "针对AI编程工具常犯的“默默假设”、“过度自信”和“无效重构”等问题，一份名为CLAUDE.md的文档被整理出来，旨在为AI设定工程纪律。其核心四条原则是：编码前先思考并澄清歧义；优先用最简代码实现需求；仅修改与需求直接相关的代码；为任务设定明确、可验证的目标。这套规则旨在约束AI行为，使其更接近靠谱工程师的作风，解决其“太积极、太爱脑补、太喜欢顺手优化”的痛点。",
+      "recommendation_reason": "把 Karpathy 的观察变成可执行的 CLAUDE.md，直接解决了 Claude Code 太爱脑补、乱改代码的臭毛病，对日常用 AI 编程的人很管用，放进项目就能让 AI 少犯傻。",
+      "tags": [
+        "Agent",
+        "教程/实践",
+        "编码"
+      ],
+      "starred_count": 72,
+      "published_at": "2026-05-04T13:25:22.000Z",
+      "source_url": "https://x.com/xiaohu/status/2051292100067729623",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 289,
+    "aihot_id": "cmoohl3wl0odvsll93vi0ewky",
+    "title": "http://x.com/i/article/2050590821553258496",
+    "source_url": "https://x.com/frxiaobei/status/2050591638054203871",
+    "source_type": "twitter",
+    "series": "S2_methodology",
+    "dir": "dev_methodology",
+    "confidence": "high",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "slug": "http-x-com-i-article-2050590821553258496",
+    "date": "2026-05-02",
+    "filename": "2026-05-02-http-x-com-i-article-2050590821553258496.md",
+    "rel_path": "raw/dev_methodology/2026-05-02-http-x-com-i-article-2050590821553258496.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\dev_methodology\\2026-05-02-http-x-com-i-article-2050590821553258496.md",
+    "norm_key": "httpxcomiarticle2050590821553258496||https://x.com/frxiaobei/status/2050591638054203871",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmoohl3wl0odvsll93vi0ewky",
+      "aihot_url": "",
+      "title": "http://x.com/i/article/2050590821553258496",
+      "summary": "作者将AI助手底层模型从Claude切换至GPT-5.5后，发现其能力虽提升，但互动风格变得陌生，失去了作为长期工作伙伴的熟悉感。这揭示出个人AI助手的核心在于可迁移的“身份层”，而非特定模型。通过USER.md、MEMORY.md和关键的SOUL.md等文件，可以构建包含记忆、性格、工具习惯与关系定位的身份系统。真正的个人AI应独立于模型供应商，确保即使更换“发动机”，助手的核心身份与协作关系也能延续。",
+      "recommendation_reason": "这不只是一篇模型切换体验，它其实回答了那个让人不安的问题——你的 AI 助手换模型后还是它吗？如果不想每次更新都重新认识一个陌生人，这篇里的 SOUL.md 写法和五层身份结构可以照着抄。",
+      "tags": [
+        "Agent",
+        "大佬观点",
+        "开源生态"
+      ],
+      "starred_count": 70,
+      "published_at": "2026-05-02T15:01:59.000Z",
+      "source_url": "https://x.com/frxiaobei/status/2050591638054203871",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 284,
+    "aihot_id": "cmopogquh0y1esll9cth65i6l",
+    "title": "解决真正工程问题的 Skills：Skills For Real Engineers\n\n作者 @mattpocockuk 公开了自己 .claude/ 目录中每天在用的 Agent Skills 集合...",
+    "source_url": "https://x.com/shao__meng/status/2050892004188692616",
+    "source_type": "twitter",
+    "series": "S2_methodology",
+    "dir": "dev_methodology",
+    "confidence": "high",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "slug": "解决真正工程问题的-Skills-Skills-For-Real-Engineers-作者-mattpocockuk-公开了自己-claude-目录中每天在用的",
+    "date": "2026-05-03",
+    "filename": "2026-05-03-解决真正工程问题的-Skills-Skills-For-Real-Engineers-作者-mattpocockuk-公开了自己-claude-目录中每天在用的.md",
+    "rel_path": "raw/dev_methodology/2026-05-03-解决真正工程问题的-Skills-Skills-For-Real-Engineers-作者-mattpocockuk-公开了自己-claude-目录中每天在用的.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\dev_methodology\\2026-05-03-解决真正工程问题的-Skills-Skills-For-Real-Engineers-作者-mattpocockuk-公开了自己-claude-目录中每天在用的.md",
+    "norm_key": "解决真正工程问题的skillsskillsforrealengineers作者mattpocockuk公开了自己claude目录中每天在用的agentskills集合||https://x.com/shao__meng/status/2050892004188692616",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmopogquh0y1esll9cth65i6l",
+      "aihot_url": "",
+      "title": "解决真正工程问题的 Skills：Skills For Real Engineers\n\n作者 @mattpocockuk 公开了自己 .claude/ 目录中每天在用的 Agent Skills 集合...",
+      "summary": "作者@mattpocockuk公开了其.claude/目录下的实用Agent Skills集合，旨在解决四大工程痛点：1) 通过/grill-me等技能在动工前对齐需求，修复沟通鸿沟；2) 维护CONTEXT.md与ADR建立共享语言，提升代码一致性；3) 利用/tdd和/diagnose建立快速测试与诊断反馈回路；4) 通过/to-prd、/zoom-out等技能对抗代码熵增，持续投资设计。这些技能分为工程、效率与工具三类，形成从需求对齐到代码落地的完整工作流。",
+      "recommendation_reason": "matt pocock 把自己 Claude Code 里实际用的 Skills 全开源了，专治 Agent 瞎编、啰嗦、跑不通和屎山，grill-me 反向拷问和共享语言这两招很开眼。",
+      "tags": [
+        "Agent",
+        "GitHub",
+        "教程/实践",
+        "编码"
+      ],
+      "starred_count": 72,
+      "published_at": "2026-05-03T10:55:32.000Z",
+      "source_url": "https://x.com/shao__meng/status/2050892004188692616",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 307,
+    "aihot_id": "cmon6g4w70do8sll9bfon702b",
+    "title": "How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks",
+    "source_url": "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks",
+    "source_type": "blog",
+    "series": "S2_methodology",
+    "dir": "dev_methodology",
+    "confidence": "high",
+    "also_relevant": [
+      "S3_roles"
+    ],
+    "slug": "how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-wi",
+    "date": "2026-05-01",
+    "filename": "2026-05-01-how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-wi.md",
+    "rel_path": "raw/dev_methodology/2026-05-01-how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-wi.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\dev_methodology\\2026-05-01-how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-wi.md",
+    "norm_key": "howanontechnicalprojectmanagerbuiltandshippedastressmanagementappwithclaudecodeinsixweeks||https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks",
+    "skip_fetch": false,
+    "item": {
+      "aihot_id": "cmon6g4w70do8sll9bfon702b",
+      "aihot_url": "",
+      "title": "How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks",
+      "summary": "毫无编程经验的项目经理Kostiantyn Vlasenko，借助Claude Code在72小时内独立开发出压力管理应用Respiro，并于六周后成功上线苹果应用商店。该应用能通过手机实时检测用户压力信号，并即时引导呼吸练习。其架构由15个以上并行运作的专用子智能体构成，涵盖设计、开发、审查等模块。Claude协助完成了从技术选型、代码重构到苹果账号注册、服务集成乃至界面调试等一系列复杂操作，甚至支持了后续的市场推广工作。",
+      "recommendation_reason": "一个零编程经验的项目经理，用 Claude Code 六周做完压力管理 App 并上架。关键不在技术，而在「管人经验拿来管 AI agent」的思路，对非技术背景的创业者太有参考价值。",
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "教程/实践"
+      ],
+      "starred_count": 64,
+      "published_at": "2026-04-30T16:00:00.000Z",
+      "source_url": "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks",
+      "source_type": "blog",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 332,
+    "aihot_id": "cmolt11dh026esll9jvakjms4",
+    "title": "Lessons from building Claude Code: Prompt caching is everything",
+    "source_url": "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything",
+    "source_type": "blog",
+    "series": "S2_methodology",
+    "dir": "dev_methodology",
+    "confidence": "high",
+    "also_relevant": [
+      "S4_agent"
+    ],
+    "slug": "lessons-from-building-claude-code-prompt-caching-is-everything",
+    "date": "2026-04-30",
+    "filename": "2026-04-30-lessons-from-building-claude-code-prompt-caching-is-everything.md",
+    "rel_path": "raw/dev_methodology/2026-04-30-lessons-from-building-claude-code-prompt-caching-is-everything.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\dev_methodology\\2026-04-30-lessons-from-building-claude-code-prompt-caching-is-everything.md",
+    "norm_key": "lessonsfrombuildingclaudecodepromptcachingiseverything||https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything",
+    "skip_fetch": false,
+    "item": {
+      "aihot_id": "cmolt11dh026esll9jvakjms4",
+      "aihot_url": "",
+      "title": "Lessons from building Claude Code: Prompt caching is everything",
+      "summary": "Claude Code 团队分享了大规模优化提示缓存的核心策略。提示缓存基于前缀匹配工作，能显著降低延迟与成本，高命中率还能支持更宽松的订阅速率限制。关键实践包括：将静态系统提示和工具定义置于提示词前端以最大化共享前缀；通过消息而非修改提示词来传递更新信息，避免缓存失效；在会话中不切换模型、不增删工具，以维持缓存前缀稳定。此外，针对工具过多或“计划模式”等场景，可通过发送轻量存根或设计专用工具来规避缓存失效，从而在复杂功能中持续利用缓存优势。",
+      "recommendation_reason": "Claude Code团队把提示缓存的坑和优化方法全盘托出，从提示顺序、工具加载到压缩技巧，每一个经验都是钱和延迟换来的，做agent的同行可以直接拿去做架构参考。",
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "MCP/工具调用",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "starred_count": 64,
+      "published_at": "2026-04-29T16:00:00.000Z",
+      "source_url": "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything",
+      "source_type": "blog",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 13,
+    "aihot_id": "cmow4cvtv02o8slcx9yafds3n",
+    "title": "Improving token efficiency in GitHub Agentic Workflows",
+    "source_url": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows",
+    "source_type": "blog",
+    "series": "S4_agent",
+    "dir": "agent_engineering",
+    "confidence": "high",
+    "also_relevant": [
+      "S2_methodology"
+    ],
+    "slug": "improving-token-efficiency-in-github-agentic-workflows",
+    "date": "2026-05-08",
+    "filename": "2026-05-08-improving-token-efficiency-in-github-agentic-workflows.md",
+    "rel_path": "raw/agent_engineering/2026-05-08-improving-token-efficiency-in-github-agentic-workflows.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\agent_engineering\\2026-05-08-improving-token-efficiency-in-github-agentic-workflows.md",
+    "norm_key": "improvingtokenefficiencyingithubagenticworkflows||https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows",
+    "skip_fetch": false,
+    "item": {
+      "aihot_id": "cmow4cvtv02o8slcx9yafds3n",
+      "aihot_url": "",
+      "title": "Improving token efficiency in GitHub Agentic Workflows",
+      "summary": "GitHub 发现运行于每个拉取请求的智能体工作流会累积高昂的 API 成本。团队通过监测自身生产工作流，定位了效率低下的环节，并构建了专门的智能体进行优化。这一举措旨在显著降低由大语言模型调用产生的 Token 消耗与相关费用，直接提升了工作流的经济性与运行效率。",
+      "recommendation_reason": "GitHub 把自己生产环境的 agentic workflow 扒了一遍，从 token 消耗里找浪费，再让 agent 自动修。不是 paper，是真踩过的坑，做 Copilot 集成的团队可以抄作业。",
+      "tags": [
+        "Agent",
+        "GitHub",
+        "MCP/工具调用",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "starred_count": 72,
+      "published_at": "2026-05-07T23:00:00.000Z",
+      "source_url": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows",
+      "source_type": "blog",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 131,
+    "aihot_id": "cmoua1os000lgslm0y9qvbma4",
+    "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+    "source_url": "https://claude.com/blog/new-in-claude-managed-agents",
+    "source_type": "blog",
+    "series": "S4_agent",
+    "dir": "agent_engineering",
+    "confidence": "high",
+    "also_relevant": [],
+    "slug": "new-in-claude-managed-agents-dreaming-outcomes-and-multiagent-orchestration",
+    "date": "2026-05-06",
+    "filename": "2026-05-06-new-in-claude-managed-agents-dreaming-outcomes-and-multiagent-orchestration.md",
+    "rel_path": "raw/agent_engineering/2026-05-06-new-in-claude-managed-agents-dreaming-outcomes-and-multiagent-orchestration.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\agent_engineering\\2026-05-06-new-in-claude-managed-agents-dreaming-outcomes-and-multiagent-orchestration.md",
+    "norm_key": "newinclaudemanagedagentsdreamingoutcomesandmultiagentorchestration||https://claude.com/blog/new-in-claude-managed-agents",
+    "skip_fetch": false,
+    "item": {
+      "aihot_id": "cmoua1os000lgslm0y9qvbma4",
+      "aihot_url": "",
+      "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+      "summary": "Anthropic为其Claude托管智能体平台推出三项核心更新。“梦想”功能通过回顾会话历史提取模式，使智能体能够自我改进。“成果”功能允许开发者设定成功标准，智能体据此进行自我评估与修正，内部测试显示其显著提升了任务成功率和输出质量。“多智能体编排”功能支持主智能体将复杂任务分解，并分配给配备专用工具的子智能体并行处理。这些更新旨在以最小人工干预，增强智能体处理复杂任务的能力。",
+      "recommendation_reason": "Anthropic给托管Agent加了dreaming、outcomes和multiagent，这是Agent从完成任务到自我改进和协作的质变。dreaming让Agent能跨session复盘，做Agent产品的团队现在多了一个必须研究的模块。",
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "产品更新",
+        "部署/工程"
+      ],
+      "starred_count": 69,
+      "published_at": "2026-05-05T16:00:00.000Z",
+      "source_url": "https://claude.com/blog/new-in-claude-managed-agents",
+      "source_type": "blog",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 161,
+    "aihot_id": "cmotfjtor04upslv7b2f4sa2q",
+    "title": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
+    "source_url": "https://arxiv.org/abs/2605.04036",
+    "source_type": "arxiv",
+    "series": "S4_agent",
+    "dir": "agent_engineering",
+    "confidence": "high",
+    "also_relevant": [],
+    "slug": "openseeker-v2-pushing-the-limits-of-search-agents-with-informative-and-high-diff",
+    "date": "2026-05-05",
+    "filename": "2026-05-05-openseeker-v2-pushing-the-limits-of-search-agents-with-informative-and-high-diff.md",
+    "rel_path": "raw/agent_engineering/2026-05-05-openseeker-v2-pushing-the-limits-of-search-agents-with-informative-and-high-diff.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\agent_engineering\\2026-05-05-openseeker-v2-pushing-the-limits-of-search-agents-with-informative-and-high-diff.md",
+    "norm_key": "openseekerv2pushingthelimitsofsearchagentswithinformativeandhighdifficultytrajectories||https://arxiv.org/abs/2605.04036",
+    "skip_fetch": false,
+    "item": {
+      "aihot_id": "cmotfjtor04upslv7b2f4sa2q",
+      "aihot_url": "",
+      "title": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
+      "summary": "本研究提出了一种仅通过监督微调（SFT）训练前沿搜索智能体的高效方法。该方法基于三项关键数据合成改进：扩展知识图谱规模、增加工具集以及进行严格的低步数过滤。仅使用1.06万条数据训练的OpenSeeker-v2，在四个基准测试中均取得了领先性能，全面超越了采用复杂CPT+SFT+RL流程训练的同类模型。这是首个由纯学术团队仅通过SFT实现的、在同等模型规模与范式下的顶尖搜索智能体，其模型权重将开源以促进社区研究。",
+      "recommendation_reason": "纯学术团队仅靠SFT和一万条数据，就在多个搜索基准上反超工业级管线，并且开源模型。这证明高质量数据比烧钱RL更关键，做Agent的朋友值得认真看。",
+      "tags": [
+        "Agent",
+        "开源生态",
+        "搜索",
+        "论文/研究"
+      ],
+      "starred_count": 72,
+      "published_at": "2026-05-05T00:00:00.000Z",
+      "source_url": "https://arxiv.org/abs/2605.04036",
+      "source_type": "arxiv",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 207,
+    "aihot_id": "cmoswhwj200a4slv71y8reukq",
+    "title": "Anthropic just shipped 10 finance-agent templates that turn Claude from a chat assistant into a cont...",
+    "source_url": "https://x.com/rohanpaul_ai/status/2051713999998500865",
+    "source_type": "twitter",
+    "series": "S4_agent",
+    "dir": "agent_engineering",
+    "confidence": "high",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "slug": "anthropic-just-shipped-10-finance-agent-templates-that-turn-claude-from-a-chat-a",
+    "date": "2026-05-06",
+    "filename": "2026-05-06-anthropic-just-shipped-10-finance-agent-templates-that-turn-claude-from-a-chat-a.md",
+    "rel_path": "raw/agent_engineering/2026-05-06-anthropic-just-shipped-10-finance-agent-templates-that-turn-claude-from-a-chat-a.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\agent_engineering\\2026-05-06-anthropic-just-shipped-10-finance-agent-templates-that-turn-claude-from-a-chat-a.md",
+    "norm_key": "anthropicjustshipped10financeagenttemplatesthatturnclaudefromachatassistantintoacont||https://x.com/rohanpaul_ai/status/2051713999998500865",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmoswhwj200a4slv71y8reukq",
+      "aihot_url": "",
+      "title": "Anthropic just shipped 10 finance-agent templates that turn Claude from a chat assistant into a cont...",
+      "summary": "Anthropic发布了10款面向金融服务的Claude智能体模板，使其从聊天助手转变为可执行募资书制作、KYC审查、月度结算、估值分析等标准化任务的工作流。其核心是通过预置“技能”规范操作，利用“连接器”安全访问数据，并通过“子智能体”拆分任务步骤。该功能支持在Microsoft 365应用间保持上下文连贯，无需重复输入。同时提供具备权限控制与审计日志的托管代理模式。据称，Claude Opus 4.7在Vals AI金融智能体基准测试中以64.37%领先。模板可安装于Cowork和Claude Code，或部署为生产级托管代理。",
+      "recommendation_reason": "金融从业者能直接把Claude当成一个能跑pitchbook和月底结账的同事了，不再是聊天助手。Anthropic给的性能基准也说明他们这次认真在解决金融合规和工具链的实际问题，值得关注",
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "产品更新"
+      ],
+      "starred_count": 70,
+      "published_at": "2026-05-05T17:21:51.000Z",
+      "source_url": "https://x.com/rohanpaul_ai/status/2051713999998500865",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 268,
+    "aihot_id": "cmorbmje400czslhfgs1xl62y",
+    "title": "NEW paper from Sakana AI (ICLR 2026).\n\nA 7B Conductor model just hit SOTA on GPQA-Diamond and LiveCo...",
+    "source_url": "https://x.com/omarsar0/status/2051306659021242635",
+    "source_type": "twitter",
+    "series": "S4_agent",
+    "dir": "agent_engineering",
+    "confidence": "high",
+    "also_relevant": [],
+    "slug": "new-paper-from-sakana-ai-iclr-2026-a-7b-conductor-model-just-hit-sota-on-gpqa-di",
+    "date": "2026-05-04",
+    "filename": "2026-05-04-new-paper-from-sakana-ai-iclr-2026-a-7b-conductor-model-just-hit-sota-on-gpqa-di.md",
+    "rel_path": "raw/agent_engineering/2026-05-04-new-paper-from-sakana-ai-iclr-2026-a-7b-conductor-model-just-hit-sota-on-gpqa-di.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\agent_engineering\\2026-05-04-new-paper-from-sakana-ai-iclr-2026-a-7b-conductor-model-just-hit-sota-on-gpqa-di.md",
+    "norm_key": "newpaperfromsakanaaiiclr2026a7bconductormodeljusthitsotaongpqadiamondandliveco||https://x.com/omarsar0/status/2051306659021242635",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmorbmje400czslhfgs1xl62y",
+      "aihot_url": "",
+      "title": "NEW paper from Sakana AI (ICLR 2026).\n\nA 7B Conductor model just hit SOTA on GPQA-Diamond and LiveCo...",
+      "summary": "Sakana AI在ICLR 2026上发表研究，提出一个仅70亿参数的“指挥者”模型。该模型不直接解决问题，而是通过强化学习训练，专注于为混合开源与闭源模型的工作者智能体设计通信拓扑结构，并为每个工作者生成精准指令以发挥其特长。经随机化智能体池训练后，它能在推理时适应任意智能体组合。其关键创新在于，当允许指挥模型将自己也选为工作者时，系统会形成递归拓扑，实现动态测试时扩展。该模型在GPQA-Diamond和LiveCodeBench上达到SOTA水平，在AIME25和GPQA-D上的性能比最佳单体工作者提升约3%，这相当于前沿模型一个代际的改进幅度，且增益完全来源于协同优化。",
+      "recommendation_reason": "Sakana AI 这篇 ICLR 论文把 Agent 之间的通信拓扑和提示词一起做成可训练的，协调本身变成模型，做多 Agent 系统的人真该重新想想架构了。",
+      "tags": [
+        "Agent",
+        "arXiv",
+        "MCP/工具调用",
+        "推理",
+        "论文/研究"
+      ],
+      "starred_count": 71,
+      "published_at": "2026-05-04T14:23:13.000Z",
+      "source_url": "https://x.com/omarsar0/status/2051306659021242635",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 278,
+    "aihot_id": "cmoqgc4ng14bgsll92ah8ostv",
+    "title": "OpenAI Codex 新模式 Auto-review：在\"频繁打扰人类\"和\"完全放权\"之间，引入第三种治理范式：用一个独立 AI Agent 替代人类，来审批越界行为。\nhttps://align...",
+    "source_url": "https://x.com/shao__meng/status/2051091560075559079",
+    "source_type": "twitter",
+    "series": "S4_agent",
+    "dir": "agent_engineering",
+    "confidence": "high",
+    "also_relevant": [
+      "S2_methodology"
+    ],
+    "slug": "OpenAI-Codex-新模式-Auto-review-在-频繁打扰人类-和-完全放权-之间-引入第三种治理范式-用一个独立-AI-Agent-替代人类-来审",
+    "date": "2026-05-04",
+    "filename": "2026-05-04-OpenAI-Codex-新模式-Auto-review-在-频繁打扰人类-和-完全放权-之间-引入第三种治理范式-用一个独立-AI-Agent-替代人类-来审.md",
+    "rel_path": "raw/agent_engineering/2026-05-04-OpenAI-Codex-新模式-Auto-review-在-频繁打扰人类-和-完全放权-之间-引入第三种治理范式-用一个独立-AI-Agent-替代人类-来审.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\agent_engineering\\2026-05-04-OpenAI-Codex-新模式-Auto-review-在-频繁打扰人类-和-完全放权-之间-引入第三种治理范式-用一个独立-AI-Agent-替代人类-来审.md",
+    "norm_key": "openaicodex新模式autoreview在频繁打扰人类和完全放权之间引入第三种治理范式用一个独立aiagent替代人类来审批越界行为httpsalign||https://x.com/shao__meng/status/2051091560075559079",
+    "skip_fetch": true,
+    "item": {
+      "aihot_id": "cmoqgc4ng14bgsll92ah8ostv",
+      "aihot_url": "",
+      "title": "OpenAI Codex 新模式 Auto-review：在\"频繁打扰人类\"和\"完全放权\"之间，引入第三种治理范式：用一个独立 AI Agent 替代人类，来审批越界行为。\nhttps://align...",
+      "summary": "OpenAI Codex推出Auto-review新模式，解决传统人工审批与完全放权两种治理范式的缺陷。该模式在智能体越界时，由独立AI代理审批，评估用户意图、运行环境、安全策略和动作影响。拒绝时提供理由，超一半情况主智能体能自行找到更安全替代方案。效果上，自动批准率达99.1%，将打扰人类频率降低约200倍，有效拦截多数攻击。但团队坦承局限：非确定性安全保证，不能防御策略性欺骗，是安全与速度的折中。",
+      "recommendation_reason": "OpenAI 难得公开了 agent 安全机制的内部设计，不是靠人肉审批也不是完全撒手，用独立 Agent 审批越界行为，数据惊人（干扰降低 200 倍）。做 Agent 产品的该读，因为给出了治理范式的第三种选择。",
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "OpenAI",
+        "产品更新",
+        "安全/对齐"
+      ],
+      "starred_count": 70,
+      "published_at": "2026-05-04T00:08:30.000Z",
+      "source_url": "https://x.com/shao__meng/status/2051091560075559079",
+      "source_type": "twitter",
+      "aiSelected": true
+    }
+  },
+  {
+    "num": 326,
+    "aihot_id": "cmolxcj25036ksll9exj4q1vt",
+    "title": "Building AI agents for the enterprise",
+    "source_url": "https://claude.com/blog/building-ai-agents-for-the-enterprise",
+    "source_type": "blog",
+    "series": "S4_agent",
+    "dir": "agent_engineering",
+    "confidence": "high",
+    "also_relevant": [
+      "S0_industry"
+    ],
+    "slug": "building-ai-agents-for-the-enterprise",
+    "date": "2026-04-30",
+    "filename": "2026-04-30-building-ai-agents-for-the-enterprise.md",
+    "rel_path": "raw/agent_engineering/2026-04-30-building-ai-agents-for-the-enterprise.md",
+    "abs_path": "C:\\Users\\lorra\\projects\\personal\\ai\\raw\\agent_engineering\\2026-04-30-building-ai-agents-for-the-enterprise.md",
+    "norm_key": "buildingaiagentsfortheenterprise||https://claude.com/blog/building-ai-agents-for-the-enterprise",
+    "skip_fetch": false,
+    "item": {
+      "aihot_id": "cmolxcj25036ksll9exj4q1vt",
+      "aihot_url": "",
+      "title": "Building AI agents for the enterprise",
+      "summary": "2025年数据显示，美国员工工作AI使用率已从2023年的20%升至40%。真正获得持续竞争优势的企业正将智能体AI深度嵌入工作流程，并将机构知识编码成可累积的系统。本指南以欧莱雅、Lyft和乐天为例，提出企业AI转型三大支柱：跨越“智能体思维鸿沟”、基于实际工作流程培训员工、在压缩信息密集型流程时保留人工判断，以及构建能创造收入的新产品能力。Claude Cowork平台为此提供了无需定制开发的团队级解决方案，并包含六个月的落地框架。",
+      "recommendation_reason": "从 L'Oréal、Lyft 这些案例看，企业怎么把 AI 智能体扎进业务流程，比泛泛而谈的 AI 转型文章实在得多。",
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "教程/实践"
+      ],
+      "starred_count": 64,
+      "published_at": "2026-04-29T16:00:00.000Z",
+      "source_url": "https://claude.com/blog/building-ai-agents-for-the-enterprise",
+      "source_type": "blog",
+      "aiSelected": true
+    }
+  }
+]
