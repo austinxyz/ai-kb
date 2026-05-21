@@ -69,6 +69,7 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/应用开发/Warp官方Skills开源\|Warp 官方 Skills 开源（oz-skills）]] | 15 个生产级技能（SEO 审计/Terraform/GitHub Issue 等）全开源；一条命令安装；Warp 内部每日提效实践的真实封装 | 1 |
 | [[wiki/应用开发/Boris-Cherny-AI编码工作流\|Boris Cherny AI 编码工作流]] | 三反直觉原则：用最贵模型反而省钱 + 单一纯文本知识库记录错误 + 始终看运行结果；手机并行 5-10 个 Claude 实例 | 1 |
 | [[wiki/应用开发/Amp-Neo-长链路Coding-Agent\|Amp Neo 长链路 Coding Agent]] | 陪伴式→长链路范式转变；远程编排 + 自动上下文压缩 + Plugin API；权限模型反转（默认允许），安全控制权移交插件 | 1 |
+| [[wiki/应用开发/Claude-Cowork销售自动化实战\|Claude Cowork 销售自动化实战（Travis Bryant）]] | Anthropic GTM 负责人 4000 账户自动化：日准备省 90 分钟 / 周报省 3 小时 / 季度评分数百人时→一夜；无代码自然语言迭代 | 1 |
 
 
 ### AI 基础设施

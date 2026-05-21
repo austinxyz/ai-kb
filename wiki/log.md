@@ -433,3 +433,9 @@
 - 存入：raw/ai_native_infra/刚刚，智谱发布AI Infra新成果：ZCube重构大模型推理网络.md
 - 新建条目：wiki/AI基础设施/ZCube推理网络架构.md
 - wiki/index.md：AI基础设施 +1
+
+## [2026-05-21] ingest | Claude Cowork 销售自动化实战（Travis Bryant）
+- 存入：raw/ai_usage/2026-05-20-Anthropic-sales-leader-claude-cowork-4000-accounts.md
+- 新建条目：wiki/应用开发/Claude-Cowork销售自动化实战.md
+- wiki/index.md：应用开发 +1
+- 来源：aihot-daily 2026-05-21 技巧与观点 #6
