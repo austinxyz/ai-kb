@@ -427,3 +427,9 @@
 - wiki/index.md 加七行：模型与技术 +1 / 应用开发 +3 / 行业洞察 +3
 - 工作流验证：daily 阅读 → 用户索引选条（含跨期）→ 子流水线（opencli/extract → classify → write raw + wiki）→ 单次 commit；7 条规模仍可控
 - 备注：raw/dev_methodology 是首次写入此目录（之前 raw 子目录都用 agent_engineering / industry_insight / engineering_roles）
+
+
+## [2026-05-20] ingest | 智谱 ZCube 推理网络架构
+- 存入：raw/ai_native_infra/刚刚，智谱发布AI Infra新成果：ZCube重构大模型推理网络.md
+- 新建条目：wiki/AI基础设施/ZCube推理网络架构.md
+- wiki/index.md：AI基础设施 +1

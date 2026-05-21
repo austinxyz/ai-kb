@@ -81,6 +81,7 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/AI基础设施/自适应并行推理-APR\|自适应并行推理 (APR)]] | LLM 自主决定何时分支并行 / 多少线程 / 如何归并；演进谱系 BoN→ToT/MCTS→ParaThinker/GroupThink→APR (ThreadWeaver/Multiverse)；critical-path-by-correctness 奖励是关键 | 1 |
 | [[wiki/AI基础设施/GPU冷启动-Peer权重传输\|GPU 冷启动与 Peer 权重传输]] | Runway NCCLBack：用 200-400 Gbps GPU 互联代替 2-10 Gbps 云存储下载，60× 加速；日省 347TB 流量、6500 推理分钟 | 1 |
 | [[wiki/AI基础设施/DFlash-扩散式推测解码\|DFlash 扩散式推测解码]] | Google×UCSD：一次推测生成多 token 打破自回归串行瓶颈；TPU 联合优化；3.13× 无损推理加速；云端推理成本下降 | 1 |
+| [[wiki/AI基础设施/ZCube推理网络架构\|ZCube 推理网络架构]] | 智谱+驭驯+清华 SIGCOMM 2025：扁平化拓扑消除 PD 分离结构性拥塞；省 1/3 交换机成本 + 推理吞吐 +15% + TTFT P99 -40.6% | 1 |
 
 
 ### 行业洞察
