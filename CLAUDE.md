@@ -84,6 +84,33 @@ status: <draft | stable | outdated>
    - 新建/更新条目：wiki/xxx
    ```
 
+### Ingest 深度分析变体（Luwei 模式）
+
+来源：Luwei/Controversy 的"一手源 + 把 Claude 对话当分析入口"套路——对话记录是一等公民产物，保留**推理与分歧**，不只存磨平后的结论。
+
+**何时启用**：源**高价值或有争议**时（普通资料走上面标准 Ingest 即可）。
+
+**步骤**：
+1. 读一手源 → 跑一段**结构化 Claude 分析对话**。
+2. 把 transcript 存成产物：
+   - 默认 → `chat/`（**进 git，公开**，对标 Luwei 的 chat/）。
+   - 若含**私人战略观点** → `output/`（gitignore，私有）。
+3. 照常写/更新 `wiki/<分类>/` 条目（蒸馏结论），条目末尾**链回** transcript（`分析过程见 [[chat/<文件>]]`）。
+4. 争议话题：在 wiki 条目里显式记**分歧矩阵**（谁乐观/谁审慎/各自理由）。
+5. 照标准 Ingest 收尾：更新 `wiki/index.md` + 在 `wiki/log.md` 追加记录。
+
+**transcript frontmatter 约定**：
+```yaml
+---
+type: analysis
+source: "<一手源 URL 或 raw/ 路径>"
+topic: <主题>
+date: YYYY-MM-DD
+wiki_entry: "[[wiki/<分类>/<条目>]]"
+controversy: <true|false>
+---
+```
+
 ### Query（提问）
 
 当用户提问：
