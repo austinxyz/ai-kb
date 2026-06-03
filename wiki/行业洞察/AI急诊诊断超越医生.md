@@ -4,7 +4,7 @@ category: 行业洞察
 tags: [medical-ai, o1, emergency-medicine, copilot-fallacy, calibration]
 source: "[[raw/industry_insight/2026-05-10-旧版AI模型急诊诊断超越医生]]"
 updated: 2026-05-10
-status: draft
+status: stable
 aihot_origin:
   aihot_id: ""
   aihot_url: ""

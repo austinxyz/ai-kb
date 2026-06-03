@@ -4,7 +4,7 @@ category: 应用开发
 tags: [Full Agentic Pipeline, Codex, 开源运营, 自动化]
 source: "[[raw/agent_engineering/2026-05-16-people-freaking-out-over-my-ai-spend-what-nobody-sees-part-of-what-excites-me-so]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmp7gzh5x0abkslnz3k1vgqjz"
   series: S4_agent

@@ -4,7 +4,7 @@ category: 应用开发
 tags: [CLAUDE.md, 工程纪律, Karpathy, AI编码规范]
 source: "[[raw/dev_methodology/2026-05-04-Claude-code有时候会替你做错误假设-不主动要求澄清-该反驳时不反驳-敷衍迎合奉承你-有人把-Karpathy-对-AI-写代码常见问题的观察-整理成一]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmor9h7w301ubslruffpfctl1"
   series: S2_methodology

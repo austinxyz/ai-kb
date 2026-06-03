@@ -4,7 +4,7 @@ category: 应用开发
 tags: [output-modality, html-output, multimodal, ui-as-intelligence, neural-video]
 source: "[[raw/industry_insight/2026-05-12-AI输出形态从文本到神经视频]]"
 updated: 2026-05-12
-status: draft
+status: stable
 aihot_origin:
   aihot_id: ""
   aihot_url: ""

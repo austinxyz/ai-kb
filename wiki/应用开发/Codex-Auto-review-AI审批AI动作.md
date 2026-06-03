@@ -4,7 +4,7 @@ category: 应用开发
 tags: [Agent治理, 自动审批, 安全, OpenAI]
 source: "[[raw/agent_engineering/2026-05-04-OpenAI-Codex-新模式-Auto-review-在-频繁打扰人类-和-完全放权-之间-引入第三种治理范式-用一个独立-AI-Agent-替代人类-来审]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: ""
   series: S4_agent

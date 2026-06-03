@@ -4,7 +4,7 @@ category: 应用开发
 tags: [Agent, Microsoft, 验证优先, 多Agent]
 source: "[[raw/agent_engineering/2026-05-15-new-tools-models-repos-and-papers-out-of-microsoft-research-are-here-use-ai-and-]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmp72xh52070qslnz2cdl9apt"
   series: S4_agent

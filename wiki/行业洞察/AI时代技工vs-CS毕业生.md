@@ -4,7 +4,7 @@ category: 行业洞察
 tags: [就业趋势, Jensen Huang, 技工, CS毕业生]
 source: "[[raw/engineering_roles/2026-05-16-the-ceo-of-the-world-s-most-valuable-semiconductor-company-just-told-a-room-full]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmp7gqr520a8sslnzyvbw2zpq"
   series: S3_roles

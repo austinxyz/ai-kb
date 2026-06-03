@@ -4,7 +4,7 @@ category: 行业洞察
 tags: [openai, parameter-golf, ai-assisted-research, ml-competition, codex, triage-bot, talent-discovery]
 source: "[[raw/industry_insight/2026-05-13-OpenAI-Parameter-Golf-takeaways]]"
 updated: 2026-05-13
-status: draft
+status: stable
 aihot_origin:
   aihot_id: ""
   aihot_url: ""

@@ -4,7 +4,7 @@ category: 行业洞察
 tags: [微软, 论文, 长链路编辑, 可靠性]
 source: "[[raw/industry_insight/2026-04-30-new-microsoft-paper-shows-that-current-ai-assistants-often-damage-documents-duri]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmolal3ei01ksslc5qqz0bpkz"
   series: S0_industry

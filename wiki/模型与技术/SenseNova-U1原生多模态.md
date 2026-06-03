@@ -4,7 +4,7 @@ category: 模型与技术
 tags: [sensenova-u1, native-multimodal, moe, mot, flow-matching, autoregressive, sensetime, open-source]
 source: "[[raw/models/2026-05-14-SenseNova-U1-technical-report]]"
 updated: 2026-05-14
-status: draft
+status: stable
 aihot_origin:
   aihot_id: ""
   aihot_url: ""

@@ -4,7 +4,7 @@ category: 应用开发
 tags: [多模型路由, 成本优化, Agent, 开源]
 source: "[[raw/agent_engineering/2026-05-15-你敢把-Opus-和-GPT-接入到小龙虾里跑吗-反正我是不敢-跑不起-但是不接入这些顶级模型-有些复杂任务-国产模型真的搞不定-发现一个以前不知道的团队做的开]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmp71k78q06p8slnzvgf8b9x8"
   series: S4_agent

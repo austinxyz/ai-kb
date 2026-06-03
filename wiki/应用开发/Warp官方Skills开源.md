@@ -4,7 +4,7 @@ category: 应用开发
 tags: [Warp, Skills开源, DevOps, SEO审计]
 source: "[[raw/dev_methodology/2026-05-06-我靠-Warp-这个Skills-太顶了-直接官方开源啊-Warp团队居然把他们日常用来大幅提效的内部-Skills-全部开源了-一条命令就能直接装上15个高质]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmou7fhqx00w9slndi2vnfcn1"
   series: S2_methodology

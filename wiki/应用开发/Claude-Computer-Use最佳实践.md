@@ -4,7 +4,7 @@ category: 应用开发
 tags: [claude-computer-use, browser-use, claude-4.6, opus-4.7, screenshot-resolution, thinking-effort, prompt-injection]
 source: "[[raw/agent_engineering/2026-05-14-Claude-computer-browser-use-best-practices]]"
 updated: 2026-05-14
-status: draft
+status: stable
 aihot_origin:
   aihot_id: ""
   aihot_url: ""

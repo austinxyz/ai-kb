@@ -4,7 +4,7 @@ category: 应用开发
 tags: [AI助手, 身份持久化, 提示工程, SOUL.md]
 source: "[[raw/dev_methodology/2026-05-02-http-x-com-i-article-2050590821553258496]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmoohl3wl0odvsll93vi0ewky"
   series: S2_methodology

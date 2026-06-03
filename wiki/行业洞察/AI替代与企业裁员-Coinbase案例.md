@@ -4,7 +4,7 @@ category: 行业洞察
 tags: [裁员, Coinbase, AI替代, AI原生小组]
 source: "[[raw/engineering_roles/2026-05-06-加密货币交易所-Coinbase-今天宣布裁员约-14-约-700-名员工受影响-CEO-Brian-Armstrong-给出了两个理由-加密货币市场进入下行周]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmot8gc64036jslv7kkl8tz9l"
   series: S3_roles

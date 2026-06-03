@@ -4,7 +4,7 @@ category: 应用开发
 tags: [Agent, 金融, 工作流模板, Claude]
 source: "[[raw/agent_engineering/2026-05-06-anthropic-just-shipped-10-finance-agent-templates-that-turn-claude-from-a-chat-a]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: ""
   series: S4_agent

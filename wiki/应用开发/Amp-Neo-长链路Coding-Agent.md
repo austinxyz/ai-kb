@@ -4,7 +4,7 @@ category: 应用开发
 tags: [Amp, Coding Agent, 长链路, Plugin API]
 source: "[[raw/dev_methodology/2026-05-07-2026-年的-Coding-Agent-应该是什么样-Amp-新版-CLI-Neo-发布-AmpCode-https-ampcode-com-news-neo]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmouvkjiq00ansl44ppklky75"
   series: S2_methodology

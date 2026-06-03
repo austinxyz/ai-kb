@@ -4,7 +4,7 @@ category: 应用开发
 tags: [Boris Cherny, Claude Code, 并行实例, 知识库]
 source: "[[raw/dev_methodology/2026-05-06-这个创造了Claude-Code的男人Boris-Cherny大神-完整公开了自己的工作流-并直播演示了一半的编码工作在手机上完成-不是回消息-是同时跑5到10]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmotwjqgz007wslu90ocpeqe5"
   series: S2_methodology

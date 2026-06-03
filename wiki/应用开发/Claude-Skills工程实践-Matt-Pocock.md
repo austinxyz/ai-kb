@@ -4,7 +4,7 @@ category: 应用开发
 tags: [Claude Skills, 工程实践, TDD, 代码一致性]
 source: "[[raw/dev_methodology/2026-05-03-解决真正工程问题的-Skills-Skills-For-Real-Engineers-作者-mattpocockuk-公开了自己-claude-目录中每天在用的]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmopogquh0y1esll9cth65i6l"
   series: S2_methodology

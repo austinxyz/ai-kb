@@ -4,7 +4,7 @@ category: 行业洞察
 tags: [Anthropic, 组织架构, AI军队, Mythos]
 source: "[[raw/engineering_roles/2026-05-06-Anthropic的Claude为什么能52天推出50个重大功能-神秘武器Mythos要发布了-他们的基础设施负责人-Claude-code之父Boris刚说出]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmotd951b04bgslv7231arlvo"
   series: S3_roles

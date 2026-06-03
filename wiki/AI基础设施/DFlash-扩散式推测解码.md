@@ -4,7 +4,7 @@ category: AI基础设施
 tags: [推理加速, 扩散模型, TPU, Google]
 source: "[[raw/ai_native_infra/2026-05-05-Google-这一波操作-最让人意外的是-Google直接把LLM推理里最顽固的autoregressive瓶颈干掉了-他们和UCSD合作推出的DFlash-D]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: ""
   series: S1_infra

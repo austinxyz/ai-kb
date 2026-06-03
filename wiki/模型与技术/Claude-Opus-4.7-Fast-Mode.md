@@ -3,8 +3,8 @@ title: Claude Opus 4.7 Fast Mode
 category: 模型与技术
 tags: [claude, opus, fast-mode, anthropic, agent-latency, calibration]
 source: "[[raw/models/2026-05-12-Claude-Opus-4.7-Fast-Mode-research-preview]]"
-updated: 2026-05-12
-status: draft
+updated: 2026-06-03
+status: stable
 aihot_origin:
   aihot_id: ""
   aihot_url: ""
@@ -30,7 +30,7 @@ Anthropic 在 2026-05-12 通过 API 和 Claude Code 同步开放 Claude Opus 4.7
 - [[wiki/应用开发/Prompt-Caching工程|Prompt Caching 工程]]：Claude Code 团队复盘强调"切模型废缓存"——Fast Mode 与标准 Opus 是不同的缓存键，切换会失效；启用 fast 时要重做缓存策略
 - [[wiki/应用开发/Harness-Engineering|Harness Engineering]]：calibration-under-load 本质是 harness 中 observation 设计的另一面——快了的 agent 必须配相应的 validation 强度才能在 harness 里稳定产出
 - [[wiki/行业洞察/AI急诊诊断超越医生|AI 急诊诊断超越医生]]：在 high-stakes 场景下，calibration regression 就是人命——fast mode 是否 safe-to-use 不只是技术问题
-- [[wiki/应用开发/AI Agent PR审查|AI Agent PR 审查]]：fast 模式下"自信但错"是 5 红旗里的"幻觉正确性"加倍——审查强度要相应提升
+- [[wiki/应用开发/AI-Agent-PR审查|AI Agent PR 审查]]：fast 模式下"自信但错"是 5 红旗里的"幻觉正确性"加倍——审查强度要相应提升
 
 ## 参考来源
 - [[raw/models/2026-05-12-Claude-Opus-4.7-Fast-Mode-research-preview|Claude Devs 原推 + 社区评论延展]]

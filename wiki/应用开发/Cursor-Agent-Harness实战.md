@@ -4,7 +4,7 @@ category: 应用开发
 tags: [Agent Harness, Cursor, 上下文管理, 多Agent]
 source: "[[raw/dev_methodology/2026-05-05-Cursor-团队这篇-持续改进我们的-Agent-Harness-写的真不错-很实战-如何衡量-harness-的好坏-如何为不同模型定制-harness-中]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmos0c9f803x9slrjv53m4oas"
   series: S2_methodology

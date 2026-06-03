@@ -4,7 +4,7 @@ category: 应用开发
 tags: [agent-security, codex, sandbox, opentelemetry, enterprise-deployment]
 source: "[[raw/agent_engineering/2026-05-08-running-codex-safely-at-openai]]"
 updated: 2026-05-09
-status: draft
+status: stable
 aihot_origin:
   aihot_id: ""
   aihot_url: ""

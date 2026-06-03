@@ -4,7 +4,7 @@ category: 应用开发
 tags: [agent, solopreneur, mcp, business-model, prompt-engineering]
 source: "[[raw/agent_engineering/2026-05-10-AI一人公司月入7万路线图]]"
 updated: 2026-05-10
-status: draft
+status: stable
 aihot_origin:
   aihot_id: ""
   aihot_url: ""

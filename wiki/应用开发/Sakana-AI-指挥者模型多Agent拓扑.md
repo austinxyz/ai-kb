@@ -4,7 +4,7 @@ category: 应用开发
 tags: [多Agent, 强化学习, 动态拓扑, 推理扩展]
 source: "[[raw/agent_engineering/2026-05-04-new-paper-from-sakana-ai-iclr-2026-a-7b-conductor-model-just-hit-sota-on-gpqa-di]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: ""
   series: S4_agent

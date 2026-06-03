@@ -4,7 +4,7 @@ category: 行业洞察
 tags: [AI编码, Boris Cherny, TypeScript, 角色转变]
 source: "[[raw/engineering_roles/2026-05-05-anthropic-s-boris-cherny-argues-that-for-certain-modern-model-friendly-codebases]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmosnn0np00f2sltg5drfmzpr"
   series: S3_roles

@@ -4,7 +4,7 @@ category: 行业洞察
 tags: [人才趋势, CTO, Anthropic, 职业变迁]
 source: "[[raw/engineering_roles/2026-05-02-科技圈正在发生一波反常的人才大迁移-多家十亿美元级公司的-CTO-集体辞职-放弃高管职位-转去-Anthropic-做-IC-Workday-CTO-MTS-2]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmony20uu0jvqsll9gq8h4dpv"
   series: S3_roles

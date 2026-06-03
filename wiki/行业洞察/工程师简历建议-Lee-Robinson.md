@@ -4,7 +4,7 @@ category: 行业洞察
 tags: [career, hiring, resume, ai-native, cursor]
 source: "[[raw/engineering_roles/2026-05-10-Lee-Robinson的11条工程师求职建议]]"
 updated: 2026-05-10
-status: draft
+status: stable
 aihot_origin:
   aihot_id: ""
   aihot_url: ""

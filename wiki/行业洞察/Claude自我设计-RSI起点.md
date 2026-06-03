@@ -4,7 +4,7 @@ category: 行业洞察
 tags: [RSI, Anthropic, 工程师角色, 递归自我改进]
 source: "[[raw/engineering_roles/2026-05-05-Anthropic-CEO-Dario-Amodei的那句-Claude在设计Claude-炸了整个AI圈-但似乎很多人都看错了重点-重点不是-RSI来了-而是]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmos21kp804alslrj8c6ettc6"
   series: S3_roles

@@ -4,7 +4,7 @@ category: 行业洞察
 tags: [LeCun, LLM局限, 世界模型, AMI]
 source: "[[raw/industry_insight/2026-05-16-fun-interview-with-jacob-effron-on-the-unsupervised-learning-podcast]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmp780kw8087mslnzyamm5l6a"
   series: S0_industry

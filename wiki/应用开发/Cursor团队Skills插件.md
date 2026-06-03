@@ -4,7 +4,7 @@ category: 应用开发
 tags: [Cursor, Skills插件, CI/CD, 代码治理]
 source: "[[raw/dev_methodology/2026-05-04-Cursor-官方团队自己在用的-CI-Code-Review-发版-测试-清理代码-周报等工作流的-Skills-打包成一个-Plugin-一句指令安装-ad]]"
 updated: 2026-05-16
-status: draft
+status: stable
 aihot_origin:
   aihot_id: "cmoragvh00225slru1ru54n21"
   series: S2_methodology

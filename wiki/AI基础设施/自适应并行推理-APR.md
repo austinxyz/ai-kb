@@ -4,7 +4,7 @@ category: AI基础设施
 tags: [inference-scaling, parallel-reasoning, kv-cache, rl-rewards, threadweaver]
 source: "[[raw/ai_native_infra/2026-05-08-adaptive-parallel-reasoning-inference-scaling]]"
 updated: 2026-05-09
-status: draft
+status: stable
 aihot_origin:
   aihot_id: ""
   aihot_url: ""

@@ -4,7 +4,7 @@ category: 行业洞察
 tags: [anthropic, claude, brand-positioning, ai-philosophy, parasocial]
 source: "[[raw/industry_insight/2026-05-10-Claude人格化趋势的中期影响]]"
 updated: 2026-05-10
-status: draft
+status: stable
 aihot_origin:
   aihot_id: ""
   aihot_url: ""

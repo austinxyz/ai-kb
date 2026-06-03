@@ -4,7 +4,7 @@ category: 应用开发
 tags: [google-adk, long-running-agent, state-machine, persistent-session, cloud-run, hr-onboarding]
 source: "[[raw/agent_engineering/2026-05-13-Google-ADK-long-running-agents]]"
 updated: 2026-05-13
-status: draft
+status: stable
 aihot_origin:
   aihot_id: ""
   aihot_url: ""

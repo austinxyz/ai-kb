@@ -3,8 +3,8 @@ title: Token 浪费与多模型路由（Karpathy）
 category: 应用开发
 tags: [token-efficiency, prompt-cache, model-routing, kimi, opus, haiku, skill-md, vibe-coding]
 source: "[[raw/dev_methodology/2026-05-12-Karpathy-90percent-token-waste]]"
-updated: 2026-05-12
-status: draft
+updated: 2026-06-03
+status: stable
 aihot_origin:
   aihot_id: ""
   aihot_url: ""
@@ -50,7 +50,7 @@ Andrej Karpathy 提出的"AI coding 账单 90% 浪费在不必要 context 上"�
 - [[wiki/应用开发/Claude-Code团队配置|Claude Code 团队配置]]：CLAUDE.md 三层作用域 + Skills（Reference vs Task）+ Hooks——SKILL.md 在团队级是 Claude Code Skills 的统一表达。
 - [[wiki/应用开发/Agentic-Workflow-Token效率|Agentic Workflow Token 效率]]：GitHub 工程化方法（日志埋点 + ET 指标 + MCP 工具修剪 + gh CLI 替换）是企业级的同主题——本条目是个人开发者级的版本。
 - [[wiki/模型与技术/Claude-Opus-4.7-Fast-Mode|Claude Opus 4.7 Fast Mode]]：Fast Mode 与多模型路由的关系——Fast Mode 是"在 Opus 内省"的轴，路由是"在多家模型间省"的轴，两者叠加才是最省。
-- [[wiki/应用开发/AI Agent PR审查|AI Agent PR 审查]]："agent ghosting"红旗与本条目第 3 条（retry 重发整 repo）同源——agent 失控的成本与 token 浪费的成本是一体两面。
+- [[wiki/应用开发/AI-Agent-PR审查|AI Agent PR 审查]]："agent ghosting"红旗与本条目第 3 条（retry 重发整 repo）同源——agent 失控的成本与 token 浪费的成本是一体两面。
 
 ## 参考来源
 - [[raw/dev_methodology/2026-05-12-Karpathy-90percent-token-waste|Karpathy 观点 + Berry Xia 转述 + 社区评论]]
