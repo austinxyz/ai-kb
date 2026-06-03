@@ -439,3 +439,59 @@
 - 新建条目：wiki/应用开发/Claude-Cowork销售自动化实战.md
 - wiki/index.md：应用开发 +1
 - 来源：aihot-daily 2026-05-21 技巧与观点 #6
+
+## [2026-06-03] aihot-pull 产品发布/更新-1 | 候选 1 / 入库 1 / 起草 wiki 0
+
+- run-id: 2026-06-03T06:30:25Z
+- 来源：/aihot-daily 2026-06-03 产品发布/更新 #1（定向单条入库）
+- 入库:
+  - `raw/agent_engineering/2026-06-02-a-harness-for-every-task-dynamic-workflows-in-claude-code.md` (S4_agent, original_full)
+- 起草 wiki draft: 无（闸门触发：wiki/ 现有 37 个 status: draft > 10，本次拒绝起草，标记 deferred_draft_quota）
+- LLM 建议跳过: 0 条
+
+## [2026-06-03] cleanup | 积压 draft 清理：37 → stable / 2 死链修复
+
+- run-id: 2026-06-03T06:30:25Z
+- 操作：4 个并行 agent review 全部 37 个 status:draft wiki 条目（核对 raw 源 + 校验 wikilink + 4 段结构），逐个转 status: stable
+- 死链修复 2 处（均为空格短链 → 全路径连字符）:
+  - `wiki/应用开发/Token浪费与多模型路由.md`: [[wiki/应用开发/AI Agent PR审查]] → [[wiki/应用开发/AI-Agent-PR审查]]
+  - `wiki/模型与技术/Claude-Opus-4.7-Fast-Mode.md`: 同上修复
+- 结果：wiki/ 现 0 个 draft，aihot-pull 起草闸门重开
+- 闸门重开后补起草：
+  - `wiki/应用开发/Claude-Code动态工作流.md` (status: draft) ← raw/agent_engineering/2026-06-02-a-harness-for-every-task-dynamic-workflows-in-claude-code.md
+  - 同步更新 index.md 应用开发表 + raw wiki_status: deferred_draft_quota → drafted
+
+## [2026-06-03] aihot-pull 产品发布/更新-7 | 候选 1 / 入库 1 / 起草 wiki 1
+
+- run-id: 2026-06-03T06:55:09Z
+- 来源：/aihot-daily 2026-06-03 产品发布/更新 #7（定向单条入库）
+- 入库:
+  - `raw/agent_engineering/2026-06-02-github-copilot-app-the-agent-native-desktop-experience.md` (S4_agent, original_full)
+- 起草 wiki draft:
+  - `wiki/应用开发/GitHub-Copilot-Agent-Native桌面.md` (status: draft) — high + original_full，无冲突
+- 同步更新 index.md 应用开发表
+- LLM 建议跳过: 0 条
+
+## [2026-06-03] aihot-pull 技巧与观点-3,4,5,8 | 候选 4 / 入库 4 / 起草 wiki 2
+
+- run-id: 2026-06-03T06:57:29Z
+- 来源：/aihot-daily 2026-06-03 技巧与观点 #3,4,5,8（定向多条入库）
+- 入库:
+  - `raw/industry_insight/2026-06-02-karpathy-分享学习方法论.md` (S0_industry, aihot_summary_only)
+  - `raw/engineering_roles/2026-06-03-running-an-ai-native-engineering-org.md` (S3_roles, original_full)
+  - `raw/dev_methodology/2026-06-02-claude-code-自我检查与反馈闭环技巧.md` (S2_methodology, aihot_summary_only)
+  - `raw/industry_insight/2026-06-02-why-things-will-eventually-fall-apart.md` (S0_industry, original_full)
+- 起草 wiki draft:
+  - `wiki/行业洞察/AI-Native工程组织实践.md` (status: draft) — #4 high + original_full
+  - `wiki/行业洞察/AI经济不可持续论-Gary-Marcus.md` (status: draft) — #8 high + original_full
+- 不起草:
+  - #3 Karpathy 学习方法论 → low_confidence_skipped（且 twitter summary_only）
+  - #5 Claude Code 自我检查反馈闭环 → not_eligible_summary_only（twitter）
+- 同步更新 index.md 行业洞察表 +2
+- LLM 建议跳过: 0 条
+
+---
+
+## [2026-06-02] ingest | ZAI 研讨会 AGI 分歧（深度分析变体首例）
+- 存入：chat/2026-06-02-llm-can-reach-agi-debate.md
+- 新建条目：wiki/行业洞察/LLM-vs-AGI-debate.md

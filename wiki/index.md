@@ -70,6 +70,8 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/应用开发/Boris-Cherny-AI编码工作流\|Boris Cherny AI 编码工作流]] | 三反直觉原则：用最贵模型反而省钱 + 单一纯文本知识库记录错误 + 始终看运行结果；手机并行 5-10 个 Claude 实例 | 1 |
 | [[wiki/应用开发/Amp-Neo-长链路Coding-Agent\|Amp Neo 长链路 Coding Agent]] | 陪伴式→长链路范式转变；远程编排 + 自动上下文压缩 + Plugin API；权限模型反转（默认允许），安全控制权移交插件 | 1 |
 | [[wiki/应用开发/Claude-Cowork销售自动化实战\|Claude Cowork 销售自动化实战（Travis Bryant）]] | Anthropic GTM 负责人 4000 账户自动化：日准备省 90 分钟 / 周报省 3 小时 / 季度评分数百人时→一夜；无代码自然语言迭代 | 1 |
+| [[wiki/应用开发/Claude-Code动态工作流\|Claude Code 动态工作流]] | 运行时即兴编写任务专属多 Agent harness；对抗 laziness/自我偏好/目标漂移三失效；六编排模式（fan-out/对抗验证/tournament 等）；只配复杂高价值任务 | 1 |
+| [[wiki/应用开发/GitHub-Copilot-Agent-Native桌面\|GitHub Copilot 应用（Agent-Native 桌面）]] | Build 2026 桌面控制中心：My Work 仪表盘 + Canvas 双向面 + Agent Merge + 本地/云沙箱 + 分级审查 + 六语言 SDK GA；每会话独占 worktree 隔离 | 1 |
 
 
 ### AI 基础设施
@@ -120,6 +122,9 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/行业洞察/AI时代技工vs-CS毕业生\|AI 时代技工 vs CS 毕业生（Jensen Huang）]] | 技工需求增长是白领 3×；机器人技术员 +107%；AI 职位就业 -16%；7 万亿数据中心需人力；建数据中心的技工才是赢家 | 1 |
 | [[wiki/行业洞察/AI助手长链路文档损毁问题\|AI 助手长链路文档损毁问题]] | 微软论文：19 模型平均损坏 25% 文档；静默重大错误随时间累积；短期 demo 佳≠长链路可靠；产品需重新设计信任机制 | 1 |
 | [[wiki/行业洞察/杨立昆LLM局限论与世界模型\|杨立昆 LLM 局限论与世界模型]] | LeCun 坚持 LLM 无法通向 AGI；AMI 押注世界模型；OpenAI/Anthropic 类比 Sun Microsystems；博士生应停研 LLM | 1 |
+| [[wiki/行业洞察/AI-Native工程组织实践\|AI-Native 工程组织实践（Fiona Fung）]] | Anthropic 工程总监复盘：JIT 规划 / Ask-Claude-First / 审查人机分工 / 角色边界模糊 / 三原则（dogfood·扁平·杀流程）/ 三度量；瓶颈从写代码迁移到验证审查 | 1 |
+| [[wiki/行业洞察/AI经济不可持续论-Gary-Marcus\|AI 经济不可持续论（Gary Marcus）]] | 五点数学论证：无护城河→无垄断定价→商品化→负利润；Anthropic 取消无限 token 为转向信号；引 DeLong"无可持续高毛利路径"；预测 2026 散户被套 | 1 |
+| [[wiki/行业洞察/LLM-vs-AGI-debate\|LLM 能否通向 AGI（分歧）]] | 代际范式之争：乐观派认为 LLM 已近 AGI，审慎派认为连续推理有根本缺陷（"-3>-2"）；能力非对称（文科近峰值/理科缺陷）；合流路径＝LLM+Coding 确定性验证闭环 | 1 |
 
 
 ---
