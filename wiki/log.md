@@ -5,6 +5,14 @@
 
 ---
 
+## [2026-06-05] ingest | 订阅清单 raw/_sources.md
+
+- 新建：`raw/_sources.md` —— AI 业内值得盯的源清单
+- 内容：个人博客 3（Karpathy / Steipete / Sergey Levine）+ 企业官博 5（Anthropic / OpenAI / DeepMind / HuggingFace / Latent Space）+ 备选池
+- 标注转载友好度（HF 最友好；实验室官博严，编译+原链；a16z 需授权）
+
+---
+
 ## [2026-05-17] aihot-pull --since 3d | 候选 38 / 入库 4 / 起草 wiki 0
 
 - run-id: 2026-05-18T05:08:10Z
