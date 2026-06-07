@@ -123,7 +123,7 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/行业洞察/AI助手长链路文档损毁问题\|AI 助手长链路文档损毁问题]] | 微软论文：19 模型平均损坏 25% 文档；静默重大错误随时间累积；短期 demo 佳≠长链路可靠；产品需重新设计信任机制 | 1 |
 | [[wiki/行业洞察/杨立昆LLM局限论与世界模型\|杨立昆 LLM 局限论与世界模型]] | LeCun 坚持 LLM 无法通向 AGI；AMI 押注世界模型；OpenAI/Anthropic 类比 Sun Microsystems；博士生应停研 LLM | 1 |
 | [[wiki/行业洞察/AI-Native工程组织实践\|AI-Native 工程组织实践（Fiona Fung）]] | Anthropic 工程总监复盘：JIT 规划 / Ask-Claude-First / 审查人机分工 / 角色边界模糊 / 三原则（dogfood·扁平·杀流程）/ 三度量；瓶颈从写代码迁移到验证审查 | 1 |
-| [[wiki/行业洞察/AI经济不可持续论-Gary-Marcus\|AI 经济不可持续论（Gary Marcus）]] | 五点数学论证：无护城河→无垄断定价→商品化→负利润；Anthropic 取消无限 token 为转向信号；引 DeLong"无可持续高毛利路径"；预测 2026 散户被套 | 1 |
+| [[wiki/行业洞察/AI经济不可持续论-Gary-Marcus\|AI 经济不可持续论（Gary Marcus）]] | 五点数学论证：无护城河→无垄断定价→商品化→负利润；Anthropic 取消无限 token 为转向信号；引 DeLong"无可持续高毛利路径"；预测 2026 散户被套——「AI 的黑色星期五」$0.5T 蒸发兑现预测 | 2 |
 | [[wiki/行业洞察/LLM-vs-AGI-debate\|LLM 能否通向 AGI（分歧）]] | 代际范式之争：乐观派认为 LLM 已近 AGI，审慎派认为连续推理有根本缺陷（"-3>-2"）；能力非对称（文科近峰值/理科缺陷）；合流路径＝LLM+Coding 确定性验证闭环 | 1 |
 
 
