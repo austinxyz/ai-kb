@@ -12,6 +12,8 @@ const SERIES_DIR = {
   S0_industry: 'industry_insight',
 };
 
+// MUST match normalize() in aihot-prepare-write.mjs / aihot-dedup.mjs (uses \w, keeps underscores)
+// so dedup norm_keys stay identical across aihot-pull and ingest-one. Do not "fix" the underscore case.
 export function normalize(title) {
   if (!title) return '';
   return String(title).toLowerCase().replace(/\s+/g, '').replace(/[^\w一-鿿]/g, '');
@@ -50,14 +52,12 @@ export function parseDailyDate(input, year) {
   if (iso) {
     return `${iso[1]}-${iso[2].padStart(2, '0')}-${iso[3].padStart(2, '0')}`;
   }
+  const y = year != null ? String(year) : null;
+  if (!y) return null;
   const cn = s.match(/^(\d{1,2})月(\d{1,2})日?$/);
-  if (cn) {
-    return `${year}-${cn[1].padStart(2, '0')}-${cn[2].padStart(2, '0')}`;
-  }
+  if (cn) return `${y}-${cn[1].padStart(2, '0')}-${cn[2].padStart(2, '0')}`;
   const dash = s.match(/^(\d{1,2})-(\d{1,2})$/);
-  if (dash) {
-    return `${year}-${dash[1].padStart(2, '0')}-${dash[2].padStart(2, '0')}`;
-  }
+  if (dash) return `${y}-${dash[1].padStart(2, '0')}-${dash[2].padStart(2, '0')}`;
   return null;
 }
 

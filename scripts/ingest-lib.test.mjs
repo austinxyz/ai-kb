@@ -63,6 +63,12 @@ test('findDuplicate: hits on normKey or url, else null', () => {
   assert.equal(findDuplicate('new||https://z.com/c', 'https://z.com/c', seenKeys, seenUrls).hit, false);
 });
 
+test('parseDailyDate: missing year on short formats returns null (no garbage)', () => {
+  assert.equal(parseDailyDate('6月5'), null);
+  assert.equal(parseDailyDate('6-5'), null);
+  assert.equal(parseDailyDate('2026-06-05'), '2026-06-05'); // ISO still works without year
+});
+
 test('deriveSourceType re-exported and works', () => {
   assert.equal(deriveSourceType('https://arxiv.org/abs/1'), 'arxiv');
   assert.equal(deriveSourceType('https://example.com/post'), 'blog');
