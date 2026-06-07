@@ -55,7 +55,7 @@ function* walkMd(dir) {
 // Minimal frontmatter reader: grabs top-level title + source_url string values.
 function readFrontmatter(file) {
   const txt = fs.readFileSync(file, 'utf8');
-  const m = txt.match(/^---\n([\s\S]*?)\n---/);
+  const m = txt.match(/^---\r?\n([\s\S]*?)\r?\n---/);
   if (!m) return null;
   const block = m[1];
   const grab = (key) => {
