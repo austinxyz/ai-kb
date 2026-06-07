@@ -68,6 +68,16 @@ status: <draft | stable | outdated>
 - `/aihot-pull --since 7d` — triage + 入库 raw + 起 wiki draft（沉淀工作流，不应每天跑）
 - `/aihot-mp-pull` — DEPRECATED（aihot 把 /mp 关给匿名用户）
 
+## /ingest-one — 单条手挑入库
+
+当你已在 Notion 日报（或博主/官博/链接）看到一条想入库，不必跑批量 `/aihot-pull`：
+
+- `/ingest-one <标题> <url>` — 直给链接
+- `/ingest-one 6月5 模型版块第3条` — 从 Notion AI 日报定位
+
+流程：定位 → 回显确认 → 抓正文 → 写 `raw/<系列>/` → 交互式入 wiki。
+去重撞了会警告+问。详见 `docs/superpowers/specs/2026-06-07-ingest-one-design.md`。
+
 ## 工作流（Karpathy LLM Wiki Pattern）
 
 ### Ingest（新资料入库）
