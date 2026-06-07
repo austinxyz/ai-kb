@@ -503,3 +503,8 @@
 ## [2026-06-02] ingest | ZAI 研讨会 AGI 分歧（深度分析变体首例）
 - 存入：chat/2026-06-02-llm-can-reach-agi-debate.md
 - 新建条目：wiki/行业洞察/LLM-vs-AGI-debate.md
+
+## [2026-06-07] ingest-one | AI 的黑色星期五（Gary Marcus）
+- 存入：raw/industry_insight/2026-06-07-AI-的黑色星期五.md
+- 更新条目：wiki/行业洞察/AI经济不可持续论-Gary-Marcus.md（加为第2来源，"不可持续论"预测兑现事件）
+- 来源：aihot（Notion 日报 2026-06-07 · 技巧与观点第1条）
