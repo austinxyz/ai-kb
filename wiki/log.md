@@ -5,6 +5,25 @@
 
 ---
 
+## [2026-06-20] ingest | 6 条未入库 raw 文件批量处理
+
+- 存入：`raw/ai_usage/Anthropic 官方发布：《创始人手册：打造 AI 原生初创公司》.md`
+- 存入：`raw/ai_usage/Claude Code 拥有 50 多个命令。大多数开发者只用到 5 个.md`
+- 存入：`raw/ai_usage/别再浪费你的20刀！这20 个 Claude 提示词才配得上.md`
+- 存入：`raw/ai_usage/用Harness Agent + OpenSpec + Superpowers，我搭了一条从需求到上线的AI研发流水线.md`
+- 存入：`raw/sdlc/Claude Code 创始人在红杉大会上的 7 个重要判断.md`
+- 存入：`raw/others/装了这个AI热点Skill之后，你再也不需要自己去刷AI新闻了.md`
+- 新建 wiki：
+  - `wiki/行业洞察/Anthropic-AI原生创业手册.md` ← 创始人手册
+  - `wiki/应用开发/Claude-Code-命令速查.md` ← Claude Code 50+ 命令体系
+  - `wiki/应用开发/Claude-提示词工程20法.md` ← 20 个结构化提示词模板
+  - `wiki/应用开发/SDD规范驱动研发流水线.md` ← Harness+OpenSpec+Superpowers 三层整合
+  - `wiki/行业洞察/Boris-Cherny-红杉7判断.md` ← 红杉大会 7 大结构性判断
+  - `wiki/应用开发/AIHOT-Skill平台.md` ← AIHOT Skill/RSS/API 接入
+- 同步更新 index.md（应用开发 +4，行业洞察 +2）
+
+---
+
 ## [2026-06-05] ingest | 订阅清单 raw/_sources.md
 
 - 新建：`raw/_sources.md` —— AI 业内值得盯的源清单
@@ -508,3 +527,148 @@
 - 存入：raw/industry_insight/2026-06-07-AI-的黑色星期五.md
 - 更新条目：wiki/行业洞察/AI经济不可持续论-Gary-Marcus.md（加为第2来源，"不可持续论"预测兑现事件）
 - 来源：aihot（Notion 日报 2026-06-07 · 技巧与观点第1条）
+
+## [2026-08-19] ingest | Stripe 收购 OpenRouter + 洽购 PayPal（对话研究综合）
+- 存入：raw/industry_insight/2026-08-19-stripe-openrouter-paypal-deals.md（多篇新闻整理，非单一原文）
+- 新建条目：wiki/行业洞察/Stripe-AI计量层收购战.md
+- 同步更新 index.md 行业洞察表 +1
+- 来源：WebSearch 多轮核实（Stripe 官方通稿 + Bloomberg/TechCrunch/Axios 等）
+
+## [2026-08-20] ingest | E249 Token经济转点播客（OpenClaw/Hermes/Slock）
+- 存入：raw/agent_engineering/2026-08-20-E249-token经济转点-OpenClaw-Hermes-本地自研Agent.md
+- 新建条目：wiki/应用开发/Hermes-Slock-Agent工程新范式.md
+- 更新条目：wiki/应用开发/OpenClaw-百个Codex实例运营开源项目.md（加为第2来源，补充 OpenClaw 本体产品细节）
+- 同步更新 index.md 应用开发表 +1，OpenClaw 条目来源数 1→2
+- 来源：NotebookLM 分析 YouTube（https://youtu.be/6FUJbpMrYRA）
+
+## [2026-08-20] ingest | Hermes Agent 补充调研（融资背景 + 安全批评）
+- 存入：raw/agent_engineering/2026-08-20-Hermes-Agent-融资与安全批评.md（多篇新闻/文档整理，非单一原文）
+- 更新条目：wiki/应用开发/Hermes-Slock-Agent工程新范式.md（加为第2来源：背景/融资/技术精确化/安全批评四节）
+- 同步更新 index.md 应用开发表，来源数 1→2
+- 来源：WebSearch（TechCrunch、Nous Research 官方文档、MarkTechPost、Repello AI 等）
+
+## [2026-08-25] ingest | 大语言模型并非终局（Rich Sutton 访谈）
+- 存入：raw/models/2026-08-25-Rich-Sutton-大语言模型并非终局.md
+- 新建条目：wiki/模型与技术/Rich-Sutton-持续学习范式.md
+- 同步更新 index.md 模型与技术表 +1
+- 来源：NotebookLM 分析 YouTube（https://youtu.be/EfTfAb0Y7WY，红杉资本专访）
+
+## [2026-08-25] ingest | NeoCognition 调研 + 企业 Know-how 存放谱系（对话研究综合）
+- 存入：raw/agent_engineering/2026-08-25-NeoCognition-世界模型创业与know-how谱系.md（多篇新闻整理+对话分析，非单一原文）
+- 新建条目：wiki/应用开发/企业Know-how存放谱系.md（status: draft，NeoCognition③层未经验证）
+- 同步更新 index.md 应用开发表 +1
+- 来源：WebSearch（TechCrunch、PR Newswire、Simplify Jobs 招聘信号等）+ 对话中的谱系框架分析
+
+## [2026-08-27] ingest | 夏淳六条判断 + AI时代教育圆桌（跨领域对照综合）
+- 存入：raw/others/夏淳-AI商业价值判断六条.md（用户转述，无公开原文）
+- 新建条目：wiki/行业洞察/AI时代不可替代能力-产业与教育双视角.md（status: draft，2 来源）
+- 同步更新 index.md 行业洞察表 +1
+- 来源：用户转述夏淳讲座 + 已存 raw/others/AI时代的教育.md（求是AI联盟圆桌，胡昊撰文）
+
+## [2026-08-27] ingest | AI结构性失业与消费分配（群聊讨论 + "蜂巢结构"框架分析）
+- 存入：raw/industry_insight/2026-08-27-AI结构性失业与消费分配-群聊讨论.md（群聊评论+对话分析+学术查证）
+- 更新条目：wiki/行业洞察/AI时代不可替代能力-产业与教育双视角.md（加为第3来源："分配机制"新章节，来源数 2→3）
+- 同步更新 index.md 行业洞察表
+- 来源：白宫官方通稿事实核查 + Acemoglu(MIT)自动化研究 + 《Abundant Intelligence and Deficient Demand》(2026)
+
+## [2026-08-27] update | 修正"分配机制=政府政策"的过窄表述
+- 更新条目：wiki/行业洞察/AI时代不可替代能力-产业与教育双视角.md（用户反驳"光靠政府政策不靠谱"后修正，补充市场自我修正/技术扩散/集体谈判/社会舆论/国际竞争五种非政府调节力量；福特工资悖论、OpenAI4S 9.9元案例作为例证）
+- 用户原始表述的"三点补充"同步更新第2点措辞
+
+## [2026-08-27] ingest | 李明顺讲座：软件窗口收窄，硬件闭环重新定价
+- 存入：raw/industry_insight/2026-08-27-李明顺-硬件闭环重新定价.md（群友转述+事实核查+逐条分析）
+- 新建条目：wiki/行业洞察/软件窗口收窄-硬件闭环重新定价.md
+- 同步更新 index.md 行业洞察表 +1
+- 来源：群友转述 + WebSearch 核查（Plaud 营收数字、MIT NANDA 研究）
+
+## [2026-08-28] ingest | Stop Your Agents From Spinning（生产级Agent工程）
+- 存入：raw/agent_engineering/2026-08-28-Stop-Your-Agents-From-Spinning.md
+- 新建条目：wiki/应用开发/Agent可靠性工程-验证网关与双纠错环.md
+- 同步更新 index.md 应用开发表 +1
+- 来源：NotebookLM 分析 YouTube（https://www.youtube.com/live/zjAZDBfUL4k，TwoSetAI 播客）
+
+## [2026-08-28] ingest | Inside AgensFlow（同系列 Workshop #2）
+- 存入：raw/agent_engineering/2026-08-28-Inside-AgensFlow-Reliability-Layer-Workshop2.md
+- 更新条目：wiki/应用开发/Agent可靠性工程-验证网关与双纠错环.md（加为第2来源："AgensFlow：从静态手段到可学习策略"新章节，来源数 1→2）
+- 同步更新 index.md 应用开发表
+- 来源：NotebookLM 分析 YouTube（https://www.youtube.com/watch?v=716F3GOsaS4，TwoSetAI Workshop #2；经 Luma 活动页 https://luma.com/inkkj03y 定位到实际视频）
+
+## [2026-08-28] ingest | AgensFlow 深度调研（开源现状/UCB1机制/营销落差/vs OpenSpec）
+- 存入：raw/agent_engineering/2026-08-28-AgensFlow-深度调研-开源现状与OpenSpec对比.md（GitHub仓库+arXiv论文+对话分析）
+- 更新条目：wiki/应用开发/Agent可靠性工程-验证网关与双纠错环.md（加为第3来源，来源数 2→3；修正"已发布PyPI"错误——实为git clone安装）
+- 同步更新 index.md 应用开发表
+- 来源：GitHub（Nicolepcx/AgensFlow，21星/7commit/Alpha）+ arXiv:2605.27466 全文
+
+## [2026-08-28] ingest | Software engineering is not about writing code（Benoit Schillings）
+- 存入：raw/models/2026-08-28-Benoit-Schillings-软件工程不是写代码.md
+- 新建条目：wiki/行业洞察/Benoit-Schillings-软件工程新范式.md
+- 同步更新 index.md 行业洞察表 +1
+- 来源：NotebookLM 分析 YouTube（https://www.youtube.com/watch?v=1P1hJ36rxM0）
+
+## [2026-08-29] ingest | Microsoft Agent Lightning v1.0（Harnessed Agentic RL）
+- 存入：raw/ai_native_infra/2026-08-29-Microsoft-Agent-Lightning-v1.0-Harnessed-Agentic-RL.md（用户转述+事实核查+对话分析）
+- 更新条目：wiki/应用开发/企业Know-how存放谱系.md（加为第2来源："④层落地障碍被打开一道口子"新章节，来源数 1→2；含用户指出的star数混淆变量澄清）
+- 同步更新 index.md 应用开发表
+- 来源：WebSearch核查（The New Stack、arXiv:2608.17528、GitHub microsoft/agent-lightning、Crypto Briefing）
+
+## [2026-08-29] ingest | Cisco MyAgent/Circuit（9万人企业Agent实战案例）
+- 存入：raw/agents/2026-08-29-Cisco-MyAgent-企业Agent架构问答分析.md（群友提问+用户判断+WebSearch核实）
+- 更新条目：wiki/应用开发/企业Know-how存放谱系.md（加为第3来源："大企业实战案例：Cisco MyAgent/Circuit"新章节，来源数 2→3，status draft→stable）
+- 同步更新 index.md 应用开发表
+- 来源：WSJ、Cisco Blog、Sacra（Anthropic营收）、Glean官方博客、CloudZero（Copilot定价）
+
+## [2026-08-29] ingest | 模型厂商两面夹击：开源模型 + 企业自建 Agent 层（对话综合分析）
+- 存入：raw/industry_insight/2026-08-29-模型厂商两面夹击-开源与企业自建Agent.md（用户判断+对话分析，综合已存的Stripe-OpenRouter/Cisco两条研究）
+- 更新条目：wiki/应用开发/企业Know-how存放谱系.md（加为第4来源，来源数 3→4；同时修正一处误引不存在页面的wikilink）
+- 同步更新 index.md 应用开发表
+- 来源：对话分析，无新增外部信源
+
+## [2026-08-30] update | 框架结构性修正：Harness容器论 + 上下文原料层
+- 存入：raw/agent_engineering/2026-08-30-Harness容器论与上下文原料层-谱系框架修正.md（群友理论修正+《办公Agent大战》一文+对话分析）
+- 重大更新：wiki/应用开发/企业Know-how存放谱系.md（重写"定义"+"核心要点"，采纳"Harness是容器不是层"的修正；术语校准为context engineering/agent memory/RLVR/agentic RL post-training；新增"上下文原料层"章节——四种机制均隐含"已有干净上下文"前提，此前提本身是更前置的瓶颈；来源数 4→5）
+- 同步更新 index.md 应用开发表
+- 来源：群聊理论讨论 + raw/agents/办公Agent大战，重点不是Agent.md（已存未入wiki的旧raw文件，此次首次引用）
+
+## [2026-09-01] ingest | 9-1群讨论：Predict vs Optimize、流形与吸引子盆地
+- 存入：raw/models/9-1讨论.md（已有原始群聊记录，本次整理摘要）
+- 更新条目：wiki/行业洞察/杨立昆LLM局限论与世界模型.md（加为第2来源，来源数 1→2）
+- 同步更新 index.md 行业洞察表
+- 来源：群聊讨论（Lijia Zhang 入群 + 杨立昆 presentation 引发的 predict/optimize 辨析）
+
+## [2026-09-01] ingest | 流形假设的三个待验证前提（Lijia回复 + 用户熵增质疑）
+- 存入：raw/models/2026-09-01-流形假设的三个待验证前提.md（群聊讨论+对话分析）
+- 更新条目：wiki/行业洞察/杨立昆LLM局限论与世界模型.md（加为第3来源；补充"追问一/追问二"两节承接用户此前的satisficing/判别器论点；来源数 2→3）
+- 同步更新 index.md 行业洞察表
+- 来源：群聊讨论（Lijia Zhang 技术回应 + 用户熵增理论质疑，无公开链接）
+
+## [2026-09-02] update | 追问：LLM训练能否做到"开放系统排熵"
+- 更新：raw/models/2026-09-01-流形假设的三个待验证前提.md（新增追问章节：静态预训练套不上开放系统排熵机制，但RLVR/持续学习方向上有真正落脚点）
+- 更新条目：wiki/行业洞察/杨立昆LLM局限论与世界模型.md（③熵增质疑后追加此追问，串联Agent Lightning RLVR + Rich Sutton持续学习两条已有条目）
+- 来源：群聊讨论延续（无公开链接）
+
+## [2026-09-03] ingest | 马斯克G20创新部长级会议发言（电力缺口预警）
+- 存入：raw/industry_insight/2026-09-03-马斯克G20创新部长级会议发言.md（多篇报道整理）
+- 新建条目：wiki/行业洞察/马斯克G20电力缺口预警.md
+- 同步更新 index.md 行业洞察表 +1
+- 来源：WebSearch核实（singjupost转录稿、techxplore、白宫官方通稿、ABC11、CNBC）
+
+## [2026-09-06] ingest-one | An Alien Mind — Jakub Pachocki（深度分析变体，controversy=true）
+- 存入：raw/industry_insight/2026-09-06-openai-an-alien-mind-jakub-pachocki.md
+- 更新条目：wiki/行业洞察/Claude自我设计-RSI起点.md（加为第2来源，新增"分歧矩阵"章节——Anthropic乐观框架 vs OpenAI审慎框架，同一RSI现实两种情绪判断，显式保留分歧不磨平；来源数 1→2）
+- 同步更新 index.md 行业洞察表
+- 来源：openai.com官方文章 + askwhocastsai substack转述 + tildes讨论串
+
+## [2026-09-06] ingest | RSI业界四阵营全景（扩展分歧矩阵为完整光谱）
+- 存入：raw/industry_insight/2026-09-06-RSI业界四阵营全景.md（多篇报道综合）
+- 更新条目：wiki/行业洞察/Claude自我设计-RSI起点.md（加为第3来源，新增"RSI业界四阵营全景"章节：①Bengio暂停派 ②Anthropic内部分裂(Jack Clark概率预测vs Favaro克制) ③普林斯顿技术怀疑派(Sayash Kapoor) ④Toner定义批判派；来源数 2→3）
+- 同步更新 index.md 行业洞察表
+- 来源：MIT Technology Review、TechCrunch、Peter Wildeford博客、MindStudio、Time、CACM、Bengio推文
+
+## [2026-09-06] ingest | RSI真金白银下注：田渊栋RSI公司 + Jeff Dean Discovery Loop
+- 存入：raw/industry_insight/2026-09-06-RSI真金白银下注-田渊栋与JeffDean创业.md（来自ai-research项目GTLC硅谷现场记录 + WebSearch最新动态核实）
+- 来源：TechCrunch、AWS Press Center、Recursive官方博客、GitHub、CNBC
+
+## [2026-09-07] update | RSI"四阵营"重构为"两轴光谱"（用户指出阵营过多，情绪判断与信念判断被混在一条轴上）
+- 更新条目：wiki/行业洞察/Claude自我设计-RSI起点.md（"四阵营全景"章节重写为"两轴光谱：情绪轴×信念轴"2x2矩阵；正式纳入前一天创建但未链接的"真金白银下注"raw文件作为"相信+乐观"格的实证案例；来源数 3→4）
+- 同步更新 index.md 行业洞察表
+- 来源：对话中的结构性讨论，无新增外部信源
