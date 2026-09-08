@@ -672,3 +672,8 @@
 - 更新条目：wiki/行业洞察/Claude自我设计-RSI起点.md（"四阵营全景"章节重写为"两轴光谱：情绪轴×信念轴"2x2矩阵；正式纳入前一天创建但未链接的"真金白银下注"raw文件作为"相信+乐观"格的实证案例；来源数 3→4）
 - 同步更新 index.md 行业洞察表
 - 来源：对话中的结构性讨论，无新增外部信源
+
+## [2026-09-07] ingest | AI4AI Bench + OMAM（YouTube）+ RSI验证瓶颈论（gpts24.com）
+- 存入：raw/industry_insight/2026-09-07-AI4AI-Bench与OMAM-RSI技术证据.md（NotebookLM总结YouTube视频）、raw/industry_insight/2026-09-07-RSI验证瓶颈-gpts24.md
+- 更新条目：wiki/行业洞察/Claude自我设计-RSI起点.md（新增"技术证据升级：从'能不能'到'验证跟不跟得上'"一节——AI4AI Bench具体分数、AlphaEvolve生产环境实证、METR reward-hacking趋势数据；把此前的立场辩论落到可复现的技术层；来源数 4→6；tags加AlphaEvolve/METR/reward-hacking/AI4AI-Bench）
+- 同步更新 index.md 行业洞察表（来源数6）

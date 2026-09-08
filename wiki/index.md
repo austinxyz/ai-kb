@@ -128,7 +128,7 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 | [[wiki/行业洞察/AI急诊诊断超越医生\|AI 急诊诊断超越医生]] | 《Science》：一年多前的 o1 急诊诊断 67% > 医生 50-55%；优势在早期分诊；Boston ED 数据显示"医生 + AI"未优于"AI 单独"——copilot 假设被拆穿 | 1 |
 | [[wiki/行业洞察/AI辅助研究复盘-Parameter-Golf\|AI 辅助研究复盘 · Parameter Golf]] | OpenAI 紧约束 ML 竞赛 8 周 2000+ 提交；agent 压低门槛但放大噪声；自建 Codex triage bot 过滤；未来竞赛规则必须为 agent 默认重做 | 1 |
 | [[wiki/行业洞察/AI时代CTO人才迁移\|AI 时代 CTO 人才迁移]] | 多家独角兽 CTO 放弃高管岗转做 IC；权力从"管人数"→"接近模型"；个体工程师杠杆效应超越百人团队 | 1 |
-| [[wiki/行业洞察/Claude自我设计-RSI起点\|Claude 自我设计：RSI 起点]] | RSI两轴光谱（情绪轴×信念轴）：Bengio/Pachocki警报、Jack Clark分裂点、Kapoor/Toner技术定义质疑、田渊栋+Jeff Dean真金白银下注 | 4 |
+| [[wiki/行业洞察/Claude自我设计-RSI起点\|Claude 自我设计：RSI 起点]] | RSI两轴光谱+技术证据升级：Bengio/Pachocki警报、Jack Clark分裂点、Kapoor/Toner质疑、田渊栋+Jeff Dean下注、AlphaEvolve生产实证、METR reward-hacking趋势 | 6 |
 | [[wiki/行业洞察/AI编码已解决-Boris-Cherny观点\|AI 编码已解决（Boris Cherny）]] | TS/React 项目 AI 可写 100% 代码；人类转向指导/审查/集成；下一个瓶颈不是写代码而是审查和集成 | 1 |
 | [[wiki/行业洞察/Anthropic-AI军队组织架构\|Anthropic AI 军队组织架构]] | 数百 AI Agent 在 Slack 协同；无秘密模型 Mythos；工程师增 4×但人均产出 +200%；竞争在谁先把公司改造成 AI 有机体 | 1 |
 | [[wiki/行业洞察/AI替代与企业裁员-Coinbase案例\|AI 替代与企业裁员（Coinbase 案例）]] | 裁员 14% 700 人；AI 代码占比 40% 目标 50%+；管理层级压缩至 5 层；AI 原生小组实验；市场寒冬为主因 | 1 |
