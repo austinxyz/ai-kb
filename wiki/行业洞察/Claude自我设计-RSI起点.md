@@ -3,7 +3,7 @@ title: Claude自我设计：RSI起点与Anthropic工程师角色转变
 category: 行业洞察
 tags: [RSI, Anthropic, OpenAI, 工程师角色, 递归自我改进, AI安全, 对齐, controversy, Bengio, Jack Clark, Helen Toner, 田渊栋, Jeff Dean, Richard Socher, AlphaEvolve, METR, reward-hacking, AI4AI-Bench]
 source: "[[raw/engineering_roles/2026-05-05-Anthropic-CEO-Dario-Amodei的那句-Claude在设计Claude-炸了整个AI圈-但似乎很多人都看错了重点-重点不是-RSI来了-而是]]"
-updated: 2026-09-07
+updated: 2026-09-07（事实核查修正：田渊栋背景/AI4AI Bench分数）
 status: stable
 aihot_origin:
   aihot_id: "cmos21kp804alslrj8c6ettc6"
@@ -56,7 +56,7 @@ Dario Amodei 透露 Claude 正在参与设计 Claude 本身，标志递归自我
 | **乐观（发生是好事）** | Dario Amodei（生产力庆祝）；田渊栋 RSI公司+Jeff Dean Discovery Loop（真金白银下注，$10亿+融资，且已有SOTA实证——RSI系统在NVIDIA SOL-ExecBench上超越人类GPU专家手写方案）| — |
 | **悲观（发生是风险）** | Yoshua Bengio（图灵奖得主，呼吁"协调的、可验证的、全球统一暂停"）；Jakub Pachocki《An Alien Mind》（CoT监控正随能力增长逐渐失效）；**Jack Clark**（给出2027年30%/2028年60%的具体概率，同时亲口承认"AI缺乏有价值的直觉性创造力"是"看跌信号"——同一人在两条轴上都不纯粹，是光谱里唯一真正的"分裂点"）| **Sayash Kapoor**（普林斯顿研究：AI擅长工程任务，一碰开放式研究就现原形——探索不足、不会真正采纳反馈，根本原因是现有RL训练不了没有客观评分标准的任务）；**Helen Toner**（三段论定义批判：adequacy/parity/supremacy 三个阶段量级完全不同，"没有共同基准，离RSI还有多远是假问题"）|
 
-**关键案例：田渊栋 RSI 公司 + Jeff Dean Discovery Loop——落在"相信+乐观"格，且已有实证支撑**。2026年5月与8月，两组顶级AI研究者（田渊栋等8人 $6.5亿融资/$46.5亿估值；Jeff Dean、Sanjay Ghemawat、Oriol Vinyals、Quoc Le）分别独立离职创业，方向都是"自动化科研本身"。田渊栋公司已交出第一份成绩单：同一自动化研究系统在 NVIDIA SOL-ExecBench（GPU kernel优化）、NanoGPT Speedrun、NanoChat 三个基准上做到 SOTA，SOL-ExecBench 上甚至**超过人类GPU专家手写方案**。这是目前"相信派"里唯一有可验证技术结果支撑的证据，不只是资金下注或表态。
+**关键案例：田渊栋 RSI 公司 + Jeff Dean Discovery Loop——落在"相信+乐观"格，且已有实证支撑**。田渊栋（Yuandong Tian），前 **Meta FAIR 研究总监**（⚠️ 不是 Google，也不是 AlphaGo 的作者——代表作是 **ELF OpenGo**，一个开源复现 AlphaZero 核心思路的围棋引擎），**去年已从 Meta 离职**，今年五月和另外七位联合创始人（含前 Salesforce AI 负责人、现任 CEO 的 **Richard Socher**）一起把公司 **Recursive**（也称 Recursive Superintelligence）带出静默期，$6.5亿融资/$46.5亿估值，个人投资者含黄仁勋、苏姿丰。同一时期，Jeff Dean（谷歌员工编号第30号，任职27年，曾任谷歌首席科学家）于2026年8月离职，携 Sanjay Ghemawat、Oriol Vinyals、Quoc Le 创办 Discovery Loop，谷歌本身也是投资人之一。两家公司方向都是"自动化科研本身"。田渊栋公司已交出第一份成绩单：同一自动化研究系统在 NVIDIA SOL-ExecBench（GPU kernel优化）、NanoGPT Speedrun、NanoChat 三个基准上做到 SOTA，SOL-ExecBench 上甚至**超过人类GPU专家手写方案**。这是目前"相信派"里唯一有可验证技术结果支撑的证据，不只是资金下注或表态。（背景来源核实：SCMP、TechCrunch 2026-08-05）
 
 **Peter Wildeford 采访25位AI研究者，16人对"recursive"这个核心环节表示怀疑**，但仍有不少人相信这就还有几年时间（依据METR任务时限基准、scaling law趋势线）——说明"信念轴"本身在专业研究者群体内部也没有共识。
 
@@ -66,10 +66,10 @@ Dario Amodei 透露 Claude 正在参与设计 Claude 本身，标志递归自我
 
 前面两节基本是**立场辩论**——谁乐观谁悲观、谁信谁不信。2026-09-07 新增的两份材料把讨论往下拉了一层：不再是"RSI 是不是在发生"，而是给出具体、可复现的技术证据，且证据本身是双面的。
 
-**AI4AI Bench（给AI 4小时B300算力重写10个顶级训练代码库，隔离重训12小时打分）**：
-- 最好系统均分只有 **0.166**，**Claude Opus 5 只有 0.0288**
-- 200+ 提交里 **141 个不碰核心学习代码**，只在超参数这类"舒适区"打转
-- 反直觉：碰核心机制的提交平均分反而更高（0.22 vs 0.12），说明真正推进RSI需要的不是算力堆砌，是"愿意深入改核心"的驱动
+**AI4AI Bench（给AI 4小时B300算力重写10个顶级训练代码库，隔离重训12小时打分，满分1，0.1为代码库自带基线算法）**：
+- ⚠️ 2026-09-07 修正：此前记录的分数标注反了。全部参赛配置的**平均分只有 0.166**；目前公开榜单里**最好的成绩是 Claude Opus 5（中等推理强度）0.288**，不是 0.0288，也不是"最差"。GPT-6 Astra（2026-09-03发布）截至修正时尚未出现在这个榜单上。来源核实：arXiv 2608.20318
+- 263 份真的改动了什么的提交里，**141 个不碰核心学习代码**，只在预算/checkpoint/超参数这类"舒适区"打转
+- 反直觉：碰到算法层（目标函数/监督信号/学习规则/数据本身）的122份提交平均分反而更高（0.226 vs 0.126），说明真正推进RSI需要的不是算力堆砌，是"愿意深入改核心"的驱动；把"推理强度"调高能让碰算法层的比例从8%涨到64%，均分从0.094涨到0.196，接近翻倍
 - 具体案例也有亮点：AI把剪枝任务重构成三阶段知识蒸馏流水线，困惑度53.4→13；AI自己写测试框架把测试时间从几百秒压到0.38秒（500倍提速）
 
 **验证瓶颈论（gpts24.com）**：核心论点——RSI的瓶颈已经从"AI能不能改进AI"转移到"验证系统跟不跟得上"。支撑数据：
