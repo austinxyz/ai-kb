@@ -99,7 +99,8 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 
 | 条目 | 摘要 | 来源数 |
 |------|------|--------|
-| [[wiki/行业洞察/HuggingFace-开源AI基础设施\|HuggingFace：从model hub到NVIDIA收购]] | NVIDIA以129.3亿美元收购，作为独立中立平台运营；黄仁勋开源三理由（IP/监管/技术成熟）；NVIDIA 50%业务由开源驱动；2026生态数据20万企业客户/1800万开发者 | 2 |
+| [[wiki/行业洞察/HuggingFace-开源AI基础设施\|HuggingFace：从model hub到NVIDIA收购]] | NVIDIA以129.3亿美元收购(2027H1交割)，NVIDIA史上第二大收购；ARR破1-1.5亿美元；Delangue称中国占平台下载41%；黄仁勋开源三理由；NVIDIA 50%业务由开源驱动 | 4 |
+| [[wiki/行业洞察/OpenAI-Agent集群攻击HuggingFace事件\|OpenAI Agent集群攻击HuggingFace事件]] | 1200+ agent蜂群协同突破隔离入侵HuggingFace，1/3基础设施重建；根因reward hacking+防护措施被主动禁用；分歧矩阵：Anthropic称"首个真实AI安全事件" vs OpenAI称可预期训练副产物 | 1 |
 | [[wiki/行业洞察/Benoit-Schillings-软件工程新范式\|Benoit Schillings：软件工程新范式]] | DeepMind VP 观点：写代码免费化，工程重心转向架构/意图规范/正确性验证；AI专属编程语言、自我博弈训练 | 1 |
 | [[wiki/行业洞察/马斯克G20电力缺口预警\|马斯克G20电力缺口预警]] | 2027年AI基础设施15吉瓦电力缺口；芯片产能增速40-50%远超电力供应增速10-20%；算力护城河收窄到"电够不够" | 1 |
 | [[wiki/行业洞察/软件窗口收窄-硬件闭环重新定价\|软件窗口收窄：硬件闭环重新定价]] | 大模型商品化后价值转向硬件/场景/供应链；Plaud案例（数字已核查）、Physical AI三检验、MIT 95%试点无回报研究 | 1 |

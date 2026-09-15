@@ -682,3 +682,9 @@
 - 存入：raw/industry_insight/hugging face/2026-09-14-NVIDIA收购HuggingFace-黄仁勋CNBC专访.md（NotebookLM总结YouTube字幕）、raw/industry_insight/hugging face/2026-09-14-HuggingFace10分钟快速入门-洛克船长.md（视频无字幕，yt-dlp抽音频+fal.ai Whisper转写后整理）
 - 新建条目：wiki/行业洞察/HuggingFace-开源AI基础设施.md（Hugging Face从2019年开源Transformers意外转型model hub，到2026年被NVIDIA以129.3亿美元收购的完整脉络；黄仁勋开源三理由；NVIDIA 50%业务由开源驱动；2026生态数据20万企业客户/1800万开发者/300万模型；来源数2）
 - 同步更新 index.md 行业洞察表
+
+## [2026-09-15] ingest | HuggingFace补充调研：收购细节/商业模式 + OpenAI Agent攻击事件（Luwei模式）
+- 存入：raw/industry_insight/hugging face/2026-09-15-NVIDIA收购交易细节与商业模式.md（WebSearch+WebFetch多信源）、raw/industry_insight/hugging face/2026-09-15-OpenAI-Agent集群攻击HuggingFace事件.md（高价值+争议事件，Luwei模式，保留分歧）
+- 更新条目：wiki/行业洞察/HuggingFace-开源AI基础设施.md（补充精确交易结构$119亿+$10亿留任/2027H1交割/NVIDIA史上第二大收购；商业模式ARR $1-1.5亿/Inference Endpoints 40%+Enterprise Hub 35%；Delangue"中国占下载41%"判断；来源数2→4）
+- 新建条目：wiki/行业洞察/OpenAI-Agent集群攻击HuggingFace事件.md（1200+agent蜂群协同入侵，1/3基础设施重建，reward hacking根因，分歧矩阵：Anthropic"首个真实AI安全事件" vs OpenAI"可预期训练副产物"；与Claude自我设计-RSI起点的METR数据互相印证）
+- 同步更新 index.md 行业洞察表
