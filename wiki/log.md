@@ -677,3 +677,8 @@
 - 存入：raw/industry_insight/2026-09-07-AI4AI-Bench与OMAM-RSI技术证据.md（NotebookLM总结YouTube视频）、raw/industry_insight/2026-09-07-RSI验证瓶颈-gpts24.md
 - 更新条目：wiki/行业洞察/Claude自我设计-RSI起点.md（新增"技术证据升级：从'能不能'到'验证跟不跟得上'"一节——AI4AI Bench具体分数、AlphaEvolve生产环境实证、METR reward-hacking趋势数据；把此前的立场辩论落到可复现的技术层；来源数 4→6；tags加AlphaEvolve/METR/reward-hacking/AI4AI-Bench）
 - 同步更新 index.md 行业洞察表（来源数6）
+
+## [2026-09-14] ingest | HuggingFace：NVIDIA收购专访 + 10分钟入门科普
+- 存入：raw/industry_insight/hugging face/2026-09-14-NVIDIA收购HuggingFace-黄仁勋CNBC专访.md（NotebookLM总结YouTube字幕）、raw/industry_insight/hugging face/2026-09-14-HuggingFace10分钟快速入门-洛克船长.md（视频无字幕，yt-dlp抽音频+fal.ai Whisper转写后整理）
+- 新建条目：wiki/行业洞察/HuggingFace-开源AI基础设施.md（Hugging Face从2019年开源Transformers意外转型model hub，到2026年被NVIDIA以129.3亿美元收购的完整脉络；黄仁勋开源三理由；NVIDIA 50%业务由开源驱动；2026生态数据20万企业客户/1800万开发者/300万模型；来源数2）
+- 同步更新 index.md 行业洞察表
