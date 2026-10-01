@@ -59,6 +59,7 @@ Harness Engineering 研究的不是"怎样让 AI 写更多代码"，而是**怎�
 - [[wiki/应用开发/SPDD-Structured-Prompt-Driven-Development|SPDD]]：共享"把判断工程化"思想的具体方法——通过 REASONS Canvas 把判断编码进 prompt 资产
 - [[wiki/行业洞察/认知债务|认知债务]]：缺少 Harness 是认知债务加速积累的直接原因
 - [[wiki/行业洞察/软件工程的未来-ThoughtWorks-2026|ThoughtWorks 闭门研讨 2026]]：两篇独立得出相同核心结论——AI 时代真正稀缺的是判断而非代码
+- [[wiki/应用开发/Omarchy4-OS级Agent入口|Omarchy 4：把Agent提升为操作系统级一等公民]]：Omarchy的"崩溃自动诊断+Plan Mode审查+一键回滚"把Harness Engineering的验证/退出/最小权限原则从应用层下沉到操作系统层实现
 
 ## 参考来源
 

@@ -32,6 +32,7 @@ OpenAI Dots 是 GPT-6 Astra 驱动的"work-first, always-on colleague"——拥�
 
 - [[wiki/行业洞察/Claude自我设计-RSI起点|Claude自我设计：RSI起点]]：两者都在讨论"AI自主性"，但层次不同——RSI关心AI能否自主做AI研究/自我改进，Dots关心的是AI能否自主完成通用工作任务（开发/建模/检索）。Dots这类产品可以看作"Agent自主性连续谱"上比RSI更基础的一级坐标点：先有"能独立干活不用盯着"，再谈"能自己改进自己做研究"
 - [[wiki/应用开发/企业Know-how存放谱系|企业 Know-how 存放谱系]]：Dots"自动分析用户历史使用记录了解偏好"+"空闲时主动自读已连接应用记私密笔记"，是该谱系②Harness/agent memory层的一个具体产品实现——不是外部RAG检索，是agent主动沉淀对用户偏好的理解，接近episodic/procedural memory范畴，值得跟踪这类"主动学习型常驻agent"是否成为企业Know-how捕获的新路径
+- [[wiki/应用开发/Omarchy4-OS级Agent入口|Omarchy 4：把Agent提升为操作系统级一等公民]]：两者都在抢"默认Agent入口"这个位置，路线相反——Dots是云端托管常驻，Omarchy是本地OS级提升Agent地位；Omarchy在Action权（代执行操作的资格）上给出了操作系统层面的实现路径，与Dots的云端路径形成对照
 
 ## 参考来源
 

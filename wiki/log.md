@@ -699,3 +699,9 @@
 - 存入：raw/industry_insight/2026-10-01-Dot-vs-Muse-OpenAI-DevDay战略布局.md（NotebookLM总结YouTube字幕）
 - 更新条目：wiki/应用开发/OpenAI-Dots云端常驻Agent.md（补充DevDay整体逻辑、Dot vs Muse实测对比表、Context/Action/Transaction三层核心权利分析框架、中立生态位判断；来源数1→2）
 - 同步更新 index.md 应用开发表
+
+## [2026-10-01] ingest | Omarchy 4：把Agent提升为操作系统级一等公民
+- 存入：raw/industry_insight/2026-10-01-Omarchy4-下一个IDE可能是操作系统.md（NotebookLM总结YouTube字幕）
+- 新建条目：wiki/应用开发/Omarchy4-OS级Agent入口.md（DHH基于Arch Linux打造，AI Agent提升为OS默认入口；9大Agent预接入、崩溃自动诊断推送Agent、顶栏Token用量监控、Plan Mode+一键回滚；"AI原生产品"三大评估标准（启动/上下文/约束）；来源数1）
+- 更新条目：wiki/应用开发/OpenAI-Dots云端常驻Agent.md（补充与Omarchy的对照链接——云端常驻vs本地OS级两条路线抢占同一"默认Agent入口"）、wiki/应用开发/Harness-Engineering.md（补充Omarchy作为Harness原则下沉到OS层的实现案例）、wiki/应用开发/企业Know-how存放谱系.md（补充Omarchy用量监控+Agent边界划分作为治理案例）
+- 同步更新 index.md 应用开发表
