@@ -705,3 +705,9 @@
 - 新建条目：wiki/应用开发/Omarchy4-OS级Agent入口.md（DHH基于Arch Linux打造，AI Agent提升为OS默认入口；9大Agent预接入、崩溃自动诊断推送Agent、顶栏Token用量监控、Plan Mode+一键回滚；"AI原生产品"三大评估标准（启动/上下文/约束）；来源数1）
 - 更新条目：wiki/应用开发/OpenAI-Dots云端常驻Agent.md（补充与Omarchy的对照链接——云端常驻vs本地OS级两条路线抢占同一"默认Agent入口"）、wiki/应用开发/Harness-Engineering.md（补充Omarchy作为Harness原则下沉到OS层的实现案例）、wiki/应用开发/企业Know-how存放谱系.md（补充Omarchy用量监控+Agent边界划分作为治理案例）
 - 同步更新 index.md 应用开发表
+
+## [2026-10-02] ingest | 荣耀MagicOS 11：行业首个系统级Agent Harness商用落地（整理此前未归档的raw文件）
+- 处理：raw/industry_insight/荣耀.md（此前以文章正文形式存在，无文件名日期和来源元数据）→ 补充来源头信息（事件日期2026-09-15 HGDC发布，交叉核实腾讯新闻/搜狐报道），重命名为 raw/industry_insight/2026-09-17-荣耀MagicOS11-YOYO-Harness系统级Agent商用.md
+- 新建条目：wiki/应用开发/荣耀MagicOS11-YOYO-Harness商用落地.md（1.6亿月活商用验证"Agent=LLM+Harness"公式；100步长程任务/91.8%意图理解率；三层信号/开发者三重范式迁移/vivo OPPO同期跟进；来源数1）
+- 更新条目：wiki/应用开发/Harness-Engineering.md、wiki/应用开发/Omarchy4-OS级Agent入口.md、wiki/应用开发/OpenAI-Dots云端常驻Agent.md、wiki/应用开发/企业Know-how存放谱系.md（均补充与荣耀条目的交叉链接，构成"默认Agent入口"三条路线+Harness下沉OS层的完整案例簇）
+- 同步更新 index.md 应用开发表

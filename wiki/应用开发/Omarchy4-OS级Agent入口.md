@@ -25,6 +25,7 @@ Omarchy 4（代号Quattro）是DHH基于Arch Linux+Hyprland打造的Linux发行�
 - [[wiki/应用开发/OpenAI-Dots云端常驻Agent|OpenAI Dots：云端常驻Agent]]：两者都在抢"默认Agent入口"这个位置，但路线相反——Dots是云端托管常驻Agent，Omarchy是本地OS级提升Agent地位；可以对照Dots条目里的Context/Action/Transaction三层权利框架，Omarchy在Action权（代执行操作的资格）上给出了操作系统层面的实现路径
 - [[wiki/应用开发/Harness-Engineering|Harness Engineering]]：Omarchy的"崩溃自动诊断+Plan Mode审查+一键回滚"本质是把Harness Engineering的验证/退出/最小权限原则，从应用层下沉到操作系统层实现
 - [[wiki/应用开发/企业Know-how存放谱系|企业 Know-how 存放谱系]]：顶栏用量监控+跨机器同步日志是系统级Agent可观测性基础设施，"给Agent划边界"是Agent治理/权限控制问题在OS层面的新解法
+- [[wiki/应用开发/荣耀MagicOS11-YOYO-Harness商用落地|荣耀MagicOS 11：行业首个系统级Agent Harness商用落地]]：同一个"把Agent提升到OS层"主题的两个不同生态位实现——Omarchy极客/开发者向，荣耀是1.6亿月活的消费级商用验证，数量级差异巨大
 
 ## 参考来源
 

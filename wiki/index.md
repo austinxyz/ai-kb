@@ -31,6 +31,7 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 |------|------|--------|
 | [[wiki/应用开发/OpenAI-Dots云端常驻Agent\|OpenAI Dots：云端常驻Agent]] | GPT-6 Astra驱动，云端Linux电脑+4000应用生态，多任务真并行实测；Dot vs Muse对比+Context/Action/Transaction三层权利框架 | 2 |
 | [[wiki/应用开发/Omarchy4-OS级Agent入口\|Omarchy 4：把Agent提升为操作系统级一等公民]] | DHH基于Arch Linux打造，把AI Agent提升为OS级默认入口而非IDE插件；9大Agent预接入、崩溃自动诊断、顶栏Token监控；"AI不缺能力缺默认入口" | 1 |
+| [[wiki/应用开发/荣耀MagicOS11-YOYO-Harness商用落地\|荣耀MagicOS 11：行业首个系统级Agent Harness商用落地]] | 1.6亿月活YOYO Harness商用验证，100步长程任务/91.8%意图理解率；三层信号（意图驱动/非结构化感知/懂处境）；vivo/OPPO同期跟进，Harness成手机OS行业共识 | 1 |
 | [[wiki/应用开发/Agent可靠性工程-验证网关与双纠错环\|Agent可靠性工程：验证网关与双纠错环]] | 可靠性乘法衰减公式；Validation Gates/双纠错环；AgensFlow成本降45%但实为UCB1老虎机(Alpha,21星)，多裁判宣传与论文局限有落差；vs OpenSpec分层对比 | 3 |
 | [[wiki/应用开发/企业Know-how存放谱系\|企业 Know-how 存放谱系]] | Harness是容器非层，RLVR/context engineering术语校准；上下文"原料层"前置于RAG/memory/权重训练；Agent Lightning/Cisco/两面夹击案例 | 5 |
 | [[wiki/应用开发/Hermes-Slock-Agent工程新范式\|Hermes / Slock：Agent 工程新范式]] | 技能沉淀绕开记忆难题、无 Ego 多 Agent 群体审查、本地+云端分层协作、Token Maxing → Efficient 三大转折点；含 Hermes 融资背景与安全批评 | 2 |

@@ -87,6 +87,7 @@ Cisco 2026-08-27 宣布向全球约9万名员工部署个人 Agent **MyAgent**�
 - [[wiki/行业洞察/软件窗口收窄-硬件闭环重新定价|软件窗口收窄：硬件闭环重新定价]]：Cisco 案例中模型厂商被路由层压缩议价权，与软件价值转移到硬件/供应链闭环是同一逻辑在企业软件层面的翻版
 - [[wiki/应用开发/OpenAI-Dots云端常驻Agent|OpenAI Dots：云端常驻Agent]]：Dots"自动分析用户历史使用记录+空闲时主动自读已连接应用记私密笔记"是谱系②Harness/agent memory层的又一产品实现，偏向episodic/procedural memory而非外部RAG检索
 - [[wiki/应用开发/Omarchy4-OS级Agent入口|Omarchy 4：把Agent提升为操作系统级一等公民]]：顶栏用量监控+跨机器同步日志是系统级Agent可观测性基础设施，"给Agent划边界"是Agent治理/权限控制问题在OS层面的新解法
+- [[wiki/应用开发/荣耀MagicOS11-YOYO-Harness商用落地|荣耀MagicOS 11：行业首个系统级Agent Harness商用落地]]：YOYO Harness"端侧感知+情境围栏+第三方应用服务状态感知"是①原料层（上下文捕获）在消费级终端的具体实现，"系统级数据特权"本质是原料层的硬件入口优势
 
 ## 参考来源
 

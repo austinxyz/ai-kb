@@ -60,6 +60,7 @@ Harness Engineering 研究的不是"怎样让 AI 写更多代码"，而是**怎�
 - [[wiki/行业洞察/认知债务|认知债务]]：缺少 Harness 是认知债务加速积累的直接原因
 - [[wiki/行业洞察/软件工程的未来-ThoughtWorks-2026|ThoughtWorks 闭门研讨 2026]]：两篇独立得出相同核心结论——AI 时代真正稀缺的是判断而非代码
 - [[wiki/应用开发/Omarchy4-OS级Agent入口|Omarchy 4：把Agent提升为操作系统级一等公民]]：Omarchy的"崩溃自动诊断+Plan Mode审查+一键回滚"把Harness Engineering的验证/退出/最小权限原则从应用层下沉到操作系统层实现
+- [[wiki/应用开发/荣耀MagicOS11-YOYO-Harness商用落地|荣耀MagicOS 11：行业首个系统级Agent Harness商用落地]]：目前记录到的最大规模商用案例，1.6亿月活验证了"Agent=LLM+Harness"公式在消费级C端大规模部署的可行性
 
 ## 参考来源
 
