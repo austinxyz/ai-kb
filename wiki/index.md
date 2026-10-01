@@ -29,7 +29,7 @@ AI 技术的结构化知识库。每次 ingest 后更新此文件。
 
 | 条目 | 摘要 | 来源数 |
 |------|------|--------|
-| [[wiki/应用开发/OpenAI-Dots云端常驻Agent\|OpenAI Dots：云端常驻Agent]] | GPT-6 Astra驱动，云端Linux电脑+4000应用生态，对话结束后台继续干活，多任务真并行实测（Godot+Blender同时跑） | 1 |
+| [[wiki/应用开发/OpenAI-Dots云端常驻Agent\|OpenAI Dots：云端常驻Agent]] | GPT-6 Astra驱动，云端Linux电脑+4000应用生态，多任务真并行实测；Dot vs Muse对比+Context/Action/Transaction三层权利框架 | 2 |
 | [[wiki/应用开发/Agent可靠性工程-验证网关与双纠错环\|Agent可靠性工程：验证网关与双纠错环]] | 可靠性乘法衰减公式；Validation Gates/双纠错环；AgensFlow成本降45%但实为UCB1老虎机(Alpha,21星)，多裁判宣传与论文局限有落差；vs OpenSpec分层对比 | 3 |
 | [[wiki/应用开发/企业Know-how存放谱系\|企业 Know-how 存放谱系]] | Harness是容器非层，RLVR/context engineering术语校准；上下文"原料层"前置于RAG/memory/权重训练；Agent Lightning/Cisco/两面夹击案例 | 5 |
 | [[wiki/应用开发/Hermes-Slock-Agent工程新范式\|Hermes / Slock：Agent 工程新范式]] | 技能沉淀绕开记忆难题、无 Ego 多 Agent 群体审查、本地+云端分层协作、Token Maxing → Efficient 三大转折点；含 Hermes 融资背景与安全批评 | 2 |

@@ -1,7 +1,7 @@
 ---
 title: OpenAI Dots：GPT-6 Astra驱动的云端常驻Agent
 category: 应用开发
-tags: [OpenAI, Dots, GPT-6-Astra, 云端Agent, computer-use, 常驻Agent, 多任务并行]
+tags: [OpenAI, Dots, GPT-6-Astra, 云端Agent, computer-use, 常驻Agent, 多任务并行, Muse, DevDay, Context权, Action权]
 source: "[[raw/industry_insight/2026-10-01-OpenAI-Dots云端常驻Agent实测]]"
 updated: 2026-10-01
 status: draft
@@ -21,6 +21,13 @@ OpenAI Dots 是 GPT-6 Astra 驱动的"work-first, always-on colleague"——拥�
 - **实测场景**：Godot游戏开发、Blender建模、Notion知识库检索+论文整理（筛出2026年新发QLoRA论文）、Supabase数据库操作、Cron定时任务
 - **局限**：单一UP主实测，无官方信源交叉验证；非root权限；视频只测了基础场景
 
+**第二信源补充——DevDay战略布局与Dot vs Muse对比**：
+
+- **DevDay整体逻辑**：本次7个发布（Dot/Judge API/GPT-6.1/Codex Cloud/Shared Workspaces/Plugins等）都围绕Dot展开，核心是把ChatGPT从聊天框升维成7×24托管的AI操作系统；闭环逻辑是"模型做推理大脑→Dot常驻调用云端工具执行→成果沉淀到Shared Space"
+- **Dot vs Muse（Meta）对比**：Muse定位大众消费品（C端查询消费，1500+连接器，硬件生态成熟如蓝牙/智能眼镜），短板是处理不了复杂生产环境交互；Dot定位高质量生产执行系统（B端重度场景，Harness框架能力强，安全边界稳定），短板是语音延迟、连接器不够顺滑、缺乏成熟C端变现生态。实测对比：配置飞书API密钥任务中，**Muse提示无法配置，Dot成功完成跨系统CLI密钥配置**——是具体可验证的能力差距案例
+- **三层核心权利分析框架**（可复用于分析其他Agent产品布局）：Context权（锁定用户长记忆/历史偏好，提高迁移成本）、Action权（代用户执行操作的资格）、Transaction权（流量入口+商业闭环）
+- **"中立生态位"判断**：对比国内大厂绑定自家APP（阿里绑淘宝/腾讯绑微信）或亚马逊封杀Muse购物Action，OpenAI作为纯AI原生公司能更自由跨平台连接第三方应用
+
 ## 与其他概念的关系
 
 - [[wiki/行业洞察/Claude自我设计-RSI起点|Claude自我设计：RSI起点]]：两者都在讨论"AI自主性"，但层次不同——RSI关心AI能否自主做AI研究/自我改进，Dots关心的是AI能否自主完成通用工作任务（开发/建模/检索）。Dots这类产品可以看作"Agent自主性连续谱"上比RSI更基础的一级坐标点：先有"能独立干活不用盯着"，再谈"能自己改进自己做研究"
@@ -29,3 +36,4 @@ OpenAI Dots 是 GPT-6 Astra 驱动的"work-first, always-on colleague"——拥�
 ## 参考来源
 
 - [[raw/industry_insight/2026-10-01-OpenAI-Dots云端常驻Agent实测|OpenAI Dots：GPT-6 Astra驱动的云端常驻Agent实测, 2026-10-01]]
+- [[raw/industry_insight/2026-10-01-Dot-vs-Muse-OpenAI-DevDay战略布局|实测Dot后，才看懂OpenAI这次DevDay的布局：Dot vs Muse, 2026-10-01]]

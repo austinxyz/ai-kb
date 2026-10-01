@@ -694,3 +694,8 @@
 - 新建条目：wiki/应用开发/OpenAI-Dots云端常驻Agent.md（GPT-6 Astra驱动，云端Linux电脑+4000应用生态，对话结束后台继续干活，Godot+Blender多任务真并行实测；来源数1）
 - 更新条目：wiki/行业洞察/Claude自我设计-RSI起点.md（补充与Dots的关系链接——AI自主性连续谱上的两个不同层次）、wiki/应用开发/企业Know-how存放谱系.md（补充Dots作为②Harness/agent memory层的产品实现案例）
 - 同步更新 index.md 应用开发表
+
+## [2026-10-01] ingest | Dot vs Muse：OpenAI DevDay战略布局（第二信源）
+- 存入：raw/industry_insight/2026-10-01-Dot-vs-Muse-OpenAI-DevDay战略布局.md（NotebookLM总结YouTube字幕）
+- 更新条目：wiki/应用开发/OpenAI-Dots云端常驻Agent.md（补充DevDay整体逻辑、Dot vs Muse实测对比表、Context/Action/Transaction三层核心权利分析框架、中立生态位判断；来源数1→2）
+- 同步更新 index.md 应用开发表
