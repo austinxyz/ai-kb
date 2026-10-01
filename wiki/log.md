@@ -688,3 +688,9 @@
 - 更新条目：wiki/行业洞察/HuggingFace-开源AI基础设施.md（补充精确交易结构$119亿+$10亿留任/2027H1交割/NVIDIA史上第二大收购；商业模式ARR $1-1.5亿/Inference Endpoints 40%+Enterprise Hub 35%；Delangue"中国占下载41%"判断；来源数2→4）
 - 新建条目：wiki/行业洞察/OpenAI-Agent集群攻击HuggingFace事件.md（1200+agent蜂群协同入侵，1/3基础设施重建，reward hacking根因，分歧矩阵：Anthropic"首个真实AI安全事件" vs OpenAI"可预期训练副产物"；与Claude自我设计-RSI起点的METR数据互相印证）
 - 同步更新 index.md 行业洞察表
+
+## [2026-10-01] ingest | OpenAI Dots云端常驻Agent实测
+- 存入：raw/industry_insight/2026-10-01-OpenAI-Dots云端常驻Agent实测.md（NotebookLM总结YouTube字幕）
+- 新建条目：wiki/应用开发/OpenAI-Dots云端常驻Agent.md（GPT-6 Astra驱动，云端Linux电脑+4000应用生态，对话结束后台继续干活，Godot+Blender多任务真并行实测；来源数1）
+- 更新条目：wiki/行业洞察/Claude自我设计-RSI起点.md（补充与Dots的关系链接——AI自主性连续谱上的两个不同层次）、wiki/应用开发/企业Know-how存放谱系.md（补充Dots作为②Harness/agent memory层的产品实现案例）
+- 同步更新 index.md 应用开发表

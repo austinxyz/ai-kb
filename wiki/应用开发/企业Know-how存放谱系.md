@@ -85,6 +85,7 @@ Cisco 2026-08-27 宣布向全球约9万名员工部署个人 Agent **MyAgent**�
 - [[wiki/应用开发/Hermes-Slock-Agent工程新范式|Hermes / Slock：Agent 工程新范式]]：Hermes 的技能沉淀机制是谱系②的代表性实现，是目前唯一被广泛验证、能规模化运行的"know-how 外置"方案
 - [[wiki/应用开发/Harness-Engineering|Harness Engineering]]：②这一档本质上是 Harness Engineering 的一个具体应用场景——把企业专属经验编码进 harness 层而非模型权重
 - [[wiki/行业洞察/软件窗口收窄-硬件闭环重新定价|软件窗口收窄：硬件闭环重新定价]]：Cisco 案例中模型厂商被路由层压缩议价权，与软件价值转移到硬件/供应链闭环是同一逻辑在企业软件层面的翻版
+- [[wiki/应用开发/OpenAI-Dots云端常驻Agent|OpenAI Dots：云端常驻Agent]]：Dots"自动分析用户历史使用记录+空闲时主动自读已连接应用记私密笔记"是谱系②Harness/agent memory层的又一产品实现，偏向episodic/procedural memory而非外部RAG检索
 
 ## 参考来源
 

@@ -89,6 +89,7 @@ Dario Amodei 透露 Claude 正在参与设计 Claude 本身，标志递归自我
 - [[wiki/应用开发/Codex-Auto-review-AI审批AI动作|Codex Auto-review：AI 审批 AI 动作]]：OpenAI 的 Auto-review 与 Anthropic 的 RSI 闭环，共同构成"AI 自治开发"图景
 - [[wiki/行业洞察/AI编码已解决-Boris-Cherny观点|AI编码已解决（Boris Cherny）]]：Boris 的观点是 RSI 起点的具体技术层面佐证
 - [[wiki/模型与技术/Rich-Sutton-持续学习范式|Rich Sutton 持续学习范式]]：Pachocki 讲的"AI是长出来的，不是造出来的"与 Sutton 对静态预训练的批判呼应——两者都在质疑"人类完全设计/理解AI"这个前提
+- [[wiki/应用开发/OpenAI-Dots云端常驻Agent|OpenAI Dots：云端常驻Agent]]：同属"AI自主性"话题但层次不同——Dots是"能自主完成通用工作任务不用盯着"，RSI是"能自主做AI研究/自我改进"，前者是后者的更基础前置台阶
 
 ## 参考来源
 
